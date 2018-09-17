@@ -1,12 +1,12 @@
 .chart{
-  
-  /*background-color: #de4534;*/
+	
+	/*background-color: #de4534;*/
 }
 .bar{
 
 body{
-  padding: 0px;
-  margin:0;
+	padding: 0px;
+	margin:0;
   /*font-size: 14px;*/
   /*font-family: nunito, arial, sans-seriff;*/
 }
@@ -32,31 +32,31 @@ body{
 
 .grid
 {
-  stroke-opacity:0.2;
+	stroke-opacity:0.2;
 }   
 
 .flood_warning{
-  opacity: 0.7;
-  fill: red;
+	opacity: 0.7;
+	fill: red;
 }   
 
 .flood_dates
 {
-  
-  opacity: 0.3;
-  fill: #52EEFF;
+	
+	opacity: 0.3;
+	fill: #52EEFF;
 }
 
 .align_middle
 {
-  align:"center";
-  /*position: absolute;*/
-  display: inline-block;
+	align:"center";
+	/*position: absolute;*/
+	display: inline-block;
 }
 
 .wrapper3
 {
-   display:grid;
+	 display:grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-column-gap: 2px;
         grid-row-gap: 2px;
@@ -68,7 +68,7 @@ body{
 
 .header
 {
-  display:grid;
+	display:grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
@@ -84,8 +84,8 @@ body{
    width:100%;
    /*font-weight: bold;*/
      /*grid-template-columns: 1fr 2fr 1fr;*/
-  /*background: #ff0000;*/
-  /*text-align: center;*/
+	/*background: #ff0000;*/
+	/*text-align: center;*/
 }
 
 .name
