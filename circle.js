@@ -18,12 +18,12 @@ var svg             =   d3.select("#rainfall")
         .append("svg")
         .attr("height", chart_height)
         .attr("width", chart_width/4); 
-svgdam.append("text")
-  .attr("x", padding)
-  .attr("y",padding)
-  .attr("id", "comment")
-  .text("Hover over the graph points to see storage level here")
-  .attr("class","info");        
+// svgdam.append("text")
+//   .attr("x", padding)
+//   .attr("y",padding)
+//   .attr("id", "comment")
+//   .text("Hover over the graph points to see storage level here")
+//   .attr("class","info");        
 var x_grid;
 var y_grid;
 //var storage_percentage;
@@ -375,7 +375,7 @@ warning1=svg
                .attr("id","warning_text1")
                .attr("x",x_scale(time_parse("08/02"))+10)
                 .attr("y",padding+chart_height/24+8)
-               .text("Date: "+date)
+               .text("Date: Thu Aug 02")
                .attr("class","info_rainfall_details");
          //console.log(d.storage);
 
@@ -432,7 +432,7 @@ warning2=svg
                .attr("id","warning_text1")
                .attr("x",x_scale(time_parse("08/06"))+10)
                 .attr("y",padding+chart_height/24+8)
-               .text("Date: "+date)
+               .text("Date: Mon Aug 06")
                .attr("class","info_rainfall_details");
          //console.log(d.storage);
 
@@ -488,7 +488,7 @@ warning3=svg
                .attr("id","warning_text1")
                .attr("x",x_scale(time_parse("08/09"))+10)
                 .attr("y",padding+chart_height/24+8)
-               .text("Date: "+date)
+               .text("Date: Thu Aug 09")
                .attr("class","info_rainfall_details");
          //console.log(d.storage);
 
@@ -546,7 +546,7 @@ warning4=svg
                .attr("id","warning_text1")
                .attr("x",x_scale(time_parse("08/10"))+10)
                 .attr("y",padding+chart_height/24+8)
-               .text("Date: "+date)
+               .text("Date: Fri Aug 10")
                .attr("class","info_rainfall_details");
          //console.log(d.storage);
 
@@ -604,7 +604,7 @@ warning5=svg
                .attr("id","warning_text1")
                .attr("x",x_scale(time_parse("08/11"))+10)
                 .attr("y",padding+chart_height/24+8)
-               .text("Date: "+date)
+               .text("Date: Sat Aug 11")
                .attr("class","info_rainfall_details");
          //console.log(d.storage);
 
@@ -661,7 +661,7 @@ warning6=svg
                .attr("id","warning_text1")
                .attr("x",x_scale(time_parse("08/12"))+10)
                 .attr("y",padding+chart_height/24+8)
-               .text("Date: "+date)
+               .text("Date: Sun Aug 12")
                .attr("class","info_rainfall_details");
          //console.log(d.storage);
 
@@ -766,7 +766,7 @@ var line=d3.line()
       .attr("x",x_scale(d.date)+5)
       .attr("y",y_scale(d.rainfall)-chart_height/8)
       .attr("height",chart_height/10)
-      .attr("width", chart_width/10)
+      .attr("width", 100)
       .attr("class","info_rainfall");
 
     var date=""+d.date;
