@@ -1,12 +1,12 @@
 .chart{
-	
-	/*background-color: #de4534;*/
+  
+  /*background-color: #de4534;*/
 }
 .bar{
 
 body{
-	padding: 0px;
-	margin:0;
+  padding: 0px;
+  margin:0;
   /*font-size: 14px;*/
   /*font-family: nunito, arial, sans-seriff;*/
 }
@@ -32,43 +32,43 @@ body{
 
 .grid
 {
-	stroke-opacity:0.2;
+  stroke-opacity:0.2;
 }   
 
 .flood_warning{
-	opacity: 0.7;
-	fill: red;
+  opacity: 0.7;
+  fill: red;
 }   
 
 .flood_dates
 {
-	
-	opacity: 0.3;
-	fill: #52EEFF;
+  
+  opacity: 0.3;
+  fill: #52EEFF;
 }
 
 .align_middle
 {
-	align:"center";
-	/*position: absolute;*/
-	display: inline-block;
+  align:"center";
+  /*position: absolute;*/
+  display: inline-block;
 }
 
 .wrapper3
 {
-	 display:grid;
+   display:grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-column-gap: 2px;
         grid-row-gap: 2px;
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 17px;
-        font-family: "Gill Sans"
+        font-family: "Lato","Arial", "Helvetica";
 }
 
 .header
 {
-	display:grid;
+  display:grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
@@ -84,8 +84,8 @@ body{
    width:100%;
    /*font-weight: bold;*/
      /*grid-template-columns: 1fr 2fr 1fr;*/
-	/*background: #ff0000;*/
-	/*text-align: center;*/
+  /*background: #ff0000;*/
+  /*text-align: center;*/
 }
 
 .name
@@ -119,7 +119,7 @@ body{
   grid-row-gap: 2px;
   padding-top: 50px;
   font-size: 15px;
-   font-family: "Gill Sans"
+ font-family: "Lato","Arial", "Helvetica";
   /*padding-bottom: 10px;*/
   /*font-weight: bold;*/
 }
@@ -128,7 +128,7 @@ body{
 {
   font-weight: bold;
   /*font-size: 17px;*/
-   font-family: "Gill Sans"
+   font-family: "Lato","Arial", "Helvetica";
    font-size: 17px;
   /*text-align: right;*/
 }
@@ -140,13 +140,13 @@ body{
   font-size: 12px;
   color:#00A1B2;
   font-weight: bold;
-   font-family: "Arial", Helvetica;
+  font-family: "Lato","Arial", "Helvetica";
   /*text-align: right;*/
 }
 
 .axis_class
 {
-   font-family: "Arial", Helvetica;
+   font-family: "Lato","Arial", "Helvetica";
    font-size: 14px;
    font-weight: bold;
    fill:#005C66;
