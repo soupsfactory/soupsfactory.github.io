@@ -11,7 +11,7 @@ var admin_dataset=[
     "size": 10
   },
   {
-    "officials": "Bura Gohain",
+    "officials": "Buragohain",
     "levels": 1,
     "x": 4,
     "post created": 1228,
@@ -19,7 +19,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Bor Gohain",
+    "officials": "Borgohain",
     "levels": 1,
     "x": 2,
     "post created": 1228,
@@ -36,7 +36,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya kuwari",
+    "officials": "Parbatiya Kuwari",
     "levels": 6,
     "x": 1,
     "post created": 1228,
@@ -44,7 +44,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Tamuli Kuwari",
+    "officials": "Tamulikuwari",
     "levels": 6,
     "x": 2,
     "post created": 1228,
@@ -52,7 +52,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Samuwa Kuwari",
+    "officials": "Samuwakuwari",
     "levels": 6,
     "x": 3,
     "post created": 1228,
@@ -84,7 +84,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "king's caregiver-mother?",
+    "officials": "Daima",
     "levels": 6,
     "x": 7,
     "post created": 1228,
@@ -100,7 +100,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Borpatra Gohain",
+    "officials": "Borpatragohain",
     "levels": 1,
     "x": 6,
     "post created": 1497,
@@ -124,7 +124,7 @@ var admin_dataset=[
     "size": 8
   },
   {
-    "officials": "Tipomiya Raja",
+    "officials": "Tipomiya Roja",
     "levels": 3,
     "x": 2,
     "post created": 1497,
@@ -132,7 +132,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Namrupiya Raja",
+    "officials": "Namrupiya Roja",
     "levels": 3,
     "x": 3,
     "post created": 1497,
@@ -140,7 +140,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Chariyinya Raja",
+    "officials": "Chariyinya Roja",
     "levels": 3,
     "x": 4,
     "post created": 1332,
@@ -148,7 +148,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Majumeliya Raja",
+    "officials": "Majumeliya Roja",
     "levels": 3,
     "x": 5,
     "post created": 1228,
@@ -156,7 +156,7 @@ var admin_dataset=[
     "size": 6
   },
   {
-    "officials": "Sarumeliya Raja",
+    "officials": "Sarumeliya Roja",
     "levels": 3,
     "x": 6,
     "post created": 1228,
@@ -164,7 +164,7 @@ var admin_dataset=[
     "size": 6
   },
   {
-    "officials": "Sadiyakhuwa Gohain",
+    "officials": "Sadiyakhuwagohain",
     "levels": 4,
     "x": 4,
     "post created": 1497,
@@ -172,7 +172,7 @@ var admin_dataset=[
     "size": 5
   },
   {
-    "officials": "Marangi Gohain",
+    "officials": "Marangigohain",
     "levels": 4,
     "x": 6,
     "post created": 1497,
@@ -180,7 +180,7 @@ var admin_dataset=[
     "size": 4
   },
   {
-    "officials": "Salal Gohain",
+    "officials": "Salalgohain",
     "levels": 4,
     "x": 2,
     "post created": 1552,
@@ -188,7 +188,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Kajolimukhiya Gohain",
+    "officials": "Kajolimukhiyagohain",
     "levels": 5,
     "x": 2,
     "post created": 1603,
@@ -196,7 +196,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Jogiyal Gohain",
+    "officials": "Jogiyalgohain",
     "levels": 5,
     "x": 6,
     "post created": 1603,
@@ -204,7 +204,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Rohiyal borua",
+    "officials": "Rohiyalborua",
     "levels": 5,
     "x": 4,
     "post created": 1603,
@@ -225,7 +225,7 @@ var admin_dataset=[
     "size": 10
   },
   {
-    "officials": "Bura Gohain",
+    "officials": "Buragohain",
     "levels": 1,
     "x": 4,
     "post created": 1228,
@@ -233,7 +233,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Bor Gohain",
+    "officials": "Borgohain",
     "levels": 1,
     "x": 2,
     "post created": 1228,
@@ -249,7 +249,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya kuwari",
+    "officials": "Parbatiya Kuwari",
     "levels": 2,
     "x": 1,
     "post created": 1228,
@@ -297,7 +297,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "king's caregiver-mother?",
+    "officials": "Daima",
     "levels": 2,
     "x": 7,
     "post created": 1228,
@@ -313,7 +313,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Borpatra Gohain",
+    "officials": "Borpatragohain",
     "levels": -1,
     "x": 6,
     "post created": 1497,
@@ -337,7 +337,7 @@ var admin_dataset=[
     "size": 8
   },
   {
-    "officials": "Tipomiya Raja",
+    "officials": "Tipomiya Roja",
     "levels": -1,
     "x": 2,
     "post created": 1497,
@@ -345,7 +345,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Namrupiya Raja",
+    "officials": "Namrupiya Roja",
     "levels": -1,
     "x": 3,
     "post created": 1497,
@@ -353,7 +353,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Chariyinya Raja",
+    "officials": "Chariyinya Roja",
     "levels": -1,
     "x": 4,
     "post created": 1332,
@@ -361,7 +361,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Majumeliya Raja",
+    "officials": "Majumeliya Roja",
     "levels": -1,
     "x": 5,
     "post created": 1228,
@@ -369,7 +369,7 @@ var admin_dataset=[
     "size": 6
   },
   {
-    "officials": "Sarumeliya Raja",
+    "officials": "Sarumeliya Roja",
     "levels": -1,
     "x": 6,
     "post created": 1228,
@@ -377,7 +377,7 @@ var admin_dataset=[
     "size": 6
   },
   {
-    "officials": "Sadiyakhuwa Gohain",
+    "officials": "Sadiyakhuwagohain",
     "levels": -1,
     "x": 4,
     "post created": 1497,
@@ -385,7 +385,7 @@ var admin_dataset=[
     "size": 5
   },
   {
-    "officials": "Marangi Gohain",
+    "officials": "Marangigohain",
     "levels": -1,
     "x": 6,
     "post created": 1497,
@@ -393,7 +393,7 @@ var admin_dataset=[
     "size": 4
   },
   {
-    "officials": "Salal Gohain",
+    "officials": "Salalgohain",
     "levels": -1,
     "x": 2,
     "post created": 1552,
@@ -401,7 +401,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Kajolimukhiya Gohain",
+    "officials": "Kajolimukhiyagohain",
     "levels": -1,
     "x": 2,
     "post created": 1603,
@@ -409,7 +409,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Jogiyal Gohain",
+    "officials": "Jogiyalgohain",
     "levels": -1,
     "x": 6,
     "post created": 1603,
@@ -417,7 +417,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Rohiyal borua",
+    "officials": "Rohiyalborua",
     "levels": -1,
     "x": 4,
     "post created": 1603,
@@ -439,7 +439,7 @@ var admin_dataset=[
     "size": 10
   },
   {
-    "officials": "Bura Gohain",
+    "officials": "Buragohain",
     "levels": 1,
     "x": 4,
     "post created": 1228,
@@ -447,7 +447,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Bor Gohain",
+    "officials": "Borgohain",
     "levels": 1,
     "x": 2,
     "post created": 1228,
@@ -463,7 +463,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya kuwari",
+    "officials": "Parbatiya Kuwari",
     "levels": 3,
     "x": 1,
     "post created": 1228,
@@ -511,7 +511,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "king's caregiver-mother?",
+    "officials": "Daima",
     "levels": 3,
     "x": 7,
     "post created": 1228,
@@ -527,7 +527,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Chariyinya Raja",
+    "officials": "Chariyinya Roja",
     "levels": 2,
     "x": 4,
     "post created": 1332,
@@ -535,7 +535,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Majumeliya Raja",
+    "officials": "Majumeliya Roja",
     "levels": -1,
     "x": 5,
     "post created": 1497,
@@ -543,7 +543,7 @@ var admin_dataset=[
     "size": 6
   },
   {
-    "officials": "Sarumeliya Raja",
+    "officials": "Sarumeliya Roja",
     "levels": -1,
     "x": 6,
     "post created": 1497,
@@ -551,7 +551,7 @@ var admin_dataset=[
     "size": 6
   },
   {
-    "officials": "Borpatra Gohain",
+    "officials": "Borpatragohain",
     "levels": -1,
     "x": 6,
     "post created": 1497,
@@ -559,7 +559,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Tipomiya Raja",
+    "officials": "Tipomiya Roja",
     "levels": -1,
     "x": 2,
     "post created": 1497,
@@ -567,7 +567,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Namrupiya Raja",
+    "officials": "Namrupiya Roja",
     "levels": -1,
     "x": 3,
     "post created": 1497,
@@ -575,7 +575,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Sadiyakhuwa Gohain",
+    "officials": "Sadiyakhuwagohain",
     "levels": -1,
     "x": 4,
     "post created": 1497,
@@ -583,7 +583,7 @@ var admin_dataset=[
     "size": 5
   },
   {
-    "officials": "Marangi Gohain",
+    "officials": "Marangigohain",
     "levels": -1,
     "x": 6,
     "post created": 1497,
@@ -591,7 +591,7 @@ var admin_dataset=[
     "size": 4
   },
   {
-    "officials": "Salal Gohain",
+    "officials": "Salalgohain",
     "levels": -1,
     "x": 2,
     "post created": 1552,
@@ -615,7 +615,7 @@ var admin_dataset=[
     "size": 8
   },
   {
-    "officials": "Kajolimukhiya Gohain",
+    "officials": "Kajolimukhiyagohain",
     "levels": -1,
     "x": 2,
     "post created": 1603,
@@ -623,7 +623,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Jogiyal Gohain",
+    "officials": "Jogiyalgohain",
     "levels": -1,
     "x": 6,
     "post created": 1603,
@@ -631,7 +631,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Rohiyal borua",
+    "officials": "Rohiyalborua",
     "levels": -1,
     "x": 4,
     "post created": 1603,
@@ -653,7 +653,7 @@ var admin_dataset=[
     "size": 10
   },
   {
-    "officials": "Bura Gohain",
+    "officials": "Buragohain",
     "levels": 1,
     "x": 4,
     "post created": 1228,
@@ -661,7 +661,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Bor Gohain",
+    "officials": "Borgohain",
     "levels": 1,
     "x": 2,
     "post created": 1228,
@@ -677,7 +677,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya kuwari",
+    "officials": "Parbatiya Kuwari",
     "levels": 4,
     "x": 1,
     "post created": 1228,
@@ -725,7 +725,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "king's caregiver-mother?",
+    "officials": "Daima",
     "levels": 4,
     "x": 7,
     "post created": 1228,
@@ -741,7 +741,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Chariyinya Raja",
+    "officials": "Chariyinya Roja",
     "levels": 2,
     "x": 4,
     "post created": 1332,
@@ -749,7 +749,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Borpatra Gohain",
+    "officials": "Borpatragohain",
     "levels": 1,
     "x": 6,
     "post created": 1497,
@@ -757,7 +757,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Tipomiya Raja",
+    "officials": "Tipomiya Roja",
     "levels": 2,
     "x": 2,
     "post created": 1497,
@@ -765,7 +765,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Namrupiya Raja",
+    "officials": "Namrupiya Roja",
     "levels": 2,
     "x": 3,
     "post created": 1497,
@@ -773,7 +773,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Majumeliya Raja",
+    "officials": "Majumeliya Roja",
     "levels": 2,
     "x": 5,
     "post created": 1228,
@@ -781,7 +781,7 @@ var admin_dataset=[
     "size": 6
   },
   {
-    "officials": "Sarumeliya Raja",
+    "officials": "Sarumeliya Roja",
     "levels": 2,
     "x": 6,
     "post created": 1228,
@@ -789,7 +789,7 @@ var admin_dataset=[
     "size": 6
   },
   {
-    "officials": "Sadiyakhuwa Gohain",
+    "officials": "Sadiyakhuwagohain",
     "levels": 3,
     "x": 4,
     "post created": 1497,
@@ -797,7 +797,7 @@ var admin_dataset=[
     "size": 5
   },
   {
-    "officials": "Marangi Gohain",
+    "officials": "Marangigohain",
     "levels": 3,
     "x": 6,
     "post created": 1497,
@@ -805,7 +805,7 @@ var admin_dataset=[
     "size": 4
   },
   {
-    "officials": "Salal Gohain",
+    "officials": "Salalgohain",
     "levels": -1,
     "x": 2,
     "post created": 1552,
@@ -829,7 +829,7 @@ var admin_dataset=[
     "size": 8
   },
   {
-    "officials": "Kajolimukhiya Gohain",
+    "officials": "Kajolimukhiyagohain",
     "levels": -1,
     "x": 2,
     "post created": 1603,
@@ -837,7 +837,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Jogiyal Gohain",
+    "officials": "Jogiyalgohain",
     "levels": -1,
     "x": 6,
     "post created": 1603,
@@ -845,7 +845,7 @@ var admin_dataset=[
     "size": 3
   },
   {
-    "officials": "Rohiyal borua",
+    "officials": "Rohiyalborua",
     "levels": -1,
     "x": 4,
     "post created": 1603,
@@ -866,7 +866,7 @@ var admin_dataset=[
     "size": 10
   },
   {
-    "officials": "Bura Gohain",
+    "officials": "Buragohain",
     "levels": 1,
     "x": 4,
     "post created": 1228,
@@ -874,7 +874,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Bor Gohain",
+    "officials": "Borgohain",
     "levels": 1,
     "x": 2,
     "post created": 1228,
@@ -890,7 +890,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya kuwari",
+    "officials": "Parbatiya Kuwari",
     "levels": 4,
     "x": 1,
     "post created": 1228,
@@ -938,7 +938,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "king's caregiver-mother?",
+    "officials": "Daima",
     "levels": 4,
     "x": 7,
     "post created": 1228,
@@ -954,23 +954,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Majumeliya Raja",
-    "levels": 2,
-    "x": 5,
-    "post created": 1228,
-    "description": "",
-    "size": 6
-  },
-  {
-    "officials": "Sarumeliya Raja",
-    "levels": 2,
-    "x": 6,
-    "post created": 1228,
-    "description": "",
-    "size": 6
-  },
-  {
-    "officials": "Chariyinya Raja",
+    "officials": "Chariyinya Roja",
     "levels": 2,
     "x": 4,
     "post created": 1332,
@@ -978,7 +962,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Borpatra Gohain",
+    "officials": "Borpatragohain",
     "levels": 1,
     "x": 6,
     "post created": 1497,
@@ -986,7 +970,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Tipomiya Raja",
+    "officials": "Tipomiya Roja",
     "levels": 2,
     "x": 2,
     "post created": 1497,
@@ -994,7 +978,7 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Namrupiya Raja",
+    "officials": "Namrupiya Roja",
     "levels": 2,
     "x": 3,
     "post created": 1497,
@@ -1002,7 +986,23 @@ var admin_dataset=[
     "size": 7
   },
   {
-    "officials": "Sadiyakhuwa Gohain",
+    "officials": "Majumeliya Roja",
+    "levels": 2,
+    "x": 5,
+    "post created": 1228,
+    "description": "",
+    "size": 6
+  },
+  {
+    "officials": "Sarumeliya Roja",
+    "levels": 2,
+    "x": 6,
+    "post created": 1228,
+    "description": "",
+    "size": 6
+  },
+  {
+    "officials": "Sadiyakhuwagohain",
     "levels": 3,
     "x": 4,
     "post created": 1497,
@@ -1010,7 +1010,7 @@ var admin_dataset=[
     "size": 5
   },
   {
-    "officials": "Marangi Gohain",
+    "officials": "Marangigohain",
     "levels": 3,
     "x": 6,
     "post created": 1497,
@@ -1018,51 +1018,11 @@ var admin_dataset=[
     "size": 4
   },
   {
-    "officials": "Salal Gohain",
+    "officials": "Salalgohain",
     "levels": 3,
     "x": 2,
     "post created": 1552,
     "description": "Khura Raja(1552- 1603)",
-    "size": 3
-  },
-  {
-    "officials": "Borbarua",
-    "levels": -1,
-    "x": 3,
-    "post created": 1603,
-    "description": "Susenpha(1603-1649)",
-    "size": 8
-  },
-  {
-    "officials": "Borphukan",
-    "levels": -1,
-    "x": 5,
-    "post created": 1603,
-    "description": "Pratap Singh(1603-1649)",
-    "size": 8
-  },
-  {
-    "officials": "Kajolimukhiya Gohain",
-    "levels": -1,
-    "x": 2,
-    "post created": 1603,
-    "description": "Pratap Singh(1603-1641)",
-    "size": 3
-  },
-  {
-    "officials": "Jogiyal Gohain",
-    "levels": -1,
-    "x": 6,
-    "post created": 1603,
-    "description": "Pratap Singh(1603-1641)",
-    "size": 3
-  },
-  {
-    "officials": "Rohiyal borua",
-    "levels": -1,
-    "x": 4,
-    "post created": 1603,
-    "description": "Pratap Singh(1603-1641)",
     "size": 3
   }
 ]

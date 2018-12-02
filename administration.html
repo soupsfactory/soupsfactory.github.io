@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="administration_css.css">
       <script src="https://d3js.org/d3.v5.min.js"></script>
       <script type="text/javascript" src="administration_data.js">
 
@@ -10,221 +11,54 @@
   </head>
   <style media="screen">
 
+
+  .wrapper4
+  {
+  	 display:grid;
+          grid-template-columns: 1fr 3fr 2fr 1fr;
+          grid-column-gap: 20px;
+          grid-row-gap: 2px;
+  }
     .viz_administration_class {
         position: relative;
         height: 90vh;
-        width: 50%;
+        width: 100%;
         padding: 0;
         /* background:blue; */
         /* padding-bottom will be overwritten by JavaScript later */
         /* padding-bottom: 100%; */
     }
-
+    .fonts{
+    font-family:Source Sans Pro  ;
+    font-size: 18px;
+    }
+    .hover_text
+    {
+      font-family:Source Sans Pro;
+      font-size:15px;
+    }
+    .lezends_small
+    {
+      font-size:14px;
+      font-weight: bold;
+    }
 
   </style>
   <body>
+    <div class="wrapper4">
+      <div class=""></div>
+
     <div id="viz_administration" class="viz_administration_class">
+    </div>
+    <div id="administration_officers_info" class="fonts">
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    </div>
+    <div class=""></div>
+    </div>
+
+    <script type="text/javascript" src="administration_script.js">
 
 
-      </div>
-      <script type="text/javascript">
-
-        var width=document.getElementById("viz_administration").clientWidth;
-        var height=document.getElementById("viz_administration").clientHeight;
-        console.log(height);
-        console.log(width);
-        var padding_x=width/10;
-        var padding_y=height/10;
-        var svg_administration=d3.select("#viz_administration")
-                  .append("svg")
-                  .attr("width", "100%")
-                  .attr("height","100%")
-                  .attr("preserveAspectRatio","xMidYMid")
-                  .attr("viewBox", "0 0 " + width + " " + height);
-
-
-
-
-
-var xScale=d3.scaleLinear()
-          .domain([0,8])
-          .range([0,width-padding_x*2]);
-var yScale=d3.scaleLinear()
-            .domain([0,6])
-            .range([0,height-padding_y*3]);
-var rScale = d3.scaleSqrt() // <--New!
-            .domain([0, d3.max(admin_dataset[0].people, function(d) { return d.size; })])
-            .range([0, height/50]); // <--New!
-
-
-//colorscale
-var color_rects=["#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c"];
-var colorScale=d3.scaleOrdinal()
-                .domain([6,5,4,3,2,1,0])
-                .range(color_rects);
-
-//rects
-console.log(admin_dataset[4].levels);
-var levels=function(){
-  for(var i=0;i<5;i++)
-  {
-    if(admin_dataset[i].time==1603)
-    return admin_dataset[i].levels;
-  }
-};
-console.log(levels);
-
-var adm_back=svg_administration.selectAll("#viz_administration")
-            .data(levels)
-            .enter()
-            .append("g")
-            .append("rect")
-            .attr("x",0)
-            .attr("y",-yScale(2))
-            .attr("width", xScale(8)+xScale(1))
-            .attr("height",function(d){
-              console.log("rect:"+yScale(d)+(padding_y*4)+rScale(10-d));
-              // console.log(colorScale(d));
-             return yScale(d)+padding_y*4+rScale(10-d);})
-            // .attr("opacity",0.05)
-            // .attr("stroke","red")
-            .attr("fill",function(d){return colorScale(d);})
-            .attr("rx",width)
-            .attr("ry",height/10)
-            .attr("transform","translate("+padding_x/2+","+padding_y+")");
-
-
-
-
-
-
-//circles
-console.log(admin_dataset);
-
-var strlenMultiplier=10;
-//diamond
-
-var symbolDiamondGen = d3.symbol()
-	.type(d3.symbolDiamond)
-	.size(150)
-
-var symbolCircleGen = d3.symbol()
-.type(d3.symbolCircle)
-.size(100)
-;
-	// .attr("class", "shapeDiamond")
-
-
-var adm_system=svg_administration.selectAll("#viz_administration")
-              .data(admin_dataset[0].people)
-              .enter()
-              .append("g")
-              .append("circle")
-
-              .attr("cx",function(d){
-              //  console.log(d.x);
-
-                return xScale(d.x);
-              })
-              .attr("cy", function(d){
-              //  console.log("level:"+d.levels);
-                return yScale(d.levels);
-              })
-              .attr("r",function(d){
-                return rScale(d.size);
-              })
-              // .call(function(d){
-              //   if(d.officials=="King")
-              //   {
-              //     console.log("king"+d.officials);
-              //   }
-              // })
-              .attr("fill","violet")
-              .attr("transform","translate("+padding_x/1.05+","+padding_y*2+")")
-              .on("mouseover",function(d)
-              {
-                svg_administration.append("rect")
-              				.attr("id","admin_hover_rect")
-              				.attr("x",xScale(d.x)+padding_x/1.25+20)
-              				.attr("y",yScale(d.levels)+padding_y*2-30)
-              				.attr("width",function()
-              			{
-              				var strlen=(d.description).length;
-              			//	console.log(strlen);
-              			//	if(strlen>10)
-              				return strlen*strlenMultiplier;
-              			//	else return 11*strlenMultiplier;
-              			})
-              				.attr("height",60)
-              				.attr("fill","white")
-              				.attr("stroke-opacity",0.2)
-              				.attr("stroke","blue")
-              				.attr("rx", 3)
-              				.attr("ry",3);
-
-
-
-
-                // console.log(d.description);
-                  svg_administration.append("text")
-                  .attr("id","admin_text_hover")
-                  .attr("x",xScale(d.x)+padding_x/1.25+30)
-                  .attr("y",yScale(d.levels)+padding_y*2)
-                  .text(d.description);
-              })
-              .on("mouseout",function()
-              {
-                svg_administration.selectAll("#admin_text_hover").remove();
-                svg_administration.selectAll("#admin_hover_rect").remove();
-              });
-
-
-  //colorlegends
-svg_administration.append("rect")
-  .attr("x",0)
-  .attr("y",-yScale(2))
-  .attr("width",width-padding_x/2)
-  .attr("height",yScale(2)+height/7)
-  .attr("transform","translate("+padding_x/2.5+",-1)")
-  .attr("stroke-width",10)
-  .attr("fill","white")
-;
-
-  var xScale_legend=d3.scaleLinear()
-            .domain([0,6])
-            .range([0,width/3]);
-  for(var i=0;i<7;i++)
-  {
-  svg_administration//.selectAll("#viz_administration")
-                .append("g")
-                .append("rect")
-                .attr("x",xScale_legend(i))
-                .attr("y", 0)
-                .attr("width",xScale_legend(1))
-                .attr("height",20)
-                .attr("fill",colorScale(i))
-                .attr("transform","translate("+(width-xScale_legend(1)*7-padding_x)+","+padding_y/3+")")
-                ;
-  }
-
-  svg_administration.append("text")
-          .attr("x",xScale_legend(0))
-          .attr("y", 0)
-          .attr("transform","translate("+(width-xScale_legend(1)*7-padding_x)+","+padding_y/1.25+")")
-          .text("Higher")
-          .style("text-anchor","middle");
-svg_administration.append("text")
-        .attr("x",xScale_legend(8))
-        .attr("y", 0)
-        .attr("transform","translate("+(width-xScale_legend(1)*7-padding_x)+","+padding_y/1.25+")")
-        .text("Lower")
-        .style("text-anchor","middle");
-svg_administration.append("text")
-        .attr("x",xScale_legend(3.5))
-        .attr("y", 0)
-        .attr("transform","translate("+(width-xScale_legend(1)*7-padding_x)+","+padding_y/5+")")
-        .text("Political Hierarchy")
-        .style("text-anchor","middle");
       </script>
   </body>
 </html>
