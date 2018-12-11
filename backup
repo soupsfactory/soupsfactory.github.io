@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type="text/javascript" src="election.js">
+
+    </script>
+    <style media="screen">
+    body{
+      width: 100%;
+      height: 100%;
+    }
+
+.viz_election_class {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    /* padding-bottom will be overwritten by JavaScript later */
+    padding-bottom: 100%;
+}
+.viz_election_class > svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.edit
+{
+  stroke:#000000;
+  stroke-opacity:0;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div id="viz_election" class="viz_election_class">
+<!-- dvxvxv -->
+    </div>
+    <script type="text/javascript">
+      var width=document.getElementById("viz_election").clientWidth;
+      var height=document.getElementById("viz_election").clientHeight;
+      console.log(height);
+
+      var svg=d3.select("#viz_election")
+                .append("svg")
+                .attr("width", "100%")
+                .attr("height","70%")
+                .attr("viewBox", "0 0 " + width + " " + height);
+
+
+var xwidth=[0];
+for(var i=1; i<=fam.length;i++)
+{
+  xwidth.push(width/fam.length*i/1.25);
+}
+console.log(xwidth);
+var yheight=[0];
+for(var i=1; i<positions.length;i++)
+{
+  console.log(height);
+  yheight.push(height*i*20/positions.length);
+}
+var XScale = d3.scaleOrdinal()
+                            .domain(fam)
+                            .range(xwidth)
+                            //.round(true) // <-- Enable rounding
+                           //.paddingInner(0.05)
+                            ;
+
+var YScale=d3.scaleBand()
+                        .domain(positions)
+                        .range(yheight)
+                        ;
+
+
+var colorScale=d3.scaleOrdinal()
+                .domain(fam)
+                .range(colors);
+
+
+console.log("done");
+var padding=200;
+var rect_padding_x=width/fam.length/4;
+var rect_padding_y=height/positions.length/2;
+
+
+var back_rect_col=svg.selectAll("rect")
+        .data(fam)
+        .enter()
+        .append("g")
+        .append("rect")
+        .attr("x", function(d)
+      {
+        return XScale(d);
+      })
+      .attr("y", YScale(positions[0]))
+      .attr("width",width/fam.length-rect_padding_x)
+      .attr("height", function()
+    {
+      return YScale(positions[positions.length-1])+height/positions.length-rect_padding_y/1.5;
+    })
+      .attr("fill", function(d)
+    {
+      return colorScale(d);
+    })
+    .attr("opacity",0.2)
+    .attr("transform","translate("+padding/1.5+","+padding/2+")");
+
+
+// var back_rect_row=svg.selectAll("rect")
+//             .data(positions)
+//             .enter()
+//             .append("g")
+//             .append("rect")
+//             .attr("x", XScale(fam[0]))
+//             .attr("y", function(d)
+//           {
+//             console.log(d);
+//             return YScale(d);
+//           })
+//           .attr("width", 100)
+//           .attr("height", 20)
+//         //.attr("transform","translate("+padding/1.5+","+padding/2+")")
+//         ;
+
+console.log(positions);
+
+
+var rect=svg.selectAll("rect")
+        .data(dataset)
+        .enter()
+        .append("g")
+        .append("rect")
+        .attr("x",function(d,i)
+      {
+        //console.log(d.x);
+        return XScale(d.x);
+      })
+      .attr("y",function(d,i)
+    {
+      return YScale(d.y);
+    })
+    .attr("height",height/positions.length-rect_padding_y/1.5)
+    .attr("width",width/fam.length-rect_padding_x)
+    .attr("transform","translate("+padding/1.5+","+padding/2+")")
+    .attr("fill",function(d)
+  {
+    return colorScale(d.x);
+  })
+    ;
+
+  for(var i=0; i<positions.length; i++)
+        {
+          svg.append("rect")
+            .attr("x", XScale(fam[0]))
+            .attr("y", YScale(positions[i]))
+            .attr("height",rect_padding_y/8)
+            .attr("width",XScale(fam[fam.length-1])+width/fam.length-rect_padding_x)
+            .attr("fill","#ffffff")
+              .attr("transform","translate("+padding/1.5+","+padding/2+")");
+        }
+
+
+
+
+
+
+
+var xAxis = d3.axisTop()
+            .scale(XScale);
+
+
+svg.append("g")
+    .attr("transform","translate("+(padding/1.5+(width/fam.length/2))+","+padding/2+")")
+    .call(xAxis)
+    .attr("class","edit")
+    .selectAll("text")
+    .style("text-anchor", "start")
+    .attr("transform", function(d) {
+                return "rotate(-65)"
+                })
+      ;
+
+var yAxis = d3.axisLeft()
+    .scale(YScale)
+    ;
+
+svg.append("g")
+    .attr("transform","translate("+padding/1.5+","+(padding/2)+")")
+    .call(yAxis)
+    .attr("class","edit")
+    ;
+
+
+
+          ;
+    </script>
+
+  </body>
+</html>

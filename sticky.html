@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<style media="screen">
+  article {
+  position: relative;
+}
+figure.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+</style>
+<!-- <script type="text/javascript">
+  enterView({
+  selector: stepSel.nodes(),
+  offset: 0.5,
+  enter: el => {
+    const index = +d3.select(el).attr('data-index');
+    updateChart(index);
+  },
+  exit: el => {
+    let index = +d3.select(el).attr('data-index');
+    index = Math.max(0, index - 1);
+    updateChart(index);
+  }
+});
+</script> -->
+  </head>
+  <body>
+    <div class='scrolly'>
+
+	<!-- sticky graphic -->
+  balebale
+	<figure class='sticky'>
+		<!-- chart stuff in here -->
+    asadsdfdvbgbhbgh
+	</figure>
+
+	<!-- step text -->
+	<article>
+		<div class='step' data-index='0'>
+			<p>Step text</p>
+		</div>
+		<!-- ...more steps -->
+    <div class='step' data-index='1'>
+      <p>Step text2</p>
+    </div>
+    <div class='step' data-index='2'>
+      <p>Step text3</p>
+    </div>
+    <div class='step' data-index='3'>
+      <p>Step text4</p>
+    </div>
+    <div class='step' data-index='4'>
+      <p>Step text5</p>
+    </div>
+	</article>
+
+</div>
+
+  </body>
+</html>

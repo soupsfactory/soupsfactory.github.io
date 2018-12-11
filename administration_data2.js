@@ -12,7 +12,7 @@ var admin_dataset=[
   },
   {
     "officials": "Buragohain",
-    "levels": 1.3,
+    "levels": 1,
     "x": 4,
     "post created": 1228,
     "description": "always there",
@@ -20,7 +20,7 @@ var admin_dataset=[
   },
   {
     "officials": "Borgohain",
-    "levels": 1.12,
+    "levels": 1,
     "x": 2,
     "post created": 1228,
     "description": "always there",
@@ -29,7 +29,7 @@ var admin_dataset=[
 
   {
     "officials": "Borkuwari",
-    "levels": 5.75,
+    "levels": 6,
     "x": 0,
     "post created": 1228,
     "description": "always there",
@@ -37,7 +37,7 @@ var admin_dataset=[
   },
   {
     "officials": "Parbatiya Kuwari",
-    "levels": 6.05,
+    "levels": 6,
     "x": 1,
     "post created": 1228,
     "description": "always there",
@@ -45,7 +45,7 @@ var admin_dataset=[
   },
   {
     "officials": "Tamulikuwari",
-    "levels": 6.25,
+    "levels": 6,
     "x": 2,
     "post created": 1228,
     "description": "always there",
@@ -53,7 +53,7 @@ var admin_dataset=[
   },
   {
     "officials": "Samuwakuwari",
-    "levels": 6.33,
+    "levels": 6,
     "x": 3,
     "post created": 1228,
     "description": "always there",
@@ -61,7 +61,7 @@ var admin_dataset=[
   },
   {
     "officials": "King's Mother",
-    "levels": 6.38,
+    "levels": 6,
     "x": 4,
     "post created": 1228,
     "description": "always there",
@@ -69,7 +69,7 @@ var admin_dataset=[
   },
   {
     "officials": "King's stepmother",
-    "levels": 6.33,
+    "levels": 6,
     "x": 5,
     "post created": 1228,
     "description": "always there",
@@ -77,7 +77,7 @@ var admin_dataset=[
   },
   {
     "officials": "King's grandmother",
-    "levels": 6.25,
+    "levels": 6,
     "x": 6,
     "post created": 1228,
     "description": "always there",
@@ -85,7 +85,7 @@ var admin_dataset=[
   },
   {
     "officials": "Daima",
-    "levels": 6.05,
+    "levels": 6,
     "x": 7,
     "post created": 1228,
     "description": "always there",
@@ -93,7 +93,7 @@ var admin_dataset=[
   },
   {
     "officials": "King's daughter",
-    "levels": 5.75,
+    "levels": 6,
     "x": 8,
     "post created": 1228,
     "description": "always there",
@@ -101,7 +101,7 @@ var admin_dataset=[
   },
   {
     "officials": "Borpatragohain",
-    "levels": 1.12,
+    "levels": 1,
     "x": 6,
     "post created": 1497,
     "description": "Suhungmung(1497-1539)",
@@ -109,7 +109,7 @@ var admin_dataset=[
   },
   {
     "officials": "Borbarua",
-    "levels": 2.12,
+    "levels": 2,
     "x": 3,
     "post created": 1603,
     "description": "Susenpha(1603-41; 1611-1649)",
@@ -117,7 +117,7 @@ var admin_dataset=[
   },
   {
     "officials": "Borphukan",
-    "levels": 2.12,
+    "levels": 2,
     "x": 5,
     "post created": 1603,
     "description": "Susenpha(1603-41; 1611-1649)",
@@ -125,7 +125,7 @@ var admin_dataset=[
   },
   {
     "officials": "Tipomiya Roja",
-    "levels": 3.15,
+    "levels": 3,
     "x": 2,
     "post created": 1497,
     "description": "Suhungmung(1497-1539)",
@@ -133,7 +133,7 @@ var admin_dataset=[
   },
   {
     "officials": "Namrupiya Roja",
-    "levels": 3.27,
+    "levels": 3,
     "x": 3,
     "post created": 1497,
     "description": "Suhungmung(1497-1539)",
@@ -141,7 +141,7 @@ var admin_dataset=[
   },
   {
     "officials": "Chariyinya Roja",
-    "levels": 3.3,
+    "levels": 3,
     "x": 4,
     "post created": 1332,
     "description": "Sukhrangpha(1332-1364)",
@@ -149,7 +149,7 @@ var admin_dataset=[
   },
   {
     "officials": "Majumeliya Roja",
-    "levels": 3.27,
+    "levels": 3,
     "x": 5,
     "post created": 1228,
     "description": "Call the person",
@@ -157,7 +157,7 @@ var admin_dataset=[
   },
   {
     "officials": "Sarumeliya Roja",
-    "levels": 3.15,
+    "levels": 3,
     "x": 6,
     "post created": 1228,
     "description": "Call the person",
@@ -165,7 +165,7 @@ var admin_dataset=[
   },
   {
     "officials": "Sadiyakhuwagohain",
-    "levels": 4.3,
+    "levels": 4,
     "x": 4,
     "post created": 1497,
     "description": "Suhungmung(1497-1539)",
@@ -173,7 +173,7 @@ var admin_dataset=[
   },
   {
     "officials": "Marangigohain",
-    "levels": 4.25,
+    "levels": 4,
     "x": 6,
     "post created": 1497,
     "description": "Suhungmung(1497-1539)",
@@ -181,7 +181,7 @@ var admin_dataset=[
   },
   {
     "officials": "Salalgohain",
-    "levels": 4.25,
+    "levels": 4,
     "x": 2,
     "post created": 1552,
     "description": "Khura Raja(1552- 1603)",
@@ -189,7 +189,7 @@ var admin_dataset=[
   },
   {
     "officials": "Kajolimukhiyagohain",
-    "levels": 5.25,
+    "levels": 5,
     "x": 2,
     "post created": 1603,
     "description": "Pratap Singh(1603-1641)",
@@ -197,7 +197,7 @@ var admin_dataset=[
   },
   {
     "officials": "Jogiyalgohain",
-    "levels": 5.25,
+    "levels": 5,
     "x": 6,
     "post created": 1603,
     "description": "Pratap Singh(1603-1641)",
@@ -205,7 +205,7 @@ var admin_dataset=[
   },
   {
     "officials": "Rohiyalborua",
-    "levels": 5.3,
+    "levels": 5,
     "x": 4,
     "post created": 1603,
     "description": "Pratap Singh(1603-1641)",
@@ -1023,30 +1023,6 @@ var admin_dataset=[
     "x": 2,
     "post created": 1552,
     "description": "Khura Raja(1552- 1603)",
-    "size": 3
-  },
-  {
-    "officials": "Kajolimukhiyagohain",
-    "levels": -1,
-    "x": 2,
-    "post created": 1603,
-    "description": "Pratap Singh(1603-1641)",
-    "size": 3
-  },
-  {
-    "officials": "Jogiyalgohain",
-    "levels": -1,
-    "x": 6,
-    "post created": 1603,
-    "description": "Pratap Singh(1603-1641)",
-    "size": 3
-  },
-  {
-    "officials": "Rohiyalborua",
-    "levels": -1,
-    "x": 4,
-    "post created": 1603,
-    "description": "Pratap Singh(1603-1641)",
     "size": 3
   }
 ]

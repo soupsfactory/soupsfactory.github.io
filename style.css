@@ -1,0 +1,209 @@
+@media screen {
+  body {
+	margin:0;
+	padding:0;
+  }
+
+  #map {
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:100%;
+  }
+
+  svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  path {
+    stroke: #e55e5e;
+    stroke-width: 4;
+    stroke-opacity: 0;
+    fill: none;
+    cursor: pointer;
+    transition: 0.5s fill, 0.5s stroke-width;
+  }
+
+  path:hover {
+  	stroke-width: 8;
+  }
+
+  circle {
+	fill: #ffffff;
+	stroke: #000000;
+	stroke-width: 1;
+	cursor: pointer;
+	transition: 0.5s fill, 0.5s stroke-width;
+  }
+
+  circle:hover {
+  	fill: #F8FF7B;
+    stroke-width: 2;
+  }
+
+  .S1 {
+  	stroke: #EF49A1;
+  	stroke-opacity: 1;
+  }
+
+  .S2 {
+  	stroke: #005B28;
+  	stroke-opacity: 1;
+  }
+
+  .S25 {
+  	stroke: #005B28;
+  	stroke-opacity: 1;
+  }
+
+  .S3 {
+  	stroke: #074A96;
+  	stroke-opacity: 1;
+  }
+
+  .S41 {
+  	stroke: #A93B1F;
+  	stroke-opacity: 1;
+  }
+
+  .S42 {
+  	stroke: #A93B1F;
+  	stroke-opacity: 1;
+  }
+
+  .S45 {
+  	stroke: #C9843A;
+  	stroke-opacity: 1;
+  }
+
+  .S46 {
+  	stroke: #C9843A;
+  	stroke-opacity: 1;
+  }
+
+  .S47 {
+  	stroke: #C9843A;
+  	stroke-opacity: 1;
+  }
+
+  .S5 {
+  	stroke: #FF5B03;
+  	stroke-opacity: 1;
+  }
+
+  .S7 {
+  	stroke: #764C9A;
+  	stroke-opacity: 1;
+  }
+
+  .S75 {
+  	stroke: #764C9A;
+  	stroke-opacity: 1;
+  }
+
+  .S8 {
+  	stroke: #4EA425;
+  	stroke-opacity: 1;
+  }
+
+  .S85 {
+  	stroke: #4EA425;
+  	stroke-opacity: 1;
+  }
+
+  .S9 {
+  	stroke: #950A2F;
+  	stroke-opacity: 1;
+  }
+
+  .U1 {
+  	stroke: #7DAD4C;
+  	stroke-opacity: 1;
+  }
+
+  .U2 {
+  	stroke: #DA421E;
+  	stroke-opacity: 1;
+  }
+
+  .U3 {
+  	stroke: #16683D;
+  	stroke-opacity: 1;
+  }
+
+  .U4 {
+  	stroke: #F0D722;
+  	stroke-opacity: 1;
+  }
+
+  .U5 {
+  	stroke: #7E5330;
+  	stroke-opacity: 1;
+  }
+
+  .U55 {
+  	stroke: #7E5330;
+  	stroke-opacity: 1;
+  }
+
+  .U6 {
+  	stroke: #8C6DAB;
+  	stroke-opacity: 1;
+  }
+
+  .U7 {
+  	stroke: #528DBA;
+  	stroke-opacity: 1;
+  }
+
+  .U8 {
+  	stroke: #224F86;
+  	stroke-opacity: 1;
+  }
+
+  .U9 {
+  	stroke: #F3791D;
+  	stroke-opacity: 1;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  div.tooltip {
+    color: #222;
+    background-color: #fff;
+    padding: .5em;
+    text-shadow: #f5f5f5 0 1px 0;
+    border-radius: 0;
+    opacity: 0.9;
+    position: absolute;
+    font: normal 14px/1.3 Arial;
+  }
+
+  #toggle-view {
+    position: fixed;
+    left: 0px;
+    top: 50%;
+    margin-top: -50px;
+    z-index: 9;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    height: 100px;
+    outline: none;
+    font: 18px/1.3 Arial;
+    font-weight: bold;
+    background-color: #33839c;
+    color: white;
+    transition: 0.5s all;
+  }
+
+  #toggle-view:hover {
+    background-color: #3b9bb9;
+  }
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script type="text/javascript" src="depose.js">
+
+      </script>
+<style media="screen">
+  .viz_depose {
+      position:relative;
+
+      /* height:700px; */
+      width:100%;
+      height:70vh;
+      max-width:800px;
+      /* height:700px; */
+  }
+.depose_legend
+{
+  width:100%
+}
+
+.grid line
+{
+  stroke-opacity:0.2;
+}
+.grid path
+{
+    stroke-width:0;
+    /* stroke-opacity:0; */
+}
+
+
+</style>
+
+  </head>
+  <body>
+
+    <div class="viz_depose" id="viz_depose">
+
+    </div>
+    <div id="depose_legend"></div>
+
+<script type="text/javascript">
+//  console.log(document.getElementByClass("viz_depose").clientHeight);
+  var width=document.getElementById("viz_depose").clientWidth;
+  var height=document.getElementById("viz_depose").clientHeight;
+  console.log(height);
+  var padding_x=width/20;
+  var padding_y=height/20;
+  var svg_depose=d3.select("#viz_depose")
+            .append("svg")
+            .attr("width", "100%")
+            .attr("height","100%")
+            .attr("perserveAspectRatio", "xMinYMid")
+            .attr("viewBox", "0 0 " + width + " " + height);
+var depose_legend=d3.select("#depose_legend")
+          .append("svg")
+          .attr("width", "100%")
+          .attr("height",100)
+          .attr("perserveAspectRatio", "xMinYMid")
+          .attr("viewBox", "0 0 " + width + " 100");
+
+
+var sc_width=width-padding_x*3;
+var sc_height=height-padding_y*3;
+var xScale=d3.scaleLinear()
+              .domain([0,50])
+              .range([0,sc_width]);
+var yScale=d3.scaleLinear()
+              .domain([1220,1900])
+              .range([sc_height,0]);
+
+var rScale=d3.scaleLinear()
+            .domain([0,width])
+            .range([0,width]);
+
+
+
+function make_x_gridlines() {
+      return d3.axisBottom(xScale)
+                .ticks(5)
+      }
+function make_y_gridlines() {
+      return d3.axisLeft(yScale)
+                .ticks(5)
+      }
+
+
+
+svg_depose.append("g")
+      .attr("class", "grid")
+      .attr("transform", "translate("+padding_x*2+","+(sc_height+padding_y/2)+ ")")
+      .call(make_x_gridlines()
+      .tickSize(-(height-padding_y*3))
+      .tickFormat("")
+    );
+svg_depose.append("g")
+          .attr("class", "grid")
+          .attr("transform", "translate("+padding_x*2+","+(padding_y/2)+")")
+          .call(make_y_gridlines()
+          .tickSize(-(width-padding_x*3))
+          .tickFormat("")
+        );
+
+
+var circle=svg_depose.selectAll("circle")
+            .data(dataset_depose)
+            .enter()
+            .append("g")
+            .append("circle")
+            .attr("cx", function(d)
+            {
+              // console.log(d.duration);
+              return xScale(d.duration);
+            })
+            .attr("cy", function(d)
+            {
+              // console.log(yScale(d.timeline1));
+              return yScale(d.timeline1);
+            })
+            .attr("r", rScale(3))
+            .attr("fill", function(d){
+              if(d.chosen==0)
+              {
+                return "violet";
+              }
+              else if(d.chosen==1)
+              {
+                return "red";
+              }
+              else if(d.chosen==2)
+              {
+                return "blue";
+              }
+              else{
+                return "yellow";
+              }
+            })
+            .attr("opacity",0.5)
+            .attr("transform","translate("+padding_x*2+","+padding_y/2+")")
+            // .attr("stroke-width",10)
+            .on("mouseover", function(d)
+            {
+              var duration=d.duration;
+              var timeline=d.timeline1;
+              var name=d.name;
+
+              d3.select(this)
+              //  .attr("fill", "red")
+                .attr("stroke", "#dddd00")
+                .attr("stroke-opacity", 1)
+                .attr("stroke-width", 1.5);
+                //.attr()
+
+
+
+svg_depose.append("text")
+                .attr("x",function(d)
+                {
+                  console.log(xScale(duration));
+                  return xScale(duration);
+                })
+                .attr("y", function(d)
+                {
+                // console.log();
+                  return yScale(timeline);
+                })
+                .text(function(d){
+                // console.log("Name:"+name+", Timeline:"+timeline+", Reign:"+duration);
+                  return "Name:"+name+", Timeline:"+timeline+", Reign:"+duration;
+                });
+
+            });
+
+
+var xAxis=d3.axisBottom()
+            .scale(xScale);
+
+
+var yAxis = d3.axisLeft()
+                .scale(yScale)
+                ;
+svg_depose.append("g")
+              .call(xAxis)
+              .attr("transform","translate("+padding_x*2+","+(sc_height+padding_y/2)+")")
+              ;
+svg_depose.append("g")
+               .attr("transform","translate("+padding_x*2+","+padding_y/2+")")
+                .call(yAxis)
+              //  .attr("class","edit")
+                ;
+svg_depose.append("text")
+        .attr("x", (sc_width+padding_x*3)/2)
+        .attr("y", sc_height+padding_y*2)
+        .style("text-anchor", "middle")
+        .text("Duration of Reign");
+
+
+// svg_depose.append("text")
+//                 .attr("x", padding_x)
+//                 .attr("y", sc_height/2)
+//                 .style("text-anchor", "start")
+//                 .text("Timeline")
+//                 .attr("transform", "rotate(-90)")
+//                 ;
+
+
+
+
+var string= "M"+(padding_x)+" "+(sc_height-padding_y*2)+" L "+(padding_x)+" 0";
+
+    svg_depose.append("g")
+              .append("defs").append("path")
+              .attr("id", "s3")
+              .attr("d", string);
+    yAxis_thing = svg_depose.append("g")
+              .attr("id", "thing")
+              ;
+
+    yAxis_thing.append("text")
+              //.style("font-size", "17px")
+              .append("textPath")
+              .attr("xlink:href", "#s3")
+              .attr("text-anchor", "middle")
+              .attr("startOffset","40%")
+              .text("Timeline");
+
+    yAxis_thing.append("use")
+              .attr("xlink:href", "#s3")
+              .style("stroke", "none")
+              .style("fill", "none");
+
+
+  depose_legend//.selectAll("rect")
+              //  .append("g")
+                .append("rect")
+                .attr("x",width/5)
+                .attr("y",40)
+                .attr("height",10)
+                .attr("width",20)
+                .attr("fill", "violet")
+                .attr("opacity",0.7);
+
+  depose_legend.append("rect")
+                .attr("x",width/5*2)
+                .attr("y",40)
+                .attr("height",10)
+                .attr("width",20)
+                .attr("fill", "red")
+                .attr("opacity",0.7);
+  depose_legend.append("rect")
+                .attr("x", width/5*3)
+                .attr("y",40)
+                .attr("height",10)
+                .attr("width",20)
+                .attr("fill", "blue")
+                .attr("opacity",0.7);
+depose_legend.append("rect")
+                .attr("x", width/5*4)
+                .attr("y",40)
+                .attr("height",10)
+                .attr("width",20)
+                .attr("fill", "yellow")
+                .attr("opacity",0.7);
+
+depose_legend.append("text")
+              .attr("x",width/5+25)
+              .attr("y",50)
+              .attr("font-size","10px")
+              .text("Elected through primogeniture");
+depose_legend.append("text")
+              .attr("x",width/5*2+25)
+              .attr("y",50)
+              .attr("font-size","10px")
+              .text("Deposed by ministers");
+depose_legend.append("text")
+              .attr("x",width/5*3+25)
+              .attr("y",50)
+              .attr("font-size","10px")
+              .text("Elected by ministers");
+depose_legend.append("text")
+              .attr("x",width/5*4+25)
+              .attr("y",50)
+              .attr("font-size","10px")
+              .text("Elected by ministers");
+
+
+
+
+
+</script>
+
+  </body>
+</html>

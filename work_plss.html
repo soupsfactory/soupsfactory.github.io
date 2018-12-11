@@ -9,10 +9,10 @@
 <!-- datasets -->
     <script type="text/javascript" src="administration_data.js"></script>
     <script type="text/javascript" src="election_data.js"></script>
-		<script type="text/javascript" src="depose_data.js"></script>
+    <script type="text/javascript" src="depose_data.js"></script>
 <!--css_files-->
     <!-- <link rel="stylesheet" href="administration_timeline.css"> -->
-    <link rel="stylesheet" href="master1.css">
+    <link rel="stylesheet" href="master.css">
     <!-- <link rel="stylesheet" href="administration_css.css"> -->
     <!-- <link rel="stylesheet" href="administration_css_final.css"> -->
 
@@ -198,22 +198,21 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 
 <!-- step text -->
 <article>
-
+  fdcgvhbjnkml,kj,hgf
   <div class='step' data-index='0'>
-    <p>The visualization shows the Officials and the families that the belonged to. The most elegible member of those families were chosen for the positions</p>
-
+    <p>Step textdfcgvhbjnkmlmknjbvc</p>
   </div>
   <div class='step' data-index='1'>
-
-    <p>From here we can observe that higher rank positions were offered to the members of the Ahom communities. </p>
+    xfcgvbnmmnbvcxxcvbnjkml,;kmjnhbgvfcbd
+    <p>Step text</p>
   </div>
   <div class='step' data-index='2'>
-    <!-- xdfcgvhbjnkml,; -->
-    <p>The lower rank positions were later made open for different tribes and communities</p>
+    xdfcgvhbjnkml,;
+    <p>Step text</p>
   </div>
   <div class='step' data-index='3'>
-    <!-- xdfcgvhbjnkml, -->
-    <p></p>
+    xdfcgvhbjnkml,
+    <p>Step text</p>
   </div>
   <!-- ...more steps -->
 </article>
@@ -246,8 +245,7 @@ if(index==0)
 }
 if(index==1)
 {
-  svg_election
-          .append("g")
+  svg_election.append("g")
           .append("rect")
           .attr("id","rect_election_marker")
           .attr("x",election_xScale(fam[0]))
@@ -255,7 +253,7 @@ if(index==1)
           .attr("width",election_xScale(fam[1])-election_xScale(fam[0]))
           .attr("height",election_yScale(positions[positions.length-1])+election_yScale(positions[1])-election_yScale(positions[0]))
           .attr("fill","none")
-          .attr("stroke","#768c27")
+          .attr("stroke","blue")
           .attr("stroke-width",5)
           .attr("transform","translate("+election_padding/1.5+","+election_padding/2+")");
 }
@@ -264,18 +262,7 @@ if(index==1)
 <!--family interim-->
 
 
-<!-- depose into?? -->
-<div class="space"></div>
-<div class="wrapper3" id="fam_election">
-  <div class=""></div>
-  <div class="fonts">
-<strong>Families these officers and counscellars belonged to</strong><br>
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 
-  </div>
-  <div class=""></div>
-</div>
 
 
 
@@ -286,77 +273,15 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 <!--depose,election-->
 <div class="space">
 </div>
-<div class='scrolly'>
-
-<!-- sticky graphic -->
-<figure class='sticky' id="sticky_id">
-	<!-- chart stuff in here -->
-	<div class="viz_depose" id="viz_depose"></div>
-	<div id="depose_legend"></div>
-	<script type="text/javascript" src="depose_script_new1.js"></script>
-</figure>
-
-<!-- step text -->
-<article>
-	<div class='step2' data-index='0'>
-		<p>The kings were elected through two procedures: Primogeniture and through ministers. Patra mantris and Pali manstris had the power to depose and elect kings in the Ahom Kingdom</p>
-
-	</div>
-	<div class='step2' data-index='1'>
-		<p>In this later part of the timeperiod, we can see that, most kings were elected through ministers and deposed as well</p>
-
-	</div>
-	<div class='step2' data-index='2'>
-		<p>Two of those Kings even had on 1 month and 20 days respectively as their duration of Reign</p>
-
-	</div>
-	<div class='step2' data-index='3'>
-		<p>From here we can see that the ministers in the later part of the timeperiod were exploiting their powers.</p>
-
-	</div><!--hide this div !!important-->
-	<!-- ...more steps -->
-</article>
+<div id="depose">
+<div class="viz_depose" id="viz_depose">
 
 </div>
-
+<div id="depose_legend"></div>
+</div>
+<script type="text/javascript" src="depose_script.js"></script>
 <script type="text/javascript">
-enterView({
-	selector: ('.step2'),
-	offset: 0.8,
-	enter: el => {
-		const index = +d3.select(el).attr('data-index');
-		// updateChart(index);
-		switch(index)
-		{
-			case 0:
-			update();
-			break;
-			case 1:
-			update2();
-			break;
-			case 2:
-			update3();
-			break;
-		}
-	},
-	exit: el => {
-		let index = +d3.select(el).attr('data-index');
-		index = Math.max(0, index - 1);
-		// updateChart(index);
-		switch(index)
-		{
-			case 0:
-			update_original();
-			break;
-			case 1:
-			update();
-			break;
-			case 2:
-			update2();
-			break;
-		}
-	}
-});
+  console.log("width"+document.getElementById("body_i").clientWidth);
 </script>
 </div><!--body element-->
     <!-- </div> -->

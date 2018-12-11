@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script type="text/javascript" src="family_dataset.js"></script>
+	<script src="https://d3js.org/d3-color.v1.min.js"></script>
+	<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+	<script src="https://d3js.org/d3-ease.v1.min.js"></script>
+	<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+	<script src="https://d3js.org/d3-selection.v1.min.js"></script>
+	<script src="https://d3js.org/d3-timer.v1.min.js"></script>
+	<script src="https://d3js.org/d3-transition.v1.min.js"></script>
+	<script src="https://d3js.org/d3-drag.v1.min.js"></script>
+	<script src="https://d3js.org/d3-zoom.v1.min.js"></script>
+
+	<style>
+		#family
+		{
+			width: 100%;
+			/*max-width: 800px;*/
+			height:70vh;
+			/*max-height: 700px;*/
+			background:#F6E5FF;
+		}
+		path {
+    		fill: none;
+    		stroke: #A763CC;
+   			 stroke-width: 2px;
+			}
+		.shapes
+		{
+			fill:#A763CC;
+		}
+	</style>
+</head>
+<body>
+	<p onclick="onclick_()">click</p>
+	<div id="family"></div>
+
+<script type="text/javascript">
+
+	var family= d3.select("#family")
+				.append("svg");
+				// .attr("viewBox", "0 0 800 700")
+				// .attr("preserveAspectRatio", "xMidYMid");
+
+	var height= document.getElementById("family").clientHeight;
+	var width=document.getElementById("family").clientWidth;
+
+var padding_x=width/150;
+var padding_y=height/20;
+
+console.log(height);
+	var map=family.attr("height","100%")
+		.attr("width", "100%")
+		.attr("preserveAspectRatio", "xMidYMid")
+		.attr("viewBox","0 0 "+(width-padding_x)+" "+(height-padding_y)+"");
+
+	const treelayout=d3.tree()
+		.size([height-padding_x*15, width-padding_y])
+		.separation(function separation(a, b) {
+        return (a.parent == b.parent ? 1:1);
+    });
+
+	var xScale=d3.scaleLinear()
+								.domain([1220,1900])
+								.range([0,width-padding_x*3.5]);
+//
+// var yScale=d3.scaleLinear()
+// 						.domain;
+
+
+	const root=d3.hierarchy(treeData);
+	const links= treelayout(root).links();
+
+
+
+// console.log(links);
+// console.log(root.descendants());
+
+	var symboldiamond = d3.symbol()
+  							.type(d3.symbolDiamond)
+ 							.size(100);
+
+	var pathDiamond = symboldiamond();
+
+
+	const linkPathGenerator=d3.linkHorizontal()
+			.x(function(d){
+								return xScale(d.data.year)+padding_x;})
+			.y(function(d){ return d.x;});
+
+	map.selectAll("path")
+		.data(links)
+		.attr("id","line_h")
+		.enter()
+		.append("g")
+		.append("path")
+		.attr("d",linkPathGenerator);
+
+// console.log("fsddcs");
+
+
+var symbolDiamondGen = d3.symbol()
+	.type(d3.symbolDiamond)
+	.size(10);
+
+var symbolCircleGen = d3.symbol()
+	.type(d3.symbolCircle)
+	.size(10);
+
+
+
+//var dataset_map=root.descendants();
+
+map.append('g')
+	.selectAll('path')
+	.data(root.descendants())
+	.enter()
+	.append('path')
+	.attr("transform",function(d){var cor="translate("+(xScale(d.data.year)+padding_x)+","+(d.x)+")";
+		console.log("cor   :"+cor);
+		console.log(d.data.name);
+		return cor;} )
+	.attr('d', function(d)
+		{
+			if(d.data.value==1)
+				{//console.log(d.data.connect);
+				return symbolDiamondGen();}
+			else
+				{//console.log(d.value);
+					return symbolCircleGen();}
+		})
+	.attr("class","shapes")
+
+	;
+
+
+
+
+
+// family.append('g')
+// 	.selectAll('text')
+// 	.data(root.descendants())
+// 	.enter()
+// 	.append('text')
+// 	.attr("x", function(d){
+// 		return xScale(d.data.year);
+// 	})
+// 	.attr("y", function(d){
+// 		return d.x;
+// 	})
+// 	.text(function(d){return d.data.name;})
+// 	.attr("font-size", "5px");
+
+
+
+
+console.log("done");
+
+var xAxis=d3.axisBottom()
+					.scale(xScale);
+
+var gX=family.append("g")
+						.call(xAxis)
+						.attr("transform", "translate("+padding_x+","+(height-padding_y*3)+")")
+						;
+family.append("g")
+			.append("text")
+			.attr("x", width/2)
+			.attr("y", height-padding_y*1.5)
+			.text("Timeline(A.D.)");
+
+var zoom = d3.zoom()
+			    .scaleExtent([.5, 20])
+			    .extent([[0, 0], [width-padding_x,height-padding_y ]])
+			    .on("zoom", zoomed);
+
+
+family.call(zoom);
+
+function zoomed() {
+// create new scale ojects based on event
+    var new_xScale = d3.event.transform.rescaleX(xScale);
+  //  var new_yScale = d3.event.transform.rescaleY(yScale);
+// update axes
+    gX.call(xAxis.scale(new_xScale));
+  //  gY.call(yAxis.scale(new_yScale));
+	//map.data(links);
+//	console.log(root.descendants());
+	// map.attr("transform",d3.event.transform);
+
+linkPathGenerator.x(function(d){
+								console.log("old:"+xScale(d.data.year)+"new:"+new_xScale(d.data.year));
+								return (new_xScale(d.data.year)+padding_x);
+							})
+		//	.y(function(d){ return d.x;})
+		;
+
+map.select("#line_h")
+
+		.data(links)
+		.attr("class", function()
+	{
+		console.log("inisde");
+	})
+		.attr("d",linkPathGenerator)
+		;
+
+
+map.selectAll('g')
+	.selectAll("path")
+	.data(root.descendants())
+	//.append("path")
+	.attr("transform",function(d){
+		var cor="translate("+(new_xScale(d.data.year)+padding_x)+","+(d.x)+")";
+	//	console.log("cor   :"+d.data.year);
+	//	console.log(d.data.name);
+		return cor;
+	} );
+
+//console.log(root.descendants());
+}
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.wrapper4
+{
+   display:grid;
+        grid-template-columns: 1fr 2fr 3fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 2px;
+}
+  .viz_administration_class {
+      position: relative;
+      height: 90vh;
+      width: 100%;
+      padding: 0;
+      /* background:blue; */
+      /* padding-bottom will be overwritten by JavaScript later */
+      /* padding-bottom: 100%; */
+  }
+  .fonts{
+  font-family:Source Sans Pro  ;
+  font-size: 18px;
+  }
+  .hover_text
+  {
+    font-family:Source Sans Pro;
+    font-size:15px;
+  }
+  .lezends_small
+  {
+    font-size:14px;
+    font-weight: bold;
+  }
