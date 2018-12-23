@@ -151,7 +151,7 @@ var symbolCircleGen = d3.symbol()
 		.append("rect")
 		.attr("y", family_yScale("1376"))
 		.attr("x",0)
-		.attr("width",(width-family_padding_x*2))
+		.attr("width",(width-family_padding_x))
 		.attr("height",family_yScale(1380)-family_yScale(1376))
 		// .attr("class", "interim")
 		.attr("fill",interim_col)
@@ -189,13 +189,17 @@ var symbolCircleGen = d3.symbol()
 {
 	d3.select("#mouseover_rect").remove();
 	d3.select("#mouseover_name").remove();
+})
+.on("click",function()
+{
+	document.getElementById("fam_intro").innerHTML="After Sutupha the state was ruled by the ministers without any King. That period in Ahom kingdom was known as the Interim period.";
 });
 
 var interim2=family
 	.append("rect")
 	.attr("y", family_yScale("1389"))
 	.attr("x",0)
-	.attr("width",(width-family_padding_x*2))
+	.attr("width",(width-family_padding_x))
 	.attr("height",family_yScale(1397)-family_yScale(1389))
 	.attr("fill",interim_col)
 	// .attr("class", "interim")
@@ -235,6 +239,10 @@ var interim2=family
 {
 d3.select("#mouseover_rect").remove();
 d3.select("#mouseover_name").remove();
+})
+.on("click",function()
+{
+	document.getElementById("fam_intro").innerHTML="After the death of Tyaokhamte there was no King for a period of 9 years from 1389 to 1398. in 1398 Tyaokhamte's son was discovered by the ministers and was made the rightful King";
 });
 
 var strlenMultiplier=10;
