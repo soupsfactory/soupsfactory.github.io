@@ -577,6 +577,7 @@ var timeline_rects=family_timeperiod.append("g")
 					// .attr("height",20)
 					// .attr("width",90)
 					.attr("y",0)
+					.attr("cursor","default")
 					// .attr("fill",blue_col)
 					.attr("class","timeline_text_click")
 
@@ -595,6 +596,7 @@ var timeline_rects=family_timeperiod.append("g")
 		.attr("id", "timeline_hover")
 		.attr("y",family_yScale(1268))
 		.style("text-anchor","end")
+		.attr("cursor","default")
 		.attr("x",width-family_padding_x )
 		.attr("class","fam_timeline_text_hover")
 		.attr("opacity",0)
@@ -654,6 +656,7 @@ return family_yScale(1268)-rScale(6);
 })
 	.style("text-anchor","end")
 .attr("class","fam_timeline_text")
+.attr("cursor","default")
 .text(function(){
 return "1228-1268";
 });
@@ -759,6 +762,7 @@ family.select("#timeline_hover")
 	// 	return family_xScale(d.timeline1)+(family_xScale(d.timeline2)-family_xScale(d.timeline1))/2;
 	// })
 	.attr("y",family_padding_y*1.50)
+	.attr("cursor","default")
 	// .attr("transform", "translate("+(family_padding_x*5)+","+family_padding_y*1.40+")")
 	.style("text-anchor","middle")
 	.text(d.timeline1+"-"+d.timeline2)

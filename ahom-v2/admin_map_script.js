@@ -63,6 +63,7 @@ var timeline_rects=timeperiod.append("g")
           .attr("y",admin_map_padding_y*1.7)
           .style("text-anchor","middle")
           .text(d.timeline1+"-"+d.timeline2)
+          .attr("cursor","default")
           .attr("class", "hover_timeline_text")
           .attr("transform", "translate("+admin_map_padding_x/1.8+","+timeperiod_height/4+")");
 

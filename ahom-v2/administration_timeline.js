@@ -158,6 +158,7 @@ var adm_system=svg_administration_timeline.selectAll("#viz_administration_timeli
                       svg_administration_timeline.append("text")
                       .attr("id","admin_text_hover")
                       .attr("class", "hover_text")
+                      .attr("cursor","pointer")
                       .attr("x",adm_timeline_xScale(d.x)+adm_timeline_padding_x/1.25+25)
                       .attr("y",adm_timeline_yScale(d.levels)+adm_timeline_padding_y*2)
                       .text(d.officials);
