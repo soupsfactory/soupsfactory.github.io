@@ -13,7 +13,7 @@ var admin_dataset=[
     },
     {
       "officials": "Buragohain",
-      "levels": 1.2,
+      "levels": 1,
       "x": 4,
       "post created": 1228,
       "description": "always there",
@@ -28,7 +28,7 @@ var admin_dataset=[
       "size": 9
     },
     {
-      "officials": "Borkuwari",
+      "officials": "Raidangiya mel",
       "levels": 5.75,
       "x": 0,
       "post created": 1228,
@@ -36,7 +36,7 @@ var admin_dataset=[
       "size": 2
     },
     {
-      "officials": "Parbatiya Kuwari",
+      "officials": "Parbatiya mel",
       "levels": 6.05,
       "x": 1,
       "post created": 1228,
@@ -44,7 +44,7 @@ var admin_dataset=[
       "size": 2
     },
     {
-      "officials": "Tamulikuwari",
+      "officials": "Purani mel",
       "levels": 6.25,
       "x": 2,
       "post created": 1228,
@@ -52,7 +52,7 @@ var admin_dataset=[
       "size": 2
     },
     {
-      "officials": "Samuwakuwari",
+      "officials": "Na mel",
       "levels": 6.33,
       "x": 3,
       "post created": 1228,
@@ -60,7 +60,7 @@ var admin_dataset=[
       "size": 2
     },
     {
-      "officials": "King's Mother",
+      "officials": "Khangiya mel",
       "levels": 6.38,
       "x": 4,
       "post created": 1228,
@@ -68,7 +68,7 @@ var admin_dataset=[
       "size": 2
     },
     {
-      "officials": "King's stepmother",
+      "officials": "Mahi mel",
       "levels": 6.33,
       "x": 5,
       "post created": 1228,
@@ -76,7 +76,7 @@ var admin_dataset=[
       "size": 2
     },
     {
-      "officials": "King's grandmother",
+      "officials": "Aenaighariya mel",
       "levels": 6.25,
       "x": 6,
       "post created": 1228,
@@ -84,7 +84,7 @@ var admin_dataset=[
       "size": 2
     },
     {
-      "officials": "Daima",
+      "officials": "Kalichengor mel",
       "levels": 6.05,
       "x": 7,
       "post created": 1228,
@@ -92,7 +92,7 @@ var admin_dataset=[
       "size": 2
     },
     {
-      "officials": "King's daughter",
+      "officials": "Gabhorur mel",
       "levels": 5.75,
       "x": 8,
       "post created": 1228,
@@ -228,22 +228,22 @@ var admin_dataset=[
   },
   {
     "officials": "Buragohain",
-    "levels": 1.2,
-    "x": 4,
+    "levels": 1.12,
+    "x": 5,
     "post created": 1228,
     "description": "always there",
     "size": 9
   },
   {
     "officials": "Borgohain",
-    "levels": 1,
-    "x": 2,
+    "levels": 1.12,
+    "x": 3,
     "post created": 1228,
     "description": "always there",
     "size": 9
   },
   {
-    "officials": "Borkuwari",
+    "officials": "Raidangiya mel",
     "levels": -1,
     "x": 0,
     "post created": 1228,
@@ -251,7 +251,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya Kuwari",
+    "officials": "Parbatiya mel",
     "levels": -1,
     "x": 1,
     "post created": 1228,
@@ -259,7 +259,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Tamuli Kuwari",
+    "officials": "Tamuli konwari",
     "levels": -1,
     "x": 2,
     "post created": 1228,
@@ -267,7 +267,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Samuwa Kuwari",
+    "officials": "Samuwa konwari",
     "levels": -1,
     "x": 3,
     "post created": 1228,
@@ -275,7 +275,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's Mother",
+    "officials": "Khangiya mel",
     "levels": -1,
     "x": 4,
     "post created": 1228,
@@ -283,7 +283,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's stepmother",
+    "officials": "Mahi mel",
     "levels": -1,
     "x": 5,
     "post created": 1228,
@@ -291,7 +291,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's grandmother",
+    "officials": "Aenaighariya mel",
     "levels": -1,
     "x": 6,
     "post created": 1228,
@@ -299,7 +299,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Daima",
+    "officials": "Kalichengor mel",
     "levels": -1,
     "x": 7,
     "post created": 1228,
@@ -307,7 +307,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's daughter",
+    "officials": "Gabhorur mel",
     "levels": -1,
     "x": 8,
     "post created": 1228,
@@ -443,22 +443,22 @@ var admin_dataset=[
   },
   {
     "officials": "Buragohain",
-    "levels": 1.2,
-    "x": 4,
+    "levels": 1.12,
+    "x": 5,
     "post created": 1228,
     "description": "always there",
     "size": 9
   },
   {
     "officials": "Borgohain",
-    "levels": 1,
-    "x": 2,
+    "levels": 1.12,
+    "x": 3,
     "post created": 1228,
     "description": "always there",
     "size": 9
   },
   {
-    "officials": "Borkuwari",
+    "officials": "Raidangiya mel",
     "levels": -1,
     "x": 0,
     "post created": 1228,
@@ -466,7 +466,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya Kuwari",
+    "officials": "Parbatiya mel",
     "levels": -1,
     "x": 1,
     "post created": 1228,
@@ -474,7 +474,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Tamuli Kuwari",
+    "officials": "Tamuli konwari",
     "levels": -1,
     "x": 2,
     "post created": 1228,
@@ -482,7 +482,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Samuwa Kuwari",
+    "officials": "Samuwa konwari",
     "levels": -1,
     "x": 3,
     "post created": 1228,
@@ -490,7 +490,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's Mother",
+    "officials": "Khangiya mel",
     "levels": -1,
     "x": 4,
     "post created": 1228,
@@ -498,7 +498,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's stepmother",
+    "officials": "Mahi mel",
     "levels": -1,
     "x": 5,
     "post created": 1228,
@@ -506,7 +506,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's grandmother",
+    "officials": "Aenaighariya mel",
     "levels": -1,
     "x": 6,
     "post created": 1228,
@@ -514,7 +514,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Daima",
+    "officials": "Kalichengor mel",
     "levels": -1,
     "x": 7,
     "post created": 1228,
@@ -522,7 +522,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's daughter",
+    "officials": "Gabhorur mel",
     "levels": -1,
     "x": 8,
     "post created": 1228,
@@ -660,7 +660,7 @@ var admin_dataset=[
   },
   {
     "officials": "Buragohain",
-    "levels": 1.2,
+    "levels": 1,
     "x": 4,
     "post created": 1228,
     "description": "always there",
@@ -675,7 +675,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Borkuwari",
+    "officials": "Raidangiya mel",
     "levels": -1,
     "x": 0,
     "post created": 1228,
@@ -683,7 +683,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya Kuwari",
+    "officials": "Parbatiya mel",
     "levels": -1,
     "x": 1,
     "post created": 1228,
@@ -691,7 +691,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Tamuli Kuwari",
+    "officials": "Tamuli konwari",
     "levels": -1,
     "x": 2,
     "post created": 1228,
@@ -699,7 +699,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Samuwa Kuwari",
+    "officials": "Samuwa konwari",
     "levels": -1,
     "x": 3,
     "post created": 1228,
@@ -707,7 +707,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's Mother",
+    "officials": "Khangiya mel",
     "levels": -1,
     "x": 4,
     "post created": 1228,
@@ -715,7 +715,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's stepmother",
+    "officials": "Mahi mel",
     "levels": -1,
     "x": 5,
     "post created": 1228,
@@ -723,7 +723,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's grandmother",
+    "officials": "Aenaighariya mel",
     "levels": -1,
     "x": 6,
     "post created": 1228,
@@ -731,7 +731,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Daima",
+    "officials": "Kalichengor mel",
     "levels": -1,
     "x": 7,
     "post created": 1228,
@@ -739,7 +739,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's daughter",
+    "officials": "Gabhorur mel",
     "levels": -1,
     "x": 8,
     "post created": 1228,
@@ -875,7 +875,7 @@ var admin_dataset=[
   },
   {
     "officials": "Buragohain",
-    "levels": 1.2,
+    "levels": 1,
     "x": 4,
     "post created": 1228,
     "description": "always there",
@@ -890,7 +890,7 @@ var admin_dataset=[
     "size": 9
   },
   {
-    "officials": "Borkuwari",
+    "officials": "Raidangiya mel",
     "levels": -1,
     "x": 0,
     "post created": 1228,
@@ -898,7 +898,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Parbatiya Kuwari",
+    "officials": "Parbatiya mel",
     "levels": -1,
     "x": 1,
     "post created": 1228,
@@ -906,7 +906,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Tamuli Kuwari",
+    "officials": "Tamuli konwari",
     "levels": -1,
     "x": 2,
     "post created": 1228,
@@ -914,7 +914,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Samuwa Kuwari",
+    "officials": "Samuwa konwari",
     "levels": -1,
     "x": 3,
     "post created": 1228,
@@ -922,7 +922,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's Mother",
+    "officials": "Khangiya mel",
     "levels": -1,
     "x": 4,
     "post created": 1228,
@@ -930,7 +930,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's stepmother",
+    "officials": "Mahi mel",
     "levels": -1,
     "x": 5,
     "post created": 1228,
@@ -938,7 +938,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's grandmother",
+    "officials": "Aenaighariya mel",
     "levels": -1,
     "x": 6,
     "post created": 1228,
@@ -946,7 +946,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "Daima",
+    "officials": "Kalichengor mel",
     "levels": -1,
     "x": 7,
     "post created": 1228,
@@ -954,7 +954,7 @@ var admin_dataset=[
     "size": 2
   },
   {
-    "officials": "King's daughter",
+    "officials": "Gabhorur mel",
     "levels": -1,
     "x": 8,
     "post created": 1228,
@@ -1103,7 +1103,7 @@ var admin_dataset=[
 //     "size": 9
 //   },
 //   {
-//     "officials": "Borkuwari",
+//     "officials": "Raidangiya mel",
 //     "levels": 5.75,
 //     "x": 0,
 //     "post created": 1228,
@@ -1111,7 +1111,7 @@ var admin_dataset=[
 //     "size": 2
 //   },
 //   {
-//     "officials": "Parbatiya Kuwari",
+//     "officials": "Parbatiya mel",
 //     "levels": 6.05,
 //     "x": 1,
 //     "post created": 1228,
@@ -1119,7 +1119,7 @@ var admin_dataset=[
 //     "size": 2
 //   },
 //   {
-//     "officials": "Tamulikuwari",
+//     "officials": "Purani mel",
 //     "levels": 6.25,
 //     "x": 2,
 //     "post created": 1228,
@@ -1127,7 +1127,7 @@ var admin_dataset=[
 //     "size": 2
 //   },
 //   {
-//     "officials": "Samuwakuwari",
+//     "officials": "Na mel",
 //     "levels": 6.33,
 //     "x": 3,
 //     "post created": 1228,
@@ -1135,7 +1135,7 @@ var admin_dataset=[
 //     "size": 2
 //   },
 //   {
-//     "officials": "King's Mother",
+//     "officials": "Khangiya mel",
 //     "levels": 6.38,
 //     "x": 4,
 //     "post created": 1228,
@@ -1143,7 +1143,7 @@ var admin_dataset=[
 //     "size": 2
 //   },
 //   {
-//     "officials": "King's stepmother",
+//     "officials": "Mahi mel",
 //     "levels": 6.33,
 //     "x": 5,
 //     "post created": 1228,
@@ -1151,7 +1151,7 @@ var admin_dataset=[
 //     "size": 2
 //   },
 //   {
-//     "officials": "King's grandmother",
+//     "officials": "Aenaighariya mel",
 //     "levels": 6.25,
 //     "x": 6,
 //     "post created": 1228,
@@ -1159,7 +1159,7 @@ var admin_dataset=[
 //     "size": 2
 //   },
 //   {
-//     "officials": "Daima",
+//     "officials": "Kalichengor mel",
 //     "levels": 6.05,
 //     "x": 7,
 //     "post created": 1228,
@@ -1167,7 +1167,7 @@ var admin_dataset=[
 //     "size": 2
 //   },
 //   {
-//     "officials": "King's daughter",
+//     "officials": "Gabhorur mel",
 //     "levels": 5.75,
 //     "x": 8,
 //     "post created": 1228,

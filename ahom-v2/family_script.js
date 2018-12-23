@@ -125,6 +125,7 @@ var symbolCircleGen = d3.symbol()
 					.attr("width", width-family_padding_x)
 					.attr("fill","#a9c0d6")
 					.attr("opacity",0.3)
+					.attr("cursor","pointer")
 					.on("mouseover",function(d)
 				{
 					d3.select(this)
