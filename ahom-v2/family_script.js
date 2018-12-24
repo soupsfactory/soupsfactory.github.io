@@ -133,11 +133,15 @@ var symbolCircleGen = d3.symbol()
 						.attr("x",0)
 						.attr("y",function(d)
 					{
+						if(d.timeline1==1228)
+						return family_yScale(d.timeline1)-rScale(10);
 						// //console.log("xdcvghbjnk");
 						return family_yScale(d.timeline1);
 					})
 					.attr("height",function(d){
 						//console.log("asdxfg22");
+						if(d.timeline1==1228)
+						return family_yScale(d.timeline2)-family_yScale(d.timeline1)-0.5+rScale(10);
 
 						return family_yScale(d.timeline2)-family_yScale(d.timeline1)-0.5;
 					})
@@ -338,8 +342,16 @@ else {
 
 						// var strlen=d.data.name.length;
 						var x=d.x+family_padding_x*7;
-						if(d.data.name=="Sudinpha or Chandrakanta Singh")
-						x=d.x-(d.data.name.length*strlenMultiplier);
+						if(d.x>width-family_padding_x*150)
+						{
+						if(d.data.name.length>18 || d.data.value==0)
+							{x=d.x-(d.data.name.length*strlenMultiplier)+5;
+						}
+						else {
+
+								x=17*strlenMultiplier;
+							}
+						}
 						// //console.log(x);
 						return x;
 					}
@@ -353,7 +365,7 @@ else {
 				var strlen=d.data.name.length;
 			//	//console.log(strlen);
 				if(strlen>18 || d.data.value==0)
-				return strlen*strlenMultiplier;
+				return strlen*strlenMultiplier+10;
 				else return 17*strlenMultiplier;
 			})
 				.attr("height",function(){
@@ -376,11 +388,22 @@ else {
 		.attr("cx",	function()
 		{
 			//console.log("dar");
-			var x=d.x+family_padding_x*7;
-			if(d.data.name=="Sudinpha or Chandrakanta Singh")
-			x=d.x-(d.data.name.length*strlenMultiplier)+10;
-			//console.log(x);
-			return x+10;
+			var x=d.x+family_padding_x*8.5;
+
+
+			if(d.x>width-family_padding_x*150)
+			{
+			if(d.data.name.length>18)
+				{	x=d.x-(d.data.name.length*strlenMultiplier)+15;
+			}
+			else
+				{
+					x=18*strlenMultiplier;
+				}
+			}
+
+
+			return x;
 	})
 		.attr("cy", family_yScale(d.data.year)-rScale(5))
 		.attr("stroke","#da850b")
@@ -396,9 +419,21 @@ else {
 		.attr("id","hover_circle")
 		.attr("cx",function()
 	{
-		if(d.data.name=="Sudinpha or Chandrakanta Singh")
-		return d.x-(d.data.name.length*strlenMultiplier)+10;
-	return d.x+family_padding_x*7+10;
+				if(d.x>width-family_padding_x*150)
+				{
+				if(d.data.name.length>18 || d.data.value==0)
+					{x= d.x-(d.data.name.length*strlenMultiplier)+15;
+				}
+				else {
+
+						x=18*strlenMultiplier;
+					}
+				}
+				else {
+					x=d.x+family_padding_x*7+10;
+				}
+
+			return x;
 	})
 		.attr("cy",family_yScale(d.data.year)-rScale(5))
 		.attr("stroke",blue_border)
@@ -411,10 +446,25 @@ else {
 	family.append("text")
 			.attr("id","mouseover_name")
 				.attr("x",function(){
-					if(d.data.name=="Sudinpha or Chandrakanta Singh")
-					return d.x-(d.data.name.length*strlenMultiplier)+15;
+
+					if(d.x>width-family_padding_x*150)
+					{
+					if(d.data.name.length>18 || d.data.value==0)
+						{x= d.x-(d.data.name.length*strlenMultiplier)+20;
+					}
+					else {
+
+							x=17*strlenMultiplier+15;
+						}
+					}
+					else
+					{
+						x=d.x+family_padding_x*7+15;
+					}
+
+
 					//console.log(d.x+family_padding_x*7);
-				return d.x+family_padding_x*7+15;
+				return x;
 				})
 				.attr("y",family_yScale(d.data.year))
 				.attr("class","hover_text")
@@ -428,9 +478,22 @@ else {
 		family.append("text")
 				.attr("id","mouseover_name")
 					.attr("x",function(){
-						if(d.data.name=="Sudinpha or Chandrakanta Singh")
-						return d.x-(d.data.name.length*strlenMultiplier)+15;
-					return d.x+family_padding_x*7+15;
+						if(d.x>width-family_padding_x*150)
+						{
+						if(d.data.name.length>18 || d.data.value==0)
+							{x= d.x-(d.data.name.length*strlenMultiplier)+20;
+						}
+						else {
+
+								x=17*strlenMultiplier+15;
+							}
+						}
+						else {
+							x=d.x+family_padding_x*7+15;
+						}
+
+
+					return x;
 					})
 					.attr("y",family_yScale(d.data.year)+20)
 					.attr("class","hover_text")
@@ -442,9 +505,21 @@ else {
 	family.append("text")
 			.attr("id","mouseover_year")
 			.attr("x",function(){
-				if(d.data.name=="Sudinpha or Chandrakanta Singh")
-				return d.x-(d.data.name.length*strlenMultiplier)+10;
-			return d.x+family_padding_x*7+10;
+				if(d.x>width-family_padding_x*150)
+				{
+				if(d.data.name.length>18 || d.data.value==0)
+					{x= d.x-(d.data.name.length*strlenMultiplier)+20;
+				}
+				else {
+
+						x=17*strlenMultiplier+15;
+					}
+				}
+				else {
+					x=d.x+family_padding_x*7+10;
+				}
+
+			return x;
 			})
 			.attr("y",family_yScale(d.data.year)+40)
 			.attr("class","clickmore hover_text ")
