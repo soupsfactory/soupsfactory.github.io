@@ -62,7 +62,22 @@ var intro_fam_padding_y=intro_fam_height/5;
 
 
 
-
+	family.append("g")
+	.append("rect")
+	.attr("id","timeline_rect")
+	.attr("x",0)
+	.attr("y",function()
+	{return family_yScale(1228)-rScale(10);
+	})
+	.attr("height", function(){
+	return family_yScale(1268)-family_yScale(1228)+rScale(10);
+	})
+	.attr("width",width-family_padding_x)
+	// .attr("transform","translate("+(family_padding_x/2)+",0)")
+	.attr("stroke-width",2)
+	.attr("fill","#cbd9e6")
+	// .attr("opacity",0.3)
+	.attr("stroke",blue_col);
 
 	// var symboldiamond = d3.symbol()
   // 							.type(d3.symbolDiamond)
@@ -105,11 +120,15 @@ var symbolCircleGen = d3.symbol()
 	;
 
 
+
+
+
 	var timeline_rect_fam=family.append("g")
 						.selectAll("rect")
 						.data(map_timeline)
 						.enter()
 						// .append("g")
+						// .attr("id","background")
 						.append("rect")
 						.attr("x",0)
 						.attr("y",function(d)
@@ -131,17 +150,22 @@ var symbolCircleGen = d3.symbol()
 					d3.select(this)
 					.attr("stroke",blue_col)
 					.attr("stroke-width",2)
+					.attr("opacity",0.5)
 				;
 					mouseover_timeline(d);
 				})
 				.on("mouseout",function(d){
 					d3.select(this)
 					.attr("stroke","null")
-					.attr("stroke-width",0);
+					.attr("stroke-width",0)
+					.attr("opacity",0.3);
 					mouseout_timeline();
 				})
 				.on("click", function(d)
 			{
+				// d3.select(this)
+				// .attr("opacity",1);
+
 				click_timeline(d);
 			})		// .attr("transform","translate("+(family_padding_x*5)+",0)")
 						;
@@ -516,21 +540,6 @@ var timeline_rects=family_timeperiod.append("g")
 			// family.select("#timeline_hover").remove();
 		});
 
-		family.append("g")
-		.append("rect")
-		.attr("id","timeline_rect")
-		.attr("x",0)
-		.attr("y",function()
-		{return family_yScale(1228)-rScale(10);
-		})
-		.attr("height", function(){
-		return family_yScale(1268)-family_yScale(1228)+rScale(10);
-		})
-		.attr("width",width-family_padding_x)
-		.attr("transform","translate("+(family_padding_x/2)+",0)")
-		.attr("stroke-width",3)
-		.attr("fill","none")
-		.attr("stroke",blue_col);
 
 
 
