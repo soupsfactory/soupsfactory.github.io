@@ -565,7 +565,7 @@ svg_depose.append("g")
 svg_depose.append("text")
       .attr("x", (sc_width+padding_x*3)/2)
       .attr("y", sc_height+padding_y*4.5)
-      .text("Duration of Reign(years)")
+      .text("Timeperiod(years)")
       .style("text-anchor", "middle")
 
       .attr("class","lezends");
