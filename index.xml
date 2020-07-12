@@ -47,12 +47,192 @@ Here are a collection of explorations and Processing Sketches I worked on.&lt;/p
     
     
         <item>
+        <title>Zuci: Multiplayer Phy-gital game</title>
+        <link>http://supriyadutta.in/projects/zuci/</link>
+        <pubDate>Mon, 22 Jul 2019 01:44:48 +0530</pubDate>
+        
+        <guid>http://supriyadutta.in/projects/zuci/</guid>
+        <description>Supriya Dutta http://supriyadutta.in/projects/zuci/ -&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Type of Project
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tags
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Academic
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+Game Design, Interaction Design
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Guide
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tools used
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;a href = &#34;http://www.udayathavankar.in/&#34;&gt;
+  &lt;u&gt;
+  Prof. Uday Athavankar 
+  &lt;/u&gt;
+
+  &lt;/a&gt;
+
+  
+&lt;/div&gt;
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+  Unity, Photoshop, Illustrator, Colors and Paper
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Folk musical instruments form an integral part of one&#39;s community. Due to the lack of practitioners, rigorous processes of construction(of these instruments) the audience base of these instruments have decreased considerably.&lt;br&gt;
+&lt;br&gt;
+ The goal of this project was to help create awareness and understanding of the folk musical instruments. From the documentation available in &lt;strong&gt;
+  &#34;Barluitor Barbaibhav&#34;
+  &lt;/strong&gt;
+(authored by &lt;i&gt;
+  Rinumoni Baruah 
+  &lt;/i&gt;
+and &lt;i&gt;
+  Chandrasekhar Sarmah
+  &lt;/i&gt;
+, published by Barbaibhav Production) and with help from Brahmaputra Cultural Foundation, we tried to extract different attributes associated with these musical instruments.&lt;br&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img1.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;We wanted to leverage the interactivity and social engagement a game provides and decided to use game design as an approach to this problem statement
+We aimed to create a game which would focus on the construction of each of the musical instruments, raw materials needed, where they can be obtained from, how they sound like, and how to mix their sounds together to create traditional or custom soundtracks.&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;h5 id=&#34;__zuci-phygital-multiplayer-game__&#34;&gt;&lt;strong&gt;ZUCI: phygital multiplayer game&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/game1.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img3.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img61.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img7.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;h6 id=&#34;__playtesting__&#34;&gt;&lt;strong&gt;Playtesting&lt;/strong&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img5.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img8.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img9.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+- http://supriyadutta.in/projects/zuci/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>600 years of Ahom Kingdom</title>
         <link>http://supriyadutta.in/projects/ahom/</link>
-        <pubDate>Tue, 05 May 2020 01:44:48 +0530</pubDate>
+        <pubDate>Thu, 27 Dec 2018 01:44:48 +0530</pubDate>
         
         <guid>http://supriyadutta.in/projects/ahom/</guid>
-        <description>Supriya Dutta http://supriyadutta.in/projects/ahom/ -&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
+        <description>Supriya Dutta http://supriyadutta.in/projects/ahom/ -&lt;div class=&#34;row&#34;&gt;
   
 &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
   
@@ -225,7 +405,7 @@ The aim of this project is to transform the textual accounts of history to a mor
 
 &lt;/div&gt;
 
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
@@ -283,237 +463,9 @@ FIN.&lt;/p&gt;
     
     
         <item>
-        <title>My Friend Mr Leakey</title>
-        <link>http://supriyadutta.in/projects/leakey/</link>
-        <pubDate>Fri, 05 May 2017 01:44:48 +0530</pubDate>
-        
-        <guid>http://supriyadutta.in/projects/leakey/</guid>
-        <description>Supriya Dutta http://supriyadutta.in/projects/leakey/ -&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
-  
-&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-  &lt;strong&gt;
-  Type of Project
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-    &lt;strong&gt;
-  Tags
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-
-&lt;div class=&#34;row&#34;&gt;
-  
-&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-Academic
-
-&lt;/div&gt;
-
-
-&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-Typesetting, Graphics Design, Illustration
-
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;br&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-  &lt;strong&gt;
-  Guide
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-    &lt;strong&gt;
-  Tools used
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-  &lt;a href = &#34;http://www.idc.iitb.ac.in/~girish/&#34;&gt;
-  &lt;u&gt;
-  Prof. Girish Dalvi 
-  &lt;/u&gt;
-
-  &lt;/a&gt;
-
-  
-&lt;/div&gt;
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-  InDesign, Illustrator, Photoshop
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;br&gt;
-
-
-  &lt;div class=&#34;row&#34;&gt;
-  
-    &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-
-    
-&lt;/div&gt;
-
-    
-&lt;/div&gt;
-
-
-
-&lt;/div&gt;
-
-&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&#39;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.  
-I hope you enjoy this design as much as I loved working on it! &lt;br&gt;
-
-
-
-&lt;/div&gt;
-
-
-
-&lt;/div&gt;
-
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/book/bk2.png&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/book/bk5.png&#34;/&gt; 
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/book/bk6.png&#34;/&gt; 
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/book/bk3.jpg&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-  &lt;img src = &#34;/images/book/bk7.png&#34;&gt;
-  
-  
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-    &lt;img src = &#34;/images/book/bk8.png&#34;&gt;
-  
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:50%&#34;&gt;
-  
-  &lt;img src = &#34;/images/book/bk11.png&#34;&gt;
-  
-  
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:50%&#34;&gt;
-  
-    &lt;img src = &#34;/images/book/bk9.png&#34;&gt;
-  
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;br&gt;
-&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/book/bk10.png&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-FIN.&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;/p&gt;
-- http://supriyadutta.in/projects/leakey/ - </description>
-        </item>
-    
-    
-    
-        <item>
         <title>Mukha Shilpa</title>
         <link>http://supriyadutta.in/projects/majuli/</link>
-        <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+        <pubDate>Mon, 09 Apr 2018 10:58:08 -0400</pubDate>
         
         <guid>http://supriyadutta.in/projects/majuli/</guid>
         <description>Supriya Dutta http://supriyadutta.in/projects/majuli/ -&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
@@ -736,6 +688,234 @@ The art of &lt;strong&gt;
 &lt;br&gt;
 &lt;/p&gt;
 - http://supriyadutta.in/projects/majuli/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>My Friend Mr Leakey</title>
+        <link>http://supriyadutta.in/projects/leakey/</link>
+        <pubDate>Sun, 05 Nov 2017 01:44:48 +0530</pubDate>
+        
+        <guid>http://supriyadutta.in/projects/leakey/</guid>
+        <description>Supriya Dutta http://supriyadutta.in/projects/leakey/ -&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Type of Project
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tags
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Academic
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+Typesetting, Graphics Design, Illustration
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Guide
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tools used
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;a href = &#34;http://www.idc.iitb.ac.in/~girish/&#34;&gt;
+  &lt;u&gt;
+  Prof. Girish Dalvi 
+  &lt;/u&gt;
+
+  &lt;/a&gt;
+
+  
+&lt;/div&gt;
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+  InDesign, Illustrator, Photoshop
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+
+
+  &lt;div class=&#34;row&#34;&gt;
+  
+    &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+
+    
+&lt;/div&gt;
+
+    
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&#39;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.  
+I hope you enjoy this design as much as I loved working on it! &lt;br&gt;
+
+
+
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/book/bk2.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/book/bk5.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/book/bk6.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/book/bk3.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+  &lt;img src = &#34;/images/book/bk7.png&#34;&gt;
+  
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+    &lt;img src = &#34;/images/book/bk8.png&#34;&gt;
+  
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:50%&#34;&gt;
+  
+  &lt;img src = &#34;/images/book/bk11.png&#34;&gt;
+  
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:50%&#34;&gt;
+  
+    &lt;img src = &#34;/images/book/bk9.png&#34;&gt;
+  
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/book/bk10.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+FIN.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+- http://supriyadutta.in/projects/leakey/ - </description>
         </item>
     
     
