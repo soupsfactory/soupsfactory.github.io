@@ -341,21 +341,20 @@ Data Visualization
   
 &lt;/div&gt;
 
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+  &lt;strong&gt;
+  BTS
+  &lt;/strong&gt;
+
   
 &lt;/div&gt;
+
+  
+&lt;/div&gt;
+
 
   &lt;div class=&#34;row&#34;&gt;
-  
-    &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-
-    
-&lt;/div&gt;
-
-    
-&lt;/div&gt;
-
-    &lt;div class=&#34;row&#34;&gt;
   
       &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
   
@@ -371,6 +370,12 @@ Data Visualization
 
       &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
   
+      &lt;a href = &#34;/stories/ahom_bts&#34;&gt;
+  &lt;u&gt;
+  Behind the Screens: 600 years of Ahom Kingdom 
+  &lt;/u&gt;
+
+  &lt;/a&gt;
 
       
 &lt;/div&gt;
@@ -917,6 +922,8 @@ FIN.&lt;/p&gt;
 &lt;/p&gt;
 - http://supriyadutta.in/projects/leakey/ - </description>
         </item>
+    
+    
     
     
     
