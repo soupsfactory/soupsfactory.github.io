@@ -26,6 +26,15 @@ Here are a collection of explorations and Processing Sketches I worked on.
     </item>
     
     <item>
+      <title>Visualizing Radiology data into medical paper report</title>
+      <link>http://supriyadutta.in/projects/predible/</link>
+      <pubDate>Mon, 27 Apr 2020 01:44:48 +0530</pubDate>
+      
+      <guid>http://supriyadutta.in/projects/predible/</guid>
+      <description>Predible Health is an AI startup. They work with Artificial Intelligence to draw out information from Radiology data. We collaborated on a project to create physical reports for the users – Pulmonologist, radiologist, and patients. The objective of the project was to find an effective way of representing the Lung CT Scan data into a medical report, specially catered to our target users. The data we wanted to present was divided into three sections: Nodule analysis data, Low Attenuation analysis data, and High Attenuation analysis data.</description>
+    </item>
+    
+    <item>
       <title>Zuci: Multiplayer Phy-gital game</title>
       <link>http://supriyadutta.in/projects/zuci/</link>
       <pubDate>Mon, 22 Jul 2019 01:44:48 +0530</pubDate>

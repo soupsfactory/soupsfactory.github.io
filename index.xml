@@ -47,6 +47,54 @@ Here are a collection of explorations and Processing Sketches I worked on.&lt;/p
     
     
         <item>
+        <title>Visualizing Radiology data into medical paper report</title>
+        <link>http://supriyadutta.in/projects/predible/</link>
+        <pubDate>Mon, 27 Apr 2020 01:44:48 +0530</pubDate>
+        
+        <guid>http://supriyadutta.in/projects/predible/</guid>
+        <description>Supriya Dutta http://supriyadutta.in/projects/predible/ -&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+
+Predible Health is an AI startup. They work with Artificial Intelligence to draw out information from Radiology data. We collaborated on a project to create physical reports for the users – Pulmonologist, radiologist, and patients. &lt;strong&gt;The objective of the project was to find an effective way of representing the Lung CT Scan data into a medical report&lt;/strong&gt;, specially catered to our target users. The data we wanted to present was divided into three sections: Nodule analysis data, Low Attenuation analysis data, and High Attenuation analysis data.
+Throughout the design process, we faced two major challenges. The first being visualizing data primarily presented as 3D projections into a 2D surface. The second was to arrange and visualize in a way both suitable for experts and patients.  &lt;br&gt;
+&lt;br&gt;
+
+After numerous iterations, we were able to come up with this final report. This is now approved by experts and is in use.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/predible/predible1.jpg&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/predible/predible2.jpg&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/predible/predible3.jpg&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+FIN.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+- http://supriyadutta.in/projects/predible/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>Zuci: Multiplayer Phy-gital game</title>
         <link>http://supriyadutta.in/projects/zuci/</link>
         <pubDate>Mon, 22 Jul 2019 01:44:48 +0530</pubDate>
