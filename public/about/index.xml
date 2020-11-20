@@ -1,26 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Abouts on Supriya Dutta</title>
-    <link>http://supriyadutta.in/about/</link>
-    <description>Recent content in Abouts on Supriya Dutta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://supriyadutta.in/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>About me</title>
-      <link>http://supriyadutta.in/about/aboutme.stuff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://supriyadutta.in/about/aboutme.stuff/</guid>
-      <description>Hello World!
-I am Supriya.
-I see design as a way to communicate through a collaborative and experiential medium. I am driven more towards work that involves making and breaking, data, visualization, storytelling, experiments, explorations, game design strategies..(and blue food).
-Currently working as a User Experience Specialist at MathWorks Bangalore, India. Here, we are trying to explore ways for users to have a smooth experience with the software and its complex strategies and functionalities.</description>
-    </item>
-    
-  </channel>
-</rss>
