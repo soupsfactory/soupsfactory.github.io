@@ -28,12 +28,17 @@
   </url>
   
   <url>
-    <loc>http://supriyadutta.in/tags/game-design/</loc>
-    <lastmod>2019-07-22T01:44:48+05:30</lastmod>
+    <loc>http://supriyadutta.in/tags/interaction-design/</loc>
+    <lastmod>2020-04-27T01:44:48+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://supriyadutta.in/tags/interaction-design/</loc>
+    <loc>http://supriyadutta.in/projects/predible/</loc>
+    <lastmod>2020-04-27T01:44:48+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://supriyadutta.in/tags/game-design/</loc>
     <lastmod>2019-07-22T01:44:48+05:30</lastmod>
   </url>
   
@@ -75,6 +80,22 @@
   <url>
     <loc>http://supriyadutta.in/tags/typesetting/</loc>
     <lastmod>2017-11-05T01:44:48+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://supriyadutta.in/about/aboutme.stuff/</loc>
+  </url>
+  
+  <url>
+    <loc>http://supriyadutta.in/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://supriyadutta.in/stories/ahom_bts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://supriyadutta.in/stories/</loc>
   </url>
   
 </urlset>
