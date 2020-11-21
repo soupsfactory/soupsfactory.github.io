@@ -21,23 +21,23 @@
 Lately I have been curious about Fractals and Psychedelic patterns. This escalated when I found out about &lt;strong&gt;&lt;a href=&#34;https://thecodingtrain.com/&#34;&gt;Daniel Shiffman&amp;rsquo;s Coding Train&lt;/a&gt; tutorials&lt;/strong&gt;.&lt;br&gt;
 Here are a collection of explorations and Processing Sketches I worked on.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;a href=&#34;https://www.instagram.com/p/B8ZYuRdHtJ5/?utm_source=ig_web_copy_link&#34;&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/processing/pro1.png&#34;/&gt; &lt;/a&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/process/pro1.png&#34;/&gt; &lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;a href=&#34;https://www.instagram.com/p/B8tnnxYHvOf/?utm_source=ig_web_copy_link&#34;&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/processing/pro2.png&#34;/&gt; &lt;/a&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/process/pro2.png&#34;/&gt; &lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;a href=&#34;https://www.instagram.com/p/B5swCNmnDTb/?utm_source=ig_web_copy_link&#34;&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/processing/pro3.png&#34;/&gt; &lt;/a&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/process/pro3.png&#34;/&gt; &lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;a href=&#34;https://www.instagram.com/p/CGnUTeXnlwW/?utm_source=ig_web_copy_link&#34;&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/processing/pro4.gif&#34;/&gt; &lt;/a&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/process/pro4.gif&#34;/&gt; &lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;a href=&#34;https://www.instagram.com/p/CGp1moPnNWf/?utm_source=ig_web_copy_link&#34;&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/processing/pro5.png&#34;/&gt; &lt;/a&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/process/pro5.png&#34;/&gt; &lt;/a&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 - http://supriyadutta.in/projects/processing/ - </description>
@@ -96,7 +96,7 @@ FIN.&lt;/p&gt;
         <item>
         <title>Zuci: Multiplayer Phy-gital game</title>
         <link>http://supriyadutta.in/projects/zuci/</link>
-        <pubDate>Mon, 22 Jul 2019 01:44:48 +0530</pubDate>
+        <pubDate>Mon, 22 Jul 2019 05:44:48 +0530</pubDate>
         
         <guid>http://supriyadutta.in/projects/zuci/</guid>
         <description>Supriya Dutta http://supriyadutta.in/projects/zuci/ -&lt;div class=&#34;row&#34;&gt;
@@ -195,6 +195,46 @@ Game Design, Interaction Design
 
 &lt;/div&gt;
 
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Awards
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  User Centricity Award
+  
+&lt;/div&gt;
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
 
 
 &lt;/div&gt;
@@ -203,16 +243,13 @@ Game Design, Interaction Design
   
 Folk musical instruments form an integral part of one&#39;s community. Due to the lack of practitioners, rigorous processes of construction(of these instruments) the audience base of these instruments have decreased considerably.&lt;br&gt;
 &lt;br&gt;
- The goal of this project was to help create awareness and understanding of the folk musical instruments. From the documentation available in &lt;strong&gt;
-  &#34;Barluitor Barbaibhav&#34;
+ The goal of this project was to help &lt;strong&gt;
+  create awareness and understanding
   &lt;/strong&gt;
-(authored by &lt;i&gt;
-  Rinumoni Baruah 
+ of the folk musical instruments. From the documentation available in &lt;i&gt;
+  &#34;Barluitor Barbaibhav&#34;
   &lt;/i&gt;
-and &lt;i&gt;
-  Chandrasekhar Sarmah
-  &lt;/i&gt;
-, published by Barbaibhav Production) and with help from Brahmaputra Cultural Foundation, we tried to extract different attributes associated with these musical instruments.&lt;br&gt;
+ and with help from Brahmaputra Cultural Foundation, we tried to extract different attributes associated with these musical instruments.&lt;br&gt;
 
 
 &lt;/div&gt;
@@ -222,52 +259,55 @@ and &lt;i&gt;
 
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;
+&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;We wanted to leverage the interactivity and social engagement a game provides and decided to use game design as an approach to this problem statement
+We aimed to create a game which would focus on the &lt;strong&gt;construction&lt;/strong&gt; of each  musical instruments, &lt;strong&gt;raw materials&lt;/strong&gt; needed, where they can be obtained from, how they &lt;strong&gt;sound&lt;/strong&gt; like, and how to &lt;strong&gt;mix their sounds&lt;/strong&gt; together to create traditional or custom &lt;strong&gt;soundtracks&lt;/strong&gt;.&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;h5 id=&#34;__zuci-multiplayer-phygitalhybrid-turn-based-game__&#34;&gt;&lt;strong&gt;ZUCI: Multiplayer phygital/hybrid turn based game&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;4 Players&lt;br&gt;
+8 years and above
+&lt;br&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img1.png&#34;/&gt; 
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;br&gt;
-
-&lt;p&gt;We wanted to leverage the interactivity and social engagement a game provides and decided to use game design as an approach to this problem statement
-We aimed to create a game which would focus on the construction of each of the musical instruments, raw materials needed, where they can be obtained from, how they sound like, and how to mix their sounds together to create traditional or custom soundtracks.&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;/p&gt;
-&lt;h5 id=&#34;__zuci-phygital-multiplayer-game__&#34;&gt;&lt;strong&gt;ZUCI: phygital multiplayer game&lt;/strong&gt;&lt;/h5&gt;
-&lt;p&gt;&lt;figure&gt;
     &lt;img src=&#34;http://supriyadutta.in/images/zuci/game1.png&#34;/&gt; 
 &lt;/figure&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img3.png&#34;/&gt; 
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img2.jpg&#34;/&gt; 
 &lt;/figure&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img61.jpg&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img7.png&#34;/&gt; 
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img3.jpg&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
+
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;
 &lt;/p&gt;
 &lt;h6 id=&#34;__playtesting__&#34;&gt;&lt;strong&gt;Playtesting&lt;/strong&gt;&lt;/h6&gt;
-&lt;p&gt;&lt;figure&gt;
+&lt;p&gt;Playtests for the game was conducted in a closed room setup, with a total of ten people, spread across three sessions. The feedback and data collected from the playtest was used further to mitigate problems idedified during playtesting.&lt;br&gt;
+&lt;figure&gt;
     &lt;img src=&#34;http://supriyadutta.in/images/zuci/img5.jpg&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img8.png&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img9.png&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img9.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;br&gt;
+
+And lastly, I am very happy to add that this project was awarded &lt;strong&gt;&lt;span style = &#34;color: #ac6c00&#34;&gt;
+  Uday Athavankar User Centricity Award
+  &lt;/span&gt;
+&lt;/strong&gt;  at IDC School Of Design, IIT Bombay.&lt;/p&gt;
 - http://supriyadutta.in/projects/zuci/ - </description>
         </item>
     
