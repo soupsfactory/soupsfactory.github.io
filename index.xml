@@ -94,229 +94,9 @@ FIN.&lt;/p&gt;
     
     
         <item>
-        <title>Zuci: Multiplayer Phy-gital game</title>
-        <link>http://supriyadutta.in/projects/zuci/</link>
-        <pubDate>Mon, 22 Jul 2019 05:44:48 +0530</pubDate>
-        
-        <guid>http://supriyadutta.in/projects/zuci/</guid>
-        <description>Supriya Dutta http://supriyadutta.in/projects/zuci/ -&lt;div class=&#34;row&#34;&gt;
-  
-&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-  &lt;strong&gt;
-  Type of Project
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-    &lt;strong&gt;
-  Tags
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-
-&lt;div class=&#34;row&#34;&gt;
-  
-&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-Academic
-
-&lt;/div&gt;
-
-
-&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-Game Design, Interaction Design
-
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;br&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-  &lt;strong&gt;
-  Guide
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-    &lt;strong&gt;
-  Tools used
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-  &lt;a href = &#34;http://www.udayathavankar.in/&#34;&gt;
-  &lt;u&gt;
-  Prof. Uday Athavankar 
-  &lt;/u&gt;
-
-  &lt;/a&gt;
-
-  
-&lt;/div&gt;
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-  Unity, Photoshop, Illustrator, Colors and Paper
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-  &lt;strong&gt;
-  Awards
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-    &lt;strong&gt;
-  
-  &lt;/strong&gt;
-
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-  User Centricity Award
-  
-&lt;/div&gt;
-
-  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
-  
-
-  
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
-  
-Folk musical instruments form an integral part of one&#39;s community. Due to the lack of practitioners, rigorous processes of construction(of these instruments) the audience base of these instruments have decreased considerably.&lt;br&gt;
-&lt;br&gt;
- The goal of this project was to help &lt;strong&gt;
-  create awareness and understanding
-  &lt;/strong&gt;
- of the folk musical instruments. From the documentation available in &lt;i&gt;
-  &#34;Barluitor Barbaibhav&#34;
-  &lt;/i&gt;
- and with help from Brahmaputra Cultural Foundation, we tried to extract different attributes associated with these musical instruments.&lt;br&gt;
-
-
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;We wanted to leverage the interactivity and social engagement a game provides and decided to use game design as an approach to this problem statement
-We aimed to create a game which would focus on the &lt;strong&gt;construction&lt;/strong&gt; of each  musical instruments, &lt;strong&gt;raw materials&lt;/strong&gt; needed, where they can be obtained from, how they &lt;strong&gt;sound&lt;/strong&gt; like, and how to &lt;strong&gt;mix their sounds&lt;/strong&gt; together to create traditional or custom &lt;strong&gt;soundtracks&lt;/strong&gt;.&lt;br&gt;
-&lt;br&gt;
-&lt;/p&gt;
-&lt;h5 id=&#34;__zuci-multiplayer-phygitalhybrid-turn-based-game__&#34;&gt;&lt;strong&gt;ZUCI: Multiplayer phygital/hybrid turn based game&lt;/strong&gt;&lt;/h5&gt;
-&lt;p&gt;4 Players&lt;br&gt;
-8 years and above
-&lt;br&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/game1.png&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img2.jpg&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img3.jpg&#34;/&gt; 
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;br&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;/p&gt;
-&lt;h6 id=&#34;__playtesting__&#34;&gt;&lt;strong&gt;Playtesting&lt;/strong&gt;&lt;/h6&gt;
-&lt;p&gt;Playtests for the game was conducted in a closed room setup, with a total of ten people, spread across three sessions. The feedback and data collected from the playtest was used further to mitigate problems idedified during playtesting.&lt;br&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img5.jpg&#34;/&gt; 
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img9.png&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;br&gt;
-
-And lastly, I am very happy to add that this project was awarded &lt;strong&gt;&lt;span style = &#34;color: #ac6c00&#34;&gt;
-  Uday Athavankar User Centricity Award
-  &lt;/span&gt;
-&lt;/strong&gt;  at IDC School Of Design, IIT Bombay.&lt;/p&gt;
-- http://supriyadutta.in/projects/zuci/ - </description>
-        </item>
-    
-    
-    
-        <item>
         <title>600 years of Ahom Kingdom</title>
         <link>http://supriyadutta.in/projects/ahom/</link>
-        <pubDate>Thu, 27 Dec 2018 01:44:48 +0530</pubDate>
+        <pubDate>Fri, 27 Dec 2019 01:44:48 +0530</pubDate>
         
         <guid>http://supriyadutta.in/projects/ahom/</guid>
         <description>Supriya Dutta http://supriyadutta.in/projects/ahom/ -&lt;div class=&#34;row&#34;&gt;
@@ -550,6 +330,391 @@ FIN.&lt;/p&gt;
 &lt;br&gt;
 &lt;/p&gt;
 - http://supriyadutta.in/projects/ahom/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Zuci: Multiplayer Phy-gital game</title>
+        <link>http://supriyadutta.in/projects/zuci/</link>
+        <pubDate>Mon, 22 Jul 2019 05:44:48 +0530</pubDate>
+        
+        <guid>http://supriyadutta.in/projects/zuci/</guid>
+        <description>Supriya Dutta http://supriyadutta.in/projects/zuci/ -&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Type of Project
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tags
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Academic
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+Game Design, Interaction Design
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Guide
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tools used
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;a href = &#34;http://www.udayathavankar.in/&#34;&gt;
+  &lt;u&gt;
+  Prof. Uday Athavankar 
+  &lt;/u&gt;
+
+  &lt;/a&gt;
+
+  
+&lt;/div&gt;
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+  Unity, Photoshop, Illustrator, Colors and Paper
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Awards
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  User Centricity Award
+  
+&lt;/div&gt;
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Folk musical instruments form an integral part of one&#39;s community. Due to the lack of practitioners, rigorous processes of construction(of these instruments) the audience base of these instruments have decreased considerably.&lt;br&gt;
+&lt;br&gt;
+ The goal of this project was to help &lt;strong&gt;
+  create awareness and understanding
+  &lt;/strong&gt;
+ of the folk musical instruments. From the documentation available in &lt;i&gt;
+  &#34;Barluitor Barbaibhav&#34;
+  &lt;/i&gt;
+ and with help from Brahmaputra Cultural Foundation, we tried to extract different attributes associated with these musical instruments.&lt;br&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;We wanted to leverage the interactivity and social engagement a game provides and decided to use game design as an approach to this problem statement.
+We aimed to create a game which would focus on the &lt;strong&gt;construction&lt;/strong&gt; of each  musical instruments, &lt;strong&gt;raw materials&lt;/strong&gt; needed, where they can be obtained from, how they &lt;strong&gt;sound&lt;/strong&gt; like, and how to &lt;strong&gt;mix their sounds&lt;/strong&gt; together to create traditional or custom &lt;strong&gt;soundtracks&lt;/strong&gt;.&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;h5 id=&#34;__zuci-multiplayer-phygitalhybrid-turn-based-game__&#34;&gt;&lt;strong&gt;ZUCI: Multiplayer phygital/hybrid turn based game&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;4 Players&lt;br&gt;
+8 years and above
+&lt;br&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/game1.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img2.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img3.jpg&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;h6 id=&#34;__playtesting__&#34;&gt;&lt;strong&gt;Playtesting&lt;/strong&gt;&lt;/h6&gt;
+&lt;p&gt;Playtests for the game was conducted in a closed room setup, with a total of ten people, spread across three sessions. The feedback and data collected from the playtest was used further to mitigate problems idedified during playtesting.&lt;br&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img5.jpg&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/zuci/img9.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;br&gt;
+
+And lastly, I am very happy to add that this project was awarded &lt;strong&gt;&lt;span style = &#34;color: #ac6c00&#34;&gt;
+  Uday Athavankar User Centricity Award
+  &lt;/span&gt;
+&lt;/strong&gt;  at IDC School Of Design, IIT Bombay.&lt;/p&gt;
+- http://supriyadutta.in/projects/zuci/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Eat - o - pia</title>
+        <link>http://supriyadutta.in/projects/eatopia/</link>
+        <pubDate>Mon, 22 Oct 2018 05:44:48 +0530</pubDate>
+        
+        <guid>http://supriyadutta.in/projects/eatopia/</guid>
+        <description>Supriya Dutta http://supriyadutta.in/projects/eatopia/ -&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Type of Project
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tags
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Academic
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+Game Design, Interaction Design
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Guide
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tools used
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;a href = &#34;http://www.udayathavankar.in/&#34;&gt;
+  &lt;u&gt;
+  Prof. Uday Athavankar 
+  &lt;/u&gt;
+
+  &lt;/a&gt;
+
+  
+&lt;/div&gt;
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+  Unity, Photoshop, Illustrator, Colors and Paper
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Eat-o-pia is a 4-player hybrid or Phy-gital game. This was an exploratory project, created as a tool to help kids understand Foodchain. The aim of this game was to show the relationship between different animals, and their relationship with food. The game is derived from NCERT for class 4 on food cycle.&lt;br&gt;
+&lt;br&gt;
+ This was an academic Project done as a part of master’s program at IDC School of Design, Indian Institute of Technology, Bombay.
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;h5 id=&#34;__eat-o-pia-multiplayer-phygitalhybrid-turn-based-game__&#34;&gt;&lt;strong&gt;Eat-o-pia: Multiplayer phygital/hybrid turn based game&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;4 Players&lt;br&gt;
+8 years and above
+&lt;br&gt;
+&lt;br&gt;
+
+Inside Eat-o-pia each player will have their own arsenal of animals ranging from the Ferocious Lion to the timid sheep, bear and sharks, and  grasshoppers and grass. Each player competes to win over the eat-o-pia land using their own strategies, and a tad bit of luck.
+&lt;br&gt;
+&lt;br&gt;
+
+We started our process with paper prototype first. this helped us to finalize our strategies and game rules.
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/eatopia/playpp.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;br&gt;
+
+Final game 👾
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/eatopia/game.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;h6 id=&#34;__user-testing-and-feedback__&#34;&gt;&lt;strong&gt;User testing and feedback&lt;/strong&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/eatopia/test1.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/eatopia/play2.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;strong&gt;Off-Screen Interaction&lt;/strong&gt;
+We added the scenario were if you find a same animal as you in the path you get to challenge the other player for a game of rock-paper-scissor to decide upon the winner. This part of the game was something the kids were most excited about. They were even pitting grass against grass so that they could play outside the screen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Control Over Luck Factor&lt;/strong&gt;
+The game gave control to the kids by giving them one chance to pick the direction (horizontal/vertical) of the path of action. It was an algorithm which could randomly pick either horizontal or vertical path ,if you are not happy with the path chosen you can try your luck to change it to the alternative path where you have better chance of winning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Learning&lt;/strong&gt;
+The game required the knowledge of food chain for the player to have a winning chances. The conversation between the players regarding which animal can get whom is the key to learning here. Its a safe environment to get the basic understanding of the topic.&lt;/p&gt;
+- http://supriyadutta.in/projects/eatopia/ - </description>
         </item>
     
     
