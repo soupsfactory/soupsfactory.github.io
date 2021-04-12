@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.6.2/d3.min.js" charset="utf-8"></script>
+  <script src="image-mapper.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:100,200,300,400,500,900|Titillium+Web:100,200,300,400,500,900|Roboto:100,200,300,400,500,900">
+  </head>
+  <body class="font_body">
+
+<div class="jumbotron" style="margin-left:10px; margin-right:10px; margin-top:10px">
+    <div class="container">
+
+        <div class="col-sm-8"><h1>Assessment 1</h1></div>
+        <div class="col-sm-4">In this assignment, the task was to:
+          <ul>
+            <li>Upload an image file</li>
+            <li>Display file information</li>
+            <li>Add tags to the image, with description</li>
+            <li>Display the information added</li>
+          </ul></div>
+
+
+    </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">Upload any image file here:</div>
+    <div class="col-sm-6"><form>
+    <input type="file" id="myImage" name="filename" accept="image/*" value="Browse image" onchange="displayparam(this)" class="btn btn-primary">
+
+    </form></div>
+  </div>
+
+</div>
+
+<div class="container" >
+  <div class="row">
+    <div class="col-sm-8 content" id="imagedisp" >
+
+    </div>
+    <div class="col-sm-3 content" >
+      <div class="row padding">
+        <div class="col-sm-10">
+          <div class="row"><div> Image information:</div></div>
+          <div class="row workdisparea" style="width:100%">
+            <div class="row"><div id="fileName">File name...</div></div>
+            <div class="row"><div id="filedimensions">File dimensions ...</div></div>
+            <div class="row"><div id="fileMime">File type...</div></div>
+          </div>
+
+
+
+        </div>
+    </div>
+  <hr>
+    <div class="row padding">
+      <div class="col-sm-12">
+        <div class="row"><div>Additional information table:</div></div>
+        <div class="row">
+          <table id="id_table" class="table table-bordered">
+
+          </table>
+        </div>
+
+
+      </div>
+  </div>
+  </div>
+</div>
+
+
+<!-- <div class="row">
+  <div class="col-sm-4" id="fileName">
+  Upload file to get more information
+  </div>
+  <div class="col-sm-4" id="filedimensions"></div>
+  <div class="col-sm-4" id="fileMime"></div>
+</div>
+
+<div  id="name_list">
+  table here
+  <!-- <table id="id_table" class="table">
+    <tr>
+      <td>hhgh</td>
+      <td>vvvvn</td>
+    </tr>
+  </table> -->
+<!-- </div>
+
+  <div>dsiplay image</div>
+    <div >here here</div>
+  -->
+
+
+  </body>
+</html>

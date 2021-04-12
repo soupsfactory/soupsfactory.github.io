@@ -1,0 +1,45 @@
+.font_body{
+  font-family:"Titillium Web";
+  font-size: 16px;
+  color: #333333 ;
+}
+
+#dates
+{
+  font-size: 12px;
+}
+
+#Precent
+{
+  font-size: 16px;
+}
+
+#lastPrice
+{
+  font-size: 28px;
+  font-weight: 500;
+  /* color: darkgrey; */
+}
+
+.svg_padding
+{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.green{
+  /* font-size: 24px; */
+  color: forestgreen;
+  font-weight: 550;
+}
+
+.red{
+  color: darkred;
+  font-weight: 550;
+}
+
+.lezend
+{
+  font-size: 14px;
+
+}
