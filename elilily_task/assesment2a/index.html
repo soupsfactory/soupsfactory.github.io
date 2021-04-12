@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://d3js.org/d3-time.v2.min.js"></script>
+<script src="https://d3js.org/d3-time-format.v3.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:100,200,300,400,500,900|Titillium+Web:100,200,300,400,500,900|Roboto:100,200,300,400,500,900">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.6.2/d3.min.js" charset="utf-8"></script>
+<link rel="stylesheet" href="site.css">
+    <script type="text/javascript" src="stock-tracker.js"></script>
+  </head>
+
+  <body onload="startWindow()" class="font_body">
+
+    <div class="jumbotron" style="margin-left:10px; margin-right:10px; margin-top:10px">
+        <div class="container">
+
+            <div class="col-sm-8"><h1>Assessment 2</h1><h3>Design 1</h3></div>
+
+        </div>
+    </div>
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="row" id= "selection"></div>
+        <div class="row" id="lastPrice" ></div>
+        <div class="row" id="Precent" ></div>
+        <div class="row" id="dates"></div>
+
+
+      </div>
+      <div class="col-sm-4"></div>
+
+        <div class="input-group mb-3">
+<span>Current ticker </span>
+  <input type="text" class="form-control" placeholder="Enter ticker name" aria-label="Username" aria-describedby="basic-addon1" id="ticker" onchange="TickerListener()">
+</div>
+
+
+      </div>
+    </div>
+
+<br><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9" id="chart" style="height:70%" >
+
+        </div>
+        <div class="col-sm-2 lezend" id="legend" style="height:70%" >
+
+        </div>
+      </div>
+    </div>
+
+<br><br>
+  </body>
+</html>

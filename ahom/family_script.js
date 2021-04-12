@@ -439,7 +439,7 @@ var timeline_rects=family_timeperiod.append("g")
 			// family.select("#timeline_hover").remove();
 			family_timeperiod.select("#hover_text_family_timeperiod").remove();
 			family_timeperiod.select("#hover_rect_family_timeperiod").remove();
-			d3.select(this)
+			d3.select(this);
 			.attr("fill",orange_col);
 		})
 		.on("click",function(d){

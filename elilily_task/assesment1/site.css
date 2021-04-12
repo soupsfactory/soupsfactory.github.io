@@ -1,0 +1,48 @@
+#imagestyle  {
+  height:800px;
+}
+
+.content{
+  background: ghostwhite;
+  padding:10px;
+  margin-right:10px;
+  margin-left:10px;
+  height:100%
+}
+
+.padding{
+padding-left:5px;
+padding-right: 5px
+margin-left:10px;
+margin-right:10px;
+}
+
+.workdisparea{
+padding-left:20px;
+padding-top:10px;
+padding-bottom: 10px;
+background: white;
+font-size: 14px;
+width:100%;
+
+}
+.font_body{
+  font-family:"Titillium Web";
+  font-size: 16px;
+}
+
+.hover_text{
+  font-size: 12px;
+}
+
+
+.description_cl
+{
+  padding:10px;
+}
+
+.bold500
+{
+  font-weight: 500;
+  font-size: 15px;
+}
