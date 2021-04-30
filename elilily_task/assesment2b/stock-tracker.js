@@ -66,8 +66,8 @@ function startWindow()
 fetch("https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-charts?symbol="+ticker+"&interval=5m&range="+duration+"&region=US&comparisons=%5EGDAXI%2C%5EFCHI", {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-key": "872bce87d1msh32029e5d8cbb5b2p1d8447jsnccb7aa8c01e6",
-			"x-rapidapi-host": "apidojo-yahoo-finance-v1.p.rapidapi.com"
+    "x-rapidapi-key": "2a6327d411msh9dc516e048b8e26p13ce61jsnd5eafa7273e9",
+"x-rapidapi-host": "apidojo-yahoo-finance-v1.p.rapidapi.com"
 	}
 })
   .then(status)
@@ -510,8 +510,8 @@ function updateAll()
   fetch(fetchStatement, {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-key": "872bce87d1msh32029e5d8cbb5b2p1d8447jsnccb7aa8c01e6",
-			"x-rapidapi-host": "apidojo-yahoo-finance-v1.p.rapidapi.com"
+    "x-rapidapi-key": "2a6327d411msh9dc516e048b8e26p13ce61jsnd5eafa7273e9",
+  "x-rapidapi-host": "apidojo-yahoo-finance-v1.p.rapidapi.com"
 	}
 })
 .then(status)

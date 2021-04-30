@@ -1,0 +1,107 @@
+body{
+  font-family:"Titillium Web";
+}
+
+.first_box
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.names
+{
+  font-family:"Titillium Web";
+  font-size: 16px;
+  color: #335533 ;
+}
+
+.units
+{
+  font-family:"Titillium Web";
+  font-size: 14px;
+  color: #335533 ;
+}
+
+.year{
+font-family:"Titillium Web";
+font-size: 30px;
+color: #335533 ;
+width:30%;
+background-color: white;
+padding-top: 5;
+padding-bottom: 5;
+font-weight: 600;
+padding-left: 10px;
+border-width: 0px 0px 2px 0px  ;
+border-style: solid;
+border-color: lightgray lightgray cadetblue lightgray;
+
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+/* background-blend-mode:  */
+}
+
+.year_text
+{
+  font-family:"Titillium Web";
+  font-size: 30px;
+  color: #335533 ;
+}
+
+.title{
+  font-family:"Titillium Web";
+font-size: 50px;
+ color: #3D6566 ;
+
+font-weight: 700;
+}
+
+.sticky
+{
+  position: -webkit-sticky;
+  position: sticky;
+  top:10;
+  /* background: aqua; */
+}
+
+.container-fluid
+{
+  padding-left:1%;
+  padding-right: 2%;
+}
+
+.legend_text
+{
+  font-family:"Titillium Web";
+  font-size: 13px;
+  font-weight: 550
+}
+
+
+.legend_t
+{
+  font-weight: 550;
+  font-size: 20px;
+
+}
+
+
+.lezend_container
+{
+  /* background-color: powderblue; */
+  padding-top:5%;
+  padding-bottom: 5%;
+  border-width: 2px 2px 2px 5px  ;
+  border-style: solid;
+  border-color: lightgray lightgray lightgray cadetblue;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.finish
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  font-size: 14px
+}

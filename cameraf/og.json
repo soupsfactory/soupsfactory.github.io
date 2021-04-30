@@ -1,0 +1,10382 @@
+let dataset= [
+  {
+    "Model": "ePhoto 1280",
+    "Brand": "Agfa",
+    "Release": 1997,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 4,
+    "Weight": 420
+  },
+  {
+    "Model": "ePhoto 1680",
+    "Brand": "Agfa",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 4,
+    "Weight": 420
+  },
+  {
+    "Model": "ePhoto CL30",
+    "Brand": "Agfa",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 4,
+    "Weight": 0
+  },
+  {
+    "Model": "ePhoto CL30 Clik!",
+    "Brand": "Agfa",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 43,
+    "ZoomT": 43,
+    "Storage": 40,
+    "Weight": 300
+  },
+  {
+    "Model": "ePhoto CL50",
+    "Brand": "Agfa",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 8,
+    "Weight": 0
+  },
+  {
+    "Model": "ePhoto CL18",
+    "Brand": "Agfa",
+    "Release": 2000,
+    "Effective_pixels": 0,
+    "ZoomW": 45,
+    "ZoomT": 45,
+    "Storage": 2,
+    "Weight": 0
+  },
+  {
+    "Model": "ePhoto CL45",
+    "Brand": "Agfa",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 51,
+    "ZoomT": 51,
+    "Storage": 8,
+    "Weight": 270
+  },
+  {
+    "Model": "PowerShot 600",
+    "Brand": "Canon",
+    "Release": 1996,
+    "Effective_pixels": 1,
+    "ZoomW": 50,
+    "ZoomT": 50,
+    "Storage": 1,
+    "Weight": 460
+  },
+  {
+    "Model": "PowerShot 350",
+    "Brand": "Canon",
+    "Release": 1997,
+    "Effective_pixels": 0,
+    "ZoomW": 42,
+    "ZoomT": 42,
+    "Storage": 2,
+    "Weight": 320
+  },
+  {
+    "Model": "PowerShot A5",
+    "Brand": "Canon",
+    "Release": 1998,
+    "Effective_pixels": 0,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 8,
+    "Weight": 240
+  },
+  {
+    "Model": "PowerShot Pro70",
+    "Brand": "Canon",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 28,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 800
+  },
+  {
+    "Model": "PowerShot A5 Zoom",
+    "Brand": "Canon",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 28,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 290
+  },
+  {
+    "Model": "PowerShot A50",
+    "Brand": "Canon",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 28,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 290
+  },
+  {
+    "Model": "PowerShot S10",
+    "Brand": "Canon",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "EOS D30",
+    "Brand": "Canon",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 16,
+    "Weight": 855
+  },
+  {
+    "Model": "PowerShot G1",
+    "Brand": "Canon",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 490
+  },
+  {
+    "Model": "PowerShot S100",
+    "Brand": "Canon",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "PowerShot S20",
+    "Brand": "Canon",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 32,
+    "ZoomT": 64,
+    "Storage": 16,
+    "Weight": 320
+  },
+  {
+    "Model": "EOS-1D",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 4,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1585
+  },
+  {
+    "Model": "PowerShot A10",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 375
+  },
+  {
+    "Model": "PowerShot A20",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 375
+  },
+  {
+    "Model": "PowerShot G2",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 32,
+    "Weight": 510
+  },
+  {
+    "Model": "PowerShot Pro90 IS",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 37,
+    "ZoomT": 370,
+    "Storage": 16,
+    "Weight": 680
+  },
+  {
+    "Model": "PowerShot S110",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "PowerShot S30",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 323
+  },
+  {
+    "Model": "PowerShot S300",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 270
+  },
+  {
+    "Model": "PowerShot S40",
+    "Brand": "Canon",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 323
+  },
+  {
+    "Model": "EOS D60",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 16,
+    "Weight": 855
+  },
+  {
+    "Model": "EOS-1Ds",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 11,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1585
+  },
+  {
+    "Model": "PowerShot A100",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 8,
+    "Weight": 225
+  },
+  {
+    "Model": "PowerShot A200",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 8,
+    "Weight": 225
+  },
+  {
+    "Model": "PowerShot A30",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 350
+  },
+  {
+    "Model": "PowerShot A40",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 350
+  },
+  {
+    "Model": "PowerShot G3",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 32,
+    "Weight": 490
+  },
+  {
+    "Model": "PowerShot S200",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "PowerShot S230",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "PowerShot S330",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 274
+  },
+  {
+    "Model": "PowerShot S45",
+    "Brand": "Canon",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 323
+  },
+  {
+    "Model": "EOS 10D",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 875
+  },
+  {
+    "Model": "EOS 300D / Digital Rebel",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 645
+  },
+  {
+    "Model": "PowerShot A300",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 32,
+    "Weight": 225
+  },
+  {
+    "Model": "PowerShot A60",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 315
+  },
+  {
+    "Model": "PowerShot A70",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 315
+  },
+  {
+    "Model": "PowerShot A80",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 350
+  },
+  {
+    "Model": "PowerShot G5",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 32,
+    "Weight": 490
+  },
+  {
+    "Model": "PowerShot S400",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 32,
+    "Weight": 230
+  },
+  {
+    "Model": "PowerShot S50",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 323
+  },
+  {
+    "Model": "PowerShot SD10",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 32,
+    "Weight": 140
+  },
+  {
+    "Model": "PowerShot SD100",
+    "Brand": "Canon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 16,
+    "Weight": 185
+  },
+  {
+    "Model": "EOS 20D",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 8,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 770
+  },
+  {
+    "Model": "EOS-1D Mark II",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 8,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1565
+  },
+  {
+    "Model": "EOS-1Ds Mark II",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 16,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1565
+  },
+  {
+    "Model": "PowerShot A310",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 0,
+    "Weight": 205
+  },
+  {
+    "Model": "PowerShot A400",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 45,
+    "ZoomT": 100,
+    "Storage": 16,
+    "Weight": 255
+  },
+  {
+    "Model": "PowerShot A75",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 315
+  },
+  {
+    "Model": "PowerShot A85",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 300
+  },
+  {
+    "Model": "PowerShot A95",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 335
+  },
+  {
+    "Model": "PowerShot G6",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 32,
+    "Weight": 467
+  },
+  {
+    "Model": "PowerShot Pro1",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 200,
+    "Storage": 64,
+    "Weight": 640
+  },
+  {
+    "Model": "PowerShot S1 IS",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 32,
+    "Weight": 469
+  },
+  {
+    "Model": "PowerShot S410",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 32,
+    "Weight": 215
+  },
+  {
+    "Model": "PowerShot S500",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 32,
+    "Weight": 215
+  },
+  {
+    "Model": "PowerShot S60",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 28,
+    "ZoomT": 100,
+    "Storage": 32,
+    "Weight": 300
+  },
+  {
+    "Model": "PowerShot S70",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 100,
+    "Storage": 32,
+    "Weight": 300
+  },
+  {
+    "Model": "PowerShot SD110",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 16,
+    "Weight": 195
+  },
+  {
+    "Model": "PowerShot SD20",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 32,
+    "Weight": 140
+  },
+  {
+    "Model": "PowerShot SD200",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 135
+  },
+  {
+    "Model": "PowerShot SD300",
+    "Brand": "Canon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 147
+  },
+  {
+    "Model": "EOS 20Da",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 770
+  },
+  {
+    "Model": "EOS 350D / Digital Rebel XT",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 540
+  },
+  {
+    "Model": "EOS 5D",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 12,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 895
+  },
+  {
+    "Model": "EOS-1D Mark II N",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1565
+  },
+  {
+    "Model": "PowerShot A410",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 3,
+    "ZoomW": 41,
+    "ZoomT": 131,
+    "Storage": 16,
+    "Weight": 195
+  },
+  {
+    "Model": "PowerShot A510",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 230
+  },
+  {
+    "Model": "PowerShot A520",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 230
+  },
+  {
+    "Model": "PowerShot A610",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 285
+  },
+  {
+    "Model": "PowerShot A620",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 32,
+    "Weight": 285
+  },
+  {
+    "Model": "PowerShot S2 IS",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 16,
+    "Weight": 505
+  },
+  {
+    "Model": "PowerShot S80",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 100,
+    "Storage": 32,
+    "Weight": 290
+  },
+  {
+    "Model": "PowerShot SD30",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 90,
+    "Storage": 16,
+    "Weight": 120
+  },
+  {
+    "Model": "PowerShot SD400",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 150
+  },
+  {
+    "Model": "PowerShot SD430 Wireless",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 185
+  },
+  {
+    "Model": "PowerShot SD450",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 155
+  },
+  {
+    "Model": "PowerShot SD500",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 32,
+    "Weight": 200
+  },
+  {
+    "Model": "PowerShot SD550",
+    "Brand": "Canon",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 32,
+    "Weight": 185
+  },
+  {
+    "Model": "EOS 30D",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 784
+  },
+  {
+    "Model": "EOS 400D / Digital Rebel XTi",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 556
+  },
+  {
+    "Model": "PowerShot A420",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 39,
+    "ZoomT": 125,
+    "Storage": 16,
+    "Weight": 200
+  },
+  {
+    "Model": "PowerShot A430",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 39,
+    "ZoomT": 156,
+    "Storage": 16,
+    "Weight": 210
+  },
+  {
+    "Model": "PowerShot A530",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "PowerShot A540",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 230
+  },
+  {
+    "Model": "PowerShot A630",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 315
+  },
+  {
+    "Model": "PowerShot A640",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 32,
+    "Weight": 315
+  },
+  {
+    "Model": "PowerShot A700",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "PowerShot A710 IS",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 16,
+    "Weight": 210
+  },
+  {
+    "Model": "PowerShot G7",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 32,
+    "Weight": 380
+  },
+  {
+    "Model": "PowerShot S3 IS",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 16,
+    "Weight": 510
+  },
+  {
+    "Model": "PowerShot SD40",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 90,
+    "Storage": 16,
+    "Weight": 120
+  },
+  {
+    "Model": "PowerShot SD600",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 170
+  },
+  {
+    "Model": "PowerShot SD630",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 175
+  },
+  {
+    "Model": "PowerShot SD700 IS",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 195
+  },
+  {
+    "Model": "PowerShot SD800 IS",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 195
+  },
+  {
+    "Model": "PowerShot SD900",
+    "Brand": "Canon",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 32,
+    "Weight": 205
+  },
+  {
+    "Model": "EOS 40D",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 822
+  },
+  {
+    "Model": "EOS-1D Mark III",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1335
+  },
+  {
+    "Model": "EOS-1Ds Mark III",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 21,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1385
+  },
+  {
+    "Model": "PowerShot A450",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 122,
+    "Storage": 16,
+    "Weight": 215
+  },
+  {
+    "Model": "PowerShot A460",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 152,
+    "Storage": 16,
+    "Weight": 215
+  },
+  {
+    "Model": "PowerShot A550",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 210
+  },
+  {
+    "Model": "PowerShot A560",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 205
+  },
+  {
+    "Model": "PowerShot A570 IS",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 215
+  },
+  {
+    "Model": "PowerShot A650 IS",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 32,
+    "Weight": 300
+  },
+  {
+    "Model": "PowerShot A720 IS",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "PowerShot G9",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 32,
+    "Weight": 370
+  },
+  {
+    "Model": "PowerShot S5 IS",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 32,
+    "Weight": 550
+  },
+  {
+    "Model": "PowerShot SD1000",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 175
+  },
+  {
+    "Model": "PowerShot SD750",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 170
+  },
+  {
+    "Model": "PowerShot SD850 IS",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 32,
+    "Weight": 195
+  },
+  {
+    "Model": "PowerShot SD870 IS",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 165
+  },
+  {
+    "Model": "PowerShot SD950 IS",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 36,
+    "ZoomT": 133,
+    "Storage": 32,
+    "Weight": 205
+  },
+  {
+    "Model": "PowerShot SX100 IS",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 360,
+    "Storage": 32,
+    "Weight": 316
+  },
+  {
+    "Model": "PowerShot TX1",
+    "Brand": "Canon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 39,
+    "ZoomT": 390,
+    "Storage": 0,
+    "Weight": 260
+  },
+  {
+    "Model": "QV-300",
+    "Brand": "Casio",
+    "Release": 1996,
+    "Effective_pixels": 0,
+    "ZoomW": 47,
+    "ZoomT": 106,
+    "Storage": 4,
+    "Weight": 290
+  },
+  {
+    "Model": "QV-700",
+    "Brand": "Casio",
+    "Release": 1997,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 4,
+    "Weight": 290
+  },
+  {
+    "Model": "QV-5000SX",
+    "Brand": "Casio",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "QV-7000SX",
+    "Brand": "Casio",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 32,
+    "ZoomT": 64,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "QV-770",
+    "Brand": "Casio",
+    "Release": 1998,
+    "Effective_pixels": 0,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 4,
+    "Weight": 300
+  },
+  {
+    "Model": "QV-2000UX",
+    "Brand": "Casio",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "QV-5500SX",
+    "Brand": "Casio",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "QV-8000SX",
+    "Brand": "Casio",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 40,
+    "ZoomT": 320,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "QV-2300UX",
+    "Brand": "Casio",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 41,
+    "ZoomT": 123,
+    "Storage": 8,
+    "Weight": 245
+  },
+  {
+    "Model": "QV-2800UX",
+    "Brand": "Casio",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 40,
+    "ZoomT": 320,
+    "Storage": 8,
+    "Weight": 295
+  },
+  {
+    "Model": "QV-3000EX",
+    "Brand": "Casio",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 100,
+    "Storage": 16,
+    "Weight": 360
+  },
+  {
+    "Model": "QV-3EX",
+    "Brand": "Casio",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 41,
+    "ZoomT": 41,
+    "Storage": 16,
+    "Weight": 245
+  },
+  {
+    "Model": "GV-10",
+    "Brand": "Casio",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "QV-2100",
+    "Brand": "Casio",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 41,
+    "ZoomT": 41,
+    "Storage": 16,
+    "Weight": 260
+  },
+  {
+    "Model": "QV-2400UX",
+    "Brand": "Casio",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 41,
+    "ZoomT": 123,
+    "Storage": 8,
+    "Weight": 245
+  },
+  {
+    "Model": "QV-2900UX",
+    "Brand": "Casio",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 40,
+    "ZoomT": 320,
+    "Storage": 8,
+    "Weight": 295
+  },
+  {
+    "Model": "QV-3500EX",
+    "Brand": "Casio",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 100,
+    "Storage": 16,
+    "Weight": 360
+  },
+  {
+    "Model": "QV-4000",
+    "Brand": "Casio",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 420
+  },
+  {
+    "Model": "GV-20",
+    "Brand": "Casio",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "QV-5700",
+    "Brand": "Casio",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 420
+  },
+  {
+    "Model": "QV-R3",
+    "Brand": "Casio",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 113,
+    "Storage": 11,
+    "Weight": 240
+  },
+  {
+    "Model": "QV-R4",
+    "Brand": "Casio",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 113,
+    "Storage": 11,
+    "Weight": 240
+  },
+  {
+    "Model": "Exilim EX-S20",
+    "Brand": "Casio",
+    "Release": 2003,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 10,
+    "Weight": 100
+  },
+  {
+    "Model": "Exilim EX-S3",
+    "Brand": "Casio",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 10,
+    "Weight": 110
+  },
+  {
+    "Model": "Exilim EX-Z3",
+    "Brand": "Casio",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 170
+  },
+  {
+    "Model": "Exilim EX-Z4",
+    "Brand": "Casio",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 170
+  },
+  {
+    "Model": "QV-R40",
+    "Brand": "Casio",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 11,
+    "Weight": 210
+  },
+  {
+    "Model": "Exilim EX-P600",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 33,
+    "ZoomT": 132,
+    "Storage": 9,
+    "Weight": 275
+  },
+  {
+    "Model": "Exilim EX-P700",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 7,
+    "ZoomW": 33,
+    "ZoomT": 132,
+    "Storage": 9,
+    "Weight": 275
+  },
+  {
+    "Model": "Exilim EX-S100",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 102,
+    "Storage": 9,
+    "Weight": 123
+  },
+  {
+    "Model": "Exilim EX-Z30",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 9,
+    "Weight": 150
+  },
+  {
+    "Model": "Exilim EX-Z40",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 9,
+    "Weight": 150
+  },
+  {
+    "Model": "Exilim EX-Z50",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 9,
+    "Weight": 171
+  },
+  {
+    "Model": "Exilim EX-Z55",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 9,
+    "Weight": 180
+  },
+  {
+    "Model": "QV-R41",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 9,
+    "Weight": 198
+  },
+  {
+    "Model": "QV-R51",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 9,
+    "Weight": 210
+  },
+  {
+    "Model": "QV-R61",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 9,
+    "Weight": 218
+  },
+  {
+    "Model": "QV-R62",
+    "Brand": "Casio",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 9,
+    "Weight": 218
+  },
+  {
+    "Model": "Exilim EX-P505",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 7,
+    "Weight": 275
+  },
+  {
+    "Model": "Exilim EX-S500",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 125
+  },
+  {
+    "Model": "Exilim EX-S600",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 155
+  },
+  {
+    "Model": "Exilim EX-Z10",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 154
+  },
+  {
+    "Model": "Exilim EX-Z110",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 151
+  },
+  {
+    "Model": "Exilim EX-Z120",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 154
+  },
+  {
+    "Model": "Exilim EX-Z500",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 127
+  },
+  {
+    "Model": "Exilim EX-Z57",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 9,
+    "Weight": 175
+  },
+  {
+    "Model": "Exilim EX-Z750",
+    "Brand": "Casio",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 9,
+    "Weight": 165
+  },
+  {
+    "Model": "Exilim EX-S600d",
+    "Brand": "Casio",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 155
+  },
+  {
+    "Model": "Exilim EX-S770",
+    "Brand": "Casio",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 6,
+    "Weight": 176
+  },
+  {
+    "Model": "Exilim EX-Z1000",
+    "Brand": "Casio",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 185
+  },
+  {
+    "Model": "Exilim EX-Z5",
+    "Brand": "Casio",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 160
+  },
+  {
+    "Model": "Exilim EX-Z60",
+    "Brand": "Casio",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 148
+  },
+  {
+    "Model": "Exilim EX-Z70",
+    "Brand": "Casio",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 140
+  },
+  {
+    "Model": "Exilim EX-Z700",
+    "Brand": "Casio",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 154
+  },
+  {
+    "Model": "Exilim EX-Z850",
+    "Brand": "Casio",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 185
+  },
+  {
+    "Model": "Exilim EX-S880",
+    "Brand": "Casio",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 10,
+    "Weight": 138
+  },
+  {
+    "Model": "Exilim EX-V7",
+    "Brand": "Casio",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 266,
+    "Storage": 11,
+    "Weight": 190
+  },
+  {
+    "Model": "Exilim EX-V8",
+    "Brand": "Casio",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 266,
+    "Storage": 11,
+    "Weight": 199
+  },
+  {
+    "Model": "Exilim EX-Z1050",
+    "Brand": "Casio",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 15,
+    "Weight": 165
+  },
+  {
+    "Model": "Exilim EX-Z1080",
+    "Brand": "Casio",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 11,
+    "Weight": 165
+  },
+  {
+    "Model": "Exilim EX-Z1200 SR",
+    "Brand": "Casio",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 11,
+    "Weight": 162
+  },
+  {
+    "Model": "Exilim EX-Z75",
+    "Brand": "Casio",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 156
+  },
+  {
+    "Model": "Exilim EX-Z77",
+    "Brand": "Casio",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 11,
+    "Weight": 128
+  },
+  {
+    "Model": "N Digital",
+    "Brand": "Contax",
+    "Release": 2000,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 0
+  },
+  {
+    "Model": "TVS Digital",
+    "Brand": "Contax",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 0,
+    "Weight": 260
+  },
+  {
+    "Model": "PhotoPC 500",
+    "Brand": "Epson",
+    "Release": 1997,
+    "Effective_pixels": 0,
+    "ZoomW": 43,
+    "ZoomT": 43,
+    "Storage": 2,
+    "Weight": 320
+  },
+  {
+    "Model": "PhotoPC 550",
+    "Brand": "Epson",
+    "Release": 1997,
+    "Effective_pixels": 0,
+    "ZoomW": 43,
+    "ZoomT": 43,
+    "Storage": 1,
+    "Weight": 170
+  },
+  {
+    "Model": "PhotoPC 600",
+    "Brand": "Epson",
+    "Release": 1997,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 4,
+    "Weight": 270
+  },
+  {
+    "Model": "PhotoPC 700",
+    "Brand": "Epson",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 4,
+    "Weight": 0
+  },
+  {
+    "Model": "PhotoPC 750 Zoom",
+    "Brand": "Epson",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 8,
+    "Weight": 0
+  },
+  {
+    "Model": "PhotoPC 650",
+    "Brand": "Epson",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 8,
+    "Weight": 400
+  },
+  {
+    "Model": "PhotoPC 800",
+    "Brand": "Epson",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 8,
+    "Weight": 280
+  },
+  {
+    "Model": "PhotoPC 850 Zoom",
+    "Brand": "Epson",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 0,
+    "Weight": 0
+  },
+  {
+    "Model": "PhotoPC 3000 Zoom",
+    "Brand": "Epson",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 360
+  },
+  {
+    "Model": "PhotoPC 3100 Zoom",
+    "Brand": "Epson",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 360
+  },
+  {
+    "Model": "PhotoPC L-300",
+    "Brand": "Epson",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 285
+  },
+  {
+    "Model": "PhotoPC L-400",
+    "Brand": "Epson",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 285
+  },
+  {
+    "Model": "PhotoPC L-410",
+    "Brand": "Epson",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 203
+  },
+  {
+    "Model": "PhotoPC L-500V",
+    "Brand": "Epson",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 200
+  },
+  {
+    "Model": "R-D1",
+    "Brand": "Epson",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 620
+  },
+  {
+    "Model": "DS-300",
+    "Brand": "Fujifilm",
+    "Release": 1997,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 0,
+    "Weight": 700
+  },
+  {
+    "Model": "MX-500",
+    "Brand": "Fujifilm",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 2,
+    "Weight": 220
+  },
+  {
+    "Model": "MX-700",
+    "Brand": "Fujifilm",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 2,
+    "Weight": 260
+  },
+  {
+    "Model": "DS-260HD",
+    "Brand": "Fujifilm",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 4,
+    "Weight": 700
+  },
+  {
+    "Model": "MX-1200",
+    "Brand": "Fujifilm",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 4,
+    "Weight": 240
+  },
+  {
+    "Model": "MX-1500",
+    "Brand": "Fujifilm",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 4,
+    "Weight": 250
+  },
+  {
+    "Model": "MX-1700",
+    "Brand": "Fujifilm",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 270
+  },
+  {
+    "Model": "MX-2700",
+    "Brand": "Fujifilm",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 4,
+    "Weight": 260
+  },
+  {
+    "Model": "MX-2900 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 385
+  },
+  {
+    "Model": "MX-600 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 4,
+    "Weight": 0
+  },
+  {
+    "Model": "FinePix 1300",
+    "Brand": "Fujifilm",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 8,
+    "Weight": 240
+  },
+  {
+    "Model": "FinePix 2400 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 290
+  },
+  {
+    "Model": "FinePix 40i",
+    "Brand": "Fujifilm",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 64,
+    "Weight": 200
+  },
+  {
+    "Model": "FinePix 4700 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "FinePix 4900 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 16,
+    "Weight": 450
+  },
+  {
+    "Model": "FinePix S1 Pro",
+    "Brand": "Fujifilm",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 16,
+    "Weight": 820
+  },
+  {
+    "Model": "MX-1400",
+    "Brand": "Fujifilm",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 4,
+    "Weight": 390
+  },
+  {
+    "Model": "FinePix 2300",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 8,
+    "Weight": 240
+  },
+  {
+    "Model": "FinePix 2600 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 260
+  },
+  {
+    "Model": "FinePix 2800 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 228,
+    "Storage": 16,
+    "Weight": 360
+  },
+  {
+    "Model": "Finepix 30i",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 16,
+    "Weight": 200
+  },
+  {
+    "Model": "FinePix 4800 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "FinePix 50i",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 64,
+    "Weight": 200
+  },
+  {
+    "Model": "FinePix 6800 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "FinePix 6900 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 16,
+    "Weight": 450
+  },
+  {
+    "Model": "FinePix A101",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 8,
+    "Weight": 190
+  },
+  {
+    "Model": "FinePix A201",
+    "Brand": "Fujifilm",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 16,
+    "Weight": 190
+  },
+  {
+    "Model": "FinePix 2650",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 235
+  },
+  {
+    "Model": "FinePix 3800",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 228,
+    "Storage": 16,
+    "Weight": 400
+  },
+  {
+    "Model": "FinePix A200",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "FinePix A203",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "FinePix A303",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "FinePix F401 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 200
+  },
+  {
+    "Model": "FinePix F402",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 16,
+    "Weight": 145
+  },
+  {
+    "Model": "FinePix F601Z",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "FinePix M603",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 76,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "FinePix S2 Pro",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 850
+  },
+  {
+    "Model": "FinePix S602Z",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 16,
+    "Weight": 590
+  },
+  {
+    "Model": "FinePix S602Z Pro",
+    "Brand": "Fujifilm",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 340,
+    "Weight": 590
+  },
+  {
+    "Model": "FinePix A205 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 225
+  },
+  {
+    "Model": "FinePix A210 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 225
+  },
+  {
+    "Model": "FinePix A310 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 190
+  },
+  {
+    "Model": "FinePix F410 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 205
+  },
+  {
+    "Model": "FinePix F420 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "FinePix F610",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 205
+  },
+  {
+    "Model": "FinePix F700",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 205
+  },
+  {
+    "Model": "FinePix S3000 Z",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 228,
+    "Storage": 16,
+    "Weight": 400
+  },
+  {
+    "Model": "FinePix S5000 Z",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 370,
+    "Storage": 16,
+    "Weight": 430
+  },
+  {
+    "Model": "FinePix S7000 Z",
+    "Brand": "Fujifilm",
+    "Release": 2003,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 16,
+    "Weight": 590
+  },
+  {
+    "Model": "FinePix A120",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 16,
+    "Weight": 170
+  },
+  {
+    "Model": "FinePix A330",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 160
+  },
+  {
+    "Model": "FinePix A340",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 160
+  },
+  {
+    "Model": "FinePix E500 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 91,
+    "Storage": 16,
+    "Weight": 226
+  },
+  {
+    "Model": "FinePix E510 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 28,
+    "ZoomT": 91,
+    "Storage": 16,
+    "Weight": 226
+  },
+  {
+    "Model": "FinePix E550 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 32,
+    "ZoomT": 130,
+    "Storage": 16,
+    "Weight": 260
+  },
+  {
+    "Model": "FinePix F440 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 130,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "FinePix F450 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 130,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "FinePix F455 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 130,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "FinePix F710",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 32,
+    "ZoomT": 130,
+    "Storage": 16,
+    "Weight": 225
+  },
+  {
+    "Model": "FinePix F810 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 32,
+    "ZoomT": 130,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "FinePix S20 Pro",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 16,
+    "Weight": 597
+  },
+  {
+    "Model": "FinePix S3 Pro",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 930
+  },
+  {
+    "Model": "FinePix S3500 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 39,
+    "ZoomT": 234,
+    "Storage": 16,
+    "Weight": 385
+  },
+  {
+    "Model": "FinePix S5100 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 37,
+    "ZoomT": 370,
+    "Storage": 16,
+    "Weight": 387
+  },
+  {
+    "Model": "FinePix A345 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 192
+  },
+  {
+    "Model": "FinePix A350 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 192
+  },
+  {
+    "Model": "FinePix E900 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 9,
+    "ZoomW": 32,
+    "ZoomT": 128,
+    "Storage": 16,
+    "Weight": 260
+  },
+  {
+    "Model": "FinePix F10 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 190
+  },
+  {
+    "Model": "FinePix F11 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 190
+  },
+  {
+    "Model": "FinePix S5200 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 16,
+    "Weight": 470
+  },
+  {
+    "Model": "FinePix S9000 Z",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 9,
+    "ZoomW": 28,
+    "ZoomT": 300,
+    "Storage": 16,
+    "Weight": 745
+  },
+  {
+    "Model": "FinePix Z1",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 170
+  },
+  {
+    "Model": "FinePix Z2",
+    "Brand": "Fujifilm",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 170
+  },
+  {
+    "Model": "FinePix A400 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 12,
+    "Weight": 170
+  },
+  {
+    "Model": "FinePix A500 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 12,
+    "Weight": 170
+  },
+  {
+    "Model": "FinePix A600 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 12,
+    "Weight": 195
+  },
+  {
+    "Model": "FinePix F20 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 10,
+    "Weight": 190
+  },
+  {
+    "Model": "FinePix F30 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 10,
+    "Weight": 185
+  },
+  {
+    "Model": "FinePix F31 fd",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 26,
+    "Weight": 185
+  },
+  {
+    "Model": "FinePix F470 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 150
+  },
+  {
+    "Model": "FinePix F650 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 32,
+    "Weight": 200
+  },
+  {
+    "Model": "FinePix S5 Pro",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 920
+  },
+  {
+    "Model": "FinePix S6000 fd",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 28,
+    "ZoomT": 300,
+    "Storage": 10,
+    "Weight": 700
+  },
+  {
+    "Model": "FinePix S9100",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 9,
+    "ZoomW": 28,
+    "ZoomT": 300,
+    "Storage": 0,
+    "Weight": 750
+  },
+  {
+    "Model": "FinePix V10 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 130,
+    "Storage": 16,
+    "Weight": 185
+  },
+  {
+    "Model": "FinePix Z3",
+    "Brand": "Fujifilm",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 10,
+    "Weight": 170
+  },
+  {
+    "Model": "FinePix A610",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 10,
+    "Weight": 195
+  },
+  {
+    "Model": "FinePix A800",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 10,
+    "Weight": 200
+  },
+  {
+    "Model": "FinePix A820",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 39,
+    "ZoomT": 156,
+    "Storage": 10,
+    "Weight": 205
+  },
+  {
+    "Model": "FinePix A900",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 9,
+    "ZoomW": 39,
+    "ZoomT": 156,
+    "Storage": 10,
+    "Weight": 205
+  },
+  {
+    "Model": "FinePix A920",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 9,
+    "ZoomW": 39,
+    "ZoomT": 156,
+    "Storage": 10,
+    "Weight": 206
+  },
+  {
+    "Model": "FinePix F40 fd",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 25,
+    "Weight": 181
+  },
+  {
+    "Model": "FinePix F480 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 112,
+    "Storage": 12,
+    "Weight": 170
+  },
+  {
+    "Model": "FinePix F50 fd",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 25,
+    "Weight": 205
+  },
+  {
+    "Model": "FinePix IS Pro",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 920
+  },
+  {
+    "Model": "FinePix IS-1",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 9,
+    "ZoomW": 28,
+    "ZoomT": 300,
+    "Storage": 0,
+    "Weight": 750
+  },
+  {
+    "Model": "FinePix S5700 Zoom",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 27,
+    "Weight": 406
+  },
+  {
+    "Model": "FinePix S8000 fd",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 27,
+    "ZoomT": 486,
+    "Storage": 58,
+    "Weight": 510
+  },
+  {
+    "Model": "FinePix Z10  fd",
+    "Brand": "Fujifilm",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 54,
+    "Weight": 160
+  },
+  {
+    "Model": "Photosmart C20",
+    "Brand": "HP",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 4,
+    "Weight": 300
+  },
+  {
+    "Model": "Photosmart C30",
+    "Brand": "HP",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 4,
+    "Weight": 300
+  },
+  {
+    "Model": "Photosmart C200",
+    "Brand": "HP",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 8,
+    "Weight": 300
+  },
+  {
+    "Model": "Photosmart C500",
+    "Brand": "HP",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 16,
+    "Weight": 410
+  },
+  {
+    "Model": "Photosmart C215",
+    "Brand": "HP",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 43,
+    "ZoomT": 43,
+    "Storage": 4,
+    "Weight": 290
+  },
+  {
+    "Model": "Photosmart C315",
+    "Brand": "HP",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 8,
+    "Weight": 280
+  },
+  {
+    "Model": "Photosmart C618",
+    "Brand": "HP",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 630
+  },
+  {
+    "Model": "Photosmart C912",
+    "Brand": "HP",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 150
+  },
+  {
+    "Model": "Photosmart 715",
+    "Brand": "HP",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 320
+  },
+  {
+    "Model": "Photosmart 320",
+    "Brand": "HP",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 8,
+    "Weight": 240
+  },
+  {
+    "Model": "Photosmart 620",
+    "Brand": "HP",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 102,
+    "Storage": 8,
+    "Weight": 280
+  },
+  {
+    "Model": "Photosmart 720",
+    "Brand": "HP",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 340
+  },
+  {
+    "Model": "Photosmart 812",
+    "Brand": "HP",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 0,
+    "Weight": 245
+  },
+  {
+    "Model": "Photosmart 850",
+    "Brand": "HP",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 300,
+    "Storage": 0,
+    "Weight": 489
+  },
+  {
+    "Model": "Photosmart 435",
+    "Brand": "HP",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 16,
+    "Weight": 190
+  },
+  {
+    "Model": "Photosmart 635",
+    "Brand": "HP",
+    "Release": 2003,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 240
+  },
+  {
+    "Model": "Photosmart 735",
+    "Brand": "HP",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 290
+  },
+  {
+    "Model": "Photosmart 935",
+    "Brand": "HP",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 32,
+    "Weight": 260
+  },
+  {
+    "Model": "Photosmart 945",
+    "Brand": "HP",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 37,
+    "ZoomT": 300,
+    "Storage": 32,
+    "Weight": 500
+  },
+  {
+    "Model": "Photosmart M307",
+    "Brand": "HP",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 40,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 177
+  },
+  {
+    "Model": "Photosmart M407",
+    "Brand": "HP",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 40,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 190
+  },
+  {
+    "Model": "Photosmart R507",
+    "Brand": "HP",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 205
+  },
+  {
+    "Model": "Photosmart R607",
+    "Brand": "HP",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 205
+  },
+  {
+    "Model": "Photosmart R707",
+    "Brand": "HP",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 32,
+    "Weight": 150
+  },
+  {
+    "Model": "Photosmart E317",
+    "Brand": "HP",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 16,
+    "Weight": 231
+  },
+  {
+    "Model": "Photosmart M22",
+    "Brand": "HP",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 16,
+    "Weight": 172
+  },
+  {
+    "Model": "Photosmart M23",
+    "Brand": "HP",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 16,
+    "Weight": 172
+  },
+  {
+    "Model": "Photosmart M417",
+    "Brand": "HP",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 181
+  },
+  {
+    "Model": "Photosmart M517",
+    "Brand": "HP",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 190
+  },
+  {
+    "Model": "Photosmart R717",
+    "Brand": "HP",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 32,
+    "Weight": 150
+  },
+  {
+    "Model": "Photosmart R817",
+    "Brand": "HP",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 32,
+    "Weight": 205
+  },
+  {
+    "Model": "Photosmart R818",
+    "Brand": "HP",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 32,
+    "Weight": 200
+  },
+  {
+    "Model": "Photosmart E327",
+    "Brand": "HP",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 16,
+    "Weight": 170
+  },
+  {
+    "Model": "Photosmart M425",
+    "Brand": "HP",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 172
+  },
+  {
+    "Model": "Photosmart M525",
+    "Brand": "HP",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 192
+  },
+  {
+    "Model": "Photosmart M527",
+    "Brand": "HP",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 227
+  },
+  {
+    "Model": "Photosmart R725",
+    "Brand": "HP",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 118,
+    "Storage": 32,
+    "Weight": 136
+  },
+  {
+    "Model": "Photosmart R727",
+    "Brand": "HP",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 118,
+    "Storage": 32,
+    "Weight": 190
+  },
+  {
+    "Model": "Photosmart R927",
+    "Brand": "HP",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": "",
+    "Weight": ""
+  },
+  {
+    "Model": "Photosmart E337",
+    "Brand": "HP",
+    "Release": 2007,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 16,
+    "Weight": 170
+  },
+  {
+    "Model": "Photosmart M437",
+    "Brand": "HP",
+    "Release": 2007,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 190
+  },
+  {
+    "Model": "Photosmart M537",
+    "Brand": "HP",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 157
+  },
+  {
+    "Model": "Photosmart Mz67",
+    "Brand": "HP",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 210,
+    "Storage": 32,
+    "Weight": 157
+  },
+  {
+    "Model": "Photosmart R742",
+    "Brand": "HP",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 32,
+    "Weight": 190
+  },
+  {
+    "Model": "Photosmart R837",
+    "Brand": "HP",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 39,
+    "ZoomT": 118,
+    "Storage": 32,
+    "Weight": 227
+  },
+  {
+    "Model": "Photosmart R937",
+    "Brand": "HP",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 39,
+    "ZoomT": 118,
+    "Storage": "",
+    "Weight": ""
+  },
+  {
+    "Model": "GC-QX3HD",
+    "Brand": "JVC",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 86,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "GC-QX5HD",
+    "Brand": "JVC",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 86,
+    "Storage": 16,
+    "Weight": 320
+  },
+  {
+    "Model": "DCS420",
+    "Brand": "Kodak",
+    "Release": 1994,
+    "Effective_pixels": 1,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1700
+  },
+  {
+    "Model": "DCS460",
+    "Brand": "Kodak",
+    "Release": 1995,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1700
+  },
+  {
+    "Model": "DC200",
+    "Brand": "Kodak",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 4,
+    "Weight": 400
+  },
+  {
+    "Model": "DC210 plus",
+    "Brand": "Kodak",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 29,
+    "ZoomT": 58,
+    "Storage": 8,
+    "Weight": 400
+  },
+  {
+    "Model": "DC220",
+    "Brand": "Kodak",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 29,
+    "ZoomT": 58,
+    "Storage": 8,
+    "Weight": 550
+  },
+  {
+    "Model": "DC260",
+    "Brand": "Kodak",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 8,
+    "Weight": 550
+  },
+  {
+    "Model": "DCS315",
+    "Brand": "Kodak",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1800
+  },
+  {
+    "Model": "DCS520",
+    "Brand": "Kodak",
+    "Release": 1998,
+    "Effective_pixels": 2,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1650
+  },
+  {
+    "Model": "DCS560",
+    "Brand": "Kodak",
+    "Release": 1998,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1650
+  },
+  {
+    "Model": "DC200 plus",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 4,
+    "Weight": 400
+  },
+  {
+    "Model": "DC215",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 29,
+    "ZoomT": 58,
+    "Storage": 4,
+    "Weight": 320
+  },
+  {
+    "Model": "DC240",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 8,
+    "Weight": 420
+  },
+  {
+    "Model": "DC265",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 16,
+    "Weight": 550
+  },
+  {
+    "Model": "DC280",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 30,
+    "ZoomT": 60,
+    "Storage": 20,
+    "Weight": 420
+  },
+  {
+    "Model": "DC290",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 20,
+    "Weight": 550
+  },
+  {
+    "Model": "DCS330",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 3,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1080
+  },
+  {
+    "Model": "DCS620",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1580
+  },
+  {
+    "Model": "DCS660",
+    "Brand": "Kodak",
+    "Release": 1999,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1580
+  },
+  {
+    "Model": "DC3200",
+    "Brand": "Kodak",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 2,
+    "Weight": 240
+  },
+  {
+    "Model": "DC3400",
+    "Brand": "Kodak",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 76,
+    "Storage": 20,
+    "Weight": 420
+  },
+  {
+    "Model": "DC3800",
+    "Brand": "Kodak",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 0,
+    "Weight": 200
+  },
+  {
+    "Model": "DC4800",
+    "Brand": "Kodak",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 28,
+    "ZoomT": 84,
+    "Storage": 16,
+    "Weight": 320
+  },
+  {
+    "Model": "DC5000",
+    "Brand": "Kodak",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 30,
+    "ZoomT": 60,
+    "Storage": 16,
+    "Weight": 459
+  },
+  {
+    "Model": "DCS620x",
+    "Brand": "Kodak",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1580
+  },
+  {
+    "Model": "DCS720x",
+    "Brand": "Kodak",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1580
+  },
+  {
+    "Model": "DCS760",
+    "Brand": "Kodak",
+    "Release": 2001,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1860
+  },
+  {
+    "Model": "DX3215",
+    "Brand": "Kodak",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 30,
+    "ZoomT": 60,
+    "Storage": 8,
+    "Weight": 260
+  },
+  {
+    "Model": "DX3500",
+    "Brand": "Kodak",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 8,
+    "Weight": 225
+  },
+  {
+    "Model": "DX3600",
+    "Brand": "Kodak",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "DX3700",
+    "Brand": "Kodak",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "DX3900",
+    "Brand": "Kodak",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 260
+  },
+  {
+    "Model": "mc3",
+    "Brand": "Kodak",
+    "Release": 2001,
+    "Effective_pixels": 0,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 16,
+    "Weight": 198
+  },
+  {
+    "Model": "CX4200",
+    "Brand": "Kodak",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "CX4230",
+    "Brand": "Kodak",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "CX4300",
+    "Brand": "Kodak",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 76,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "DCS 14n",
+    "Brand": "Kodak",
+    "Release": 2002,
+    "Effective_pixels": 13,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1000
+  },
+  {
+    "Model": "DX4330",
+    "Brand": "Kodak",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 260
+  },
+  {
+    "Model": "DX4900",
+    "Brand": "Kodak",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 16,
+    "Weight": 260
+  },
+  {
+    "Model": "LS420",
+    "Brand": "Kodak",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 8,
+    "Weight": 160
+  },
+  {
+    "Model": "LS443",
+    "Brand": "Kodak",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 260
+  },
+  {
+    "Model": "CX6200",
+    "Brand": "Kodak",
+    "Release": 2003,
+    "Effective_pixels": 2,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 8,
+    "Weight": 195
+  },
+  {
+    "Model": "CX6230",
+    "Brand": "Kodak",
+    "Release": 2003,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 225
+  },
+  {
+    "Model": "CX6330",
+    "Brand": "Kodak",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 225
+  },
+  {
+    "Model": "DX4530",
+    "Brand": "Kodak",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 210
+  },
+  {
+    "Model": "DX6340",
+    "Brand": "Kodak",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 144,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "DX6440",
+    "Brand": "Kodak",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 33,
+    "ZoomT": 132,
+    "Storage": 16,
+    "Weight": 270
+  },
+  {
+    "Model": "DX6490",
+    "Brand": "Kodak",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 16,
+    "Weight": 380
+  },
+  {
+    "Model": "LS633",
+    "Brand": "Kodak",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 260
+  },
+  {
+    "Model": "CX7220",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 2,
+    "ZoomW": 37,
+    "ZoomT": 78,
+    "Storage": 16,
+    "Weight": 195
+  },
+  {
+    "Model": "CX7300",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 16,
+    "Weight": 162
+  },
+  {
+    "Model": "CX7330",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 225
+  },
+  {
+    "Model": "CX7430",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 198
+  },
+  {
+    "Model": "CX7530",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 32,
+    "Weight": 240
+  },
+  {
+    "Model": "DCS SLR/c",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 13,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1000
+  },
+  {
+    "Model": "DCS SLR/n",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 13,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1000
+  },
+  {
+    "Model": "DX7440",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 33,
+    "ZoomT": 132,
+    "Storage": 32,
+    "Weight": 270
+  },
+  {
+    "Model": "DX7590",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 32,
+    "Weight": 400
+  },
+  {
+    "Model": "DX7630",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 32,
+    "Weight": 270
+  },
+  {
+    "Model": "LS743",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 36,
+    "ZoomT": 100,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "LS753",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 32,
+    "Weight": 220
+  },
+  {
+    "Model": "LS755",
+    "Brand": "Kodak",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 210
+  },
+  {
+    "Model": "C300",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 16,
+    "Weight": 198
+  },
+  {
+    "Model": "C310",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 16,
+    "Weight": 154
+  },
+  {
+    "Model": "C330",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "C340",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 198
+  },
+  {
+    "Model": "C360",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 32,
+    "Weight": 170
+  },
+  {
+    "Model": "Easyshare One",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 36,
+    "ZoomT": 100,
+    "Storage": 256,
+    "Weight": 275
+  },
+  {
+    "Model": "P850",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 32,
+    "Weight": 450
+  },
+  {
+    "Model": "P880",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 24,
+    "ZoomT": 140,
+    "Storage": 32,
+    "Weight": 570
+  },
+  {
+    "Model": "V530",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 150
+  },
+  {
+    "Model": "V550",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 32,
+    "Weight": 160
+  },
+  {
+    "Model": "Z700",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 175,
+    "Storage": 16,
+    "Weight": 270
+  },
+  {
+    "Model": "Z730",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 33,
+    "ZoomT": 132,
+    "Storage": 32,
+    "Weight": 270
+  },
+  {
+    "Model": "Z740",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 32,
+    "Weight": 330
+  },
+  {
+    "Model": "Z7590",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 32,
+    "Weight": 400
+  },
+  {
+    "Model": "Z760",
+    "Brand": "Kodak",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 32,
+    "Weight": 259
+  },
+  {
+    "Model": "C433",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "C533",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 200
+  },
+  {
+    "Model": "C643",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 22,
+    "Weight": 195
+  },
+  {
+    "Model": "C663",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 32,
+    "Weight": 190
+  },
+  {
+    "Model": "C743",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 32,
+    "Weight": 195
+  },
+  {
+    "Model": "C875",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 37,
+    "ZoomT": 185,
+    "Storage": 32,
+    "Weight": 225
+  },
+  {
+    "Model": "P712",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 32,
+    "Weight": 440
+  },
+  {
+    "Model": "V570",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 32,
+    "Weight": 175
+  },
+  {
+    "Model": "V610",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 32,
+    "Weight": 195
+  },
+  {
+    "Model": "V705",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 23,
+    "ZoomT": 117,
+    "Storage": 32,
+    "Weight": 165
+  },
+  {
+    "Model": "Z612",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 32,
+    "Weight": 330
+  },
+  {
+    "Model": "Z650",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 32,
+    "Weight": 320
+  },
+  {
+    "Model": "Z710",
+    "Brand": "Kodak",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 32,
+    "Weight": 360
+  },
+  {
+    "Model": "C513",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 188
+  },
+  {
+    "Model": "C613",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 187
+  },
+  {
+    "Model": "C653",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 22,
+    "Weight": 195
+  },
+  {
+    "Model": "C763",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 180
+  },
+  {
+    "Model": "M753",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 165
+  },
+  {
+    "Model": "M853",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 165
+  },
+  {
+    "Model": "M873",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 160
+  },
+  {
+    "Model": "M883",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 64,
+    "Weight": 166
+  },
+  {
+    "Model": "V1003",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 24,
+    "Weight": 185
+  },
+  {
+    "Model": "V803",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 24,
+    "Weight": 185
+  },
+  {
+    "Model": "Z1275",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 35,
+    "ZoomT": 175,
+    "Storage": 64,
+    "Weight": 211
+  },
+  {
+    "Model": "Z712",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 423,
+    "Storage": 32,
+    "Weight": 350
+  },
+  {
+    "Model": "Z885",
+    "Brand": "Kodak",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 32,
+    "Weight": 211
+  },
+  {
+    "Model": "Finecam 3300",
+    "Brand": "Kyocera",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 76,
+    "Storage": 8,
+    "Weight": 240
+  },
+  {
+    "Model": "Finecam S3",
+    "Brand": "Kyocera",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 76,
+    "Storage": 16,
+    "Weight": 160
+  },
+  {
+    "Model": "Finecam S3L",
+    "Brand": "Kyocera",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 205
+  },
+  {
+    "Model": "Finecam S3x",
+    "Brand": "Kyocera",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 175
+  },
+  {
+    "Model": "Finecam S4",
+    "Brand": "Kyocera",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 175
+  },
+  {
+    "Model": "Finecam S5",
+    "Brand": "Kyocera",
+    "Release": 2002,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 205
+  },
+  {
+    "Model": "Finecam L30",
+    "Brand": "Kyocera",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "Finecam L3V",
+    "Brand": "Kyocera",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "Finecam L4V",
+    "Brand": "Kyocera",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "Finecam S3R",
+    "Brand": "Kyocera",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 205
+  },
+  {
+    "Model": "Finecam S5R",
+    "Brand": "Kyocera",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 205
+  },
+  {
+    "Model": "Finecam SL300R",
+    "Brand": "Kyocera",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 115,
+    "Storage": 16,
+    "Weight": 175
+  },
+  {
+    "Model": "Finecam M400R",
+    "Brand": "Kyocera",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 37,
+    "ZoomT": 370,
+    "Storage": 0,
+    "Weight": 340
+  },
+  {
+    "Model": "Finecam M410R",
+    "Brand": "Kyocera",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 37,
+    "ZoomT": 370,
+    "Storage": 0,
+    "Weight": 340
+  },
+  {
+    "Model": "Finecam SL400R",
+    "Brand": "Kyocera",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 115,
+    "Storage": 16,
+    "Weight": 155
+  },
+  {
+    "Model": "Digilux",
+    "Brand": "Leica",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 2,
+    "Weight": 260
+  },
+  {
+    "Model": "Digilux 4.3",
+    "Brand": "Leica",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "Digilux Zoom",
+    "Brand": "Leica",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 270
+  },
+  {
+    "Model": "Digilux 1",
+    "Brand": "Leica",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 100,
+    "Storage": 32,
+    "Weight": 455
+  },
+  {
+    "Model": "Digilux 2",
+    "Brand": "Leica",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 90,
+    "Storage": 64,
+    "Weight": 705
+  },
+  {
+    "Model": "D-LUX 2",
+    "Brand": "Leica",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 112,
+    "Storage": 32,
+    "Weight": 220
+  },
+  {
+    "Model": "C-LUX 1",
+    "Brand": "Leica",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 28,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 155
+  },
+  {
+    "Model": "D-LUX 3",
+    "Brand": "Leica",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 28,
+    "ZoomT": 112,
+    "Storage": 13,
+    "Weight": 220
+  },
+  {
+    "Model": "Digilux 3",
+    "Brand": "Leica",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 606
+  },
+  {
+    "Model": "M8",
+    "Brand": "Leica",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 591
+  },
+  {
+    "Model": "V-LUX 1",
+    "Brand": "Leica",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 32,
+    "Weight": 734
+  },
+  {
+    "Model": "Coolpix 100",
+    "Brand": "Nikon",
+    "Release": 1997,
+    "Effective_pixels": 0,
+    "ZoomW": 52,
+    "ZoomT": 52,
+    "Storage": 1,
+    "Weight": 200
+  },
+  {
+    "Model": "Coolpix 300",
+    "Brand": "Nikon",
+    "Release": 1997,
+    "Effective_pixels": 0,
+    "ZoomW": 45,
+    "ZoomT": 45,
+    "Storage": 4,
+    "Weight": 250
+  },
+  {
+    "Model": "Coolpix 600",
+    "Brand": "Nikon",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 8,
+    "Weight": 220
+  },
+  {
+    "Model": "Coolpix 900",
+    "Brand": "Nikon",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 4,
+    "Weight": 420
+  },
+  {
+    "Model": "Coolpix 900S",
+    "Brand": "Nikon",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 8,
+    "Weight": 420
+  },
+  {
+    "Model": "Coolpix 700",
+    "Brand": "Nikon",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 8,
+    "Weight": 340
+  },
+  {
+    "Model": "Coolpix 800",
+    "Brand": "Nikon",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 76,
+    "Storage": 8,
+    "Weight": 360
+  },
+  {
+    "Model": "Coolpix 950",
+    "Brand": "Nikon",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 8,
+    "Weight": 480
+  },
+  {
+    "Model": "D1",
+    "Brand": "Nikon",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1200
+  },
+  {
+    "Model": "Coolpix 880",
+    "Brand": "Nikon",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 95,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "Coolpix 990",
+    "Brand": "Nikon",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 16,
+    "Weight": 450
+  },
+  {
+    "Model": "Coolpix 5000",
+    "Brand": "Nikon",
+    "Release": 2001,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 85,
+    "Storage": 32,
+    "Weight": 414
+  },
+  {
+    "Model": "Coolpix 775",
+    "Brand": "Nikon",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 8,
+    "Weight": 230
+  },
+  {
+    "Model": "Coolpix 885",
+    "Brand": "Nikon",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 286
+  },
+  {
+    "Model": "Coolpix 995",
+    "Brand": "Nikon",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 152,
+    "Storage": 16,
+    "Weight": 420
+  },
+  {
+    "Model": "D1H",
+    "Brand": "Nikon",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1200
+  },
+  {
+    "Model": "D1X",
+    "Brand": "Nikon",
+    "Release": 2001,
+    "Effective_pixels": 5,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1200
+  },
+  {
+    "Model": "Coolpix 2000",
+    "Brand": "Nikon",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 295
+  },
+  {
+    "Model": "Coolpix 2500",
+    "Brand": "Nikon",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "Coolpix 3500",
+    "Brand": "Nikon",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "Coolpix 4300",
+    "Brand": "Nikon",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 286
+  },
+  {
+    "Model": "Coolpix 4500",
+    "Brand": "Nikon",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 155,
+    "Storage": 16,
+    "Weight": 374
+  },
+  {
+    "Model": "Coolpix 5700",
+    "Brand": "Nikon",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 280,
+    "Storage": 32,
+    "Weight": 512
+  },
+  {
+    "Model": "D100",
+    "Brand": "Nikon",
+    "Release": 2002,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 780
+  },
+  {
+    "Model": "Coolpix 2100",
+    "Brand": "Nikon",
+    "Release": 2003,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 8,
+    "Weight": 215
+  },
+  {
+    "Model": "Coolpix 3100",
+    "Brand": "Nikon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 16,
+    "Weight": 215
+  },
+  {
+    "Model": "Coolpix 3700",
+    "Brand": "Nikon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 162
+  },
+  {
+    "Model": "Coolpix 5400",
+    "Brand": "Nikon",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 28,
+    "ZoomT": 116,
+    "Storage": 16,
+    "Weight": 400
+  },
+  {
+    "Model": "Coolpix SQ",
+    "Brand": "Nikon",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 216
+  },
+  {
+    "Model": "D2H",
+    "Brand": "Nikon",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1200
+  },
+  {
+    "Model": "Coolpix 2200",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 14,
+    "Weight": 190
+  },
+  {
+    "Model": "Coolpix 3200",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 14,
+    "Weight": 190
+  },
+  {
+    "Model": "Coolpix 4100",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 14,
+    "Weight": 190
+  },
+  {
+    "Model": "Coolpix 4200",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 12,
+    "Weight": 180
+  },
+  {
+    "Model": "Coolpix 4800",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 36,
+    "ZoomT": 300,
+    "Storage": 13,
+    "Weight": 295
+  },
+  {
+    "Model": "Coolpix 5200",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 12,
+    "Weight": 180
+  },
+  {
+    "Model": "Coolpix 8400",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 8,
+    "ZoomW": 24,
+    "ZoomT": 85,
+    "Storage": 0,
+    "Weight": 470
+  },
+  {
+    "Model": "Coolpix 8700",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 280,
+    "Storage": 0,
+    "Weight": 512
+  },
+  {
+    "Model": "Coolpix 8800",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 350,
+    "Storage": 0,
+    "Weight": 680
+  },
+  {
+    "Model": "D2X",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 12,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1200
+  },
+  {
+    "Model": "D70",
+    "Brand": "Nikon",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 679
+  },
+  {
+    "Model": "Coolpix 4600",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 14,
+    "Weight": 180
+  },
+  {
+    "Model": "Coolpix 5600",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 14,
+    "Weight": 180
+  },
+  {
+    "Model": "Coolpix 5900",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 13,
+    "Weight": 185
+  },
+  {
+    "Model": "Coolpix 7600",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 14,
+    "Weight": 195
+  },
+  {
+    "Model": "Coolpix 7900",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 13,
+    "Weight": 185
+  },
+  {
+    "Model": "Coolpix L1",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 10,
+    "Weight": 195
+  },
+  {
+    "Model": "Coolpix P1",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 126,
+    "Storage": 32,
+    "Weight": 185
+  },
+  {
+    "Model": "Coolpix P2",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 126,
+    "Storage": 16,
+    "Weight": 185
+  },
+  {
+    "Model": "Coolpix S1",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 12,
+    "Weight": 170
+  },
+  {
+    "Model": "Coolpix S2",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 12,
+    "Weight": 160
+  },
+  {
+    "Model": "Coolpix S3",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 12,
+    "Weight": 132
+  },
+  {
+    "Model": "Coolpix S4",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 13,
+    "Weight": 225
+  },
+  {
+    "Model": "D200",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 920
+  },
+  {
+    "Model": "D2Hs",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1200
+  },
+  {
+    "Model": "D50",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 620
+  },
+  {
+    "Model": "D70s",
+    "Brand": "Nikon",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 679
+  },
+  {
+    "Model": "Coolpix L2",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 116,
+    "Storage": 23,
+    "Weight": 170
+  },
+  {
+    "Model": "Coolpix L3",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 116,
+    "Storage": 23,
+    "Weight": 170
+  },
+  {
+    "Model": "Coolpix L4",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 10,
+    "Weight": 165
+  },
+  {
+    "Model": "Coolpix L5",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 8,
+    "Weight": 210
+  },
+  {
+    "Model": "Coolpix L6",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 116,
+    "Storage": 23,
+    "Weight": 175
+  },
+  {
+    "Model": "Coolpix P3",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 126,
+    "Storage": 23,
+    "Weight": 200
+  },
+  {
+    "Model": "Coolpix P4",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 126,
+    "Storage": 23,
+    "Weight": 200
+  },
+  {
+    "Model": "Coolpix S10",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "Coolpix S5",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 21,
+    "Weight": 165
+  },
+  {
+    "Model": "Coolpix S6",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 20,
+    "Weight": 170
+  },
+  {
+    "Model": "Coolpix S7c",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 14,
+    "Weight": 170
+  },
+  {
+    "Model": "Coolpix S9",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 24,
+    "Weight": 165
+  },
+  {
+    "Model": "D2Xs",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 12,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1200
+  },
+  {
+    "Model": "D40",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 522
+  },
+  {
+    "Model": "D80",
+    "Brand": "Nikon",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 668
+  },
+  {
+    "Model": "Coolpix L10",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 4,
+    "ZoomW": 37,
+    "ZoomT": 112,
+    "Storage": 7,
+    "Weight": 165
+  },
+  {
+    "Model": "Coolpix L11",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 37,
+    "ZoomT": 112,
+    "Storage": 7,
+    "Weight": 175
+  },
+  {
+    "Model": "Coolpix L12",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 21,
+    "Weight": 175
+  },
+  {
+    "Model": "Coolpix L14",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 23,
+    "Weight": 225
+  },
+  {
+    "Model": "Coolpix L15",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 225
+  },
+  {
+    "Model": "Coolpix P50",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 102,
+    "Storage": 52,
+    "Weight": 210
+  },
+  {
+    "Model": "Coolpix P5000",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 36,
+    "ZoomT": 126,
+    "Storage": 26,
+    "Weight": 240
+  },
+  {
+    "Model": "Coolpix P5100",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 35,
+    "ZoomT": 123,
+    "Storage": 52,
+    "Weight": 250
+  },
+  {
+    "Model": "Coolpix S200",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 20,
+    "Weight": 165
+  },
+  {
+    "Model": "Coolpix S50",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 13,
+    "Weight": 165
+  },
+  {
+    "Model": "Coolpix S500",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 26,
+    "Weight": 165
+  },
+  {
+    "Model": "Coolpix S50c",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 13,
+    "Weight": 165
+  },
+  {
+    "Model": "Coolpix S51",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 13,
+    "Weight": 175
+  },
+  {
+    "Model": "Coolpix S510",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 52,
+    "Weight": 125
+  },
+  {
+    "Model": "Coolpix S51c",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 13,
+    "Weight": 175
+  },
+  {
+    "Model": "D3",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 1300
+  },
+  {
+    "Model": "D300",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 925
+  },
+  {
+    "Model": "D40X",
+    "Brand": "Nikon",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 522
+  },
+  {
+    "Model": "D-200L",
+    "Brand": "Olympus",
+    "Release": 1996,
+    "Effective_pixels": 0,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 2,
+    "Weight": 320
+  },
+  {
+    "Model": "D-300L",
+    "Brand": "Olympus",
+    "Release": 1996,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 6,
+    "Weight": 320
+  },
+  {
+    "Model": "D-500L",
+    "Brand": "Olympus",
+    "Release": 1997,
+    "Effective_pixels": 1,
+    "ZoomW": 50,
+    "ZoomT": 150,
+    "Storage": 2,
+    "Weight": 490
+  },
+  {
+    "Model": "D-600L",
+    "Brand": "Olympus",
+    "Release": 1997,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 110,
+    "Storage": 4,
+    "Weight": 0
+  },
+  {
+    "Model": "D-340L",
+    "Brand": "Olympus",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 4,
+    "Weight": 320
+  },
+  {
+    "Model": "D-400 Zoom",
+    "Brand": "Olympus",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "D-620L",
+    "Brand": "Olympus",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 110,
+    "Storage": 8,
+    "Weight": 520
+  },
+  {
+    "Model": "C-2000 Zoom",
+    "Brand": "Olympus",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 380
+  },
+  {
+    "Model": "C-2020 Zoom",
+    "Brand": "Olympus",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 380
+  },
+  {
+    "Model": "C-21",
+    "Brand": "Olympus",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 8,
+    "Weight": 190
+  },
+  {
+    "Model": "C-2500 L",
+    "Brand": "Olympus",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 110,
+    "Storage": 32,
+    "Weight": 530
+  },
+  {
+    "Model": "D-340R",
+    "Brand": "Olympus",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "D-450 Zoom",
+    "Brand": "Olympus",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "C-2040 Zoom",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 40,
+    "ZoomT": 120,
+    "Storage": 8,
+    "Weight": 380
+  },
+  {
+    "Model": "C-2100 UZ",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 8,
+    "Weight": 540
+  },
+  {
+    "Model": "C-3000 Zoom",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 8,
+    "Weight": 380
+  },
+  {
+    "Model": "C-3030 Zoom",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 16,
+    "Weight": 380
+  },
+  {
+    "Model": "C-3040 Zoom",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 420
+  },
+  {
+    "Model": "D-360L",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 8,
+    "Weight": 280
+  },
+  {
+    "Model": "D-460 Zoom",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "D-490 Zoom",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "E-10",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 0,
+    "Weight": 1190
+  },
+  {
+    "Model": "E-100 RS",
+    "Brand": "Olympus",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 16,
+    "Weight": 603
+  },
+  {
+    "Model": "C-1",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 8,
+    "Weight": 190
+  },
+  {
+    "Model": "C-2",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "C-3020 Zoom",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 8,
+    "Weight": 380
+  },
+  {
+    "Model": "C-4040 Zoom",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 420
+  },
+  {
+    "Model": "C-700 UZ",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 8,
+    "Weight": 340
+  },
+  {
+    "Model": "D-150Z",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 190
+  },
+  {
+    "Model": "D-370",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 1,
+    "Weight": 190
+  },
+  {
+    "Model": "D-40 Zoom",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 98,
+    "Storage": 16,
+    "Weight": 270
+  },
+  {
+    "Model": "D-510 Zoom",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "E-20",
+    "Brand": "Olympus",
+    "Release": 2001,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 140,
+    "Storage": 16,
+    "Weight": 1190
+  },
+  {
+    "Model": "C-300 Zoom",
+    "Brand": "Olympus",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 100,
+    "Storage": 16,
+    "Weight": 300
+  },
+  {
+    "Model": "C-4000 Zoom",
+    "Brand": "Olympus",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 16,
+    "Weight": 400
+  },
+  {
+    "Model": "C-50 Zoom",
+    "Brand": "Olympus",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 230
+  },
+  {
+    "Model": "C-5050 Zoom",
+    "Brand": "Olympus",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 480
+  },
+  {
+    "Model": "C-720 UZ",
+    "Brand": "Olympus",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 40,
+    "ZoomT": 320,
+    "Storage": 16,
+    "Weight": 340
+  },
+  {
+    "Model": "C-730 UZ",
+    "Brand": "Olympus",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 16,
+    "Weight": 400
+  },
+  {
+    "Model": "D-380",
+    "Brand": "Olympus",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "D-520 Zoom",
+    "Brand": "Olympus",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 220
+  },
+  {
+    "Model": "C-5000 Zoom",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 280
+  },
+  {
+    "Model": "C-5060 Zoom",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 27,
+    "ZoomT": 110,
+    "Storage": 32,
+    "Weight": 480
+  },
+  {
+    "Model": "C-740 UZ",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 16,
+    "Weight": 340
+  },
+  {
+    "Model": "C-750 UZ",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 16,
+    "Weight": 340
+  },
+  {
+    "Model": "D-390",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 16,
+    "Weight": 230
+  },
+  {
+    "Model": "D-560 Zoom",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "E-1",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 735
+  },
+  {
+    "Model": "Stylus 300",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "Stylus 400",
+    "Brand": "Olympus",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 220
+  },
+  {
+    "Model": "C-60 Zoom",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 230
+  },
+  {
+    "Model": "C-7000 Zoom",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 32,
+    "Weight": 280
+  },
+  {
+    "Model": "C-765 UZ",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 16,
+    "Weight": 310
+  },
+  {
+    "Model": "C-770 UZ",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 32,
+    "Weight": 310
+  },
+  {
+    "Model": "C-8080 Wide Zoom",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 140,
+    "Storage": 32,
+    "Weight": 724
+  },
+  {
+    "Model": "D-395",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 16,
+    "Weight": 210
+  },
+  {
+    "Model": "D-535 Zoom",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 12,
+    "Weight": 190
+  },
+  {
+    "Model": "D-540 Zoom",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 200
+  },
+  {
+    "Model": "D-580 Zoom",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 210
+  },
+  {
+    "Model": "E-300",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 8,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 624
+  },
+  {
+    "Model": "Stylus 410",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 200
+  },
+  {
+    "Model": "Stylus 500",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 200
+  },
+  {
+    "Model": "Stylus Verve",
+    "Brand": "Olympus",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 16,
+    "Weight": 165
+  },
+  {
+    "Model": "C-5500 Sport Zoom",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 16,
+    "Weight": 340
+  },
+  {
+    "Model": "C-7070 Wide Zoom",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 27,
+    "ZoomT": 110,
+    "Storage": 32,
+    "Weight": 480
+  },
+  {
+    "Model": "D-425",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 14,
+    "Weight": 170
+  },
+  {
+    "Model": "D-435",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 35,
+    "Storage": 0,
+    "Weight": 140
+  },
+  {
+    "Model": "D-545 Zoom",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 14,
+    "Weight": 190
+  },
+  {
+    "Model": "D-595 Zoom",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 14,
+    "Weight": 190
+  },
+  {
+    "Model": "D-630 Zoom",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 14,
+    "Weight": 175
+  },
+  {
+    "Model": "E-500",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 479
+  },
+  {
+    "Model": "FE-100",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 106,
+    "Storage": 28,
+    "Weight": 160
+  },
+  {
+    "Model": "FE-110",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 106,
+    "Storage": 28,
+    "Weight": 160
+  },
+  {
+    "Model": "FE-120",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 14,
+    "Weight": 160
+  },
+  {
+    "Model": "IR-300",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 15,
+    "Weight": 160
+  },
+  {
+    "Model": "SP-310",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 230
+  },
+  {
+    "Model": "SP-350",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 245
+  },
+  {
+    "Model": "SP-500 UZ",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 10,
+    "Weight": 385
+  },
+  {
+    "Model": "SP-700",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 11,
+    "Weight": 180
+  },
+  {
+    "Model": "Stylus 600",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 195
+  },
+  {
+    "Model": "Stylus 800",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 19,
+    "Weight": 200
+  },
+  {
+    "Model": "Stylus Verve  S",
+    "Brand": "Olympus",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 16,
+    "Weight": 165
+  },
+  {
+    "Model": "E-330",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 616
+  },
+  {
+    "Model": "E-400",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 435
+  },
+  {
+    "Model": "FE-115",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 106,
+    "Storage": 28,
+    "Weight": 160
+  },
+  {
+    "Model": "FE-130",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 160
+  },
+  {
+    "Model": "FE-140",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 160
+  },
+  {
+    "Model": "FE-150",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 9,
+    "Weight": 175
+  },
+  {
+    "Model": "FE-170",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 10,
+    "Weight": 175
+  },
+  {
+    "Model": "FE-180",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 10,
+    "Weight": 170
+  },
+  {
+    "Model": "FE-190",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 150
+  },
+  {
+    "Model": "FE-200",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 28,
+    "ZoomT": 140,
+    "Storage": 24,
+    "Weight": 195
+  },
+  {
+    "Model": "SP-320",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 25,
+    "Weight": 230
+  },
+  {
+    "Model": "SP-510 UZ",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 0,
+    "Weight": 410
+  },
+  {
+    "Model": "Stylus 1000",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 0,
+    "Weight": 195
+  },
+  {
+    "Model": "Stylus 700",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 19,
+    "Weight": 140
+  },
+  {
+    "Model": "Stylus 720 SW",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 19,
+    "Weight": 190
+  },
+  {
+    "Model": "Stylus 725 SW",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 19,
+    "Weight": 190
+  },
+  {
+    "Model": "Stylus 730",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 190
+  },
+  {
+    "Model": "Stylus 740",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 17,
+    "Weight": 160
+  },
+  {
+    "Model": "Stylus 750",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 17,
+    "Weight": 170
+  },
+  {
+    "Model": "Stylus 810",
+    "Brand": "Olympus",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 28,
+    "Weight": 185
+  },
+  {
+    "Model": "E-3",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 800
+  },
+  {
+    "Model": "E-410",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 435
+  },
+  {
+    "Model": "E-510",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 490
+  },
+  {
+    "Model": "FE-210",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 9,
+    "Weight": 175
+  },
+  {
+    "Model": "FE-230",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 20,
+    "Weight": 145
+  },
+  {
+    "Model": "FE-240",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 20,
+    "Weight": 145
+  },
+  {
+    "Model": "FE-250",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 105,
+    "Storage": 20,
+    "Weight": 155
+  },
+  {
+    "Model": "FE-270",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 6,
+    "Weight": 122
+  },
+  {
+    "Model": "FE-280",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 48,
+    "Weight": 108
+  },
+  {
+    "Model": "FE-290",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 112,
+    "Storage": 6,
+    "Weight": 142
+  },
+  {
+    "Model": "FE-300",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 48,
+    "Weight": 115
+  },
+  {
+    "Model": "SP-550 UZ",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 504,
+    "Storage": 20,
+    "Weight": 460
+  },
+  {
+    "Model": "SP-560 UZ",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 27,
+    "ZoomT": 486,
+    "Storage": 47,
+    "Weight": 365
+  },
+  {
+    "Model": "Stylus 1200",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 47,
+    "Weight": 125
+  },
+  {
+    "Model": "Stylus 760",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 18,
+    "Weight": 160
+  },
+  {
+    "Model": "Stylus 770 SW",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 18,
+    "Weight": 195
+  },
+  {
+    "Model": "Stylus 780",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 18,
+    "Weight": 195
+  },
+  {
+    "Model": "Stylus 790 SW",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 14,
+    "Weight": 155
+  },
+  {
+    "Model": "Stylus 820",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 47,
+    "Weight": 125
+  },
+  {
+    "Model": "Stylus 830",
+    "Brand": "Olympus",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 14,
+    "Weight": 125
+  },
+  {
+    "Model": "Lumix DMC-F7",
+    "Brand": "Panasonic",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 70,
+    "Storage": 8,
+    "Weight": 200
+  },
+  {
+    "Model": "Lumix DMC-LC5",
+    "Brand": "Panasonic",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 100,
+    "Storage": 32,
+    "Weight": 435
+  },
+  {
+    "Model": "Lumix DMC-FZ1",
+    "Brand": "Panasonic",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 8,
+    "Weight": 354
+  },
+  {
+    "Model": "Lumix DMC-LC20",
+    "Brand": "Panasonic",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 290
+  },
+  {
+    "Model": "Lumix DMC-LC40",
+    "Brand": "Panasonic",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 100,
+    "Storage": 16,
+    "Weight": 420
+  },
+  {
+    "Model": "Lumix DMC-FX1",
+    "Brand": "Panasonic",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 185
+  },
+  {
+    "Model": "Lumix DMC-FX5",
+    "Brand": "Panasonic",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 185
+  },
+  {
+    "Model": "Lumix DMC-FZ10",
+    "Brand": "Panasonic",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 16,
+    "Weight": 550
+  },
+  {
+    "Model": "Lumix DMC-FZ2",
+    "Brand": "Panasonic",
+    "Release": 2003,
+    "Effective_pixels": 2,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 0,
+    "Weight": 350
+  },
+  {
+    "Model": "Lumix DMC-LC33",
+    "Brand": "Panasonic",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 215
+  },
+  {
+    "Model": "Lumix DMC-LC43",
+    "Brand": "Panasonic",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 32,
+    "Weight": 215
+  },
+  {
+    "Model": "Lumix DMC-FX2",
+    "Brand": "Panasonic",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 148
+  },
+  {
+    "Model": "Lumix DMC-FX7",
+    "Brand": "Panasonic",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 153
+  },
+  {
+    "Model": "Lumix DMC-FZ20",
+    "Brand": "Panasonic",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 16,
+    "Weight": 556
+  },
+  {
+    "Model": "Lumix DMC-FZ3",
+    "Brand": "Panasonic",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 16,
+    "Weight": 326
+  },
+  {
+    "Model": "Lumix DMC-LC1",
+    "Brand": "Panasonic",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 90,
+    "Storage": 16,
+    "Weight": 705
+  },
+  {
+    "Model": "Lumix DMC-LC50",
+    "Brand": "Panasonic",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 210
+  },
+  {
+    "Model": "Lumix DMC-LC70",
+    "Brand": "Panasonic",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 210
+  },
+  {
+    "Model": "Lumix DMC-LC80",
+    "Brand": "Panasonic",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 207
+  },
+  {
+    "Model": "Lumix DMC-FX8",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 155
+  },
+  {
+    "Model": "Lumix DMC-FX9",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 155
+  },
+  {
+    "Model": "Lumix DMC-FZ30",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 32,
+    "Weight": 740
+  },
+  {
+    "Model": "Lumix DMC-FZ4",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 8,
+    "Weight": 326
+  },
+  {
+    "Model": "Lumix DMC-FZ5",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 16,
+    "Weight": 326
+  },
+  {
+    "Model": "Lumix DMC-LS1",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 14,
+    "Weight": 188
+  },
+  {
+    "Model": "Lumix DMC-LX1",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 112,
+    "Storage": 32,
+    "Weight": 220
+  },
+  {
+    "Model": "Lumix DMC-LZ1",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 37,
+    "ZoomT": 222,
+    "Storage": 14,
+    "Weight": 224
+  },
+  {
+    "Model": "Lumix DMC-LZ2",
+    "Brand": "Panasonic",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 37,
+    "ZoomT": 222,
+    "Storage": 14,
+    "Weight": 224
+  },
+  {
+    "Model": "Lumix DMC-FX01",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 28,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 155
+  },
+  {
+    "Model": "Lumix DMC-FX07",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 102,
+    "Storage": 0,
+    "Weight": 170
+  },
+  {
+    "Model": "Lumix DMC-FX3",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 13,
+    "Weight": 165
+  },
+  {
+    "Model": "Lumix DMC-FX50",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 102,
+    "Storage": 0,
+    "Weight": 190
+  },
+  {
+    "Model": "Lumix DMC-FZ50",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 35,
+    "ZoomT": 420,
+    "Storage": 32,
+    "Weight": 734
+  },
+  {
+    "Model": "Lumix DMC-FZ7",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 16,
+    "Weight": 340
+  },
+  {
+    "Model": "Lumix DMC-L1",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 606
+  },
+  {
+    "Model": "Lumix DMC-LS2",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 14,
+    "Weight": 188
+  },
+  {
+    "Model": "Lumix DMC-LX2",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 28,
+    "ZoomT": 112,
+    "Storage": 13,
+    "Weight": 220
+  },
+  {
+    "Model": "Lumix DMC-LZ3",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 5,
+    "ZoomW": 37,
+    "ZoomT": 222,
+    "Storage": 14,
+    "Weight": 230
+  },
+  {
+    "Model": "Lumix DMC-LZ5",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 37,
+    "ZoomT": 222,
+    "Storage": 14,
+    "Weight": 230
+  },
+  {
+    "Model": "Lumix DMC-TZ1",
+    "Brand": "Panasonic",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 350,
+    "Storage": 13,
+    "Weight": 250
+  },
+  {
+    "Model": "Lumix DMC-FX10",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 27,
+    "Weight": 155
+  },
+  {
+    "Model": "Lumix DMC-FX100",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 28,
+    "ZoomT": 100,
+    "Storage": 27,
+    "Weight": 150
+  },
+  {
+    "Model": "Lumix DMC-FX12",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 27,
+    "Weight": 155
+  },
+  {
+    "Model": "Lumix DMC-FX30",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 100,
+    "Storage": 27,
+    "Weight": 162
+  },
+  {
+    "Model": "Lumix DMC-FX33",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 100,
+    "Storage": 27,
+    "Weight": 154
+  },
+  {
+    "Model": "Lumix DMC-FX55",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 100,
+    "Storage": 27,
+    "Weight": 165
+  },
+  {
+    "Model": "Lumix DMC-FZ18",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 504,
+    "Storage": 27,
+    "Weight": 407
+  },
+  {
+    "Model": "Lumix DMC-FZ8",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 27,
+    "Weight": 340
+  },
+  {
+    "Model": "Lumix DMC-L10",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 556
+  },
+  {
+    "Model": "Lumix DMC-LS60",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 27,
+    "Weight": 188
+  },
+  {
+    "Model": "Lumix DMC-LS75",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 27,
+    "Weight": 188
+  },
+  {
+    "Model": "Lumix DMC-LZ6",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 222,
+    "Storage": 27,
+    "Weight": 230
+  },
+  {
+    "Model": "Lumix DMC-LZ7",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 222,
+    "Storage": 27,
+    "Weight": 234
+  },
+  {
+    "Model": "Lumix DMC-TZ2",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 28,
+    "ZoomT": 280,
+    "Storage": 13,
+    "Weight": 260
+  },
+  {
+    "Model": "Lumix DMC-TZ3",
+    "Brand": "Panasonic",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 280,
+    "Storage": 13,
+    "Weight": 280
+  },
+  {
+    "Model": "EI-200",
+    "Brand": "Pentax",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 390
+  },
+  {
+    "Model": "EI-2000",
+    "Brand": "Pentax",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 108,
+    "Storage": 16,
+    "Weight": 630
+  },
+  {
+    "Model": "EI-100",
+    "Brand": "Pentax",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 42,
+    "ZoomT": 42,
+    "Storage": 8,
+    "Weight": 240
+  },
+  {
+    "Model": "Optio 330",
+    "Brand": "Pentax",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 240
+  },
+  {
+    "Model": "Optio 430",
+    "Brand": "Pentax",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 240
+  },
+  {
+    "Model": "Optio 230",
+    "Brand": "Pentax",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 230
+  },
+  {
+    "Model": "Optio 330GS",
+    "Brand": "Pentax",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 230
+  },
+  {
+    "Model": "Optio 330RS",
+    "Brand": "Pentax",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 240
+  },
+  {
+    "Model": "Optio 430RS",
+    "Brand": "Pentax",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 16,
+    "Weight": 240
+  },
+  {
+    "Model": "*ist D",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 650
+  },
+  {
+    "Model": "Optio 33L",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 225
+  },
+  {
+    "Model": "Optio 33LF",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 12,
+    "Weight": 225
+  },
+  {
+    "Model": "Optio 33WR",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 104,
+    "Storage": 16,
+    "Weight": 208
+  },
+  {
+    "Model": "Optio 450",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 187,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "Optio 550",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 37,
+    "ZoomT": 187,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "Optio 555",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 37,
+    "ZoomT": 187,
+    "Storage": 16,
+    "Weight": 250
+  },
+  {
+    "Model": "Optio S",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 115
+  },
+  {
+    "Model": "Optio S4",
+    "Brand": "Pentax",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 11,
+    "Weight": 115
+  },
+  {
+    "Model": "*ist DS",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 605
+  },
+  {
+    "Model": "Optio 30",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "Optio 43WR",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 104,
+    "Storage": 16,
+    "Weight": 200
+  },
+  {
+    "Model": "Optio 750Z",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 187,
+    "Storage": 32,
+    "Weight": 255
+  },
+  {
+    "Model": "Optio MX4",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 37,
+    "ZoomT": 370,
+    "Storage": 16,
+    "Weight": 375
+  },
+  {
+    "Model": "Optio S30",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 11,
+    "Weight": 175
+  },
+  {
+    "Model": "Optio S40",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 11,
+    "Weight": 175
+  },
+  {
+    "Model": "Optio S4i",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 10,
+    "Weight": 120
+  },
+  {
+    "Model": "Optio S50",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 107,
+    "Storage": 11,
+    "Weight": 180
+  },
+  {
+    "Model": "Optio S5i",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 36,
+    "ZoomT": 107,
+    "Storage": 10,
+    "Weight": 120
+  },
+  {
+    "Model": "Optio SV",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 32,
+    "Weight": 165
+  },
+  {
+    "Model": "Optio X",
+    "Brand": "Pentax",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 107,
+    "Storage": 14,
+    "Weight": 145
+  },
+  {
+    "Model": "*ist DL",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 565
+  },
+  {
+    "Model": "*ist DS2",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 605
+  },
+  {
+    "Model": "Optio 50",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 12,
+    "Weight": 180
+  },
+  {
+    "Model": "Optio 60",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 12,
+    "Weight": 200
+  },
+  {
+    "Model": "Optio S45",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 107,
+    "Storage": 11,
+    "Weight": 155
+  },
+  {
+    "Model": "Optio S55",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 107,
+    "Storage": 11,
+    "Weight": 155
+  },
+  {
+    "Model": "Optio S5n",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 107,
+    "Storage": 9,
+    "Weight": 120
+  },
+  {
+    "Model": "Optio S5z",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 107,
+    "Storage": 9,
+    "Weight": 120
+  },
+  {
+    "Model": "Optio S6",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 37,
+    "ZoomT": 112,
+    "Storage": 23,
+    "Weight": 120
+  },
+  {
+    "Model": "Optio S60",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 106,
+    "Storage": 11,
+    "Weight": 135
+  },
+  {
+    "Model": "Optio SVi",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 180,
+    "Storage": 32,
+    "Weight": 165
+  },
+  {
+    "Model": "Optio WP",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 10,
+    "Weight": 135
+  },
+  {
+    "Model": "Optio WPi",
+    "Brand": "Pentax",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 10,
+    "Weight": 135
+  },
+  {
+    "Model": "*ist DL2",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 565
+  },
+  {
+    "Model": "K100D",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 660
+  },
+  {
+    "Model": "K10D",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 793
+  },
+  {
+    "Model": "K110D",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 585
+  },
+  {
+    "Model": "Optio A10",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 24,
+    "Weight": 145
+  },
+  {
+    "Model": "Optio A20",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 145
+  },
+  {
+    "Model": "Optio E10",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 10,
+    "Weight": 180
+  },
+  {
+    "Model": "Optio E20",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 13,
+    "Weight": 180
+  },
+  {
+    "Model": "Optio M10",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 22,
+    "Weight": 170
+  },
+  {
+    "Model": "Optio M20",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 180
+  },
+  {
+    "Model": "Optio S7",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 112,
+    "Storage": 23,
+    "Weight": 120
+  },
+  {
+    "Model": "Optio T10",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 37,
+    "ZoomT": 112,
+    "Storage": 12,
+    "Weight": 155
+  },
+  {
+    "Model": "Optio T20",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 37,
+    "ZoomT": 112,
+    "Storage": 12,
+    "Weight": 155
+  },
+  {
+    "Model": "Optio W10",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 10,
+    "Weight": 160
+  },
+  {
+    "Model": "Optio W20",
+    "Brand": "Pentax",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 21,
+    "Weight": 150
+  },
+  {
+    "Model": "K100D Super",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 646
+  },
+  {
+    "Model": "Optio A30",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 145
+  },
+  {
+    "Model": "Optio E30",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 11,
+    "Weight": 190
+  },
+  {
+    "Model": "Optio E40",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 37,
+    "ZoomT": 112,
+    "Storage": 10,
+    "Weight": 175
+  },
+  {
+    "Model": "Optio M30",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 120
+  },
+  {
+    "Model": "Optio M40",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 21,
+    "Weight": 136
+  },
+  {
+    "Model": "Optio S10",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 22,
+    "Weight": 116
+  },
+  {
+    "Model": "Optio T30",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 112,
+    "Storage": 20,
+    "Weight": 155
+  },
+  {
+    "Model": "Optio W30",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 21,
+    "Weight": 155
+  },
+  {
+    "Model": "Optio Z10",
+    "Brand": "Pentax",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 266,
+    "Storage": 0,
+    "Weight": 0
+  },
+  {
+    "Model": "RDC-4300",
+    "Brand": "Ricoh",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 4,
+    "Weight": 320
+  },
+  {
+    "Model": "RDC-5000",
+    "Brand": "Ricoh",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 86,
+    "Storage": 8,
+    "Weight": 340
+  },
+  {
+    "Model": "RDC-5300",
+    "Brand": "Ricoh",
+    "Release": 1999,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 380
+  },
+  {
+    "Model": "RDC-200G",
+    "Brand": "Ricoh",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 500
+  },
+  {
+    "Model": "RDC-6000",
+    "Brand": "Ricoh",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 40,
+    "ZoomT": 40,
+    "Storage": 8,
+    "Weight": 300
+  },
+  {
+    "Model": "RDC-7",
+    "Brand": "Ricoh",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "RDC-i700",
+    "Brand": "Ricoh",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 450
+  },
+  {
+    "Model": "Caplio RR1",
+    "Brand": "Ricoh",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 340
+  },
+  {
+    "Model": "RDC-i500",
+    "Brand": "Ricoh",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "Caplio G3",
+    "Brand": "Ricoh",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 230
+  },
+  {
+    "Model": "Caplio RX",
+    "Brand": "Ricoh",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 28,
+    "ZoomT": 100,
+    "Storage": 8,
+    "Weight": 215
+  },
+  {
+    "Model": "Caplio GX8",
+    "Brand": "Ricoh",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 85,
+    "Storage": 26,
+    "Weight": 260
+  },
+  {
+    "Model": "Caplio R1V",
+    "Brand": "Ricoh",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 135,
+    "Storage": 12,
+    "Weight": 195
+  },
+  {
+    "Model": "Caplio R2",
+    "Brand": "Ricoh",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 135,
+    "Storage": 28,
+    "Weight": 195
+  },
+  {
+    "Model": "Caplio R3",
+    "Brand": "Ricoh",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 200,
+    "Storage": 26,
+    "Weight": 165
+  },
+  {
+    "Model": "Caplio RR530",
+    "Brand": "Ricoh",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 12,
+    "Weight": 190
+  },
+  {
+    "Model": "GR Digital",
+    "Brand": "Ricoh",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 28,
+    "Storage": 26,
+    "Weight": 200
+  },
+  {
+    "Model": "Caplio 500G",
+    "Brand": "Ricoh",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 85,
+    "Storage": 26,
+    "Weight": 450
+  },
+  {
+    "Model": "Caplio R30",
+    "Brand": "Ricoh",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 160,
+    "Storage": 28,
+    "Weight": 180
+  },
+  {
+    "Model": "Caplio R4",
+    "Brand": "Ricoh",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 28,
+    "ZoomT": 200,
+    "Storage": 26,
+    "Weight": 165
+  },
+  {
+    "Model": "Caplio R40",
+    "Brand": "Ricoh",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 28,
+    "ZoomT": 160,
+    "Storage": 26,
+    "Weight": 165
+  },
+  {
+    "Model": "Caplio R5",
+    "Brand": "Ricoh",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 200,
+    "Storage": 26,
+    "Weight": 165
+  },
+  {
+    "Model": "Caplio RR630",
+    "Brand": "Ricoh",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 12,
+    "Weight": 200
+  },
+  {
+    "Model": "Caplio GX100",
+    "Brand": "Ricoh",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 24,
+    "ZoomT": 72,
+    "Storage": 26,
+    "Weight": 260
+  },
+  {
+    "Model": "Caplio R6",
+    "Brand": "Ricoh",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 200,
+    "Storage": 54,
+    "Weight": 165
+  },
+  {
+    "Model": "Caplio R7",
+    "Brand": "Ricoh",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 200,
+    "Storage": 24,
+    "Weight": 135
+  },
+  {
+    "Model": "Digimax 130",
+    "Brand": "Samsung",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 43,
+    "ZoomT": 43,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "Digimax 230",
+    "Brand": "Samsung",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 33,
+    "ZoomT": 100,
+    "Storage": 0,
+    "Weight": 0
+  },
+  {
+    "Model": "Digimax 350SE",
+    "Brand": "Samsung",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 0,
+    "Weight": 320
+  },
+  {
+    "Model": "Digimax 410",
+    "Brand": "Samsung",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 0,
+    "Weight": 340
+  },
+  {
+    "Model": "Digimax U-CA 3",
+    "Brand": "Samsung",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 114,
+    "Storage": 0,
+    "Weight": 134
+  },
+  {
+    "Model": "Digimax V4",
+    "Brand": "Samsung",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 0,
+    "Weight": 210
+  },
+  {
+    "Model": "Digimax 202",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 47,
+    "Storage": 6,
+    "Weight": 135
+  },
+  {
+    "Model": "Digimax 250",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 76,
+    "Storage": 6,
+    "Weight": 210
+  },
+  {
+    "Model": "Digimax 301",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 33,
+    "Storage": 16,
+    "Weight": 137
+  },
+  {
+    "Model": "Digimax 370",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 114,
+    "Storage": 0,
+    "Weight": 157
+  },
+  {
+    "Model": "Digimax 401",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 33,
+    "Storage": 16,
+    "Weight": 137
+  },
+  {
+    "Model": "Digimax 430",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 210
+  },
+  {
+    "Model": "Digimax 530",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 195
+  },
+  {
+    "Model": "Digimax U-CA 4",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 0,
+    "Weight": 169
+  },
+  {
+    "Model": "Digimax U-CA 401",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 0,
+    "Weight": 165
+  },
+  {
+    "Model": "Digimax V40",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 113,
+    "Storage": 0,
+    "Weight": 230
+  },
+  {
+    "Model": "Digimax V5",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 0,
+    "Weight": 180
+  },
+  {
+    "Model": "Digimax V50",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 113,
+    "Storage": 256,
+    "Weight": 230
+  },
+  {
+    "Model": "Digimax V6",
+    "Brand": "Samsung",
+    "Release": 2004,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 0,
+    "Weight": 220
+  },
+  {
+    "Model": "Digimax A50",
+    "Brand": "Samsung",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 11,
+    "Weight": 185
+  },
+  {
+    "Model": "Digimax A502",
+    "Brand": "Samsung",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 31,
+    "ZoomT": 31,
+    "Storage": 16,
+    "Weight": 175
+  },
+  {
+    "Model": "Digimax A55W",
+    "Brand": "Samsung",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 28,
+    "ZoomT": 135,
+    "Storage": 32,
+    "Weight": 185
+  },
+  {
+    "Model": "Digimax i5",
+    "Brand": "Samsung",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 50,
+    "Weight": 155
+  },
+  {
+    "Model": "Digimax V700",
+    "Brand": "Samsung",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 128,
+    "Weight": 220
+  },
+  {
+    "Model": "Digimax V800",
+    "Brand": "Samsung",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 220
+  },
+  {
+    "Model": "Pro815",
+    "Brand": "Samsung",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 420,
+    "Storage": 0,
+    "Weight": 910
+  },
+  {
+    "Model": "Digimax i6",
+    "Brand": "Samsung",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 45,
+    "Weight": 0
+  },
+  {
+    "Model": "GX-10",
+    "Brand": "Samsung",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 793
+  },
+  {
+    "Model": "GX-1L",
+    "Brand": "Samsung",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 570
+  },
+  {
+    "Model": "GX-1S",
+    "Brand": "Samsung",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 605
+  },
+  {
+    "Model": "NV10",
+    "Brand": "Samsung",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 20,
+    "Weight": 190
+  },
+  {
+    "Model": "NV3",
+    "Brand": "Samsung",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 15,
+    "Weight": 155
+  },
+  {
+    "Model": "NV7 OPS",
+    "Brand": "Samsung",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 270,
+    "Storage": 19,
+    "Weight": 290
+  },
+  {
+    "Model": "i7",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 450,
+    "Weight": 210
+  },
+  {
+    "Model": "i70",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 20,
+    "Weight": 180
+  },
+  {
+    "Model": "i85",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 173,
+    "Weight": 0
+  },
+  {
+    "Model": "L700",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 20,
+    "Weight": 170
+  },
+  {
+    "Model": "L73",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 19,
+    "Weight": 180
+  },
+  {
+    "Model": "L730",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 183
+  },
+  {
+    "Model": "L74 Wide",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 28,
+    "ZoomT": 101,
+    "Storage": 450,
+    "Weight": 210
+  },
+  {
+    "Model": "L77",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 266,
+    "Storage": 0,
+    "Weight": 0
+  },
+  {
+    "Model": "L830",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 10,
+    "Weight": 183
+  },
+  {
+    "Model": "L83T",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 19,
+    "Weight": 160
+  },
+  {
+    "Model": "NV11",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 35,
+    "ZoomT": 190,
+    "Storage": 0,
+    "Weight": 240
+  },
+  {
+    "Model": "NV15",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 20,
+    "Weight": 0
+  },
+  {
+    "Model": "NV20",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 20,
+    "Weight": 0
+  },
+  {
+    "Model": "NV8",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 20,
+    "Weight": 0
+  },
+  {
+    "Model": "S1030",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 45,
+    "Weight": 220
+  },
+  {
+    "Model": "S1050",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 10,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 45,
+    "Weight": 254
+  },
+  {
+    "Model": "S630",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 186
+  },
+  {
+    "Model": "S730",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 186
+  },
+  {
+    "Model": "S830",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 45,
+    "Weight": 220
+  },
+  {
+    "Model": "S85",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 20,
+    "Weight": 204
+  },
+  {
+    "Model": "S850",
+    "Brand": "Samsung",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 20,
+    "Weight": 222
+  },
+  {
+    "Model": "VPC-X350",
+    "Brand": "Sanyo",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 4,
+    "Weight": 260
+  },
+  {
+    "Model": "VPC-Z400",
+    "Brand": "Sanyo",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 4,
+    "Weight": 350
+  },
+  {
+    "Model": "DSC-AZ1",
+    "Brand": "Sanyo",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 98,
+    "Storage": 16,
+    "Weight": 340
+  },
+  {
+    "Model": "DSC-MZ1",
+    "Brand": "Sanyo",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 98,
+    "Storage": 8,
+    "Weight": 340
+  },
+  {
+    "Model": "DSC-J1",
+    "Brand": "Sanyo",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 104,
+    "Storage": 8,
+    "Weight": 205
+  },
+  {
+    "Model": "DSC-S1",
+    "Brand": "Sanyo",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 36,
+    "ZoomT": 108,
+    "Storage": 8,
+    "Weight": 190
+  },
+  {
+    "Model": "Xacti DSC-S3",
+    "Brand": "Sanyo",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 112,
+    "Storage": 16,
+    "Weight": 185
+  },
+  {
+    "Model": "Xacti DSC-S4",
+    "Brand": "Sanyo",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 37,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 185
+  },
+  {
+    "Model": "SD9",
+    "Brand": "Sigma",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 950
+  },
+  {
+    "Model": "SD10",
+    "Brand": "Sigma",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 950
+  },
+  {
+    "Model": "DP1",
+    "Brand": "Sigma",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 28,
+    "ZoomT": 28,
+    "Storage": 0,
+    "Weight": 270
+  },
+  {
+    "Model": "SD14",
+    "Brand": "Sigma",
+    "Release": 2006,
+    "Effective_pixels": 4,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 750
+  },
+  {
+    "Model": "DSC-D700",
+    "Brand": "Sony",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 28,
+    "ZoomT": 140,
+    "Storage": 8,
+    "Weight": 900
+  },
+  {
+    "Model": "Mavica FD-71",
+    "Brand": "Sony",
+    "Release": 1998,
+    "Effective_pixels": 0,
+    "ZoomW": 40,
+    "ZoomT": 400,
+    "Storage": 1,
+    "Weight": 500
+  },
+  {
+    "Model": "Mavica FD-81",
+    "Brand": "Sony",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 1,
+    "Weight": 580
+  },
+  {
+    "Model": "Mavica FD-91",
+    "Brand": "Sony",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 518,
+    "Storage": 1,
+    "Weight": 950
+  },
+  {
+    "Model": "DSC-D770",
+    "Brand": "Sony",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 28,
+    "ZoomT": 140,
+    "Storage": 8,
+    "Weight": 900
+  },
+  {
+    "Model": "DSC-F505",
+    "Brand": "Sony",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 4,
+    "Weight": 475
+  },
+  {
+    "Model": "DSC-F55",
+    "Brand": "Sony",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 4,
+    "Weight": 300
+  },
+  {
+    "Model": "Mavica FD-73",
+    "Brand": "Sony",
+    "Release": 1999,
+    "Effective_pixels": 0,
+    "ZoomW": 40,
+    "ZoomT": 400,
+    "Storage": 1,
+    "Weight": 500
+  },
+  {
+    "Model": "Mavica FD-83",
+    "Brand": "Sony",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 1,
+    "Weight": 580
+  },
+  {
+    "Model": "Mavica FD-88",
+    "Brand": "Sony",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 270,
+    "Storage": 1,
+    "Weight": 600
+  },
+  {
+    "Model": "DSC-F505V",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 8,
+    "Weight": 482
+  },
+  {
+    "Model": "DSC-F55V",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 37,
+    "ZoomT": 37,
+    "Storage": 8,
+    "Weight": 280
+  },
+  {
+    "Model": "DSC-P1",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 8,
+    "Weight": 250
+  },
+  {
+    "Model": "DSC-S30",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 4,
+    "Weight": 370
+  },
+  {
+    "Model": "DSC-S50",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 4,
+    "Weight": 370
+  },
+  {
+    "Model": "DSC-S70",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 8,
+    "Weight": 420
+  },
+  {
+    "Model": "Mavica CD1000",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 370,
+    "Storage": 8,
+    "Weight": 980
+  },
+  {
+    "Model": "Mavica FD-85",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 1,
+    "Weight": 0
+  },
+  {
+    "Model": "Mavica FD-90",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 34,
+    "ZoomT": 270,
+    "Storage": 1,
+    "Weight": 0
+  },
+  {
+    "Model": "Mavica FD-95",
+    "Brand": "Sony",
+    "Release": 2000,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 370,
+    "Storage": 1,
+    "Weight": 900
+  },
+  {
+    "Model": "DSC-F707",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 16,
+    "Weight": 667
+  },
+  {
+    "Model": "DSC-P20",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 42,
+    "ZoomT": 42,
+    "Storage": 4,
+    "Weight": 230
+  },
+  {
+    "Model": "DSC-P3",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 36,
+    "ZoomT": 36,
+    "Storage": 8,
+    "Weight": 194
+  },
+  {
+    "Model": "DSC-P30",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 41,
+    "ZoomT": 123,
+    "Storage": 4,
+    "Weight": 250
+  },
+  {
+    "Model": "DSC-P5",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 8,
+    "Weight": 214
+  },
+  {
+    "Model": "DSC-P50",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 41,
+    "ZoomT": 123,
+    "Storage": 4,
+    "Weight": 250
+  },
+  {
+    "Model": "DSC-S75",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 8,
+    "Weight": 444
+  },
+  {
+    "Model": "DSC-S85",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 16,
+    "Weight": 444
+  },
+  {
+    "Model": "Mavica CD200",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 8,
+    "Weight": 620
+  },
+  {
+    "Model": "Mavica CD300",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 8,
+    "Weight": 620
+  },
+  {
+    "Model": "Mavica FD-75",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 0,
+    "ZoomW": 40,
+    "ZoomT": 400,
+    "Storage": 1,
+    "Weight": 580
+  },
+  {
+    "Model": "Mavica FD-87",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 1,
+    "Weight": 630
+  },
+  {
+    "Model": "Mavica FD-92",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 41,
+    "ZoomT": 328,
+    "Storage": 1,
+    "Weight": 660
+  },
+  {
+    "Model": "Mavica FD-97",
+    "Brand": "Sony",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 390,
+    "Storage": 1,
+    "Weight": 990
+  },
+  {
+    "Model": "DSC-F717",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 4,
+    "ZoomW": 38,
+    "ZoomT": 190,
+    "Storage": 32,
+    "Weight": 659
+  },
+  {
+    "Model": "DSC-P2",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 16,
+    "Weight": 214
+  },
+  {
+    "Model": "DSC-P31",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 8,
+    "Weight": 231
+  },
+  {
+    "Model": "DSC-P51",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 41,
+    "ZoomT": 82,
+    "Storage": 16,
+    "Weight": 275
+  },
+  {
+    "Model": "DSC-P7",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 16,
+    "Weight": 214
+  },
+  {
+    "Model": "DSC-P71",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 16,
+    "Weight": 284
+  },
+  {
+    "Model": "DSC-P9",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 16,
+    "Weight": 206
+  },
+  {
+    "Model": "DSC-U10",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 8,
+    "Weight": 118
+  },
+  {
+    "Model": "DSC-U20",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 2,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 8,
+    "Weight": 118
+  },
+  {
+    "Model": "Mavica CD250",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 41,
+    "ZoomT": 123,
+    "Storage": 6,
+    "Weight": 610
+  },
+  {
+    "Model": "Mavica CD400",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 6,
+    "Weight": 640
+  },
+  {
+    "Model": "Mavica FD-100",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 1,
+    "Weight": 0
+  },
+  {
+    "Model": "Mavica FD-200",
+    "Brand": "Sony",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 37,
+    "ZoomT": 111,
+    "Storage": 1,
+    "Weight": 520
+  },
+  {
+    "Model": "DSC-F828",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 8,
+    "ZoomW": 28,
+    "ZoomT": 200,
+    "Storage": 0,
+    "Weight": 906
+  },
+  {
+    "Model": "DSC-P10",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 206
+  },
+  {
+    "Model": "DSC-P32",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 16,
+    "Weight": 217
+  },
+  {
+    "Model": "DSC-P52",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 41,
+    "ZoomT": 82,
+    "Storage": 16,
+    "Weight": 280
+  },
+  {
+    "Model": "DSC-P72",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 16,
+    "Weight": 259
+  },
+  {
+    "Model": "DSC-P8",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 16,
+    "Weight": 206
+  },
+  {
+    "Model": "DSC-P92",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 16,
+    "Weight": 259
+  },
+  {
+    "Model": "DSC-T1",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 180
+  },
+  {
+    "Model": "DSC-U30",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 2,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 8,
+    "Weight": 130
+  },
+  {
+    "Model": "DSC-U40",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 2,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 8,
+    "Weight": 130
+  },
+  {
+    "Model": "DSC-U50",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 2,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 8,
+    "Weight": 132
+  },
+  {
+    "Model": "DSC-U60",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 2,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 8,
+    "Weight": 200
+  },
+  {
+    "Model": "DSC-V1",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 34,
+    "ZoomT": 136,
+    "Storage": 32,
+    "Weight": 298
+  },
+  {
+    "Model": "Mavica CD350",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 41,
+    "ZoomT": 123,
+    "Storage": 1,
+    "Weight": 522
+  },
+  {
+    "Model": "Mavica CD500",
+    "Brand": "Sony",
+    "Release": 2003,
+    "Effective_pixels": 5,
+    "ZoomW": 34,
+    "ZoomT": 102,
+    "Storage": 1,
+    "Weight": 606
+  },
+  {
+    "Model": "DSC-F88",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 202
+  },
+  {
+    "Model": "DSC-L1",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 4,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 16,
+    "Weight": 152
+  },
+  {
+    "Model": "DSC-M1",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 215
+  },
+  {
+    "Model": "DSC-P100",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 180
+  },
+  {
+    "Model": "DSC-P150",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 180
+  },
+  {
+    "Model": "DSC-P41",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 33,
+    "ZoomT": 33,
+    "Storage": 16,
+    "Weight": 180
+  },
+  {
+    "Model": "DSC-P73",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 3,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 16,
+    "Weight": 243
+  },
+  {
+    "Model": "DSC-P93",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 236
+  },
+  {
+    "Model": "DSC-T11",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 186
+  },
+  {
+    "Model": "DSC-T3",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 186
+  },
+  {
+    "Model": "DSC-V3",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 7,
+    "ZoomW": 34,
+    "ZoomT": 136,
+    "Storage": 0,
+    "Weight": 390
+  },
+  {
+    "Model": "DSC-W1",
+    "Brand": "Sony",
+    "Release": 2004,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 250
+  },
+  {
+    "Model": "DSC-H1",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 32,
+    "Weight": 591
+  },
+  {
+    "Model": "DSC-M2",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 240
+  },
+  {
+    "Model": "DSC-N1",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 139
+  },
+  {
+    "Model": "DSC-P200",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 180
+  },
+  {
+    "Model": "DSC-R1",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 10,
+    "ZoomW": 24,
+    "ZoomT": 120,
+    "Storage": 0,
+    "Weight": 995
+  },
+  {
+    "Model": "DSC-S40",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 32,
+    "ZoomT": 96,
+    "Storage": 32,
+    "Weight": 184
+  },
+  {
+    "Model": "DSC-S60",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 32,
+    "Weight": 249
+  },
+  {
+    "Model": "DSC-S90",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 4,
+    "ZoomW": 39,
+    "ZoomT": 117,
+    "Storage": 32,
+    "Weight": 253
+  },
+  {
+    "Model": "DSC-T33",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 150
+  },
+  {
+    "Model": "DSC-T5",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 139
+  },
+  {
+    "Model": "DSC-T7",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 134
+  },
+  {
+    "Model": "DSC-T9",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 185
+  },
+  {
+    "Model": "DSC-W5",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 5,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 250
+  },
+  {
+    "Model": "DSC-W7",
+    "Brand": "Sony",
+    "Release": 2005,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 250
+  },
+  {
+    "Model": "DSC-H2",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 32,
+    "Weight": 490
+  },
+  {
+    "Model": "DSC-H5",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 36,
+    "ZoomT": 432,
+    "Storage": 32,
+    "Weight": 490
+  },
+  {
+    "Model": "DSC-N2",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 139
+  },
+  {
+    "Model": "DSC-S600",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 31,
+    "ZoomT": 93,
+    "Storage": 32,
+    "Weight": 180
+  },
+  {
+    "Model": "DSC-T10",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 56,
+    "Weight": 168
+  },
+  {
+    "Model": "DSC-T30",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 58,
+    "Weight": 172
+  },
+  {
+    "Model": "DSC-T50",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 58,
+    "Weight": 170
+  },
+  {
+    "Model": "DSC-W100",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 64,
+    "Weight": 192
+  },
+  {
+    "Model": "DSC-W30",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 153
+  },
+  {
+    "Model": "DSC-W50",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 32,
+    "Weight": 157
+  },
+  {
+    "Model": "DSC-W70",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 58,
+    "Weight": 157
+  },
+  {
+    "Model": "DSLR-A100",
+    "Brand": "Sony",
+    "Release": 2006,
+    "Effective_pixels": 10,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 638
+  },
+  {
+    "Model": "DSC-G1",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 6,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 2,
+    "Weight": 238
+  },
+  {
+    "Model": "DSC-H3",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 380,
+    "Storage": 31,
+    "Weight": 264
+  },
+  {
+    "Model": "DSC-H7",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 31,
+    "ZoomT": 465,
+    "Storage": 31,
+    "Weight": 405
+  },
+  {
+    "Model": "DSC-H9",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 31,
+    "ZoomT": 465,
+    "Storage": 31,
+    "Weight": 440
+  },
+  {
+    "Model": "DSC-S650",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 24,
+    "Weight": 178
+  },
+  {
+    "Model": "DSC-S700",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 24,
+    "Weight": 178
+  },
+  {
+    "Model": "DSC-S800",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 37,
+    "ZoomT": 222,
+    "Storage": 54,
+    "Weight": 245
+  },
+  {
+    "Model": "DSC-T100",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 175,
+    "Storage": 31,
+    "Weight": 197
+  },
+  {
+    "Model": "DSC-T20",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 31,
+    "Weight": 197
+  },
+  {
+    "Model": "DSC-T200",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 175,
+    "Storage": 31,
+    "Weight": 160
+  },
+  {
+    "Model": "DSC-W200",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 31,
+    "Weight": 195
+  },
+  {
+    "Model": "DSC-W35",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 56,
+    "Weight": 149
+  },
+  {
+    "Model": "DSC-W55",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 56,
+    "Weight": 147
+  },
+  {
+    "Model": "DSC-W80",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 7,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 31,
+    "Weight": 175
+  },
+  {
+    "Model": "DSC-W90",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 8,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 31,
+    "Weight": 175
+  },
+  {
+    "Model": "DSLR-A700",
+    "Brand": "Sony",
+    "Release": 2007,
+    "Effective_pixels": 12,
+    "ZoomW": 0,
+    "ZoomT": 0,
+    "Storage": 0,
+    "Weight": 768
+  },
+  {
+    "Model": "PDR-M1",
+    "Brand": "Toshiba",
+    "Release": 1998,
+    "Effective_pixels": 1,
+    "ZoomW": 35,
+    "ZoomT": 35,
+    "Storage": 4,
+    "Weight": 290
+  },
+  {
+    "Model": "PDR-M3",
+    "Brand": "Toshiba",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 115,
+    "Storage": 4,
+    "Weight": 380
+  },
+  {
+    "Model": "PDR-M4",
+    "Brand": "Toshiba",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 40,
+    "ZoomT": 40,
+    "Storage": 8,
+    "Weight": 290
+  },
+  {
+    "Model": "PDR-M5",
+    "Brand": "Toshiba",
+    "Release": 1999,
+    "Effective_pixels": 1,
+    "ZoomW": 40,
+    "ZoomT": 120,
+    "Storage": 8,
+    "Weight": 350
+  },
+  {
+    "Model": "PDR-M60",
+    "Brand": "Toshiba",
+    "Release": 2000,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 86,
+    "Storage": 4,
+    "Weight": 320
+  },
+  {
+    "Model": "PDR-M70",
+    "Brand": "Toshiba",
+    "Release": 2000,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 390
+  },
+  {
+    "Model": "PDR-M11",
+    "Brand": "Toshiba",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 52,
+    "ZoomT": 52,
+    "Storage": 8,
+    "Weight": 240
+  },
+  {
+    "Model": "PDR-M21",
+    "Brand": "Toshiba",
+    "Release": 2001,
+    "Effective_pixels": 1,
+    "ZoomW": 39,
+    "ZoomT": 39,
+    "Storage": 8,
+    "Weight": 240
+  },
+  {
+    "Model": "PDR-M25",
+    "Brand": "Toshiba",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "PDR-M61",
+    "Brand": "Toshiba",
+    "Release": 2001,
+    "Effective_pixels": 2,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 310
+  },
+  {
+    "Model": "PDR-M65",
+    "Brand": "Toshiba",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 38,
+    "ZoomT": 114,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "PDR-M71",
+    "Brand": "Toshiba",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 98,
+    "Storage": 8,
+    "Weight": 340
+  },
+  {
+    "Model": "PDR-M81",
+    "Brand": "Toshiba",
+    "Release": 2001,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 98,
+    "Storage": 16,
+    "Weight": 340
+  },
+  {
+    "Model": "PDR-3310",
+    "Brand": "Toshiba",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 8,
+    "Weight": 205
+  },
+  {
+    "Model": "PDR-3330",
+    "Brand": "Toshiba",
+    "Release": 2002,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 100,
+    "Storage": 8,
+    "Weight": 320
+  },
+  {
+    "Model": "PDR-T10",
+    "Brand": "Toshiba",
+    "Release": 2002,
+    "Effective_pixels": 1,
+    "ZoomW": 38,
+    "ZoomT": 38,
+    "Storage": 8,
+    "Weight": 180
+  },
+  {
+    "Model": "PDR-4300",
+    "Brand": "Toshiba",
+    "Release": 2003,
+    "Effective_pixels": 3,
+    "ZoomW": 35,
+    "ZoomT": 100,
+    "Storage": 16,
+    "Weight": 0
+  },
+  {
+    "Model": "PDR-5300",
+    "Brand": "Toshiba",
+    "Release": 2003,
+    "Effective_pixels": 4,
+    "ZoomW": 35,
+    "ZoomT": 105,
+    "Storage": 16,
+    "Weight": 230
+  }
+]
