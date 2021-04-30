@@ -456,11 +456,11 @@ console.log(screen.height*0.35/50);
 
         let zoomw= lenScale(35);
 
-         return "translate("+(85+(1.1-zoomw)*10)*scaleval+","+((1-zoomw)*40)*scaleval+") scale("+zoomw*scaleval+")";
+         return "translate("+(85+(1.1-zoomw)*10)*scaleval+","+(37-(zoomw*25))*scaleval+") scale("+zoomw*scaleval+")";
 
        })
       .attr("fill", "white")
-      .attr("opacity", 0.7)
+      .attr("opacity", 1)
       .attr("stroke", "black")
       .attr("stroke-width", 1);
 
@@ -471,10 +471,10 @@ console.log(screen.height*0.35/50);
       .attr("transform", d=>{
         let zoomt = lenScale(470);
 
-        return "translate("+(120+(1.1-zoomt)*15)*scaleval+","+((1.1-zoomt)*75)*scaleval+") scale("+zoomt*scaleval+")";
+        return "translate("+(120+(1.1-zoomt)*15)*scaleval+","+(37-(zoomt*25))*scaleval+") scale("+zoomt*scaleval+")";
       })
       .attr("fill", "white")
-      .attr("opacity", 0.7)
+      .attr("opacity", 1)
       .attr("stroke", "black")
       .attr("stroke-width", 2)
       ;
@@ -713,13 +713,13 @@ let colors = ["white","yellow", "#FF4399", "#1B02A3","#39FF13", "#1B02A3" ];
          }
          if(zoomw>0.65)
          {
-           return "translate(85,"+(zoomw/3)*40+") scale("+zoomt+")";
+           return "translate(85,"+(zoomw/3)*35+") scale("+zoomt+")";
          }
-         return "translate("+(85+(1.1-zoomw)*10)+","+((1-zoomw)*40)+") scale("+zoomw+")";
+         return "translate("+(85+(1.1-zoomw)*10)+","+(35-(zoomw*25))+") scale("+zoomw+")";
 
        })
       .attr("fill", "white")
-      .attr("opacity", 0.7)
+      .attr("opacity", 1)
       .attr("stroke", "black")
       .attr("stroke-width", 2);
 
@@ -737,14 +737,14 @@ let colors = ["white","yellow", "#FF4399", "#1B02A3","#39FF13", "#1B02A3" ];
        else {
            zoomt = lenScale(d.zoomTsize);
        }
-       if(zoomt>0.8)
-       {
-         return "translate(120,"+(zoomt/2)*35+") scale("+zoomt+")";
-       }
-      return "translate("+(120+(1.1-zoomt)*10)+","+((1.1-zoomt)*37)+") scale("+zoomt+")";
+       // if(zoomt>0.8)
+       // {
+       //   return "translate(120,"+(zoomt/2)*40+") scale("+zoomt+")";
+       // }
+      return "translate("+(120+(1.1-zoomt)*10)+","+(35-(zoomt*25))+") scale("+zoomt+")";
     })
     .attr("fill", "white")
-    .attr("opacity", 0.7)
+    .attr("opacity", 1)
     .attr("stroke", "black")
     .attr("stroke-width", 2)
     ;
