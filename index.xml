@@ -5,9 +5,257 @@
     <description>Recent content on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2020 01:44:48 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jun 2021 05:44:48 +0530</lastBuildDate>
     
         <atom:link href="http://supriyadutta.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Camera: 1994-2007</title>
+        <link>http://supriyadutta.in/projects/camera/</link>
+        <pubDate>Mon, 14 Jun 2021 05:44:48 +0530</pubDate>
+        
+        <guid>http://supriyadutta.in/projects/camera/</guid>
+        <description>Supriya Dutta http://supriyadutta.in/projects/camera/ -&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+&lt;div class=&#34;row&#34;&gt;
+  
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Type of Project
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    &lt;strong&gt;
+  Tags
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;row&#34;&gt;
+  
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+Personal
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+Data visualization, Interaction Design
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+  &lt;strong&gt;
+  Link
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+  &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+  &lt;strong&gt;
+  Tools used
+  &lt;/strong&gt;
+
+  
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;row&#34;&gt;
+  
+      &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+      &lt;a href = &#34;http://www.supriyadutta.in/viz_images/pages2_large.jpg&#34;&gt;
+  &lt;u&gt;
+  Static viz
+  &lt;/u&gt;
+
+  &lt;/a&gt;
+,
+      &lt;a href = &#34;http://www.supriyadutta.in/ahom-v2/&#34;&gt;
+  &lt;u&gt;
+  Web based viz
+  &lt;/u&gt;
+
+  &lt;/a&gt;
+
+      
+&lt;/div&gt;
+
+      &lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:40%&#34;&gt;
+  
+    RStudio. D3js, Photoshop, Illustrator, Colors and Paper
+    
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+
+
+
+
+
+
+&lt;/div&gt;
+
+&lt;div class=&#34;column&#34; style =&#34;padding-left:2%; padding-right:2%; width:60%&#34;&gt;
+  
+&lt;strong&gt;
+  Cameras
+  &lt;/strong&gt;
+ - with numerous brands available in the market, &lt;strong&gt;
+  how do you choose yours?
+  &lt;/strong&gt;
+ If you are a professional, chances are you are already aware of all your needs, have an exceptional budget, good knowledge of the lens you will need, your choice of effective pixel, and many other specifications. &lt;strong&gt;
+  What about when you need one for your household - to capture all your precious memories!
+  &lt;/strong&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+
+I stumbled upon a dataset collected and cleaned by &lt;em&gt;&lt;a href = &#34;http://perso.telecom-paristech.fr/eagan/class/igr204/datasets&#34; target=&#34;_blank&#34;&gt;
+  Petra Isenberg, Pierre Dragicevic, and Yvonne Jansen
+  &lt;/a&gt;
+&lt;/em&gt;. The dataset contained data about brands, camera designs, and their specifications during the period 1994 - 2007. In this period the world saw an uprise in the usage of digital cameras, focusing more on the usage of Effective pixels and their compatibility with a varied range of lenses. The period also witnessed the explorations done on camera models over effective pixels: while some survived, some didn’t.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+I created two designs 💃🏽&lt;br&gt;
+&lt;strong&gt;&lt;a href=&#34;http://supriyadutta.in/projects/camera/#STviz&#34;&gt;&lt;span style = &#34;color: #48AAAD&#34;&gt;
+  Static visualization &gt;&gt; 
+  &lt;/span&gt;
+&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;&lt;a href=&#34;http://supriyadutta.in/projects/camera/#DTviz&#34;&gt;&lt;span style = &#34;color: #48AAAD&#34;&gt;
+  Web based exploratory visualization &gt;&gt;
+  &lt;/span&gt;
+&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;STviz&#34;&gt;Static Visualization&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tools used&lt;/strong&gt;&lt;br&gt;
+Data wrangling: LibreOffice calc, RStudio&lt;br&gt;
+Data sketches and iteration: Pen, paper and black ink (U.U)&lt;br&gt;
+Visualization: RStudio, Photoshop, Illustrator&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;em&gt;&lt;span style = &#34;color: #48AAAD&#34;&gt;
+  Click on image to visit link
+  &lt;/span&gt;
+&lt;/em&gt;
+&lt;figure&gt;&lt;a href=&#34;http://supriyadutta.in/viz_images/pages2_large.jpg&#34;&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/camera/pages2_large.jpg&#34;/&gt; &lt;/a&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;br&gt;
+
+&lt;h2 id=&#34;DTviz&#34;&gt;Web based exploratory visualization&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tools used&lt;/strong&gt;&lt;br&gt;
+Data wrangling: LibreOffice calc, RStudio&lt;br&gt;
+Data sketches and iteration: Pen, paper and black ink (U.U)&lt;br&gt;
+Visualization: RStudio, D3js, Bootstrap&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;em&gt;&lt;span style = &#34;color: #48AAAD&#34;&gt;
+  Click on image to visit link
+  &lt;/span&gt;
+&lt;/em&gt;
+&lt;figure&gt;&lt;a href=&#34;http://supriyadutta.in/cameraf&#34;&gt;
+    &lt;img src=&#34;http://supriyadutta.in/images/camera/website.png&#34;/&gt; &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;em&gt;&lt;a href = &#34;http://www.supriyadutta.in/cameraf&#34;&gt;
+  supriyadutta.in/cameraf
+  &lt;/a&gt;
+&lt;/em&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+I would love your feedback. Mail me at: &lt;a href=&#34;mailto:supriyadutta.1920@gmail.com&#34;&gt;supriyadutta.1920@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+.FIN&lt;/p&gt;
+- http://supriyadutta.in/projects/camera/ - </description>
+        </item>
     
     
     
