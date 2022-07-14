@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Supriya Dutta</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Jun 2022 16:25:53 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data art</title>
+      <link>/categories/data-art/</link>
+      <pubDate>Mon, 27 Jun 2022 16:25:53 +0530</pubDate>
+      
+      <guid>/categories/data-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generative art</title>
+      <link>/categories/generative-art/</link>
+      <pubDate>Mon, 27 Jun 2022 16:25:53 +0530</pubDate>
+      
+      <guid>/categories/generative-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>processing</title>
+      <link>/categories/processing/</link>
+      <pubDate>Mon, 27 Jun 2022 16:25:53 +0530</pubDate>
+      
+      <guid>/categories/processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Children Education</title>
+      <link>/categories/children-education/</link>
+      <pubDate>Mon, 27 Jun 2022 16:23:00 +0530</pubDate>
+      
+      <guid>/categories/children-education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interaction Design</title>
+      <link>/categories/interaction-design/</link>
+      <pubDate>Mon, 27 Jun 2022 16:23:00 +0530</pubDate>
+      
+      <guid>/categories/interaction-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book design</title>
+      <link>/categories/book-design/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      
+      <guid>/categories/book-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>illustration</title>
+      <link>/categories/illustration/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      
+      <guid>/categories/illustration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typesetting</title>
+      <link>/categories/typesetting/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      
+      <guid>/categories/typesetting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dataviz</title>
+      <link>/categories/dataviz/</link>
+      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
+      
+      <guid>/categories/dataviz/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

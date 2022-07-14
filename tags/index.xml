@@ -2,71 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Supriya Dutta</title>
-    <link>http://supriyadutta.in/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jun 2021 05:44:48 +0530</lastBuildDate><atom:link href="http://supriyadutta.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Jun 2022 16:13:11 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data visualization</title>
-      <link>http://supriyadutta.in/tags/data-visualization/</link>
-      <pubDate>Mon, 14 Jun 2021 05:44:48 +0530</pubDate>
+      <title>book design</title>
+      <link>/tags/book-design/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
       
-      <guid>http://supriyadutta.in/tags/data-visualization/</guid>
+      <guid>/tags/book-design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Interaction Design</title>
-      <link>http://supriyadutta.in/tags/interaction-design/</link>
-      <pubDate>Mon, 14 Jun 2021 05:44:48 +0530</pubDate>
+      <title>illustration</title>
+      <link>/tags/illustration/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
       
-      <guid>http://supriyadutta.in/tags/interaction-design/</guid>
+      <guid>/tags/illustration/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Game Design</title>
-      <link>http://supriyadutta.in/tags/game-design/</link>
-      <pubDate>Mon, 22 Jul 2019 01:44:48 +0530</pubDate>
+      <title>typesetting</title>
+      <link>/tags/typesetting/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
       
-      <guid>http://supriyadutta.in/tags/game-design/</guid>
+      <guid>/tags/typesetting/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cultural</title>
-      <link>http://supriyadutta.in/tags/cultural/</link>
-      <pubDate>Mon, 09 Apr 2018 10:58:08 -0400</pubDate>
+      <title>dataViz</title>
+      <link>/tags/dataviz/</link>
+      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
       
-      <guid>http://supriyadutta.in/tags/cultural/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graphics Design</title>
-      <link>http://supriyadutta.in/tags/graphics-design/</link>
-      <pubDate>Sun, 05 Nov 2017 01:44:48 +0530</pubDate>
-      
-      <guid>http://supriyadutta.in/tags/graphics-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Illustration</title>
-      <link>http://supriyadutta.in/tags/illustration/</link>
-      <pubDate>Sun, 05 Nov 2017 01:44:48 +0530</pubDate>
-      
-      <guid>http://supriyadutta.in/tags/illustration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Typesetting</title>
-      <link>http://supriyadutta.in/tags/typesetting/</link>
-      <pubDate>Sun, 05 Nov 2017 01:44:48 +0530</pubDate>
-      
-      <guid>http://supriyadutta.in/tags/typesetting/</guid>
+      <guid>/tags/dataviz/</guid>
       <description></description>
     </item>
     
