@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supriya Dutta</title>
+    <link>/</link>
+    <description>Recent content on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Jun 2022 16:25:53 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sketches with processing</title>
+      <link>/posts/processing/</link>
+      <pubDate>Mon, 27 Jun 2022 16:25:53 +0530</pubDate>
+      
+      <guid>/posts/processing/</guid>
+      <description>Lately I have been curious about Fractals and Psychedelic patterns. This escalated when I found out about Daniel Shiffman&amp;rsquo;s Coding Train tutorials.
+A collection of explorations and Processing Sketches I worked on is on Online!. If you have any suggestions or feedback, please reach out. I would love to hear your thoughts :)</description>
+    </item>
+    
+    <item>
+      <title>Zuci</title>
+      <link>/posts/zuci/</link>
+      <pubDate>Mon, 27 Jun 2022 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/zuci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature&#39;s spalette</title>
+      <link>/posts/naturespalette/</link>
+      <pubDate>Mon, 27 Jun 2022 16:23:00 +0530</pubDate>
+      
+      <guid>/posts/naturespalette/</guid>
+      <description>INTRODUCTION Can we foster curiosity in children about our natural environment?During Interaction Design module at IDC School of Design, we a group of 4, were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
+But, how do we
+Ensure that children become familiar with unfamiliar environment? Nudge children to use the platform? Encourage collaborative learning? RESEARCH A few questions we wanted to understand through our research were:</description>
+    </item>
+    
+    <item>
+      <title>My friend Mr Leakey</title>
+      <link>/posts/leakey/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      
+      <guid>/posts/leakey/</guid>
+      <description>Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&amp;rsquo;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.
+I hope you enjoy this design as much as I loved working on it!
+Shapshots of the book Illustrations within FIN.</description>
+    </item>
+    
+    <item>
+      <title>Visualizing radiology data - Predible health report</title>
+      <link>/posts/predible/</link>
+      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
+      
+      <guid>/posts/predible/</guid>
+      <description>Predible Health is an AI startup. They work with Artificial Intelligence to draw out information from Radiology data. We collaborated on a project to create physical reports for the users – Pulmonologist, radiologist, and patients. The objective of the project was to find an effective way of representing the Lung CT Scan data into a medical report, specially catered to our target users. The data we wanted to present was divided into three sections: Nodule analysis data, Low Attenuation analysis data, and High Attenuation analysis data.</description>
+    </item>
+    
+    <item>
+      <title>Mukha Shilpa - Mask making</title>
+      <link>/posts/mask/</link>
+      <pubDate>Mon, 27 Jun 2022 15:54:48 +0530</pubDate>
+      
+      <guid>/posts/mask/</guid>
+      <description>Majuli district (27.0016° N, 94.2243° E) is a river island in Assam, surrounded by the river Brahmaputra. The island is a beautiful landscape of nature with land and aquatic flora and fauna, inhibited by different tribal and non tribal communities. The river island was influenced by the then Vaishnavait movement of Assam with the establishment of a satra at Dhuwahat by the saint Shankardeva.
+The art of Mask making has been an exquisite culture of Majuli satras.</description>
+    </item>
+    
+    <item>
+      <title>600 years of Ahom Kingdom</title>
+      <link>/posts/ahoms/</link>
+      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/posts/ahoms/</guid>
+      <description>The Ahom dynasty was the most celebrated in Assam&amp;rsquo;s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>/docs/example-doc/chapter-1/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/example-doc/chapter-1/</guid>
+      <description>&lt;p&gt;This is chapter 1 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>/docs/example-doc/nested-chapter/chapter-1/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/example-doc/nested-chapter/chapter-1/</guid>
+      <description>&lt;p&gt;This is chapter 1 of nested chapter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>/docs/example-doc/chapter-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/example-doc/chapter-2/</guid>
+      <description>&lt;p&gt;This is chapter 2 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>/docs/example-doc/nested-chapter/chapter-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/example-doc/nested-chapter/chapter-2/</guid>
+      <description>&lt;p&gt;This is chapter 2 of nested chapter.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

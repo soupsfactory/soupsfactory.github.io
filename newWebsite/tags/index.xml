@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Supriya Dutta</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Jun 2022 16:13:11 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>book design</title>
+      <link>/tags/book-design/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      
+      <guid>/tags/book-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>illustration</title>
+      <link>/tags/illustration/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      
+      <guid>/tags/illustration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typesetting</title>
+      <link>/tags/typesetting/</link>
+      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      
+      <guid>/tags/typesetting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dataViz</title>
+      <link>/tags/dataviz/</link>
+      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
+      
+      <guid>/tags/dataviz/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
