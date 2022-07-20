@@ -106,7 +106,7 @@
     "image": "/images/naturespalette/screen_main.png",
     "datePublished": "2022-06-27T16:23:00+05:30",
     "dateModified": "2022-06-27T16:23:00+05:30",
-    "wordCount":  1086 ,
+    "wordCount":  1264 ,
     "publisher": {
         "@type": "Person",
         "name": "Supriya",
@@ -163,7 +163,7 @@
     >
       <div class="mx-auto w-full max-w-screen-xl"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
         document.getElementsByTagName('html')[0].classList.add('dark')
     }
 </script>
@@ -178,13 +178,12 @@
         <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
             <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">About</a>
             <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Projects</a>
-            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Docs</a>
         </div>
 
         <div class="flex">
             <div class="relative pt-4 md:pt-0">
                 <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
-                    <i class="fas fa-adjust"></i>
+                    <i class="fas fa-sun"></i>
                 </div>
                 <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
                 </div>
@@ -205,16 +204,15 @@
 <script>
     
     let element = document.getElementById('lightDarkMode')
-    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
         document.addEventListener('DOMContentLoaded', () => {
             window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
         })
-    } else if (storageColorScheme == "Light") {
-        element.firstElementChild.classList.remove('fa-adjust')
-        element.firstElementChild.setAttribute("data-icon", 'sun')
-        element.firstElementChild.classList.add('fa-sun')
     } else if (storageColorScheme == "Dark") {
-        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.classList.remove('fa-sun')
         element.firstElementChild.setAttribute("data-icon", 'moon')
         element.firstElementChild.classList.add('fa-moon')
     }
@@ -247,7 +245,7 @@
 
   <div class="me-6 my-2">
     <i class="fas fa-solid fa-book me-2"></i>
-    <span class="mb-4">Fostering curiosity in children about resources available in natural environments, through colours. This project was done as a part of Interaction Design module at IDC School of Design, IIT Bombay, India</span>
+    <span class="mb-4">Fostering curiosity in children about resources available in natural environments, through colours. This project was done as a part of the Interaction Design module at IDC School of Design, IIT Bombay, India</span>
       </div>
 
   
@@ -313,7 +311,7 @@
 
   </strong>
 
-<p>During <em>Interaction Design</em> module at IDC School of Design, we a group of 4, were assigned a project - <strong>nudge children to explore their natural environment more</strong>, with one constraint - through the use of Colours.</p>
+<p>During the <em>Interaction Design</em> module at IDC School of Design, we (our group had 4 participants) were assigned a project - <strong>nudge children to explore their natural environment more</strong>, with one constraint - through the use of Colours.</p>
 <p>But, how do we</p>
 <ul>
 <li><strong>Ensure that children become familiar with unfamiliar environment?</strong></li>
@@ -321,32 +319,32 @@
 <li><strong>Encourage collaborative learning?</strong></li>
 </ul>
 <h2 id="research">RESEARCH</h2>
-<p>A few questions we wanted to understand through our research were:</p>
-<p><strong>About current practices:</strong></p>
+<p>We started our research on twe areas. A few questions we wanted to understand through our research were:</p>
+<p><strong>Current practices:</strong></p>
 <ul>
-<li>What is the current process followed by educators?</li>
-<li>How effective do they think it is?</li>
-<li>Have they experimented with their ways of teaching? Was it effective, and How? What did they do differently?</li>
-<li>What factors influence and enhance learning?</li>
+<li>What are the current processes followed by educators in India?</li>
+<li>How effective are these processes?</li>
+<li>Have they experimented with their ways of teaching? How effective were these processes? What did they do differently?</li>
+<li>What were the factors that influenced and enhanced learning?</li>
 </ul>
-<p><strong>About children and new situations:</strong></p>
+<p><strong>Children and new situations:</strong></p>
 <ul>
 <li>How to introduce new topics to children?</li>
 <li>While performing activities, does dividing children into groups/teams with a team leader, help with collaboration?</li>
 <li>Do we have programs/subjects that help children learn about their surroundings and environment?</li>
-<li>How can we make children comfortable in the new environment?</li>
+<li>How can we make children comfortable in the new and unfamiliar environment?</li>
 </ul>
-<h3 id="discussions">Discussions</h3>
-<p>We conducted primary research to get a fair sense of the subject. We decided to speak to people broadly in the area of psychology, education and people who have worked on areas related to both children and jungle. We interacted with 2 psychologist and 2 educators.
+<h3 id="interviews-with-experts">Interviews with experts</h3>
+<p>We conducted a series of interviews with experts to get a fair sense of the subject. We decided to speak to people broadly in the area of psychology, education and people who have worked on areas related to both children and jungle. We interacted with 2 psychologists and 2 educators.
 Important insights we gathered from our interviews are as follows:</p>
 <ul>
-<li>Current education system in India focuses on theory-based learning more than activity-based learning.</li>
-<li>The educators believe that activity-based classes might help a child to learn better than the current theory-based class.</li>
-<li>If we were to introduce children to their natural environment, we should be mindful of their comfort level at the start. Dr. Dutta(one of the educators) mentions that during one of the forest-exploration sessions he was involved with, he experienced a similar scenario. The participants were scared and reluctant on their first day. The instructors of the forest exploration session would then initiate nature-based activities such as “find leaves with red spots”. <em>“activities such as these would allow a child to explore and take away the fear of unknown”</em> adds Dr. Dutta</li>
-<li>Both according to Dr. Dutta and Rashmi Gupta(Psychologists), children collaborate better if they are divided into smaller groups - a maximum of 3 people.</li>
+<li>Current education system in India focuses on <strong>theory-based</strong> learning more than activity-based learning.</li>
+<li>The educators believe that <strong>activity-based classes</strong> might <strong>help a child to learn better</strong> than the current theory-based class.</li>
+<li>If we were to introduce children to their natural environment, <strong>we should be mindful of their comfort level at the start</strong>. Dr. Dutta(one of the educators) mentions that during one of the forest-exploration sessions he was involved, he experienced a similar scenario. The participants were scared and reluctant on their first day. The instructors of the forest exploration session would then initiate nature-based activities such as “find leaves with red spots”. <em>“activities such as these would allow a child to explore and take away the fear of unknown”</em> adds Dr. Dutta</li>
+<li>Both according to Dr. Dutta and Rashmi Gupta(Psychologist), children collaborate better if they are divided into smaller groups - a maximum of 3 people.</li>
 </ul>
 <h3 id="secondary-research">Secondary Research</h3>
-<p>After our user interviews, we wanted to look into the existing resourcess. We came across various products and services to reintroduce us to nature, enhance creativity amongst children, color detectors and sensors. We created a comprehensive table of all our findings. This table shows the objectives these products/services were trying to achieve, and the strategies they have employed to do so:</p>
+<p>After our user interviews, we wanted to look into the existing resources. We came across various products and services which reintroduce us to nature, enhance creativity amongst children, color detectors and sensors. Based on our findings, we created a comprehensive table that shows the objectives of these products/services, and the strategies they have employed to do so:</p>
 <figure><img src="/images/naturespalette/secRes.jpg"/>
 </figure>
 
@@ -358,42 +356,165 @@ Important insights we gathered from our interviews are as follows:</p>
 <li>both, <strong>encourage learner led activities and provides opportunities for exploration</strong></li>
 <li><strong>Products such as Nix and Adobe CC can enhance learners’ experience by identifying colors of elements found in nature</strong></li>
 </ul>
-<h2 id="prototype">PROTOTYPE:</h2>
+<h2 id="design-process">DESIGN PROCESS:</h2>
 <h3 id="brainstorming-and-early-concepts">Brainstorming and early concepts</h3>
-<p>With the insights in hand, we checked to see if we can come come up with multiple concepts. We discussed and generated about five major concepts with several smaller ones.
+<p>With the insights in hand, we started iterating to come up with multiple concepts. We discussed and generated about five major concepts with several smaller ones.
 <figure><img src="/images/naturespalette/brainstorming.png"/>
 </figure>
 </p>
-<p>With the constraint assigned to us “Colors”, we narrowed concepts to facilitate the use of this constraint.
+<p>With the <strong>constraint “Colors” assigned to us</strong>, we narrowed concepts to facilitate the use of this constraint.
 <figure><img src="/images/naturespalette/early_concepts.png"/>
 </figure>
 
 this concept was further ideated and detailed out.</p>
-<h3 id="product-description">Product description</h3>
-<p><strong>
-  <span class="bluebg">
-  Nature's Palette
-  </span>
-
-  <style>
-    .bluebg{
-      background-color:#48AAAD ;
-      color:white
-    }
-  </style>
- 
+<h3 id="product-overview">Product overview</h3>
+<p>Nature&rsquo;s Palette is an activity-based application which nudges children to find colours and textures from their natural environment and create artwork with the found colours and textures.</p>
+<p>The activity happens in 2 stages:</p>
+<p>STAGE 1: <strong>Exploration</strong><br>
+<strong>Hardware requirements:</strong> Three camera phone with Wifi or bluetooth connectivity
+<div class="row-grid">
+    
+<div class="column-40">
+    
+<strong>
+  The objective of this stage is to collect as many colours and textures
   </strong>
- is a <strong>digital medium</strong> to <strong>create artwork using colours and textures</strong> from the <strong>natural environment</strong>. It would be deployed in science centres/national parks wherein children would be given camera phones to capture images of the natural environment around them.</p>
+ as possible. Kids are encouraged to go out in groups of 3 with their phones(1 phone for each) and collect pictures from their natural environment.
+
+</div>
+
+<style>
+    .column-40{
+    width: 40%;
+     padding-left: 1%;
+     padding-right: 1%;
+    }
+</style>
+<div class="column-60">
+    
+<figure><img src="/images/naturespalette/capturephotos.gif"/>
+</figure>
+
+
+</div>
+
+<style>
+    .column-60{
+        width: 60%;
+     padding-left: 1%;
+     padding-right: 1%;
+    }
+</style>
+
+</div>
+
+<style>
+    .row-grid{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+</style></p>
+<p>STAGE 2a: <strong>Creating artwork with colors and textures from photographs</strong><br>
+<strong>Hardware requirements:</strong> A1 size touch screen display device
+<strong>Software requirements:</strong> Nature&rsquo;s palette application - installed on the device
+<div class="row-grid">
+    
+<div class="column-40">
+    
+Kids come together and upload all the photographs to Nature's palette. Once uploaded, the photogragh Nature's palette extracts all the colors and textures.
+
+</div>
+
+<style>
+    .column-40{
+    width: 40%;
+     padding-left: 1%;
+     padding-right: 1%;
+    }
+</style>
+<div class="column-60">
+    
+<figure><img src="/images/naturespalette/sharefiles.gif"/>
+</figure>
+
+
+</div>
+
+<style>
+    .column-60{
+        width: 60%;
+     padding-left: 1%;
+     padding-right: 1%;
+    }
+</style>
+
+</div>
+
+<style>
+    .row-grid{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+</style></p>
+<p>STAGE 2b: <strong>Creating Color Palette of Colors and Textures from environment</strong><br>
+<strong>Software requirements:</strong> Nature&rsquo;s palette application - installed on the device
+<div class="row-grid">
+    
+<div class="column-40">
+    
+Nature's Palette takes photographs as input and creates a list of all the colours and textues from these photos. It them calculates the number of pixels with the same HSV values and sorts them in descending order. A list of top 5 colors and textures<div class="italics">
+   (this quantity is customizable) 
+</div>
+
+<style>
+  .italics{
+    font-style: italic;
+  }
+</style>
+is generated and chosen as the final color palette
+
+</div>
+
+<style>
+    .column-40{
+    width: 40%;
+     padding-left: 1%;
+     padding-right: 1%;
+    }
+</style>
+<div class="column-60">
+    
+<figure><img src="/images/naturespalette/extractiongif.gif"/>
+</figure>
+
+
+</div>
+
+<style>
+    .column-60{
+        width: 60%;
+     padding-left: 1%;
+     padding-right: 1%;
+    }
+</style>
+
+</div>
+
+<style>
+    .row-grid{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+</style></p>
+<h3 id="product-objectives">Product objectives</h3>
 <p>With Nature&rsquo;s Palette we targetted to achieve four objectives -</p>
 <figure><img src="/images/naturespalette/productdes.png"/>
-</figure>
-
-<h3 id="lets-meet-our-persona-_vanya_">Let&rsquo;s meet our persona, <em>Vanya</em></h3>
-<figure><img src="/images/naturespalette/vanya.png"/>
-</figure>
-
-<h3 id="product-map">Product map</h3>
-<figure><img src="/images/naturespalette/prod_journey.png"/>
 </figure>
 
 <h2 id="usability-testing">USABILITY TESTING</h2>
@@ -426,7 +547,7 @@ this concept was further ideated and detailed out.</p>
 <li>A1 size display proved to provide more space and ease to create artworks over A2 size display.</li>
 </ul>
 <h2 id="final-demo">FINAL DEMO</h2>
-<p>We created a working minimum viable prototype of Nature&rsquo;s palette. The prototype was developed on Unity and can be deployed on Android devices.</p>
+<p>We created a working minimum viable prototype of Nature&rsquo;s palette. The prototype was developed with Unity and can be deployed on Android devices.</p>
 <p>We created a video of the final workflow -</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -506,17 +627,16 @@ FIN.</p>
     <li><a href="#introduction">INTRODUCTION</a></li>
     <li><a href="#research">RESEARCH</a>
       <ul>
-        <li><a href="#discussions">Discussions</a></li>
+        <li><a href="#interviews-with-experts">Interviews with experts</a></li>
         <li><a href="#secondary-research">Secondary Research</a></li>
         <li><a href="#insights">Insights:</a></li>
       </ul>
     </li>
-    <li><a href="#prototype">PROTOTYPE:</a>
+    <li><a href="#design-process">DESIGN PROCESS:</a>
       <ul>
         <li><a href="#brainstorming-and-early-concepts">Brainstorming and early concepts</a></li>
-        <li><a href="#product-description">Product description</a></li>
-        <li><a href="#lets-meet-our-persona-_vanya_">Let&rsquo;s meet our persona, <em>Vanya</em></a></li>
-        <li><a href="#product-map">Product map</a></li>
+        <li><a href="#product-overview">Product overview</a></li>
+        <li><a href="#product-objectives">Product objectives</a></li>
       </ul>
     </li>
     <li><a href="#usability-testing">USABILITY TESTING</a>
