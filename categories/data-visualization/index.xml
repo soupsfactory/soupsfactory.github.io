@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Visualization on Supriya Dutta</title>
+    <link>/categories/data-visualization/</link>
+    <description>Recent content in Data Visualization on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Aug 2022 17:53:46 +0530</lastBuildDate><atom:link href="/categories/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Imagining people as flowers.</title>
+      <link>/posts/personaproject/</link>
+      <pubDate>Wed, 10 Aug 2022 17:53:46 +0530</pubDate>
+      
+      <guid>/posts/personaproject/</guid>
+      <description>Flower project started as a discussion with my then manager at Eli Lilly India, Anand Sawkar. We were discussing Data visualization and were wondering if there was a way to know if anybody in our office is a superhero movie enthusiast ;) . And then we started wondering if we can have a playful Data viz to know if folks at Lilly, share common intersets. Would it strike up conversations? Find folks to play football over the weekends?</description>
+    </item>
+    
+  </channel>
+</rss>

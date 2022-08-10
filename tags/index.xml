@@ -6,11 +6,20 @@
     <description>Recent content in Tags on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jun 2022 16:13:11 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2022 16:08:20 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dataViz</title>
+      <link>/tags/dataviz/</link>
+      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
+      
+      <guid>/tags/dataviz/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>book design</title>
       <link>/tags/book-design/</link>
-      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/tags/book-design/</guid>
       <description></description>
@@ -19,7 +28,7 @@
     <item>
       <title>illustration</title>
       <link>/tags/illustration/</link>
-      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/tags/illustration/</guid>
       <description></description>
@@ -28,18 +37,9 @@
     <item>
       <title>typesetting</title>
       <link>/tags/typesetting/</link>
-      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/tags/typesetting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dataViz</title>
-      <link>/tags/dataviz/</link>
-      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
-      
-      <guid>/tags/dataviz/</guid>
       <description></description>
     </item>
     

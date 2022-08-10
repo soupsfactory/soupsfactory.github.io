@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Design on Supriya Dutta</title>
+    <link>/categories/game-design/</link>
+    <description>Recent content in Game Design on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jul 2022 16:23:14 +0530</lastBuildDate><atom:link href="/categories/game-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zuci</title>
+      <link>/posts/zuci/</link>
+      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/zuci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A study: Determine the efficacy of three medium of instructions in sharing knowledge of Folk musical instruments</title>
+      <link>/posts/reszuci/</link>
+      <pubDate>Mon, 25 Jul 2022 15:20:40 +0530</pubDate>
+      
+      <guid>/posts/reszuci/</guid>
+      <description>OVERVIEW Background Traditional folk musical instrumentsare facing extinctionin many parts of India due to decrease in its user base. The purposeof this study was to determine an effective medium to introduce these musicalinstruments: their construction process, sounds and events they are used at, to a younger audience, in order to create a future user baseof individuals with better understanding of the same.
+Objective Through this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
+    </item>
+    
+  </channel>
+</rss>

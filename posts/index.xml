@@ -6,46 +6,44 @@
     <description>Recent content in Projects on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jun 2022 16:25:53 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2022 17:53:46 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sketches with processing</title>
-      <link>/posts/processing/</link>
-      <pubDate>Mon, 27 Jun 2022 16:25:53 +0530</pubDate>
+      <title>Imagining people as flowers.</title>
+      <link>/posts/personaproject/</link>
+      <pubDate>Wed, 10 Aug 2022 17:53:46 +0530</pubDate>
       
-      <guid>/posts/processing/</guid>
-      <description>Lately I have been curious about Fractals and Psychedelic patterns. This escalated when I found out about Daniel Shiffman&amp;rsquo;s Coding Train tutorials.
-A collection of explorations and Processing Sketches I worked on is on Online!. If you have any suggestions or feedback, please reach out. I would love to hear your thoughts :)</description>
+      <guid>/posts/personaproject/</guid>
+      <description>Flower project started as a discussion with my then manager at Eli Lilly India, Anand Sawkar. We were discussing Data visualization and were wondering if there was a way to know if anybody in our office is a superhero movie enthusiast ;) . And then we started wondering if we can have a playful Data viz to know if folks at Lilly, share common intersets. Would it strike up conversations? Find folks to play football over the weekends?</description>
     </item>
     
     <item>
       <title>Zuci</title>
       <link>/posts/zuci/</link>
-      <pubDate>Mon, 27 Jun 2022 16:23:14 +0530</pubDate>
+      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
       
       <guid>/posts/zuci/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Nature&#39;s spalette</title>
+      <title>A study: Determine the efficacy of three medium of instructions in sharing knowledge of Folk musical instruments</title>
+      <link>/posts/reszuci/</link>
+      <pubDate>Mon, 25 Jul 2022 15:20:40 +0530</pubDate>
+      
+      <guid>/posts/reszuci/</guid>
+      <description>OVERVIEW Background Traditional folk musical instrumentsare facing extinctionin many parts of India due to decrease in its user base. The purposeof this study was to determine an effective medium to introduce these musicalinstruments: their construction process, sounds and events they are used at, to a younger audience, in order to create a future user baseof individuals with better understanding of the same.
+Objective Through this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
+    </item>
+    
+    <item>
+      <title>Nature&#39;s palette</title>
       <link>/posts/naturespalette/</link>
-      <pubDate>Mon, 27 Jun 2022 16:23:00 +0530</pubDate>
+      <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
       
       <guid>/posts/naturespalette/</guid>
       <description>INTRODUCTION Can we foster curiosity in children about our natural environment?During the Interaction Design module at IDC School of Design, we (our group had 4 participants) were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
 But, how do we
 Ensure that children become familiar with unfamiliar environment? Nudge children to use the platform? Encourage collaborative learning? RESEARCH We started our research on twe areas.</description>
-    </item>
-    
-    <item>
-      <title>My friend Mr Leakey</title>
-      <link>/posts/leakey/</link>
-      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
-      
-      <guid>/posts/leakey/</guid>
-      <description>Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&amp;rsquo;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.
-I hope you enjoy this design as much as I loved working on it!
-Shapshots of the book Illustrations within FIN.</description>
     </item>
     
     <item>
@@ -58,9 +56,28 @@ Shapshots of the book Illustrations within FIN.</description>
     </item>
     
     <item>
+      <title>600 years of Ahom Kingdom</title>
+      <link>/posts/ahoms/</link>
+      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/posts/ahoms/</guid>
+      <description>The Ahom dynasty was the most celebrated in Assam&amp;rsquo;s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
+    </item>
+    
+    <item>
+      <title>Sketches with processing</title>
+      <link>/posts/processing/</link>
+      <pubDate>Thu, 23 Jun 2022 16:25:53 +0530</pubDate>
+      
+      <guid>/posts/processing/</guid>
+      <description>Lately I have been curious about Fractals and Psychedelic patterns. This escalated when I found out about Daniel Shiffman&amp;rsquo;s Coding Train tutorials.
+A collection of explorations and Processing Sketches I worked on is on Online!. If you have any suggestions or feedback, please reach out. I would love to hear your thoughts :)</description>
+    </item>
+    
+    <item>
       <title>Mukha Shilpa - Mask making</title>
       <link>/posts/mask/</link>
-      <pubDate>Mon, 27 Jun 2022 15:54:48 +0530</pubDate>
+      <pubDate>Mon, 30 May 2022 15:54:48 +0530</pubDate>
       
       <guid>/posts/mask/</guid>
       <description>Majuli district (27.0016° N, 94.2243° E) is a river island in Assam, surrounded by the river Brahmaputra. The island is a beautiful landscape of nature with land and aquatic flora and fauna, inhibited by different tribal and non tribal communities. The river island was influenced by the then Vaishnavait movement of Assam with the establishment of a satra at Dhuwahat by the saint Shankardeva.
@@ -68,12 +85,14 @@ The art of Mask making has been an exquisite culture of Majuli satras.</descript
     </item>
     
     <item>
-      <title>600 years of Ahom Kingdom</title>
-      <link>/posts/ahoms/</link>
-      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
+      <title>My friend Mr Leakey</title>
+      <link>/posts/leakey/</link>
+      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
-      <guid>/posts/ahoms/</guid>
-      <description>The Ahom dynasty was the most celebrated in Assam&amp;rsquo;s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
+      <guid>/posts/leakey/</guid>
+      <description>Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&amp;rsquo;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.
+I hope you enjoy this design as much as I loved working on it!
+Shapshots of the book Illustrations within FIN.</description>
     </item>
     
   </channel>

@@ -3,76 +3,106 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2022-06-27T16:25:53+05:30</lastmod>
+    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
-    <loc>/categories/data-art/</loc>
-    <lastmod>2022-06-27T16:25:53+05:30</lastmod>
+    <loc>/categories/data-visualization/</loc>
+    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
-    <loc>/categories/generative-art/</loc>
-    <lastmod>2022-06-27T16:25:53+05:30</lastmod>
-  </url><url>
-    <loc>/categories/processing/</loc>
-    <lastmod>2022-06-27T16:25:53+05:30</lastmod>
+    <loc>/posts/personaproject/</loc>
+    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2022-06-27T16:25:53+05:30</lastmod>
-  </url><url>
-    <loc>/posts/processing/</loc>
-    <lastmod>2022-06-27T16:25:53+05:30</lastmod>
+    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-06-27T16:25:53+05:30</lastmod>
+    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
+  </url><url>
+    <loc>/categories/cultural/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/game-design/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/music/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/posts/zuci/</loc>
-    <lastmod>2022-06-27T16:23:14+05:30</lastmod>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/reszuci/</loc>
+    <lastmod>2022-07-25T15:20:40+05:30</lastmod>
   </url><url>
     <loc>/categories/children-education/</loc>
-    <lastmod>2022-06-27T16:23:00+05:30</lastmod>
+    <lastmod>2022-06-29T16:23:00+05:30</lastmod>
   </url><url>
     <loc>/categories/interaction-design/</loc>
-    <lastmod>2022-06-27T16:23:00+05:30</lastmod>
+    <lastmod>2022-06-29T16:23:00+05:30</lastmod>
   </url><url>
     <loc>/posts/naturespalette/</loc>
-    <lastmod>2022-06-27T16:23:00+05:30</lastmod>
+    <lastmod>2022-06-29T16:23:00+05:30</lastmod>
   </url><url>
-    <loc>/tags/book-design/</loc>
-    <lastmod>2022-06-27T16:13:11+05:30</lastmod>
-  </url><url>
-    <loc>/categories/book-design/</loc>
-    <lastmod>2022-06-27T16:13:11+05:30</lastmod>
-  </url><url>
-    <loc>/tags/illustration/</loc>
-    <lastmod>2022-06-27T16:13:11+05:30</lastmod>
-  </url><url>
-    <loc>/categories/illustration/</loc>
-    <lastmod>2022-06-27T16:13:11+05:30</lastmod>
-  </url><url>
-    <loc>/posts/leakey/</loc>
-    <lastmod>2022-06-27T16:13:11+05:30</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-06-27T16:13:11+05:30</lastmod>
-  </url><url>
-    <loc>/tags/typesetting/</loc>
-    <lastmod>2022-06-27T16:13:11+05:30</lastmod>
-  </url><url>
-    <loc>/categories/typesetting/</loc>
-    <lastmod>2022-06-27T16:13:11+05:30</lastmod>
+    <loc>/tags/dataviz/</loc>
+    <lastmod>2022-06-27T16:08:20+05:30</lastmod>
   </url><url>
     <loc>/categories/dataviz/</loc>
     <lastmod>2022-06-27T16:08:20+05:30</lastmod>
   </url><url>
-    <loc>/tags/dataviz/</loc>
+    <loc>/categories/medical/</loc>
+    <lastmod>2022-06-27T16:08:20+05:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
     <lastmod>2022-06-27T16:08:20+05:30</lastmod>
   </url><url>
     <loc>/posts/predible/</loc>
     <lastmod>2022-06-27T16:08:20+05:30</lastmod>
   </url><url>
-    <loc>/posts/mask/</loc>
-    <lastmod>2022-06-27T15:54:48+05:30</lastmod>
-  </url><url>
     <loc>/posts/ahoms/</loc>
     <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/categories/cutural/</loc>
+    <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/categories/history/</loc>
+    <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/categories/data-art/</loc>
+    <lastmod>2022-06-23T16:25:53+05:30</lastmod>
+  </url><url>
+    <loc>/categories/generative-art/</loc>
+    <lastmod>2022-06-23T16:25:53+05:30</lastmod>
+  </url><url>
+    <loc>/categories/processing/</loc>
+    <lastmod>2022-06-23T16:25:53+05:30</lastmod>
+  </url><url>
+    <loc>/posts/processing/</loc>
+    <lastmod>2022-06-23T16:25:53+05:30</lastmod>
+  </url><url>
+    <loc>/categories/documentation/</loc>
+    <lastmod>2022-05-30T15:54:48+05:30</lastmod>
+  </url><url>
+    <loc>/posts/mask/</loc>
+    <lastmod>2022-05-30T15:54:48+05:30</lastmod>
+  </url><url>
+    <loc>/tags/book-design/</loc>
+    <lastmod>2022-05-27T16:13:11+05:30</lastmod>
+  </url><url>
+    <loc>/categories/book-design/</loc>
+    <lastmod>2022-05-27T16:13:11+05:30</lastmod>
+  </url><url>
+    <loc>/tags/illustration/</loc>
+    <lastmod>2022-05-27T16:13:11+05:30</lastmod>
+  </url><url>
+    <loc>/categories/illustration/</loc>
+    <lastmod>2022-05-27T16:13:11+05:30</lastmod>
+  </url><url>
+    <loc>/posts/leakey/</loc>
+    <lastmod>2022-05-27T16:13:11+05:30</lastmod>
+  </url><url>
+    <loc>/tags/typesetting/</loc>
+    <lastmod>2022-05-27T16:13:11+05:30</lastmod>
+  </url><url>
+    <loc>/categories/typesetting/</loc>
+    <lastmod>2022-05-27T16:13:11+05:30</lastmod>
   </url><url>
     <loc>/docs/example-doc/chapter-1/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
@@ -106,6 +136,8 @@
     <loc>/affiliatelink/http/www.dsource.in/resource/mukha-shilpa-assam/</loc>
   </url><url>
     <loc>/affiliatelink/http/www.supriyadutta.in/ahom-v2/</loc>
+  </url><url>
+    <loc>/affiliatelink/http/www.supriyadutta.in/flowerpersona/</loc>
   </url><url>
     <loc>/affiliatelink/http/www.supriyadutta.in/processing/</loc>
   </url><url>

@@ -6,38 +6,47 @@
     <description>Recent content in Categories on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jun 2022 16:25:53 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2022 17:53:46 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>data art</title>
-      <link>/categories/data-art/</link>
-      <pubDate>Mon, 27 Jun 2022 16:25:53 +0530</pubDate>
+      <title>Data Visualization</title>
+      <link>/categories/data-visualization/</link>
+      <pubDate>Wed, 10 Aug 2022 17:53:46 +0530</pubDate>
       
-      <guid>/categories/data-art/</guid>
+      <guid>/categories/data-visualization/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>generative art</title>
-      <link>/categories/generative-art/</link>
-      <pubDate>Mon, 27 Jun 2022 16:25:53 +0530</pubDate>
+      <title>Cultural</title>
+      <link>/categories/cultural/</link>
+      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
       
-      <guid>/categories/generative-art/</guid>
+      <guid>/categories/cultural/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>processing</title>
-      <link>/categories/processing/</link>
-      <pubDate>Mon, 27 Jun 2022 16:25:53 +0530</pubDate>
+      <title>Game Design</title>
+      <link>/categories/game-design/</link>
+      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
       
-      <guid>/categories/processing/</guid>
+      <guid>/categories/game-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>/categories/music/</link>
+      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
+      
+      <guid>/categories/music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Children Education</title>
       <link>/categories/children-education/</link>
-      <pubDate>Mon, 27 Jun 2022 16:23:00 +0530</pubDate>
+      <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
       
       <guid>/categories/children-education/</guid>
       <description></description>
@@ -46,45 +55,108 @@
     <item>
       <title>Interaction Design</title>
       <link>/categories/interaction-design/</link>
-      <pubDate>Mon, 27 Jun 2022 16:23:00 +0530</pubDate>
+      <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
       
       <guid>/categories/interaction-design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>book design</title>
+      <title>DataViz</title>
+      <link>/categories/dataviz/</link>
+      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
+      
+      <guid>/categories/dataviz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medical</title>
+      <link>/categories/medical/</link>
+      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
+      
+      <guid>/categories/medical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cutural</title>
+      <link>/categories/cutural/</link>
+      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/categories/cutural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>/categories/history/</link>
+      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/categories/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Art</title>
+      <link>/categories/data-art/</link>
+      <pubDate>Thu, 23 Jun 2022 16:25:53 +0530</pubDate>
+      
+      <guid>/categories/data-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative art</title>
+      <link>/categories/generative-art/</link>
+      <pubDate>Thu, 23 Jun 2022 16:25:53 +0530</pubDate>
+      
+      <guid>/categories/generative-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processing</title>
+      <link>/categories/processing/</link>
+      <pubDate>Thu, 23 Jun 2022 16:25:53 +0530</pubDate>
+      
+      <guid>/categories/processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>/categories/documentation/</link>
+      <pubDate>Mon, 30 May 2022 15:54:48 +0530</pubDate>
+      
+      <guid>/categories/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book Design</title>
       <link>/categories/book-design/</link>
-      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/categories/book-design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>illustration</title>
+      <title>Illustration</title>
       <link>/categories/illustration/</link>
-      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/categories/illustration/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>typesetting</title>
+      <title>Typesetting</title>
       <link>/categories/typesetting/</link>
-      <pubDate>Mon, 27 Jun 2022 16:13:11 +0530</pubDate>
+      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/categories/typesetting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dataviz</title>
-      <link>/categories/dataviz/</link>
-      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
-      
-      <guid>/categories/dataviz/</guid>
       <description></description>
     </item>
     

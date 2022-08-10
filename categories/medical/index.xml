@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medical on Supriya Dutta</title>
+    <link>/categories/medical/</link>
+    <description>Recent content in Medical on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Jun 2022 16:08:20 +0530</lastBuildDate><atom:link href="/categories/medical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualizing radiology data - Predible health report</title>
+      <link>/posts/predible/</link>
+      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
+      
+      <guid>/posts/predible/</guid>
+      <description>Predible Health is an AI startup. They work with Artificial Intelligence to draw out information from Radiology data. We collaborated on a project to create physical reports for the users – Pulmonologist, radiologist, and patients. The objective of the project was to find an effective way of representing the Lung CT Scan data into a medical report, specially catered to our target users. The data we wanted to present was divided into three sections: Nodule analysis data, Low Attenuation analysis data, and High Attenuation analysis data.</description>
+    </item>
+    
+  </channel>
+</rss>
