@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storylink on Supriya Dutta</title>
+    <link>/storylink/</link>
+    <description>Recent content in Storylink on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/storylink/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>/stories/ahoms</title>
+      <link>/storylink/stories/ahoms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/storylink/stories/ahoms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>/stories/eatopia</title>
+      <link>/storylink/stories/eatopia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/storylink/stories/eatopia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>/stories/exppostits</title>
+      <link>/storylink/stories/exppostits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/storylink/stories/exppostits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>/stories/naturespalette</title>
+      <link>/storylink/stories/naturespalette/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/storylink/stories/naturespalette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>/stories/reszuci/</title>
+      <link>/storylink/stories/reszuci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/storylink/stories/reszuci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>/stories/zuci</title>
+      <link>/storylink/stories/zuci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/storylink/stories/zuci/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

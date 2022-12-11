@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Interview on Supriya Dutta</title>
+    <link>/categories/user-interview/</link>
+    <description>Recent content in User Interview on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Jun 2022 22:13:04 +0530</lastBuildDate><atom:link href="/categories/user-interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EXPRESSION Post-its – playful experiment @MathWorks</title>
+      <link>/posts/mathworksres/</link>
+      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/posts/mathworksres/</guid>
+      <description>Overview BACKGROUNDThis project was carried out as a part of my employment with MathWorks India at MathWorks Design Team under the guidance of my co-workers Jyotirmaya Mohapatra and Praneet Kopula, . This design experiment&amp;rsquo;s objective was to see if user interviews might be made more entertaining and participatory. I was a User Experience Specialist for MathWorks, India.
+OBJECTIVEThe objective of this research project was to identify and gather the user journey of MATLAB users, their goals, challenges and workarounds or solutions they might have figured over their journey.</description>
+    </item>
+    
+  </channel>
+</rss>

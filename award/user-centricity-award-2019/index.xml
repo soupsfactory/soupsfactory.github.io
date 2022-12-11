@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Centricity Award, 2019 on Supriya Dutta</title>
+    <link>/award/user-centricity-award-2019/</link>
+    <description>Recent content in User Centricity Award, 2019 on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jul 2022 16:23:14 +0530</lastBuildDate><atom:link href="/award/user-centricity-award-2019/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zuci - A Phy-gital multiplayer turn based strategy game</title>
+      <link>/posts/zuci/</link>
+      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/zuci/</guid>
+      <description>Overview BACKGROUNDFolk musical instruments bind one’s community together. Each instrument has a certain role, location, and time to be performed within a community. The audience for traditional folk musical instruments has, however, shrunk significantly as modern electronic musical instruments and music have become more widely accepted.
+OBJECTIVEThe main goal of this project was to teach participants about folk musical instruments through their sounds, method of construction, relationship with different communities and their festivals</description>
+    </item>
+    
+  </channel>
+</rss>
