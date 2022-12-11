@@ -2,17 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stories on Supriya Dutta</title>
-    <link>http://supriyadutta.in/stories/</link>
+    <link>/stories/</link>
     <description>Recent content in Stories on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://supriyadutta.in/stories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jul 2022 16:23:14 +0530</lastBuildDate><atom:link href="/stories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Behind the Screens: 600 years of Ahom Kingdom</title>
-      <link>http://supriyadutta.in/stories/ahom_bts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Zuci - A Phy-gital multiplayer turn based strategy game</title>
+      <link>/stories/zuci/</link>
+      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
       
-      <guid>http://supriyadutta.in/stories/ahom_bts/</guid>
-      <description>The Ahom dynasty was the most celebrated rule in Assam&amp;rsquo;s assamese history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
+      <guid>/stories/zuci/</guid>
+      <description>INTRODUCTION Folk musical instruments bind one&amp;rsquo;s community together. Within a community, each instrument has its own specific use, place and time to be played. However, with the popularization of new electronic musical instruments and music, the audience base of traditional folk musical instruments have decreased considerably.
+To gather more information about the same, we met with Brahmaputra cultural Foundation(BCF), an NGO who is working on conserving folk musical instruments of the North-eastern states of India.</description>
+    </item>
+    
+    <item>
+      <title>Sharing knowledge about Folk musical instruments</title>
+      <link>/stories/reszuci/</link>
+      <pubDate>Mon, 25 Jul 2022 15:20:40 +0530</pubDate>
+      
+      <guid>/stories/reszuci/</guid>
+      <description>OVERVIEW Background Traditional folk musical instrumentsare facing extinctionin many parts of India due to decrease in its user base. The purposeof this study was to determine an effective medium to introduce these musicalinstruments: their construction process, sounds and events they are used at, to a younger audience, in order to create a future user baseof individuals with better understanding of the same.
+Objective Through this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
+    </item>
+    
+    <item>
+      <title>Eat-o-pia - a multiplayer phy-gital game</title>
+      <link>/stories/eatopia/</link>
+      <pubDate>Sun, 24 Jul 2022 15:20:40 +0530</pubDate>
+      
+      <guid>/stories/eatopia/</guid>
+      <description>INTRODUCTION During our Game Design module at IDC School of Design, we – a group of four participants – wanted to explore the the usage of Games in sharing knowledge of Food chain through hybrid or phy-gital games. To complete our exploratory project were allotted a time period of 1 week. DATA COLLECTION For this project we decided to take the help of NCERT books (National Council of Educational Research and Training) designed for students of Central board of Secondary Education India, as our primary resource.</description>
+    </item>
+    
+    <item>
+      <title>Nature&#39;s palette - a playful adventure</title>
+      <link>/stories/naturespalette/</link>
+      <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
+      
+      <guid>/stories/naturespalette/</guid>
+      <description>INTRODUCTION Can we foster curiosity in children about our natural environment?During the Interaction Design module at IDC School of Design, we (our group had 4 participants) were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
+But, how do we
+Ensure that children become familiar with unfamiliar environment? Nudge children to use the platform? Encourage collaborative learning? RESEARCH We started our research on twe areas.</description>
+    </item>
+    
+    <item>
+      <title>EXPRESSION Post-its – playful experiment @MathWorks</title>
+      <link>/stories/exppostits/</link>
+      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/stories/exppostits/</guid>
+      <description>BACKGROUND This project was carried out as a part of my employment with MathWorks India at MathWorks Design Team under the guidance of my co-workers Jyotirmaya Mohapatra and Praneet Kopula, . I was a User Experience Specialist for MathWorks, India. Collecting information on new users&amp;rsquo; experiences with MATLAB and Simulink was one of the first assignments I was given.
+My task for this assignment would include,
+Sending invites to participants, Conducting interviews with each participant to learn about their experience using MATLAB and/or Simulink.</description>
+    </item>
+    
+    <item>
+      <title>600 years of Ahom Kingdom - a visual data narrative</title>
+      <link>/stories/ahoms/</link>
+      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/stories/ahoms/</guid>
+      <description>The Ahom dynasty was the most celebrated in Assam&amp;rsquo;s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
     </item>
     
   </channel>

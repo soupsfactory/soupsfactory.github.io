@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/award/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
@@ -17,17 +20,35 @@
     <loc>/posts/</loc>
     <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
+    <loc>/stories/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
+    <loc>/award/user-centricity-award-2019/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/posts/zuci/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/stories/zuci/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/posts/reszuci/</loc>
     <lastmod>2022-07-25T15:20:40+05:30</lastmod>
   </url><url>
-    <loc>/categories/children-education/</loc>
-    <lastmod>2022-06-29T16:23:00+05:30</lastmod>
+    <loc>/stories/reszuci/</loc>
+    <lastmod>2022-07-25T15:20:40+05:30</lastmod>
+  </url><url>
+    <loc>/posts/eatopia/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/stories/eatopia/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/educational/</loc>
+    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/interaction-design/</loc>
     <lastmod>2022-06-29T16:23:00+05:30</lastmod>
@@ -35,7 +56,25 @@
     <loc>/posts/naturespalette/</loc>
     <lastmod>2022-06-29T16:23:00+05:30</lastmod>
   </url><url>
-    <loc>/categories/data-visualization/</loc>
+    <loc>/stories/naturespalette/</loc>
+    <lastmod>2022-06-29T16:23:00+05:30</lastmod>
+  </url><url>
+    <loc>/posts/mathworksres/</loc>
+    <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/stories/exppostits/</loc>
+    <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/categories/playful-exp/</loc>
+    <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/categories/user-interview/</loc>
+    <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/categories/user-research/</loc>
+    <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/categories/data-viz/</loc>
     <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
     <loc>/posts/personaproject/</loc>
@@ -59,6 +98,9 @@
     <loc>/posts/ahoms/</loc>
     <lastmod>2022-06-26T22:13:04+05:30</lastmod>
   </url><url>
+    <loc>/stories/ahoms/</loc>
+    <lastmod>2022-06-26T22:13:04+05:30</lastmod>
+  </url><url>
     <loc>/categories/cutural/</loc>
     <lastmod>2022-06-26T22:13:04+05:30</lastmod>
   </url><url>
@@ -71,9 +113,6 @@
     <loc>/categories/generative-art/</loc>
     <lastmod>2022-06-23T16:25:53+05:30</lastmod>
   </url><url>
-    <loc>/categories/processing/</loc>
-    <lastmod>2022-06-23T16:25:53+05:30</lastmod>
-  </url><url>
     <loc>/posts/processing/</loc>
     <lastmod>2022-06-23T16:25:53+05:30</lastmod>
   </url><url>
@@ -82,6 +121,9 @@
   </url><url>
     <loc>/posts/mask/</loc>
     <lastmod>2022-05-30T15:54:48+05:30</lastmod>
+  </url><url>
+    <loc>/posts/detabook/</loc>
+    <lastmod>2022-05-27T16:13:11+05:30</lastmod>
   </url><url>
     <loc>/tags/book-design/</loc>
     <lastmod>2022-05-27T16:13:11+05:30</lastmod>
@@ -125,6 +167,18 @@
     <loc>/docs/example-doc/nested-chapter/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/storylink/stories/ahoms/</loc>
+  </url><url>
+    <loc>/storylink/stories/eatopia/</loc>
+  </url><url>
+    <loc>/storylink/stories/exppostits/</loc>
+  </url><url>
+    <loc>/storylink/stories/naturespalette/</loc>
+  </url><url>
+    <loc>/storylink/stories/reszuci/</loc>
+  </url><url>
+    <loc>/storylink/stories/zuci/</loc>
+  </url><url>
     <loc>/affiliatelink/</loc>
   </url><url>
     <loc>/authors/</loc>
@@ -143,11 +197,17 @@
   </url><url>
     <loc>/affiliatelink/http/www.supriyadutta.in/zuci_online/</loc>
   </url><url>
+    <loc>/affiliatelink/https/github.com/supriyadutta/eatopia_downloads/</loc>
+  </url><url>
+    <loc>/affiliatelink/https/github.com/supriyadutta/naturespalette_downloads/</loc>
+  </url><url>
     <loc>/authors/hugo-authors/</loc>
   </url><url>
     <loc>/players/</loc>
   </url><url>
     <loc>/series/</loc>
+  </url><url>
+    <loc>/storylink/</loc>
   </url><url>
     <loc>/toolsused/</loc>
   </url><url>

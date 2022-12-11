@@ -13,38 +13,57 @@
       <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
       
       <guid>/posts/zuci/</guid>
-      <description>INTRODUCTION Folk musical instruments bind one&amp;rsquo;s community together. Within a community, each instrument has its own specific use, place and time to be played. However, with the popularization of new electronic musical instruments and music, the audience base of traditional folk musical instruments have decreased considerably.
-To gather more information about the same, we met with Brahmaputra cultural Foundation(BCF), an NGO who is working on conserving folk musical instruments of the North-eastern states of India.</description>
+      <description>Overview BACKGROUNDFolk musical instruments bind one’s community together. Each instrument has a certain role, location, and time to be performed within a community. The audience for traditional folk musical instruments has, however, shrunk significantly as modern electronic musical instruments and music have become more widely accepted.
+OBJECTIVEThe main goal of this project was to teach participants about folk musical instruments through their sounds, method of construction, relationship with different communities and their festivals</description>
     </item>
     
     <item>
-      <title>A study: Determine the efficacy of three medium of instructions in sharing knowledge of Folk musical instruments</title>
+      <title>Sharing knowledge about Folk musical instruments</title>
       <link>/posts/reszuci/</link>
       <pubDate>Mon, 25 Jul 2022 15:20:40 +0530</pubDate>
       
       <guid>/posts/reszuci/</guid>
-      <description>OVERVIEW Background Traditional folk musical instrumentsare facing extinctionin many parts of India due to decrease in its user base. The purposeof this study was to determine an effective medium to introduce these musicalinstruments: their construction process, sounds and events they are used at, to a younger audience, in order to create a future user baseof individuals with better understanding of the same.
-Objective Through this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
+      <description>Overview BACKGROUNDTraditional folk musical instruments are facing extinction in many parts of India due to decrease in its user base. The purpose of this study was to determine an effective medium to introduce these musical instruments: their construction process, sounds and events they are used at, to a younger audience, in order to create a future user base of individuals with better understanding of the same.
+OBJECTIVEThrough this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
     </item>
     
     <item>
-      <title>Nature&#39;s palette</title>
+      <title>Eat-o-pia - a multiplayer phy-gital game</title>
+      <link>/posts/eatopia/</link>
+      <pubDate>Sun, 24 Jul 2022 15:20:40 +0530</pubDate>
+      
+      <guid>/posts/eatopia/</guid>
+      <description>Overview BACKGROUNDDuring our Game Design module at IDC School of Design, we – a group of four participants – wanted to explore the usage of Games in sharing knowledge of Food chain through hybrid or phy-gital games. To complete our exploratory project were allotted a time period of 1 week.
+OBJECTIVEThis project&amp;rsquo;s main goals were to encourage player interaction and raise players&amp;rsquo; awareness of the interdependence and flow of energy among living things in our environment through an interactive game world.</description>
+    </item>
+    
+    <item>
+      <title>Nature&#39;s palette - a playful adventure</title>
       <link>/posts/naturespalette/</link>
       <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
       
       <guid>/posts/naturespalette/</guid>
-      <description>INTRODUCTION Can we foster curiosity in children about our natural environment?During the Interaction Design module at IDC School of Design, we (our group had 4 participants) were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
-But, how do we
-Ensure that children become familiar with unfamiliar environment? Nudge children to use the platform? Encourage collaborative learning? RESEARCH We started our research on twe areas.</description>
+      <description>Overview BACKGROUNDCan we foster curiosity in children about our natural environment? During the Interaction Design module at IDC School of Design, we (our group had 4 participants) were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
+PRODUCT DETAILSThrough the use of colours and textures, the Nature’s Palette app aims to help kids connect with their surroundings. Together, kids explore their environment and take photos of the many colours and textures they encounter.</description>
     </item>
     
     <item>
-      <title>Imagining people as flowers.</title>
+      <title>EXPRESSION Post-its – playful experiment @MathWorks</title>
+      <link>/posts/mathworksres/</link>
+      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/posts/mathworksres/</guid>
+      <description>Overview BACKGROUNDThis project was carried out as a part of my employment with MathWorks India at MathWorks Design Team under the guidance of my co-workers Jyotirmaya Mohapatra and Praneet Kopula, . This design experiment&amp;rsquo;s objective was to see if user interviews might be made more entertaining and participatory. I was a User Experience Specialist for MathWorks, India.
+OBJECTIVEThe objective of this research project was to identify and gather the user journey of MATLAB users, their goals, challenges and workarounds or solutions they might have figured over their journey.</description>
+    </item>
+    
+    <item>
+      <title>Flowers peep - Imagining people as flowers</title>
       <link>/posts/personaproject/</link>
       <pubDate>Tue, 28 Jun 2022 17:53:46 +0530</pubDate>
       
       <guid>/posts/personaproject/</guid>
-      <description>Flower project started as a discussion with my then manager at Eli Lilly India, Anand Sawkar. We were discussing Data visualization and were wondering if there was a way to know if anybody in our office is a superhero movie enthusiast ;) . And then we started wondering if we can have a playful Data viz to know if folks at Lilly, share common intersets. Would it strike up conversations? Find folks to play football over the weekends?</description>
+      <description>Overview BACKGROUNDFlower project started as a discussion with my then manager at Eli Lilly India, Anand Sawkar. We were talking about data visualisation when the topic changed to whether it was possible to find out who in our company like superhero movies. Then we began to consider whether we might create a humorous data visualisation to determine whether people at Lilly have similar interests. Would it start discussions? Assemble players to play football during weekends?</description>
     </item>
     
     <item>
@@ -53,47 +72,57 @@ Ensure that children become familiar with unfamiliar environment? Nudge children
       <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
       
       <guid>/posts/predible/</guid>
-      <description>Predible Health is an AI startup. They work with Artificial Intelligence to draw out information from Radiology data. We collaborated on a project to create physical reports for the users – Pulmonologist, radiologist, and patients. The objective of the project was to find an effective way of representing the Lung CT Scan data into a medical report, specially catered to our target users. The data we wanted to present was divided into three sections: Nodule analysis data, Low Attenuation analysis data, and High Attenuation analysis data.</description>
+      <description>Overview BACKGROUNDPredible Healthis an AI startup, now acquired by nference. They work with Artificial Intelligence to draw out information from Radiology data. We collaborated on a project to create physical reports for the users – Pulmonologist, radiologist, and patients.
+PRODUCT DETAILSThe project&amp;rsquo;s goal was to discover an efficient approach to incorporate the data from a lung computed tomography(CT) scan into a medical report that was tailored specifically for our intended audience. Three categories — Nodule analysis data, Low Attenuation analysis data, and High Attenuation analysis data—were used to separate the information we intended to provide.</description>
     </item>
     
     <item>
-      <title>600 years of Ahom Kingdom</title>
+      <title>600 years of Ahom Kingdom - a visual data narrative</title>
       <link>/posts/ahoms/</link>
       <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
       
       <guid>/posts/ahoms/</guid>
-      <description>The Ahom dynasty was the most celebrated in Assam&amp;rsquo;s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
+      <description>Overview BACKGROUNDThe Ahom dynasty was the most celebrated in Assam’s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
     </item>
     
     <item>
-      <title>Sketches with processing</title>
+      <title>Generative art sketches with processing</title>
       <link>/posts/processing/</link>
       <pubDate>Thu, 23 Jun 2022 16:25:53 +0530</pubDate>
       
       <guid>/posts/processing/</guid>
       <description>Lately I have been curious about Fractals and Psychedelic patterns. This escalated when I found out about Daniel Shiffman&amp;rsquo;s Coding Train tutorials.
-A collection of explorations and Processing Sketches I worked on is on Online!. If you have any suggestions or feedback, please reach out. I would love to hear your thoughts :)</description>
+A collection of explorations and Processing Sketches I worked on is on Online!.
+If you have any suggestions or feedback, please reach out. I would love to hear your thoughts :)</description>
     </item>
     
     <item>
-      <title>Mukha Shilpa - Mask making</title>
+      <title>Mukha Shilpa - Mask making of Majuli Island</title>
       <link>/posts/mask/</link>
       <pubDate>Mon, 30 May 2022 15:54:48 +0530</pubDate>
       
       <guid>/posts/mask/</guid>
-      <description>Majuli district (27.0016° N, 94.2243° E) is a river island in Assam, surrounded by the river Brahmaputra. The island is a beautiful landscape of nature with land and aquatic flora and fauna, inhibited by different tribal and non tribal communities. The river island was influenced by the then Vaishnavait movement of Assam with the establishment of a satra at Dhuwahat by the saint Shankardeva.
-The art of Mask making has been an exquisite culture of Majuli satras.</description>
+      <description>Overview BACKGROUNDMajuli district (27.0016° N, 94.2243° E) is a river island in Assam, surrounded by the river Brahmaputra. The island is a beautiful landscape of nature with land and aquatic flora and fauna, inhibited by different tribal and non tribal communities. The river island was influenced by the then Vaishnavait movement of Assam with the establishment of a satra at Dhuwahat by the saint Shankardeva.The art of Mask making has been an exquisite culture of Majuli satras.</description>
     </item>
     
     <item>
-      <title>My friend Mr Leakey</title>
+      <title>Bondeep, Bonoshreehotor Golpo - book design</title>
+      <link>/posts/detabook/</link>
+      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
+      
+      <guid>/posts/detabook/</guid>
+      <description>OVERVIEW My father has been writing short tales for children and publishing them in local Assamese publications for as long as I can remember. &amp;ldquo;Bondeep, Bonoshreehotor Golpo&amp;rdquo; (Bondeep, Bonoshree&amp;rsquo;s Tales) is a collection of short stories created and collected to raise awareness about the preservation of our natural environment. I consider myself fortunate to have assisted him with the typesetting and design of this book. The book will be available at local bookstores on December 6, 2022.</description>
+    </item>
+    
+    <item>
+      <title>My friend Mr Leakey - book design</title>
       <link>/posts/leakey/</link>
       <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/posts/leakey/</guid>
-      <description>Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&amp;rsquo;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.
+      <description>OVERVIEW Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&amp;rsquo;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.
 I hope you enjoy this design as much as I loved working on it!
-Shapshots of the book Illustrations within FIN.</description>
+Snapshots of the book Illustrations within FIN.</description>
     </item>
     
   </channel>

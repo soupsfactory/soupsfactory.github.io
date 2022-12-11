@@ -35,11 +35,11 @@
     </item>
     
     <item>
-      <title>Children Education</title>
-      <link>/categories/children-education/</link>
-      <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
+      <title>Educational</title>
+      <link>/categories/educational/</link>
+      <pubDate>Sun, 24 Jul 2022 15:20:40 +0530</pubDate>
       
-      <guid>/categories/children-education/</guid>
+      <guid>/categories/educational/</guid>
       <description></description>
     </item>
     
@@ -53,11 +53,38 @@
     </item>
     
     <item>
-      <title>Data Visualization</title>
-      <link>/categories/data-visualization/</link>
+      <title>Playful Exp</title>
+      <link>/categories/playful-exp/</link>
+      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/categories/playful-exp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Interview</title>
+      <link>/categories/user-interview/</link>
+      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/categories/user-interview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Research</title>
+      <link>/categories/user-research/</link>
+      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/categories/user-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Viz</title>
+      <link>/categories/data-viz/</link>
       <pubDate>Tue, 28 Jun 2022 17:53:46 +0530</pubDate>
       
-      <guid>/categories/data-visualization/</guid>
+      <guid>/categories/data-viz/</guid>
       <description></description>
     </item>
     
@@ -112,15 +139,6 @@
       <pubDate>Thu, 23 Jun 2022 16:25:53 +0530</pubDate>
       
       <guid>/categories/generative-art/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Processing</title>
-      <link>/categories/processing/</link>
-      <pubDate>Thu, 23 Jun 2022 16:25:53 +0530</pubDate>
-      
-      <guid>/categories/processing/</guid>
       <description></description>
     </item>
     
