@@ -6,7 +6,19 @@
     <description>Recent content on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Jul 2022 16:23:14 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Feb 2023 16:23:14 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HEATWAVE Havoc</title>
+      <link>/posts/heatattacks/</link>
+      <pubDate>Sun, 05 Feb 2023 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/heatattacks/</guid>
+      <description>Overview BACKGROUNDHow might we make the younger generation aware of the impacts of heatwaves?
+How might we aid them to build empathy for our changing world and people effected by it? How might we make them aware of the adaptation measures during such an event?
+OBJECTIVEThe main goal of this project is to share adaptation measures to be taken during the event of a heatwave.
+PRODUCT DETAILSHEATWAVE Havoc is a multiplayer card based strategic cooperative game, where you save all your cute little babies from the effects of heatwaves.</description>
+    </item>
+    
     <item>
       <title>Zuci - A Phy-gital multiplayer turn based strategy game</title>
       <link>/posts/zuci/</link>

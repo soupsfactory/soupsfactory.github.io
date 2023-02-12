@@ -2,29 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/climate-change/</loc>
+    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/game-design/</loc>
+    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/heatattacks/</loc>
+    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/award/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
-  </url><url>
     <loc>/categories/cultural/</loc>
-    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/categories/game-design/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/music/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
-  </url><url>
     <loc>/stories/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
     <loc>/award/user-centricity-award-2019/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
@@ -192,6 +198,8 @@
     <loc>/affiliatelink/http/www.supriyadutta.in/ahom-v2/</loc>
   </url><url>
     <loc>/affiliatelink/http/www.supriyadutta.in/flowerpersona/</loc>
+  </url><url>
+    <loc>/affiliatelink/http/www.supriyadutta.in/heatwavehavoc/</loc>
   </url><url>
     <loc>/affiliatelink/http/www.supriyadutta.in/processing/</loc>
   </url><url>
