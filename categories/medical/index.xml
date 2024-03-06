@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 27 Jun 2022 16:08:20 +0530</lastBuildDate><atom:link href="/categories/medical/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visualizing radiology data - Predible health report</title>
-      <link>/posts/predible/</link>
+      <link>/archives/predible/</link>
       <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
       
-      <guid>/posts/predible/</guid>
+      <guid>/archives/predible/</guid>
       <description>Overview BACKGROUNDPredible Healthis an AI startup, now acquired by nference. They work with Artificial Intelligence to draw out information from Radiology data. We collaborated on a project to create physical reports for the users – Pulmonologist, radiologist, and patients.
 PRODUCT DETAILSThe project&amp;rsquo;s goal was to discover an efficient approach to incorporate the data from a lung computed tomography(CT) scan into a medical report that was tailored specifically for our intended audience. Three categories — Nodule analysis data, Low Attenuation analysis data, and High Attenuation analysis data—were used to separate the information we intended to provide.</description>
     </item>

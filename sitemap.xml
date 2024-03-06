@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
+    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/game-design/</loc>
+    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/gamepoem/</loc>
+    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/absinthetails/</loc>
+    <lastmod>2023-12-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/user-experience/</loc>
+    <lastmod>2023-12-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/climate-change/</loc>
     <lastmod>2023-02-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/categories/game-design/</loc>
-    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
-  </url><url>
     <loc>/posts/heatattacks/</loc>
-    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2023-02-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2023-02-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/award/</loc>
@@ -65,7 +74,10 @@
     <loc>/stories/naturespalette/</loc>
     <lastmod>2022-06-29T16:23:00+05:30</lastmod>
   </url><url>
-    <loc>/posts/mathworksres/</loc>
+    <loc>/archives/</loc>
+    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
+  </url><url>
+    <loc>/archives/mathworksres/</loc>
     <lastmod>2022-06-26T22:13:04+05:30</lastmod>
   </url><url>
     <loc>/stories/exppostits/</loc>
@@ -83,7 +95,7 @@
     <loc>/categories/data-viz/</loc>
     <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
-    <loc>/posts/personaproject/</loc>
+    <loc>/archives/personaproject/</loc>
     <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
     <loc>/tags/dataviz/</loc>
@@ -98,10 +110,10 @@
     <loc>/tags/</loc>
     <lastmod>2022-06-27T16:08:20+05:30</lastmod>
   </url><url>
-    <loc>/posts/predible/</loc>
+    <loc>/archives/predible/</loc>
     <lastmod>2022-06-27T16:08:20+05:30</lastmod>
   </url><url>
-    <loc>/posts/ahoms/</loc>
+    <loc>/archives/ahoms/</loc>
     <lastmod>2022-06-26T22:13:04+05:30</lastmod>
   </url><url>
     <loc>/stories/ahoms/</loc>
@@ -119,16 +131,16 @@
     <loc>/categories/generative-art/</loc>
     <lastmod>2022-06-23T16:25:53+05:30</lastmod>
   </url><url>
-    <loc>/posts/processing/</loc>
+    <loc>/archives/processing/</loc>
     <lastmod>2022-06-23T16:25:53+05:30</lastmod>
   </url><url>
     <loc>/categories/documentation/</loc>
     <lastmod>2022-05-30T15:54:48+05:30</lastmod>
   </url><url>
-    <loc>/posts/mask/</loc>
+    <loc>/archives/mask/</loc>
     <lastmod>2022-05-30T15:54:48+05:30</lastmod>
   </url><url>
-    <loc>/posts/detabook/</loc>
+    <loc>/archives/detabook/</loc>
     <lastmod>2022-05-27T16:13:11+05:30</lastmod>
   </url><url>
     <loc>/tags/book-design/</loc>
@@ -143,7 +155,7 @@
     <loc>/categories/illustration/</loc>
     <lastmod>2022-05-27T16:13:11+05:30</lastmod>
   </url><url>
-    <loc>/posts/leakey/</loc>
+    <loc>/archives/leakey/</loc>
     <lastmod>2022-05-27T16:13:11+05:30</lastmod>
   </url><url>
     <loc>/tags/typesetting/</loc>
@@ -208,6 +220,10 @@
     <loc>/affiliatelink/https/github.com/supriyadutta/eatopia_downloads/</loc>
   </url><url>
     <loc>/affiliatelink/https/github.com/supriyadutta/naturespalette_downloads/</loc>
+  </url><url>
+    <loc>/affiliatelink/https/soupsfactory.itch.io/absinthe-tail/</loc>
+  </url><url>
+    <loc>/affiliatelink/https/soupsfactory.itch.io/looktoday/</loc>
   </url><url>
     <loc>/authors/hugo-authors/</loc>
   </url><url>

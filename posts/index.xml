@@ -6,7 +6,26 @@
     <description>Recent content in Projects on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Feb 2023 16:23:14 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jan 2024 16:23:14 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How should I look! - a game poem</title>
+      <link>/posts/gamepoem/</link>
+      <pubDate>Fri, 05 Jan 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/gamepoem/</guid>
+      <description>Overview BACKGROUNDEnter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
+MY ROLE as Game DesignerThis project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
+    </item>
+    
+    <item>
+      <title>Absinthe Tails</title>
+      <link>/posts/absinthetails/</link>
+      <pubDate>Tue, 05 Dec 2023 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/absinthetails/</guid>
+      <description>Overview BACKGROUNDTake a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
+    </item>
+    
     <item>
       <title>HEATWAVE Havoc - A multiplayer cooperative game</title>
       <link>/posts/heatattacks/</link>
@@ -57,84 +76,6 @@ OBJECTIVEThis project&amp;rsquo;s main goals were to encourage player interacti
       <guid>/posts/naturespalette/</guid>
       <description>Overview BACKGROUNDCan we foster curiosity in children about our natural environment? During the Interaction Design module at IDC School of Design, we (our group had 4 participants) were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
 PRODUCT DETAILSThrough the use of colours and textures, the Nature’s Palette app aims to help kids connect with their surroundings. Together, kids explore their environment and take photos of the many colours and textures they encounter.</description>
-    </item>
-    
-    <item>
-      <title>EXPRESSION Post-its – playful experiment @MathWorks</title>
-      <link>/posts/mathworksres/</link>
-      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
-      
-      <guid>/posts/mathworksres/</guid>
-      <description>Overview BACKGROUNDThis project was carried out as a part of my employment with MathWorks India at MathWorks Design Team under the guidance of my co-workers Jyotirmaya Mohapatra and Praneet Kopula, . This design experiment&amp;rsquo;s objective was to see if user interviews might be made more entertaining and participatory.
-OBJECTIVEThe objective of this research project was to identify and gather the user journey of MATLAB users, their goals, challenges and workarounds or solutions they might have figured over their journey.</description>
-    </item>
-    
-    <item>
-      <title>Flowers peep - Imagining people as flowers</title>
-      <link>/posts/personaproject/</link>
-      <pubDate>Tue, 28 Jun 2022 17:53:46 +0530</pubDate>
-      
-      <guid>/posts/personaproject/</guid>
-      <description>Overview BACKGROUNDFlower project started as a discussion with my then manager at Eli Lilly India, Anand Sawkar. We were talking about data visualisation when the topic changed to whether it was possible to find out who in our company like superhero movies. Then we began to consider whether we might create a humorous data visualisation to determine whether people at Lilly have similar interests. Would it start discussions? Assemble players to play football during weekends?</description>
-    </item>
-    
-    <item>
-      <title>Visualizing radiology data - Predible health report</title>
-      <link>/posts/predible/</link>
-      <pubDate>Mon, 27 Jun 2022 16:08:20 +0530</pubDate>
-      
-      <guid>/posts/predible/</guid>
-      <description>Overview BACKGROUNDPredible Healthis an AI startup, now acquired by nference. They work with Artificial Intelligence to draw out information from Radiology data. We collaborated on a project to create physical reports for the users – Pulmonologist, radiologist, and patients.
-PRODUCT DETAILSThe project&amp;rsquo;s goal was to discover an efficient approach to incorporate the data from a lung computed tomography(CT) scan into a medical report that was tailored specifically for our intended audience. Three categories — Nodule analysis data, Low Attenuation analysis data, and High Attenuation analysis data—were used to separate the information we intended to provide.</description>
-    </item>
-    
-    <item>
-      <title>600 years of Ahom Kingdom - a visual data narrative</title>
-      <link>/posts/ahoms/</link>
-      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
-      
-      <guid>/posts/ahoms/</guid>
-      <description>Overview BACKGROUNDThe Ahom dynasty was the most celebrated in Assam’s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
-    </item>
-    
-    <item>
-      <title>Generative art sketches with processing</title>
-      <link>/posts/processing/</link>
-      <pubDate>Thu, 23 Jun 2022 16:25:53 +0530</pubDate>
-      
-      <guid>/posts/processing/</guid>
-      <description>Lately I have been curious about Fractals and Psychedelic patterns. This escalated when I found out about Daniel Shiffman&amp;rsquo;s Coding Train tutorials.
-A collection of explorations and Processing Sketches I worked on is on Online!.
-If you have any suggestions or feedback, please reach out. I would love to hear your thoughts :)</description>
-    </item>
-    
-    <item>
-      <title>Mukha Shilpa - Mask making of Majuli Island</title>
-      <link>/posts/mask/</link>
-      <pubDate>Mon, 30 May 2022 15:54:48 +0530</pubDate>
-      
-      <guid>/posts/mask/</guid>
-      <description>Overview BACKGROUNDMajuli district (27.0016° N, 94.2243° E) is a river island in Assam, surrounded by the river Brahmaputra. The island is a beautiful landscape of nature with land and aquatic flora and fauna, inhibited by different tribal and non tribal communities. The river island was influenced by the then Vaishnavait movement of Assam with the establishment of a satra at Dhuwahat by the saint Shankardeva.The art of Mask making has been an exquisite culture of Majuli satras.</description>
-    </item>
-    
-    <item>
-      <title>Bondeep, Bonoshreehotor Golpo - book design</title>
-      <link>/posts/detabook/</link>
-      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
-      
-      <guid>/posts/detabook/</guid>
-      <description>OVERVIEW My father has been writing short tales for children and publishing them in local Assamese publications for as long as I can remember. &amp;ldquo;Bondeep, Bonoshreehotor Golpo&amp;rdquo; (Bondeep, Bonoshree&amp;rsquo;s Tales) is a collection of short stories created and collected to raise awareness about the preservation of our natural environment. I consider myself fortunate to have assisted him with the typesetting and design of this book. The book will be available at local bookstores on December 6, 2022.</description>
-    </item>
-    
-    <item>
-      <title>My friend Mr Leakey - book design</title>
-      <link>/posts/leakey/</link>
-      <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
-      
-      <guid>/posts/leakey/</guid>
-      <description>OVERVIEW Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&amp;rsquo;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.
-I hope you enjoy this design as much as I loved working on it!
-Snapshots of the book Illustrations within FIN.</description>
     </item>
     
   </channel>
