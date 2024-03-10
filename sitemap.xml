@@ -2,26 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/stories/absinthetails/</loc>
+    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/game-design/</loc>
-    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/stories/</loc>
+    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/user-experience/</loc>
+    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/absinthetails/</loc>
+    <lastmod>2024-02-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-02-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/stories/gamepoem/</loc>
+    <lastmod>2024-01-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/posts/gamepoem/</loc>
     <lastmod>2024-01-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/posts/absinthetails/</loc>
-    <lastmod>2023-12-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/categories/user-experience/</loc>
-    <lastmod>2023-12-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/climate-change/</loc>
     <lastmod>2023-02-05T16:23:14+05:30</lastmod>
@@ -36,9 +45,6 @@
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/music/</loc>
-    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/stories/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/award/user-centricity-award-2019/</loc>
@@ -185,11 +191,15 @@
     <loc>/docs/example-doc/nested-chapter/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/storylink/stories/absinthetails/</loc>
+  </url><url>
     <loc>/storylink/stories/ahoms/</loc>
   </url><url>
     <loc>/storylink/stories/eatopia/</loc>
   </url><url>
     <loc>/storylink/stories/exppostits/</loc>
+  </url><url>
+    <loc>/storylink/stories/gamepoem/</loc>
   </url><url>
     <loc>/storylink/stories/naturespalette/</loc>
   </url><url>
