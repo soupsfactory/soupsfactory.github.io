@@ -177,7 +177,7 @@
         class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
             <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Projects</a>
-            <a href="/stories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Design Process</a>
+            <a href="/stories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Design Stories</a>
             <a href="/archives" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Archived projects</a>
         </div>
 
@@ -342,17 +342,20 @@
 <li><strong>Gameplay</strong>: Gameplay is explained in the section below.</li>
 <li><strong>Story</strong>: this section explains the narrative of the game poem.</li>
 </ul>
-<figure><img src="/images/looktoday/ia.png"/>
-</figure>
-
+<p><p class="md__image">
+    <img src="/images/looktoday/ia.png" id="zoom-background" alt=""  />
+</p>
+</p>
 <p>The gameplay was segmented into four levels, each designed to evoke distinct emotions in the player. Further details regarding these emotions are illustrated in the subsequent image.
-<figure><img src="/images/looktoday/levels.png"/>
-</figure>
+<p class="md__image">
+    <img src="/images/looktoday/levels.png" id="zoom-background" alt=""  />
+</p>
 </p>
 <h3 id="iterations">Iterations</h3>
 <p>To design the levels I used Lego bricks. It helped me to plan and iterate on the dimensions and details of each level. After a couple of iterations on Lego, I iterated on the game engine, followed by a few iterations with colour schemes.
-<figure><img src="/images/looktoday/des.png"/>
-</figure>
+<p class="md__image">
+    <img src="/images/looktoday/des.png" id="zoom-background" alt=""  />
+</p>
 </p>
 <h3 id="playtest">Playtest</h3>
 <p>The playtest involved <strong>13 participants</strong> split into two groups. Seven individuals comprised the first group, receiving the initial version of the game poem, while the second group, consisting of six participants, received the revised version. Following this, I distributed a <strong>questionnaire</strong> to assess their comprehension of the narrative elements. The initial version of the game was tested by the first group and subsequently updated for testing with the second group.</p>
@@ -493,5 +496,8 @@ FIN.</p>
     
 </div></div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" defer></script>
+    <script src = "/js/zoom-image/placeholders.js" defer></script>
+    <script src = "/js/zoom-image/index.js" defer></script>
   </body>
 </html>
