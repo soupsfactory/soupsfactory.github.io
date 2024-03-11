@@ -1,0 +1,40 @@
+@import "./base.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat=swap");
+@font-face {
+  font-family: fontastique;
+  src: url(@/fonts/Fontastique.ttf);
+}
+@font-face {
+  font-family: bigGulp;
+  src: url(@/fonts/HelloFirstieBigGulp.ttf);
+}
+@font-face {
+  font-family: helsinki;
+  src: url(@/fonts/helsinki.ttf);
+}
+
+#app {
+  /* padding: 2rem; */
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--color-highlight-red);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: var(--color-highlight-red-light);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-family: Montserrat;
+    font-size: 1vw;
+  }
+}
