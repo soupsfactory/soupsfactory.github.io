@@ -62,18 +62,9 @@
     </item>
     
     <item>
-      <title>Interaction Design</title>
-      <link>/categories/interaction-design/</link>
-      <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
-      
-      <guid>/categories/interaction-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Playful Exp</title>
       <link>/categories/playful-exp/</link>
-      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
+      <pubDate>Fri, 01 Jul 2022 22:13:04 +0530</pubDate>
       
       <guid>/categories/playful-exp/</guid>
       <description></description>
@@ -82,9 +73,18 @@
     <item>
       <title>User Interview</title>
       <link>/categories/user-interview/</link>
-      <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
+      <pubDate>Fri, 01 Jul 2022 22:13:04 +0530</pubDate>
       
       <guid>/categories/user-interview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interaction Design</title>
+      <link>/categories/interaction-design/</link>
+      <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
+      
+      <guid>/categories/interaction-design/</guid>
       <description></description>
     </item>
     
