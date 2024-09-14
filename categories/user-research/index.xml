@@ -6,7 +6,27 @@
     <description>Recent content in User Research on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jun 2022 22:13:04 +0530</lastBuildDate><atom:link href="/categories/user-research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Feb 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/user-research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Developers POV @MathWorks</title>
+      <link>/posts/mathworkstudy/</link>
+      <pubDate>Mon, 05 Feb 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/mathworkstudy/</guid>
+      <description>Overview We discovered through usability testings that the algorithms and systems designed by our developers were not understood well by the our users, and therefore not used as intended. This research study was designed to understand the development teams perspective of the Simulink Test, Simulink Design Verifier and the components related to them. This was done as a primary research to improve components of Simulink Test and Simulink Design Verifier.
+Objective of the study Objectives of this study:</description>
+    </item>
+    
+    <item>
+      <title>Understanding onboarding to MATLAB @MathWorks</title>
+      <link>/posts/mathworksres/</link>
+      <pubDate>Mon, 01 Jan 2024 22:13:04 +0530</pubDate>
+      
+      <guid>/posts/mathworksres/</guid>
+      <description>Overview BACKGROUNDThis project was carried out as a part of my employment with MathWorks India at MathWorks Design Team under the guidance of my co-workers Jyotirmaya Mohapatra and Praneet Kopula, . This design experiment&amp;rsquo;s objective was to see if user interviews might be made more entertaining and participatory.
+OBJECTIVEThe objective of this research project was to identify and gather the user journey of MATLAB users, their goals, challenges and workarounds or solutions they might have figured over their journey.</description>
+    </item>
+    
     <item>
       <title>EXPRESSION Post-its – playful experiment @MathWorks</title>
       <link>/stories/exppostits/</link>

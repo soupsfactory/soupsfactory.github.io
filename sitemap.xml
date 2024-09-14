@@ -2,46 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/stories/absinthetails/</loc>
-    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
-  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
+    <lastmod>2024-09-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-09-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/aaltomotionlab/</loc>
+    <lastmod>2024-09-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/usability-testing/</loc>
+    <lastmod>2024-09-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/user-interview/</loc>
+    <lastmod>2024-09-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-09-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/game-design/</loc>
+    <lastmod>2024-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/games/</loc>
+    <lastmod>2024-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/games/monstercleaning/</loc>
+    <lastmod>2024-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/games/thoughtsout/</loc>
+    <lastmod>2024-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/user-experience/</loc>
+    <lastmod>2024-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/stories/absinthetails/</loc>
     <lastmod>2024-02-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/stories/</loc>
     <lastmod>2024-02-26T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/categories/user-experience/</loc>
-    <lastmod>2024-02-26T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/posts/absinthetails/</loc>
+    <loc>/games/absinthetails/</loc>
     <lastmod>2024-02-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>/posts/mathworkstudy/</loc>
+    <lastmod>2024-02-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/user-research/</loc>
     <lastmod>2024-02-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/stories/gamepoem/</loc>
     <lastmod>2024-01-26T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/gamepoem/</loc>
+    <loc>/games/gamepoem/</loc>
     <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/mathworksres/</loc>
+    <lastmod>2024-01-03T22:13:04+05:30</lastmod>
+  </url><url>
+    <loc>/categories/cultural/</loc>
+    <lastmod>2023-12-25T15:20:40+05:30</lastmod>
+  </url><url>
+    <loc>/categories/game-research/</loc>
+    <lastmod>2023-12-25T15:20:40+05:30</lastmod>
+  </url><url>
+    <loc>/posts/reszuci/</loc>
+    <lastmod>2023-12-25T15:20:40+05:30</lastmod>
   </url><url>
     <loc>/categories/climate-change/</loc>
     <lastmod>2023-02-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/heatattacks/</loc>
+    <loc>/games/heatattacks/</loc>
     <lastmod>2023-02-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/award/</loc>
-    <lastmod>2022-07-26T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/categories/cultural/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/music/</loc>
@@ -50,14 +83,11 @@
     <loc>/award/user-centricity-award-2019/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/zuci/</loc>
+    <loc>/games/zuci/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/stories/zuci/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/posts/reszuci/</loc>
-    <lastmod>2022-07-25T15:20:40+05:30</lastmod>
   </url><url>
     <loc>/stories/reszuci/</loc>
     <lastmod>2022-07-25T15:20:40+05:30</lastmod>
@@ -68,22 +98,16 @@
     <loc>/categories/educational/</loc>
     <lastmod>2022-07-26T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/mathworksres/</loc>
-    <lastmod>2022-07-01T22:13:04+05:30</lastmod>
+    <loc>/archives/</loc>
+    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
-    <loc>/categories/playful-exp/</loc>
-    <lastmod>2022-07-01T22:13:04+05:30</lastmod>
-  </url><url>
-    <loc>/categories/user-interview/</loc>
-    <lastmod>2022-07-01T22:13:04+05:30</lastmod>
-  </url><url>
-    <loc>/posts/eatopia/</loc>
+    <loc>/archives/eatopia/</loc>
     <lastmod>2022-06-30T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/interaction-design/</loc>
     <lastmod>2022-06-29T16:23:00+05:30</lastmod>
   </url><url>
-    <loc>/posts/naturespalette/</loc>
+    <loc>/archives/naturespalette/</loc>
     <lastmod>2022-06-29T16:23:00+05:30</lastmod>
   </url><url>
     <loc>/stories/naturespalette/</loc>
@@ -92,11 +116,8 @@
     <loc>/stories/exppostits/</loc>
     <lastmod>2022-06-26T22:13:04+05:30</lastmod>
   </url><url>
-    <loc>/categories/user-research/</loc>
+    <loc>/categories/playful-exp/</loc>
     <lastmod>2022-06-26T22:13:04+05:30</lastmod>
-  </url><url>
-    <loc>/archives/</loc>
-    <lastmod>2022-08-10T17:53:46+05:30</lastmod>
   </url><url>
     <loc>/categories/data-viz/</loc>
     <lastmod>2022-08-10T17:53:46+05:30</lastmod>
@@ -191,6 +212,15 @@
     <loc>/docs/example-doc/nested-chapter/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/playtesting/</loc>
+    <lastmod>2020-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/thoughtsout/</loc>
+    <lastmod>2020-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/absinthetails/</loc>
+    <lastmod>2020-02-05T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/storylink/stories/absinthetails/</loc>
   </url><url>
     <loc>/storylink/stories/ahoms/</loc>
@@ -221,19 +251,23 @@
   </url><url>
     <loc>/affiliatelink/https/github.com/supriyadutta/naturespalette_downloads/</loc>
   </url><url>
+    <loc>/affiliatelink/https/shamitahmed.itch.io/monstercleaninginc/</loc>
+  </url><url>
+    <loc>/affiliatelink/https/soupsfactory.github.io/ahom-v2/</loc>
+  </url><url>
+    <loc>/affiliatelink/https/soupsfactory.github.io/flowerpersona/</loc>
+  </url><url>
+    <loc>/affiliatelink/https/soupsfactory.github.io/heatwavehavoc/</loc>
+  </url><url>
+    <loc>/affiliatelink/https/soupsfactory.github.io/processing/</loc>
+  </url><url>
+    <loc>/affiliatelink/https/soupsfactory.github.io/zuci_online/</loc>
+  </url><url>
     <loc>/affiliatelink/https/soupsfactory.itch.io/absinthe-tail/</loc>
   </url><url>
     <loc>/affiliatelink/https/soupsfactory.itch.io/looktoday/</loc>
   </url><url>
-    <loc>/affiliatelink/https/supriyadutta.github.io/ahom-v2/</loc>
-  </url><url>
-    <loc>/affiliatelink/https/supriyadutta.github.io/flowerpersona/</loc>
-  </url><url>
-    <loc>/affiliatelink/https/supriyadutta.github.io/heatwavehavoc/</loc>
-  </url><url>
-    <loc>/affiliatelink/https/supriyadutta.github.io/processing/</loc>
-  </url><url>
-    <loc>/affiliatelink/https/supriyadutta.github.io/zuci_online/</loc>
+    <loc>/affiliatelink/https/ssssand.itch.io/thoughts-out/</loc>
   </url><url>
     <loc>/authors/hugo-authors/</loc>
   </url><url>

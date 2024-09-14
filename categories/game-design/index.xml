@@ -6,7 +6,27 @@
     <description>Recent content in Game Design on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Feb 2024 15:20:40 +0530</lastBuildDate><atom:link href="/categories/game-design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jun 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/game-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monster Cleaning Inc</title>
+      <link>/games/monstercleaning/</link>
+      <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/games/monstercleaning/</guid>
+      <description>Overview Welcome to Monster Cleaning Inc., located in the heart of an RPG world! After nasty battles, these monsters need a good scrub. You need to use the right-sized sponge to clean it. Your cleaning skills will be judged by the monsters themselves, and their ratings will determine your success. Can you earn that coveted five-star review? Step up, clean them up quickly and get them ready for their next encounter! My role as User Experience Designer This game was crafted for Game Maker&amp;rsquo;s Toolkit 2024.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts Out!</title>
+      <link>/games/thoughtsout/</link>
+      <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/games/thoughtsout/</guid>
+      <description>Overview Thoughts Out! is a 3D platform puzzle game set in a dreamlike world where your everyday office troubles morph into an annoying dragon. This dragon can alter the surrounding environment, making your adventure either easier or more challenging. How can you drive it out of your daydream and reclaim your peace of mind?
+Calm down and first, listen to what Miss Bellflower has to say.
+My role as User Experience Designer Collaborating with a team of eight individuals, we embraced various roles to enhance the project.</description>
+    </item>
+    
     <item>
       <title>Absinthe Tails - behind the screens</title>
       <link>/stories/absinthetails/</link>
@@ -18,10 +38,10 @@
     
     <item>
       <title>Absinthe Tails</title>
-      <link>/posts/absinthetails/</link>
+      <link>/games/absinthetails/</link>
       <pubDate>Mon, 05 Feb 2024 16:23:14 +0530</pubDate>
       
-      <guid>/posts/absinthetails/</guid>
+      <guid>/games/absinthetails/</guid>
       <description>Overview Take a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
     </item>
     
@@ -37,20 +57,20 @@ Objective The assignment delves into the repercussions of standing out in a crow
     
     <item>
       <title>How should I look today! - a game poem</title>
-      <link>/posts/gamepoem/</link>
+      <link>/games/gamepoem/</link>
       <pubDate>Fri, 05 Jan 2024 16:23:14 +0530</pubDate>
       
-      <guid>/posts/gamepoem/</guid>
+      <guid>/games/gamepoem/</guid>
       <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
-MY ROLE as Game DesignerThis project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
+My role as Game Designer This project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
     </item>
     
     <item>
       <title>HEATWAVE Havoc - A multiplayer cooperative game</title>
-      <link>/posts/heatattacks/</link>
+      <link>/games/heatattacks/</link>
       <pubDate>Sun, 05 Feb 2023 16:23:14 +0530</pubDate>
       
-      <guid>/posts/heatattacks/</guid>
+      <guid>/games/heatattacks/</guid>
       <description>Overview BACKGROUNDHow might we make the younger generation aware of the impacts of heatwaves?
 How might we aid them to build empathy for our changing world and people effected by it? How might we make them aware of the adaptation measures during such an event?
 OBJECTIVEThe main goal of this project is to share adaptation measures to be taken during the event of a heatwave.
@@ -59,10 +79,10 @@ PRODUCT DETAILSHEATWAVE Havoc is a multiplayer card based strategic cooperative
     
     <item>
       <title>Zuci - A Phy-gital multiplayer turn based strategy game</title>
-      <link>/posts/zuci/</link>
+      <link>/games/zuci/</link>
       <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
       
-      <guid>/posts/zuci/</guid>
+      <guid>/games/zuci/</guid>
       <description>Overview BACKGROUNDFolk musical instruments bind one’s community together. Each instrument has a certain role, location, and time to be performed within a community. The audience for traditional folk musical instruments has, however, shrunk significantly as modern electronic musical instruments and music have become more widely accepted.
 OBJECTIVEThe main goal of this project was to teach participants about folk musical instruments through their sounds, method of construction, relationship with different communities and their festivals</description>
     </item>
@@ -75,16 +95,6 @@ OBJECTIVEThe main goal of this project was to teach participants about folk mus
       <guid>/stories/zuci/</guid>
       <description>INTRODUCTION Folk musical instruments bind one&amp;rsquo;s community together. Within a community, each instrument has its own specific use, place and time to be played. However, with the popularization of new electronic musical instruments and music, the audience base of traditional folk musical instruments have decreased considerably.
 To gather more information about the same, we met with Brahmaputra cultural Foundation(BCF), an NGO who is working on conserving folk musical instruments of the North-eastern states of India.</description>
-    </item>
-    
-    <item>
-      <title>Sharing knowledge about Folk musical instruments</title>
-      <link>/posts/reszuci/</link>
-      <pubDate>Mon, 25 Jul 2022 15:20:40 +0530</pubDate>
-      
-      <guid>/posts/reszuci/</guid>
-      <description>Overview BACKGROUNDTraditional folk musical instruments are facing extinction in many parts of India due to decrease in its user base. In order to develop a future user base of people with a better awareness of these musical instruments, the goal of this study was to identify an effective medium for teaching younger audiences about these instruments&amp;rsquo; construction processes, sounds, and events they are played at.
-OBJECTIVEThrough this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
     </item>
     
     <item>
@@ -108,12 +118,21 @@ Objective Through this study we aim to introduce different mediums of instructio
     
     <item>
       <title>Eat-o-pia - a multiplayer phy-gital game</title>
-      <link>/posts/eatopia/</link>
+      <link>/archives/eatopia/</link>
       <pubDate>Thu, 30 Jun 2022 15:20:40 +0530</pubDate>
       
-      <guid>/posts/eatopia/</guid>
+      <guid>/archives/eatopia/</guid>
       <description>Overview BACKGROUNDDuring our Game Design module at IDC School of Design, we – a group of four participants – wanted to explore the usage of Games in sharing knowledge of Food chain through hybrid or phy-gital games. To complete our exploratory project were allotted a time period of 1 week.
 OBJECTIVEThis project&amp;rsquo;s main goals were to encourage player interaction and raise players&amp;rsquo; awareness of the interdependence and flow of energy among living things in our environment through an interactive game world.</description>
+    </item>
+    
+    <item>
+      <title>Absinthe Tails</title>
+      <link>/posts/absinthetails/</link>
+      <pubDate>Wed, 05 Feb 2020 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/absinthetails/</guid>
+      <description>Overview Take a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
     </item>
     
   </channel>

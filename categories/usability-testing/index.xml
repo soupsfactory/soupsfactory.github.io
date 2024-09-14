@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usability Testing on Supriya Dutta</title>
+    <link>/categories/usability-testing/</link>
+    <description>Recent content in Usability Testing on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Sep 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/usability-testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usability Study for Dancing in VR @Aalto Motion Lab</title>
+      <link>/posts/aaltomotionlab/</link>
+      <pubDate>Thu, 05 Sep 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/aaltomotionlab/</guid>
+      <description>Overview Understanding user&amp;rsquo;s perception of space and latency in VR Duet is a VR dance game for two players, who interact via a glowing string linked to their avatars&amp;rsquo; &amp;ldquo;hands.&amp;rdquo; While VR promises shared dancing experiences remotely, challenges include network latency, the lack of full-body tracking in affordable devices, and limited real-world space in users&amp;rsquo; homes.
+This was done as a part of ongoing research by Markus Laattalaat Aalto under the supervision of Prof. Perttu Hämäläinen.</description>
+    </item>
+    
+  </channel>
+</rss>

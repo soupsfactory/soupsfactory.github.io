@@ -6,11 +6,29 @@
     <description>Recent content in Categories on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Feb 2024 15:20:40 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usability Testing</title>
+      <link>/categories/usability-testing/</link>
+      <pubDate>Thu, 05 Sep 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/categories/usability-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Interview</title>
+      <link>/categories/user-interview/</link>
+      <pubDate>Thu, 05 Sep 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/categories/user-interview/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Game Design</title>
       <link>/categories/game-design/</link>
-      <pubDate>Sat, 24 Feb 2024 15:20:40 +0530</pubDate>
+      <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
       
       <guid>/categories/game-design/</guid>
       <description></description>
@@ -19,9 +37,36 @@
     <item>
       <title>User Experience</title>
       <link>/categories/user-experience/</link>
-      <pubDate>Sat, 24 Feb 2024 15:20:40 +0530</pubDate>
+      <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
       
       <guid>/categories/user-experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Research</title>
+      <link>/categories/user-research/</link>
+      <pubDate>Mon, 05 Feb 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/categories/user-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cultural</title>
+      <link>/categories/cultural/</link>
+      <pubDate>Sat, 25 Nov 2023 15:20:40 +0530</pubDate>
+      
+      <guid>/categories/cultural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game Research</title>
+      <link>/categories/game-research/</link>
+      <pubDate>Sat, 25 Nov 2023 15:20:40 +0530</pubDate>
+      
+      <guid>/categories/game-research/</guid>
       <description></description>
     </item>
     
@@ -31,15 +76,6 @@
       <pubDate>Sun, 05 Feb 2023 16:23:14 +0530</pubDate>
       
       <guid>/categories/climate-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cultural</title>
-      <link>/categories/cultural/</link>
-      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
-      
-      <guid>/categories/cultural/</guid>
       <description></description>
     </item>
     
@@ -62,24 +98,6 @@
     </item>
     
     <item>
-      <title>Playful Exp</title>
-      <link>/categories/playful-exp/</link>
-      <pubDate>Fri, 01 Jul 2022 22:13:04 +0530</pubDate>
-      
-      <guid>/categories/playful-exp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>User Interview</title>
-      <link>/categories/user-interview/</link>
-      <pubDate>Fri, 01 Jul 2022 22:13:04 +0530</pubDate>
-      
-      <guid>/categories/user-interview/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Interaction Design</title>
       <link>/categories/interaction-design/</link>
       <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
@@ -89,11 +107,11 @@
     </item>
     
     <item>
-      <title>User Research</title>
-      <link>/categories/user-research/</link>
+      <title>Playful Exp</title>
+      <link>/categories/playful-exp/</link>
       <pubDate>Tue, 28 Jun 2022 22:13:04 +0530</pubDate>
       
-      <guid>/categories/user-research/</guid>
+      <guid>/categories/playful-exp/</guid>
       <description></description>
     </item>
     
@@ -193,6 +211,15 @@
       <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/categories/typesetting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Playtesting</title>
+      <link>/categories/playtesting/</link>
+      <pubDate>Fri, 05 Jun 2020 16:23:14 +0530</pubDate>
+      
+      <guid>/categories/playtesting/</guid>
       <description></description>
     </item>
     

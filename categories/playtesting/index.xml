@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playtesting on Supriya Dutta</title>
+    <link>/categories/playtesting/</link>
+    <description>Recent content in Playtesting on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jun 2020 16:23:14 +0530</lastBuildDate><atom:link href="/categories/playtesting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts out! Playtesting and Tutorial design</title>
+      <link>/posts/thoughtsout/</link>
+      <pubDate>Fri, 05 Jun 2020 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/thoughtsout/</guid>
+      <description>Overview Thoughts Out! is a 3D platform puzzle game set in a dreamlike world where your everyday office troubles morph into an annoying dragon. This dragon can alter the surrounding environment, making your adventure either easier or more challenging. How can you drive it out of your daydream and reclaim your peace of mind?
+We conducted multiple playtesting sessions for our newly developed game, Thoughts Out!, to gather feedback. This input was crucial for refining our onboarding tutorials and enhancing the overall user experience.</description>
+    </item>
+    
+  </channel>
+</rss>

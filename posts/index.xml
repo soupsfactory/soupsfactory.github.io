@@ -1,67 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Supriya Dutta</title>
+    <title>UX Design and Research Projects on Supriya Dutta</title>
     <link>/posts/</link>
-    <description>Recent content in Projects on Supriya Dutta</description>
+    <description>Recent content in UX Design and Research Projects on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Feb 2024 16:23:14 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 16:23:14 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Absinthe Tails</title>
-      <link>/posts/absinthetails/</link>
+      <title>Usability Study for Dancing in VR @Aalto Motion Lab</title>
+      <link>/posts/aaltomotionlab/</link>
+      <pubDate>Thu, 05 Sep 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/aaltomotionlab/</guid>
+      <description>Overview Understanding user&amp;rsquo;s perception of space and latency in VR Duet is a VR dance game for two players, who interact via a glowing string linked to their avatars&amp;rsquo; &amp;ldquo;hands.&amp;rdquo; While VR promises shared dancing experiences remotely, challenges include network latency, the lack of full-body tracking in affordable devices, and limited real-world space in users&amp;rsquo; homes.
+This was done as a part of ongoing research by Markus Laattalaat Aalto under the supervision of Prof. Perttu Hämäläinen.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Developers POV @MathWorks</title>
+      <link>/posts/mathworkstudy/</link>
       <pubDate>Mon, 05 Feb 2024 16:23:14 +0530</pubDate>
       
-      <guid>/posts/absinthetails/</guid>
-      <description>Overview Take a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
+      <guid>/posts/mathworkstudy/</guid>
+      <description>Overview We discovered through usability testings that the algorithms and systems designed by our developers were not understood well by the our users, and therefore not used as intended. This research study was designed to understand the development teams perspective of the Simulink Test, Simulink Design Verifier and the components related to them. This was done as a primary research to improve components of Simulink Test and Simulink Design Verifier.
+Objective of the study Objectives of this study:</description>
     </item>
     
     <item>
-      <title>How should I look today! - a game poem</title>
-      <link>/posts/gamepoem/</link>
-      <pubDate>Fri, 05 Jan 2024 16:23:14 +0530</pubDate>
-      
-      <guid>/posts/gamepoem/</guid>
-      <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
-MY ROLE as Game DesignerThis project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
-    </item>
-    
-    <item>
-      <title>HEATWAVE Havoc - A multiplayer cooperative game</title>
-      <link>/posts/heatattacks/</link>
-      <pubDate>Sun, 05 Feb 2023 16:23:14 +0530</pubDate>
-      
-      <guid>/posts/heatattacks/</guid>
-      <description>Overview BACKGROUNDHow might we make the younger generation aware of the impacts of heatwaves?
-How might we aid them to build empathy for our changing world and people effected by it? How might we make them aware of the adaptation measures during such an event?
-OBJECTIVEThe main goal of this project is to share adaptation measures to be taken during the event of a heatwave.
-PRODUCT DETAILSHEATWAVE Havoc is a multiplayer card based strategic cooperative game, where you save all your cute little babies from the effects of heatwaves.</description>
-    </item>
-    
-    <item>
-      <title>Zuci - A Phy-gital multiplayer turn based strategy game</title>
-      <link>/posts/zuci/</link>
-      <pubDate>Tue, 26 Jul 2022 16:23:14 +0530</pubDate>
-      
-      <guid>/posts/zuci/</guid>
-      <description>Overview BACKGROUNDFolk musical instruments bind one’s community together. Each instrument has a certain role, location, and time to be performed within a community. The audience for traditional folk musical instruments has, however, shrunk significantly as modern electronic musical instruments and music have become more widely accepted.
-OBJECTIVEThe main goal of this project was to teach participants about folk musical instruments through their sounds, method of construction, relationship with different communities and their festivals</description>
-    </item>
-    
-    <item>
-      <title>Sharing knowledge about Folk musical instruments</title>
-      <link>/posts/reszuci/</link>
-      <pubDate>Mon, 25 Jul 2022 15:20:40 +0530</pubDate>
-      
-      <guid>/posts/reszuci/</guid>
-      <description>Overview BACKGROUNDTraditional folk musical instruments are facing extinction in many parts of India due to decrease in its user base. In order to develop a future user base of people with a better awareness of these musical instruments, the goal of this study was to identify an effective medium for teaching younger audiences about these instruments&amp;rsquo; construction processes, sounds, and events they are played at.
-OBJECTIVEThrough this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
-    </item>
-    
-    <item>
-      <title>EXPRESSION Post-its – playful experiment @MathWorks</title>
+      <title>Understanding onboarding to MATLAB @MathWorks</title>
       <link>/posts/mathworksres/</link>
-      <pubDate>Fri, 01 Jul 2022 22:13:04 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 2024 22:13:04 +0530</pubDate>
       
       <guid>/posts/mathworksres/</guid>
       <description>Overview BACKGROUNDThis project was carried out as a part of my employment with MathWorks India at MathWorks Design Team under the guidance of my co-workers Jyotirmaya Mohapatra and Praneet Kopula, . This design experiment&amp;rsquo;s objective was to see if user interviews might be made more entertaining and participatory.
@@ -69,23 +38,32 @@ OBJECTIVEThe objective of this research project was to identify and gather the 
     </item>
     
     <item>
-      <title>Eat-o-pia - a multiplayer phy-gital game</title>
-      <link>/posts/eatopia/</link>
-      <pubDate>Thu, 30 Jun 2022 15:20:40 +0530</pubDate>
+      <title>Sharing knowledge about Folk musical instruments</title>
+      <link>/posts/reszuci/</link>
+      <pubDate>Sat, 25 Nov 2023 15:20:40 +0530</pubDate>
       
-      <guid>/posts/eatopia/</guid>
-      <description>Overview BACKGROUNDDuring our Game Design module at IDC School of Design, we – a group of four participants – wanted to explore the usage of Games in sharing knowledge of Food chain through hybrid or phy-gital games. To complete our exploratory project were allotted a time period of 1 week.
-OBJECTIVEThis project&amp;rsquo;s main goals were to encourage player interaction and raise players&amp;rsquo; awareness of the interdependence and flow of energy among living things in our environment through an interactive game world.</description>
+      <guid>/posts/reszuci/</guid>
+      <description>Overview BACKGROUNDTraditional folk musical instruments are facing extinction in many parts of India due to decrease in its user base. In order to develop a future user base of people with a better awareness of these musical instruments, the goal of this study was to identify an effective medium for teaching younger audiences about these instruments&amp;rsquo; construction processes, sounds, and events they are played at.
+OBJECTIVEThrough this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
     </item>
     
     <item>
-      <title>Nature&#39;s palette - a playful adventure</title>
-      <link>/posts/naturespalette/</link>
-      <pubDate>Wed, 29 Jun 2022 16:23:00 +0530</pubDate>
+      <title>Thoughts out! Playtesting and Tutorial design</title>
+      <link>/posts/thoughtsout/</link>
+      <pubDate>Fri, 05 Jun 2020 16:23:14 +0530</pubDate>
       
-      <guid>/posts/naturespalette/</guid>
-      <description>Overview BACKGROUNDCan we foster curiosity in children about our natural environment? During the Interaction Design module at IDC School of Design, we (our group had 4 participants) were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
-PRODUCT DETAILSThrough the use of colours and textures, the Nature’s Palette app aims to help kids connect with their surroundings. Together, kids explore their environment and take photos of the many colours and textures they encounter.</description>
+      <guid>/posts/thoughtsout/</guid>
+      <description>Overview Thoughts Out! is a 3D platform puzzle game set in a dreamlike world where your everyday office troubles morph into an annoying dragon. This dragon can alter the surrounding environment, making your adventure either easier or more challenging. How can you drive it out of your daydream and reclaim your peace of mind?
+We conducted multiple playtesting sessions for our newly developed game, Thoughts Out!, to gather feedback. This input was crucial for refining our onboarding tutorials and enhancing the overall user experience.</description>
+    </item>
+    
+    <item>
+      <title>Absinthe Tails</title>
+      <link>/posts/absinthetails/</link>
+      <pubDate>Wed, 05 Feb 2020 16:23:14 +0530</pubDate>
+      
+      <guid>/posts/absinthetails/</guid>
+      <description>Overview Take a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
     </item>
     
   </channel>
