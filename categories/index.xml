@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Sep 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2025 15:20:40 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Design</title>
+      <link>/categories/game-design/</link>
+      <pubDate>Mon, 24 Feb 2025 15:20:40 +0530</pubDate>
+      
+      <guid>/categories/game-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Experience</title>
+      <link>/categories/user-experience/</link>
+      <pubDate>Mon, 24 Feb 2025 15:20:40 +0530</pubDate>
+      
+      <guid>/categories/user-experience/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Usability Testing</title>
       <link>/categories/usability-testing/</link>
@@ -26,20 +44,20 @@
     </item>
     
     <item>
-      <title>Game Design</title>
-      <link>/categories/game-design/</link>
+      <title>Level Design</title>
+      <link>/categories/level-design/</link>
       <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
       
-      <guid>/categories/game-design/</guid>
+      <guid>/categories/level-design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>User Experience</title>
-      <link>/categories/user-experience/</link>
+      <title>Tutorial Design</title>
+      <link>/categories/tutorial-design/</link>
       <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
       
-      <guid>/categories/user-experience/</guid>
+      <guid>/categories/tutorial-design/</guid>
       <description></description>
     </item>
     

@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 05 Sep 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/usability-testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Usability Study for Dancing in VR @Aalto Motion Lab</title>
-      <link>/posts/aaltomotionlab/</link>
+      <link>/research/aaltomotionlab/</link>
       <pubDate>Thu, 05 Sep 2024 16:23:14 +0530</pubDate>
       
-      <guid>/posts/aaltomotionlab/</guid>
+      <guid>/research/aaltomotionlab/</guid>
       <description>Overview Understanding user&amp;rsquo;s perception of space and latency in VR Duet is a VR dance game for two players, who interact via a glowing string linked to their avatars&amp;rsquo; &amp;ldquo;hands.&amp;rdquo; While VR promises shared dancing experiences remotely, challenges include network latency, the lack of full-body tracking in affordable devices, and limited real-world space in users&amp;rsquo; homes.
 This was done as a part of ongoing research by Markus Laattalaat Aalto under the supervision of Prof. Perttu Hämäläinen.</description>
     </item>

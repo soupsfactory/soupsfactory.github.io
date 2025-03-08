@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UX Research Projects on Supriya Dutta</title>
+    <link>/research/</link>
+    <description>Recent content in UX Research Projects on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Sep 2024 16:23:14 +0530</lastBuildDate><atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usability Study for Dancing in VR @Aalto Motion Lab</title>
+      <link>/research/aaltomotionlab/</link>
+      <pubDate>Thu, 05 Sep 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/research/aaltomotionlab/</guid>
+      <description>Overview Understanding user&amp;rsquo;s perception of space and latency in VR Duet is a VR dance game for two players, who interact via a glowing string linked to their avatars&amp;rsquo; &amp;ldquo;hands.&amp;rdquo; While VR promises shared dancing experiences remotely, challenges include network latency, the lack of full-body tracking in affordable devices, and limited real-world space in users&amp;rsquo; homes.
+This was done as a part of ongoing research by Markus Laattalaat Aalto under the supervision of Prof. Perttu Hämäläinen.</description>
+    </item>
+    
+    <item>
+      <title>User-centered development collaboration @MathWorks</title>
+      <link>/research/mathworkstudy/</link>
+      <pubDate>Mon, 05 Feb 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/research/mathworkstudy/</guid>
+      <description>Overview We discovered through usability testings that the algorithms and systems designed by our developers were not understood well by the our users, and therefore not used as intended. This research study was designed to understand the development teams perspective of the Simulink Test, Simulink Design Verifier and the components related to them. This was done as a primary research to improve components of Simulink Test and Simulink Design Verifier.
+Objective of the study Objectives of this study:</description>
+    </item>
+    
+    <item>
+      <title>Understanding onboarding to MATLAB @MathWorks</title>
+      <link>/research/mathworksres/</link>
+      <pubDate>Mon, 01 Jan 2024 22:13:04 +0530</pubDate>
+      
+      <guid>/research/mathworksres/</guid>
+      <description>Overview BACKGROUNDThis project was carried out as a part of my employment with MathWorks India at MathWorks Design Team under the guidance of my co-workers Jyotirmaya Mohapatra and Praneet Kopula, . This design experiment&amp;rsquo;s objective was to see if user interviews might be made more entertaining and participatory.
+OBJECTIVEThe objective of this research project was to identify and gather the user journey of MATLAB users, their goals, challenges and workarounds or solutions they might have figured over their journey.</description>
+    </item>
+    
+    <item>
+      <title>Sharing knowledge about Folk musical instruments</title>
+      <link>/research/reszuci/</link>
+      <pubDate>Sat, 25 Nov 2023 15:20:40 +0530</pubDate>
+      
+      <guid>/research/reszuci/</guid>
+      <description>Overview BACKGROUNDTraditional folk musical instruments are facing extinction in many parts of India due to decrease in its user base. In order to develop a future user base of people with a better awareness of these musical instruments, the goal of this study was to identify an effective medium for teaching younger audiences about these instruments&amp;rsquo; construction processes, sounds, and events they are played at.
+OBJECTIVEThrough this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
+    </item>
+    
+  </channel>
+</rss>

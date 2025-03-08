@@ -9,20 +9,20 @@
     <lastBuildDate>Thu, 05 Sep 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/user-interview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Usability Study for Dancing in VR @Aalto Motion Lab</title>
-      <link>/posts/aaltomotionlab/</link>
+      <link>/research/aaltomotionlab/</link>
       <pubDate>Thu, 05 Sep 2024 16:23:14 +0530</pubDate>
       
-      <guid>/posts/aaltomotionlab/</guid>
+      <guid>/research/aaltomotionlab/</guid>
       <description>Overview Understanding user&amp;rsquo;s perception of space and latency in VR Duet is a VR dance game for two players, who interact via a glowing string linked to their avatars&amp;rsquo; &amp;ldquo;hands.&amp;rdquo; While VR promises shared dancing experiences remotely, challenges include network latency, the lack of full-body tracking in affordable devices, and limited real-world space in users&amp;rsquo; homes.
 This was done as a part of ongoing research by Markus Laattalaat Aalto under the supervision of Prof. Perttu Hämäläinen.</description>
     </item>
     
     <item>
       <title>Understanding onboarding to MATLAB @MathWorks</title>
-      <link>/posts/mathworksres/</link>
+      <link>/research/mathworksres/</link>
       <pubDate>Mon, 01 Jan 2024 22:13:04 +0530</pubDate>
       
-      <guid>/posts/mathworksres/</guid>
+      <guid>/research/mathworksres/</guid>
       <description>Overview BACKGROUNDThis project was carried out as a part of my employment with MathWorks India at MathWorks Design Team under the guidance of my co-workers Jyotirmaya Mohapatra and Praneet Kopula, . This design experiment&amp;rsquo;s objective was to see if user interviews might be made more entertaining and participatory.
 OBJECTIVEThe objective of this research project was to identify and gather the user journey of MATLAB users, their goals, challenges and workarounds or solutions they might have figured over their journey.</description>
     </item>

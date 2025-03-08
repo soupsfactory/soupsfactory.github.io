@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Level Design on Supriya Dutta</title>
+    <link>/categories/level-design/</link>
+    <description>Recent content in Level Design on Supriya Dutta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Jun 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/level-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts Out!</title>
+      <link>/design/thoughtsout/</link>
+      <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/design/thoughtsout/</guid>
+      <description>Overview Thoughts Out! is a 3D platform puzzle game set in a dreamlike world where your everyday office troubles morph into an annoying dragon. This dragon can alter the surrounding environment, making your adventure either easier or more challenging. How can you drive it out of your daydream and reclaim your peace of mind? Calm down and first, listen to what Miss Bellflower has to say.
+Tools Unreal Figma Pen and Paper My responsibilities UX and UI design Tutorial design We began with low-fidelity designs in Figma to map out the UI flow, including in-game and on-screen UI elements.</description>
+    </item>
+    
+  </channel>
+</rss>

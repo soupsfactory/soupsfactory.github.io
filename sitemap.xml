@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/design/absinthetails/</loc>
+    <lastmod>2025-02-26T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-09-05T16:23:14+05:30</lastmod>
+    <lastmod>2025-02-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/design/</loc>
+    <lastmod>2025-02-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/game-design/</loc>
+    <lastmod>2025-02-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2024-09-05T16:23:14+05:30</lastmod>
+    <lastmod>2025-02-26T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/aaltomotionlab/</loc>
+    <loc>/categories/user-experience/</loc>
+    <lastmod>2025-02-26T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/research/aaltomotionlab/</loc>
     <lastmod>2024-09-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/usability-testing/</loc>
@@ -17,22 +29,25 @@
     <loc>/categories/user-interview/</loc>
     <lastmod>2024-09-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>/research/</loc>
     <lastmod>2024-09-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/categories/game-design/</loc>
-    <lastmod>2024-06-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/games/</loc>
+    <loc>/categories/level-design/</loc>
     <lastmod>2024-06-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/games/monstercleaning/</loc>
     <lastmod>2024-06-05T16:23:14+05:30</lastmod>
   </url><url>
+    <loc>/design/thoughtsout/</loc>
+    <lastmod>2024-06-05T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/games/thoughtsout/</loc>
     <lastmod>2024-06-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/categories/user-experience/</loc>
+    <loc>/categories/tutorial-design/</loc>
+    <lastmod>2024-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/games/</loc>
     <lastmod>2024-06-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/stories/absinthetails/</loc>
@@ -47,16 +62,19 @@
     <loc>/categories/user-research/</loc>
     <lastmod>2024-02-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/mathworkstudy/</loc>
+    <loc>/research/mathworkstudy/</loc>
     <lastmod>2024-02-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/stories/gamepoem/</loc>
     <lastmod>2024-01-26T16:23:14+05:30</lastmod>
   </url><url>
+    <loc>/design/gamepoem/</loc>
+    <lastmod>2024-01-05T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/games/gamepoem/</loc>
     <lastmod>2024-01-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/posts/mathworksres/</loc>
+    <loc>/research/mathworksres/</loc>
     <lastmod>2024-01-03T22:13:04+05:30</lastmod>
   </url><url>
     <loc>/categories/cultural/</loc>
@@ -65,7 +83,7 @@
     <loc>/categories/game-research/</loc>
     <lastmod>2023-12-25T15:20:40+05:30</lastmod>
   </url><url>
-    <loc>/posts/reszuci/</loc>
+    <loc>/research/reszuci/</loc>
     <lastmod>2023-12-25T15:20:40+05:30</lastmod>
   </url><url>
     <loc>/categories/climate-change/</loc>
@@ -161,6 +179,9 @@
     <loc>/archives/processing/</loc>
     <lastmod>2022-06-23T16:25:53+05:30</lastmod>
   </url><url>
+    <loc>/design/monstercleaning/</loc>
+    <lastmod>2022-06-05T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/categories/documentation/</loc>
     <lastmod>2022-05-30T15:54:48+05:30</lastmod>
   </url><url>
@@ -216,6 +237,9 @@
     <lastmod>2020-06-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/posts/thoughtsout/</loc>
+    <lastmod>2020-06-05T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
     <lastmod>2020-06-05T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/posts/absinthetails/</loc>

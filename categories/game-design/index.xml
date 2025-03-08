@@ -6,7 +6,16 @@
     <description>Recent content in Game Design on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Jun 2024 16:23:14 +0530</lastBuildDate><atom:link href="/categories/game-design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2025 15:20:40 +0530</lastBuildDate><atom:link href="/categories/game-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Absinthe Tails</title>
+      <link>/design/absinthetails/</link>
+      <pubDate>Mon, 24 Feb 2025 15:20:40 +0530</pubDate>
+      
+      <guid>/design/absinthetails/</guid>
+      <description>Overview Take a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
+    </item>
+    
     <item>
       <title>Monster Cleaning Inc</title>
       <link>/games/monstercleaning/</link>
@@ -53,6 +62,16 @@ My role as User Experience Designer Collaborating with a team of eight individua
       <guid>/stories/gamepoem/</guid>
       <description>BRIEF OVERVIEW Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
 Objective The assignment delves into the repercussions of standing out in a crowd, inspired by a real-life incident with severe consequences, prompting exploration of the emotions and reactions triggered when one is perceived as different among peers.</description>
+    </item>
+    
+    <item>
+      <title>How should I look today! - a game poem</title>
+      <link>/design/gamepoem/</link>
+      <pubDate>Fri, 05 Jan 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/design/gamepoem/</guid>
+      <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
+This project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
     </item>
     
     <item>
@@ -124,6 +143,16 @@ Objective Through this study we aim to introduce different mediums of instructio
       <guid>/archives/eatopia/</guid>
       <description>Overview BACKGROUNDDuring our Game Design module at IDC School of Design, we – a group of four participants – wanted to explore the usage of Games in sharing knowledge of Food chain through hybrid or phy-gital games. To complete our exploratory project were allotted a time period of 1 week.
 OBJECTIVEThis project&amp;rsquo;s main goals were to encourage player interaction and raise players&amp;rsquo; awareness of the interdependence and flow of energy among living things in our environment through an interactive game world.</description>
+    </item>
+    
+    <item>
+      <title>Monster Cleaning Inc</title>
+      <link>/design/monstercleaning/</link>
+      <pubDate>Sun, 05 Jun 2022 16:23:14 +0530</pubDate>
+      
+      <guid>/design/monstercleaning/</guid>
+      <description>Overview Welcome to Monster Cleaning Inc., located in the heart of an RPG world! After nasty battles, these monsters need a good scrub. You need to use the right-sized sponge to clean it. Your cleaning skills will be judged by the monsters themselves, and their ratings will determine your success. Can you earn that coveted five-star review? Step up, clean them up quickly and get them ready for their next encounter!
+Tools Figma Unity Pen and paper My responsibilities UX Design Programming Collaborating with a team of five individuals for GMTK game jam 2024, we embraced various roles to enhance the project.</description>
     </item>
     
     <item>
