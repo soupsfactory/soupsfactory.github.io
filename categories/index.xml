@@ -6,22 +6,31 @@
     <description>Recent content in Categories on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Feb 2025 15:20:40 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Mar 2025 16:23:14 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game Design</title>
       <link>/categories/game-design/</link>
-      <pubDate>Mon, 24 Feb 2025 15:20:40 +0530</pubDate>
+      <pubDate>Wed, 05 Mar 2025 16:23:14 +0530</pubDate>
       
       <guid>/categories/game-design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>User Experience</title>
-      <link>/categories/user-experience/</link>
-      <pubDate>Mon, 24 Feb 2025 15:20:40 +0530</pubDate>
+      <title>Programming</title>
+      <link>/categories/programming/</link>
+      <pubDate>Wed, 05 Mar 2025 16:23:14 +0530</pubDate>
       
-      <guid>/categories/user-experience/</guid>
+      <guid>/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UX</title>
+      <link>/categories/ux/</link>
+      <pubDate>Wed, 05 Mar 2025 16:23:14 +0530</pubDate>
+      
+      <guid>/categories/ux/</guid>
       <description></description>
     </item>
     
@@ -44,6 +53,15 @@
     </item>
     
     <item>
+      <title>Tutorial Design</title>
+      <link>/categories/tutorial-design/</link>
+      <pubDate>Mon, 05 Aug 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/categories/tutorial-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Level Design</title>
       <link>/categories/level-design/</link>
       <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
@@ -53,11 +71,11 @@
     </item>
     
     <item>
-      <title>Tutorial Design</title>
-      <link>/categories/tutorial-design/</link>
+      <title>User Experience</title>
+      <link>/categories/user-experience/</link>
       <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
       
-      <guid>/categories/tutorial-design/</guid>
+      <guid>/categories/user-experience/</guid>
       <description></description>
     </item>
     
@@ -85,15 +103,6 @@
       <pubDate>Sat, 25 Nov 2023 15:20:40 +0530</pubDate>
       
       <guid>/categories/game-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Climate change</title>
-      <link>/categories/climate-change/</link>
-      <pubDate>Sun, 05 Feb 2023 16:23:14 +0530</pubDate>
-      
-      <guid>/categories/climate-change/</guid>
       <description></description>
     </item>
     
@@ -229,6 +238,15 @@
       <pubDate>Fri, 27 May 2022 16:13:11 +0530</pubDate>
       
       <guid>/categories/typesetting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate change</title>
+      <link>/categories/climate-change/</link>
+      <pubDate>Fri, 05 Feb 2021 16:23:14 +0530</pubDate>
+      
+      <guid>/categories/climate-change/</guid>
       <description></description>
     </item>
     

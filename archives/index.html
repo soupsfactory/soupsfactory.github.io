@@ -2,7 +2,7 @@
 <html
   lang="en"
   dir="ltr"
-  
+  class="dark"
 ><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -87,62 +87,69 @@
     "itemListElement":[{
             "@type":"ListItem",
             "position":  1 ,
+            "name": "How should I look today! - a game poem",
+            "description": "This game poem explores the complexities of human behavior towards those unfamiliar to them... with adorned pixels and apples",
+            "image": "/images/looktoday/cover.png",
+            "url": "/archives/gamepoem/"
+        },{
+            "@type":"ListItem",
+            "position":  2 ,
             "name": "Eat-o-pia - a multiplayer phy-gital game",
             "description": "Eat-o-pia - a multiplayer phy-gital game was an exploratory project designed to introduce and explain the concepts of Food chain.",
             "image": "/images/eatopia/eatopiathumbnails.png",
             "url": "/archives/eatopia/"
         },{
             "@type":"ListItem",
-            "position":  2 ,
+            "position":  3 ,
             "name": "Nature's palette - a playful adventure",
             "description": "Fostering curiosity in children about resources available in natural environments, through colours.",
             "image": "/images/naturespalette/naturesPthumbnails2.png",
             "url": "/archives/naturespalette/"
         },{
             "@type":"ListItem",
-            "position":  3 ,
+            "position":  4 ,
             "name": "Flowers peep - Imagining people as flowers",
             "description": "Connecting coworkers through their interests and experiences through data representations.",
             "image": "/images/EliLillyPersona/personathumbnails.png",
             "url": "/archives/personaproject/"
         },{
             "@type":"ListItem",
-            "position":  4 ,
+            "position":  5 ,
             "name": "Visualizing radiology data - Predible health report",
             "description": "Visualizing of radiology data designed to be used for both experts ad patients in the form of a printable report",
             "image": "/images/predible/prediblethumbnails.png",
             "url": "/archives/predible/"
         },{
             "@type":"ListItem",
-            "position":  5 ,
+            "position":  6 ,
             "name": "600 years of Ahom Kingdom - a visual data narrative",
             "description": "An interactive story narrative designed primarily to understand the Ahom Kingdom through data-visualizations.",
             "image": "/images/ahom/Ahomthumbnails.png",
             "url": "/archives/ahoms/"
         },{
             "@type":"ListItem",
-            "position":  6 ,
+            "position":  7 ,
             "name": "Generative art sketches with processing",
             "description": "a few sketches-fractals-math diagrams created with Processing, canvas and p5js",
             "image": "/images/process/processingthumbnails.png",
             "url": "/archives/processing/"
         },{
             "@type":"ListItem",
-            "position":  7 ,
+            "position":  8 ,
             "name": "Mukha Shilpa - Mask making of Majuli Island",
             "description": "Documentation and leaning Mukha Shilpa - Mask making of Majuli Assam, India",
             "image": "/images/mask/maskthumbnails.png",
             "url": "/archives/mask/"
         },{
             "@type":"ListItem",
-            "position":  8 ,
+            "position":  9 ,
             "name": "Bondeep, Bonoshreehotor Golpo - book design",
             "description": "Design of a short story collection by my father, written in Assamese language",
             "image": "/images/detabook/detabookthumbnails.png",
             "url": "/archives/detabook/"
         },{
             "@type":"ListItem",
-            "position":  9 ,
+            "position":  10 ,
             "name": "My friend Mr Leakey - book design",
             "description": "A book design project - redesign of my favorite childhood book",
             "image": "/images/book/bookthumbnails.png",
@@ -181,7 +188,7 @@
 
 
 
-<meta property="og:updated_time" content="2022-06-30T15:20:40&#43;05:30" />
+<meta property="og:updated_time" content="2024-09-05T16:23:14&#43;05:30" />
 
 
 
@@ -197,8 +204,8 @@
     >
       <div class="mx-auto w-full max-w-screen-xl"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
-        document.getElementsByTagName('html')[0].classList.add('dark')
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: light)").matches) || storageColorScheme == "Light") {
+        document.getElementsByTagName('html')[0].classList.remove('dark')
     }
 </script>
 <nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
@@ -210,15 +217,16 @@
     <div id="target"
         class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
-            <a href="/research/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">UX Research</a>
+            <a href="/games/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Game Design</a>
             <a href="/design/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">UX Design</a>
+            <a href="/research/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">UX Research</a>
             <a href="/resume_supriyadutta.pdf" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">My CV</a>
         </div>
 
         <div class="flex">
             <div class="relative pt-4 md:pt-0">
                 <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
-                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
                 </div>
                 <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
                 </div>
@@ -240,16 +248,16 @@
     
     let element = document.getElementById('lightDarkMode')
     if (storageColorScheme == 'Auto') {
-        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.classList.remove('fa-moon')
         element.firstElementChild.setAttribute("data-icon", 'adjust')
         element.firstElementChild.classList.add('fa-adjust')
         document.addEventListener('DOMContentLoaded', () => {
             window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
         })
-    } else if (storageColorScheme == "Dark") {
-        element.firstElementChild.classList.remove('fa-sun')
-        element.firstElementChild.setAttribute("data-icon", 'moon')
-        element.firstElementChild.classList.add('fa-moon')
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-moon')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -269,6 +277,48 @@
 
   <div class="rounded px-6">
     <div class="masonry grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+  
+  <div class="item">
+    <div class="grid-content">
+      <div
+  class="bg-secondary-bg dark:border-tertiary-bg overflow-hidden rounded border transition duration-200 ease-in-out hover:shadow-lg"
+>
+  
+  
+    <img src="/images/looktoday/cover.png" class="w-full" alt="Featured Image">
+  
+  <div class="prose px-6 pt-6 pb-4">
+    <a href="/archives/gamepoem/" class="no-underline">
+      <h3 class="mt-0">How should I look today! - a game poem</h3>
+    </a>
+    
+      This game poem explores the complexities of human behavior towards those unfamiliar to them... with adorned pixels and apples
+    
+    
+    <div class="me-6 my-2">
+    
+      <i class="fas fa-tags me-1"></i>
+      
+        <a href="/categories/game-design/" class="hover:text-eureka">Game Design</a>
+      
+      
+        
+          <span>, </span>
+        <a href="/categories/ux/" class="hover:text-eureka">UX</a>
+      
+      
+        
+          <span>, </span>
+        <a href="/categories/programming/" class="hover:text-eureka">Programming</a>
+      
+      
+    </div>
+    
+  </div>
+</div>
+
+    </div>
+  </div>
   
   <div class="item">
     <div class="grid-content">

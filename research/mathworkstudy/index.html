@@ -2,7 +2,7 @@
 <html
   lang="en"
   dir="ltr"
-  
+  class="dark"
 ><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -106,7 +106,7 @@
     "image": "/images/mathworksdev/cover.png",
     "datePublished": "2024-02-05T16:23:14+05:30",
     "dateModified": "2024-02-05T16:23:14+05:30",
-    "wordCount":  231 ,
+    "wordCount":  270 ,
     "publisher": {
         "@type": "Person",
         "name": "Supriya",
@@ -163,8 +163,8 @@
     >
       <div class="mx-auto w-full max-w-screen-xl"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
-        document.getElementsByTagName('html')[0].classList.add('dark')
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: light)").matches) || storageColorScheme == "Light") {
+        document.getElementsByTagName('html')[0].classList.remove('dark')
     }
 </script>
 <nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
@@ -176,15 +176,16 @@
     <div id="target"
         class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
-            <a href="/research/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">UX Research</a>
+            <a href="/games/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Game Design</a>
             <a href="/design/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">UX Design</a>
+            <a href="/research/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">UX Research</a>
             <a href="/resume_supriyadutta.pdf" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">My CV</a>
         </div>
 
         <div class="flex">
             <div class="relative pt-4 md:pt-0">
                 <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
-                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
                 </div>
                 <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
                 </div>
@@ -206,16 +207,16 @@
     
     let element = document.getElementById('lightDarkMode')
     if (storageColorScheme == 'Auto') {
-        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.classList.remove('fa-moon')
         element.firstElementChild.setAttribute("data-icon", 'adjust')
         element.firstElementChild.classList.add('fa-adjust')
         document.addEventListener('DOMContentLoaded', () => {
             window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
         })
-    } else if (storageColorScheme == "Dark") {
-        element.firstElementChild.classList.remove('fa-sun')
-        element.firstElementChild.setAttribute("data-icon", 'moon')
-        element.firstElementChild.classList.add('fa-moon')
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-moon')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -494,6 +495,11 @@ sliderJQuery(function( $ ) {
 </script>
 <h2 id="data-gathered">Data gathered</h2>
 <p>We later combined this data with customer data to design components of Simulink Test and Simulink Design verifier.</p>
+<h2 id="feedback-received">Feedback received</h2>
+<ul>
+<li>Rail road diagram of the existing flow was appreciated by my development team, it helped them visualize the painpoints and identify points to intervene</li>
+<li>New UIs were appreciated for better usability as it reduced the previous bottlenecks.</li>
+</ul>
 <p>As this was a project done as a part of my employment with MathWorks India, I will not be able to share any more information or pictures&hellip;
 But, do please feel free to reach out if you have any suggestions or feedback for the project. :)
 <br>
@@ -566,6 +572,7 @@ FIN.</p>
     <li><a href="#objective-of-the-study">Objective of the study</a></li>
     <li><a href="#my-role-as-user-experience-designer">My role as User Experience Designer</a></li>
     <li><a href="#data-gathered">Data gathered</a></li>
+    <li><a href="#feedback-received">Feedback received</a></li>
   </ul>
 </nav>
 </div>

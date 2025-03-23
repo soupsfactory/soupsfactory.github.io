@@ -17,6 +17,16 @@
     </item>
     
     <item>
+      <title>How should I look today! - a game poem</title>
+      <link>/design/gamepoem/</link>
+      <pubDate>Tue, 05 Nov 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/design/gamepoem/</guid>
+      <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
+This project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
+    </item>
+    
+    <item>
       <title>Thoughts Out!</title>
       <link>/design/thoughtsout/</link>
       <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
@@ -27,23 +37,32 @@ Tools Unreal Figma Pen and Paper My responsibilities UX and UI design Tutorial d
     </item>
     
     <item>
-      <title>How should I look today! - a game poem</title>
-      <link>/design/gamepoem/</link>
-      <pubDate>Fri, 05 Jan 2024 16:23:14 +0530</pubDate>
+      <title>User-centered development collaboration @MathWorks</title>
+      <link>/design/mathworkstudy/</link>
+      <pubDate>Mon, 05 Feb 2024 16:23:14 +0530</pubDate>
       
-      <guid>/design/gamepoem/</guid>
-      <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
-This project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
+      <guid>/design/mathworkstudy/</guid>
+      <description>Overview We discovered through usability testings that the algorithms and systems designed by our developers were not understood well by the our users, and therefore not used as intended. This research study was designed to understand the development teams perspective of the Simulink Test, Simulink Design Verifier and the components related to them. This was done as a primary research to improve components of Simulink Test and Simulink Design Verifier.
+Objective of the study Objectives of this study:</description>
     </item>
     
     <item>
-      <title>Monster Cleaning Inc</title>
-      <link>/design/monstercleaning/</link>
-      <pubDate>Sun, 05 Jun 2022 16:23:14 +0530</pubDate>
+      <title>600 years of Ahom Kingdom - a visual data narrative</title>
+      <link>/design/ahoms/</link>
+      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
       
-      <guid>/design/monstercleaning/</guid>
-      <description>Overview Welcome to Monster Cleaning Inc., located in the heart of an RPG world! After nasty battles, these monsters need a good scrub. You need to use the right-sized sponge to clean it. Your cleaning skills will be judged by the monsters themselves, and their ratings will determine your success. Can you earn that coveted five-star review? Step up, clean them up quickly and get them ready for their next encounter!
-Tools Figma Unity Pen and paper My responsibilities UX Design Programming Collaborating with a team of five individuals for GMTK game jam 2024, we embraced various roles to enhance the project.</description>
+      <guid>/design/ahoms/</guid>
+      <description>Overview BACKGROUNDThe Ahom dynasty was the most celebrated in Assam’s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
+    </item>
+    
+    <item>
+      <title>Nature&#39;s palette - a playful adventure</title>
+      <link>/design/naturespalette/</link>
+      <pubDate>Tue, 29 Jun 2021 16:23:00 +0530</pubDate>
+      
+      <guid>/design/naturespalette/</guid>
+      <description>Overview BACKGROUNDCan we foster curiosity in children about our natural environment? During the Interaction Design module at IDC School of Design, we (our group had 4 participants) were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
+PRODUCT DETAILSThrough the use of colours and textures, the Nature’s Palette app aims to help kids connect with their surroundings. Together, kids explore their environment and take photos of the many colours and textures they encounter.</description>
     </item>
     
   </channel>

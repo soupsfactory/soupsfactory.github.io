@@ -6,7 +6,16 @@
     <description>Recent content on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Feb 2025 15:20:40 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Mar 2025 16:23:14 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Influencer</title>
+      <link>/games/influenecer/</link>
+      <pubDate>Wed, 05 Mar 2025 16:23:14 +0530</pubDate>
+      
+      <guid>/games/influenecer/</guid>
+      <description>Motivation This project was inspired by an incident in Diphu, India, in 2018, where two friends were attacked while heading to a scenic place just because they looked different. We want to explore the feelings people might have in similar situations where they feel isolated and face violence. The project aims to design a game that takes players through different negative emotions, starting from a sense of safety and happiness to confusion, unease, powerlessness, anxiety, and possibly even despair.</description>
+    </item>
+    
     <item>
       <title>Absinthe Tails</title>
       <link>/design/absinthetails/</link>
@@ -14,6 +23,45 @@
       
       <guid>/design/absinthetails/</guid>
       <description>Overview Take a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
+    </item>
+    
+    <item>
+      <title>Absinthe Tails</title>
+      <link>/games/absinthetails/</link>
+      <pubDate>Mon, 24 Feb 2025 15:20:40 +0530</pubDate>
+      
+      <guid>/games/absinthetails/</guid>
+      <description>Overview Take a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
+    </item>
+    
+    <item>
+      <title>How should I look today! - a game poem</title>
+      <link>/design/gamepoem/</link>
+      <pubDate>Tue, 05 Nov 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/design/gamepoem/</guid>
+      <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
+This project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
+    </item>
+    
+    <item>
+      <title>How should I look today!</title>
+      <link>/games/gamepoem/</link>
+      <pubDate>Tue, 24 Sep 2024 15:20:40 +0530</pubDate>
+      
+      <guid>/games/gamepoem/</guid>
+      <description>Overview Enter the shoes of a social media traveler, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
+Objective The assignment delves into the repercussions of standing out in a crowd, inspired by a real-life incident with severe consequences, prompting exploration of the emotions and reactions triggered when one is perceived as different among peers.</description>
+    </item>
+    
+    <item>
+      <title>How should I look today! - a game poem</title>
+      <link>/archives/gamepoem/</link>
+      <pubDate>Thu, 05 Sep 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/archives/gamepoem/</guid>
+      <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
+My role as Game Designer This project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
     </item>
     
     <item>
@@ -27,12 +75,23 @@ This was done as a part of ongoing research by Markus Laattalaat Aalto under th
     </item>
     
     <item>
+      <title>Thoughts Out!</title>
+      <link>/games/thoughtsout/</link>
+      <pubDate>Mon, 05 Aug 2024 16:23:14 +0530</pubDate>
+      
+      <guid>/games/thoughtsout/</guid>
+      <description>Overview Thoughts Out! is a 3D platform puzzle game set in a dreamlike world where your everyday office troubles morph into an annoying dragon. This dragon can alter the surrounding environment, making your adventure either easier or more challenging. How can you drive it out of your daydream and reclaim your peace of mind?
+Calm down and first, listen to what Miss Bellflower has to say.
+Tools used Unreal Figma Pen and paper My role as Tutorial and Level Designer Collaborating with a team of eight individuals, we embraced various roles to enhance the project.</description>
+    </item>
+    
+    <item>
       <title>Monster Cleaning Inc</title>
       <link>/games/monstercleaning/</link>
       <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
       
       <guid>/games/monstercleaning/</guid>
-      <description>Overview Welcome to Monster Cleaning Inc., located in the heart of an RPG world! After nasty battles, these monsters need a good scrub. You need to use the right-sized sponge to clean it. Your cleaning skills will be judged by the monsters themselves, and their ratings will determine your success. Can you earn that coveted five-star review? Step up, clean them up quickly and get them ready for their next encounter! My role as User Experience Designer This game was crafted for Game Maker&amp;rsquo;s Toolkit 2024.</description>
+      <description>Overview Welcome to Monster Cleaning Inc., located in the heart of an RPG world! After nasty battles, these monsters need a good scrub. You need to use the right-sized sponge to clean it. Your cleaning skills will be judged by the monsters themselves, and their ratings will determine your success. Can you earn that coveted five-star review? Step up, clean them up quickly and get them ready for their next encounter! Tools used Unity Figma Pen and paper My role as Game Designer This game was crafted for Game Maker&amp;rsquo;s Toolkit 2024.</description>
     </item>
     
     <item>
@@ -46,17 +105,6 @@ Tools Unreal Figma Pen and Paper My responsibilities UX and UI design Tutorial d
     </item>
     
     <item>
-      <title>Thoughts Out!</title>
-      <link>/games/thoughtsout/</link>
-      <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
-      
-      <guid>/games/thoughtsout/</guid>
-      <description>Overview Thoughts Out! is a 3D platform puzzle game set in a dreamlike world where your everyday office troubles morph into an annoying dragon. This dragon can alter the surrounding environment, making your adventure either easier or more challenging. How can you drive it out of your daydream and reclaim your peace of mind?
-Calm down and first, listen to what Miss Bellflower has to say.
-My role as User Experience Designer Collaborating with a team of eight individuals, we embraced various roles to enhance the project.</description>
-    </item>
-    
-    <item>
       <title>Absinthe Tails - behind the screens</title>
       <link>/stories/absinthetails/</link>
       <pubDate>Sat, 24 Feb 2024 15:20:40 +0530</pubDate>
@@ -66,12 +114,13 @@ My role as User Experience Designer Collaborating with a team of eight individua
     </item>
     
     <item>
-      <title>Absinthe Tails</title>
-      <link>/games/absinthetails/</link>
+      <title>User-centered development collaboration @MathWorks</title>
+      <link>/design/mathworkstudy/</link>
       <pubDate>Mon, 05 Feb 2024 16:23:14 +0530</pubDate>
       
-      <guid>/games/absinthetails/</guid>
-      <description>Overview Take a sip of absinthe, and join this green-hued quest for a lost, fuzzy kitten. Absinthe Tails is a detective game with a dash of absinthe and missing cats. As Claude, a detective with a penchant for spirits, your task is to unravel the mysteries surrounding your quaint town. Armed with photographs from around the town and vibrant dreams to supplement your alcohol-clouded memory, you must piece together the clues to solve the case.</description>
+      <guid>/design/mathworkstudy/</guid>
+      <description>Overview We discovered through usability testings that the algorithms and systems designed by our developers were not understood well by the our users, and therefore not used as intended. This research study was designed to understand the development teams perspective of the Simulink Test, Simulink Design Verifier and the components related to them. This was done as a primary research to improve components of Simulink Test and Simulink Design Verifier.
+Objective of the study Objectives of this study:</description>
     </item>
     
     <item>
@@ -95,26 +144,6 @@ Objective The assignment delves into the repercussions of standing out in a crow
     </item>
     
     <item>
-      <title>How should I look today! - a game poem</title>
-      <link>/design/gamepoem/</link>
-      <pubDate>Fri, 05 Jan 2024 16:23:14 +0530</pubDate>
-      
-      <guid>/design/gamepoem/</guid>
-      <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
-This project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
-    </item>
-    
-    <item>
-      <title>How should I look today! - a game poem</title>
-      <link>/games/gamepoem/</link>
-      <pubDate>Fri, 05 Jan 2024 16:23:14 +0530</pubDate>
-      
-      <guid>/games/gamepoem/</guid>
-      <description>Overview Enter the shoes of a social media traveller, eager to discover a land renowned for its unique apple varieties. Your mission: purchase an apple. But blending in proves difficult as locals eye you with suspicion. Can you convince them of your harmless intentions, or will it lead to dire consequences?
-My role as Game Designer This project was inspired by Jordan Magnuson&amp;rsquo;s game poems. Dedicated to the events of the Diphu incident of 2018, the game poem delves into the complexities of human behavior towards those unfamiliar to them, encompassing aspects such as appearance, food, culture, and geography.</description>
-    </item>
-    
-    <item>
       <title>Understanding onboarding to MATLAB @MathWorks</title>
       <link>/research/mathworksres/</link>
       <pubDate>Mon, 01 Jan 2024 22:13:04 +0530</pubDate>
@@ -132,18 +161,6 @@ OBJECTIVEThe objective of this research project was to identify and gather the 
       <guid>/research/reszuci/</guid>
       <description>Overview BACKGROUNDTraditional folk musical instruments are facing extinction in many parts of India due to decrease in its user base. In order to develop a future user base of people with a better awareness of these musical instruments, the goal of this study was to identify an effective medium for teaching younger audiences about these instruments&amp;rsquo; construction processes, sounds, and events they are played at.
 OBJECTIVEThrough this study we aim to introduce different mediums of instruction to children above age of 8 years and observe how they respond to them.</description>
-    </item>
-    
-    <item>
-      <title>HEATWAVE Havoc - A multiplayer cooperative game</title>
-      <link>/games/heatattacks/</link>
-      <pubDate>Sun, 05 Feb 2023 16:23:14 +0530</pubDate>
-      
-      <guid>/games/heatattacks/</guid>
-      <description>Overview BACKGROUNDHow might we make the younger generation aware of the impacts of heatwaves?
-How might we aid them to build empathy for our changing world and people effected by it? How might we make them aware of the adaptation measures during such an event?
-OBJECTIVEThe main goal of this project is to share adaptation measures to be taken during the event of a heatwave.
-PRODUCT DETAILSHEATWAVE Havoc is a multiplayer card based strategic cooperative game, where you save all your cute little babies from the effects of heatwaves.</description>
     </item>
     
     <item>
@@ -257,6 +274,15 @@ PRODUCT DETAILSThe project&amp;rsquo;s goal was to discover an efficient approa
     
     <item>
       <title>600 years of Ahom Kingdom - a visual data narrative</title>
+      <link>/design/ahoms/</link>
+      <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
+      
+      <guid>/design/ahoms/</guid>
+      <description>Overview BACKGROUNDThe Ahom dynasty was the most celebrated in Assam’s history. With a successful reign of 600 years they were able to enrich Assam with agriculture, architecture, cultural richness and different scientific interventions. Ahoms were the descendants of Tai or Shan race who came from Mungmao, currently in Yunan province of China. They came to Brahmaputra Valley of North East India in 1228. The kingdom of Ahoms established during 13th century entails an important part of the Assamese history.</description>
+    </item>
+    
+    <item>
+      <title>600 years of Ahom Kingdom - a visual data narrative</title>
       <link>/stories/ahoms/</link>
       <pubDate>Sun, 26 Jun 2022 22:13:04 +0530</pubDate>
       
@@ -273,16 +299,6 @@ PRODUCT DETAILSThe project&amp;rsquo;s goal was to discover an efficient approa
       <description>Lately I have been curious about Fractals and Psychedelic patterns. This escalated when I found out about Daniel Shiffman&amp;rsquo;s Coding Train tutorials.
 A collection of explorations and Processing Sketches I worked on is on Online!.
 If you have any suggestions or feedback, please reach out. I would love to hear your thoughts :)</description>
-    </item>
-    
-    <item>
-      <title>Monster Cleaning Inc</title>
-      <link>/design/monstercleaning/</link>
-      <pubDate>Sun, 05 Jun 2022 16:23:14 +0530</pubDate>
-      
-      <guid>/design/monstercleaning/</guid>
-      <description>Overview Welcome to Monster Cleaning Inc., located in the heart of an RPG world! After nasty battles, these monsters need a good scrub. You need to use the right-sized sponge to clean it. Your cleaning skills will be judged by the monsters themselves, and their ratings will determine your success. Can you earn that coveted five-star review? Step up, clean them up quickly and get them ready for their next encounter!
-Tools Figma Unity Pen and paper My responsibilities UX Design Programming Collaborating with a team of five individuals for GMTK game jam 2024, we embraced various roles to enhance the project.</description>
     </item>
     
     <item>
@@ -312,6 +328,28 @@ Tools Figma Unity Pen and paper My responsibilities UX Design Programming Collab
       <description>OVERVIEW Author J. B. S. Haldane and his book My Friend Mr Leakey always fascinated me. It has been one of my favorite books. During my Master&amp;rsquo;s we were asked to redesign any of our favorite books. It came as a perfect opportunity to design it in a way I imagined the world of Mr Leakey would look like.
 I hope you enjoy this design as much as I loved working on it!
 Snapshots of the book Illustrations within FIN.</description>
+    </item>
+    
+    <item>
+      <title>Nature&#39;s palette - a playful adventure</title>
+      <link>/design/naturespalette/</link>
+      <pubDate>Tue, 29 Jun 2021 16:23:00 +0530</pubDate>
+      
+      <guid>/design/naturespalette/</guid>
+      <description>Overview BACKGROUNDCan we foster curiosity in children about our natural environment? During the Interaction Design module at IDC School of Design, we (our group had 4 participants) were assigned a project - nudge children to explore their natural environment more, with one constraint - through the use of Colours.
+PRODUCT DETAILSThrough the use of colours and textures, the Nature’s Palette app aims to help kids connect with their surroundings. Together, kids explore their environment and take photos of the many colours and textures they encounter.</description>
+    </item>
+    
+    <item>
+      <title>HEATWAVE Havoc - A multiplayer cooperative game</title>
+      <link>/games/heatattacks/</link>
+      <pubDate>Fri, 05 Feb 2021 16:23:14 +0530</pubDate>
+      
+      <guid>/games/heatattacks/</guid>
+      <description>Overview BACKGROUNDHow might we make the younger generation aware of the impacts of heatwaves?
+How might we aid them to build empathy for our changing world and people effected by it? How might we make them aware of the adaptation measures during such an event?
+OBJECTIVEThe main goal of this project is to share adaptation measures to be taken during the event of a heatwave.
+PRODUCT DETAILSHEATWAVE Havoc is a multiplayer card based strategic cooperative game, where you save all your cute little babies from the effects of heatwaves.</description>
     </item>
     
     <item>
