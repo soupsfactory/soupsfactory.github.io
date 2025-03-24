@@ -106,7 +106,7 @@
     "image": "/images/influencer/cover.png",
     "datePublished": "2025-03-05T16:23:14+05:30",
     "dateModified": "2025-03-05T16:23:14+05:30",
-    "wordCount":  633 ,
+    "wordCount":  776 ,
     "publisher": {
         "@type": "Person",
         "name": "Supriya",
@@ -307,7 +307,7 @@
   
 
   <h2 id="motivation">Motivation</h2>
-<p>This project was inspired by an incident in Diphu, India, in 2018, where two friends were attacked while heading to a scenic place just because they looked different. We want to explore the feelings people might have in similar situations where they feel isolated and face violence. The project aims to design a game that takes players through different negative emotions, starting from a sense of safety and happiness to confusion, unease, powerlessness, anxiety, and possibly even despair.</p>
+<p>This project was inspired by an incident in Diphu, India, in 2018, where two friends were attacked while heading to a scenic place just because they looked different. We want to explore the <strong>feelings</strong> people might have in similar situations where they feel <strong>isolated</strong> and face discrimination. The project aims to design a game that <strong>takes players through different negative emotions</strong>, starting from a sense of safety and happiness to confusion, unease, powerlessness, anxiety, and possibly even despair.</p>
 <h2 id="tools-used">Tools used</h2>
 <ul>
 <li>Unreal, C++</li>
@@ -323,21 +323,43 @@
 </ul>
 <h2 id="objectives">Objectives</h2>
 <ul>
-<li>To show the emotions a person might experience when they feel alienated through storytelling and game design.</li>
-<li>To create a gameplay timeline, plan the level design, and manage pacing so that players can feel emotions and reflect on their own feelings.</li>
+<li>To show the <strong>emotions a person might experience</strong> when they feel <strong>alienated</strong> through storytelling and game design.</li>
+<li>To create a <strong>gameplay timeline</strong>, plan the level design, and <strong>manage pacing</strong> so that players can feel emotions and <strong>reflect on their own feelings</strong>.</li>
 </ul>
 <h2 id="design-process">Design process</h2>
 <p>This project is still being developed, but we can share some details about what we have done so far. The objectives we set for ourselves dictated the process, I have tried to summarize the same as next few topics:</p>
+<ol>
+<li>Narrative Design</li>
+<li>Emotions - How and When to Feel Them</li>
+<li>Scoping for MVP</li>
+<li>Game Mechanics</li>
+<li>Levels</li>
+</ol>
 <h3 id="1-narrative-design">1. Narrative Design</h3>
 <p>We are developing the story and gameplay together to highlight both elements. The game begins in a grandma&rsquo;s garden, where players can relax and practice mechanics with their pet. After they are comfortable, they will progress as a travel influencer, exploring diverse cultures and foods before facing the final level of alienation.</p>
 <h3 id="2-emotions---how-and-when-to-feel-them">2. Emotions - How and When to Feel Them</h3>
-<p>Players will experience various emotions, from comfort to alienation. The transitions between these feelings are essential to gameplay. We follow an approach inspired by Alex that treats emotions as stages, helping us tailor gameplay and environments to enhance the narrative and pacing.
+<p>Players will experience various emotions, from comfort to alienation. The transitions between these feelings were very essential to gameplay. To achieve this, we followed an approach mentored and documented by <a target="_blank" class = "blue-text-bg" href = "https://alexclarkgames.wordpress.com/2025/03/16/evoking-emotion-designing-for-dynamics/">
+  Alex here
+  </a>
+
+  <style>
+    .blue-text-bg{
+      text-decoration-style: dashed ;
+      color:#38b2ac ;
+      text-underline-offset:2px ;
+       
+      font-weight: bold;
+    }
+  </style>
+ 
+
+ . For our project, we customized the framework to treat emotions as stages or our primary objectives. This helped us figure approaches, in terms of narrative and level design, to attain each objectives. Attached is a snapshot of the framework. 
 <p class="md__image">
     <img src="/images/influencer/emotion.png" id="zoom-background" alt=""  />
 </p>
 </p>
 <h3 id="3-scoping-for-mvp">3. Scoping for MVP</h3>
-<p>Since this is a story-driven game, we aim to tell the complete story in our MVP. We plan to represent the stages across two maps, reducing asset creation while amplifying emotional impact.
+<p>Since this is a story-driven game, it would have been only wise to convey the complete story in our MVP. However this does not mean, our MVP cannot be regular sized. The above framework helped us to scope our MVP well, without loosing the core story. Now, We plan to represent the stages across two maps, reducing asset creation while amplifying emotional impact.
 <p class="md__image">
     <img src="/images/influencer/scope.png" id="zoom-background" alt=""  />
 </p>
@@ -350,7 +372,7 @@
     <img src="/images/influencer/camera.png" id="zoom-background" alt=""  />
 </p>
 
-This mechanic is in being worked on currently. I am sharing a quick video here, with a few Figma screenshots of the low fidelity UI.
+This mechanic is being worked on currently. I am sharing a quick video here, with a few Figma screenshots of the low fidelity UI.
 <video class="video-shortcode"  autoplay muted loop="true" >
     <source src="/images/influencer/mechanic.mp4" type="video/mp4">
     There should have been a video here but your browser does not seem
@@ -537,7 +559,7 @@ sliderJQuery(function( $ ) {
 </script>
 <ul>
 <li>
-<p>Miu: Your pet companion that you photograph, play with, and bond with throughout the game.</p>
+<p>Miu: Your pet and travel companion that you photograph, play with, and bond with throughout the game.</p>
 </li>
 <li>
 <p>Mob: The friendly locals, except in the area where they judge and stare. We&rsquo;re keeping some details under wraps for now, don&rsquo;t want any spoilers out!😜</p>
@@ -546,21 +568,21 @@ sliderJQuery(function( $ ) {
 <p>Both Miu and the NPCs are still in development, so we don’t have a video to showcase yet.</p>
 <h3 id="5-levels">5. Levels</h3>
 <ol>
-<li>
-<p>The Safe and Happy Place: This is represented by the grandma’s house and its surroundings. Our goal is to create a cozy environment for players to explore mechanics, take photos, play with Miu, and feed their pet. Levels are currently being worked on. Here is a few shots of the blockout in Unreal level editor, hand drawn maps for the level, and art style references. 
+<li>The Safe and Happy Place</li>
+<li>The World Out There - Apple Market</li>
+</ol>
+<p><strong>The Safe and Happy Place:</strong> This is represented by the grandma’s house and its surroundings. Our goal is to create a cozy environment for players to explore mechanics, take photos, play with Miu, and feed their pet. Levels are currently being worked on.</p>
+<p>Here are a few shots of hand drawn maps for the level, blockout in Unreal level editor, and art style references. 
 <p class="md__image">
     <img src="/images/influencer/garden.png" id="zoom-background" alt=""  />
 </p>
 </p>
-</li>
-<li>
-<p>The World Out There - Apple Market: This level is inspired by Helsinki’s market square and bustling bazaars. Below are hand-drawn sketches of the maps, capturing our main objectives for this level. 
+<p><strong>The World Out There - Apple Market:</strong> The player in this level is tasked with buying an apple to feed their pet Miu. However, the feeling of alienation quickly seeps in through constant rejection for just an Apple. This is followed by feeling of confusion, uneasiness and fear as locals stare, follow and find ways to get rid of the player.</p>
+<p>This level is inspired by Helsinki’s market square and bustling bazaars. Below are hand-drawn sketches of the maps, capturing our main objectives for this level. 
 <p class="md__image">
     <img src="/images/influencer/market.png" id="zoom-background" alt=""  />
 </p>
 </p>
-</li>
-</ol>
 <h2 id="our-smol-team">Our smol Team</h2>
 <p>Its me, <a target="_blank" class = "blue-text-bg" href = "https://www.linkedin.com/in/veera-wikstr%C3%B6m/?originalSubdomain=fi">
   Veera
@@ -608,7 +630,7 @@ sliderJQuery(function( $ ) {
  
 
  .</p>
-<p>The project is still in its early stages, and we&rsquo;re aiming to have it ready by August. We hope to test it with you around that time! Please let us know if you&rsquo;re interested😊 Oh, and did I tell you that I worked on a 2D game-poem on a similar topic? Check it out <a target="_blank" class = "blue-text-bg" href = "https://soupsfactory.itch.io/absinthe-tail">
+<p>The project is still in its early stages, and we&rsquo;re aiming to have it ready by August. We hope to test it with you around that time! Please let us know if you&rsquo;re interested😊 Oh, and did I tell you that I worked on a 2D game-poem on a similar topic? Check it out <a target="_blank" class = "blue-text-bg" href = "https://soupsfactory.itch.io/looktoday">
   here
   </a>
 
