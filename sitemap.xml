@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/games/absinthetails/</loc>
+    <lastmod>2025-03-20T16:23:14+05:30</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2025-03-05T16:23:14+05:30</lastmod>
+    <lastmod>2025-03-20T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/categories/game-design/</loc>
-    <lastmod>2025-03-05T16:23:14+05:30</lastmod>
+    <lastmod>2025-03-20T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/games/</loc>
-    <lastmod>2025-03-05T16:23:14+05:30</lastmod>
+    <lastmod>2025-03-20T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2025-03-20T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-03-20T16:23:14+05:30</lastmod>
+  </url><url>
+    <loc>/categories/ux/</loc>
+    <lastmod>2025-03-20T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/games/influenecer/</loc>
     <lastmod>2025-03-05T16:23:14+05:30</lastmod>
   </url><url>
-    <loc>/categories/programming/</loc>
-    <lastmod>2025-03-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2025-03-05T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/categories/ux/</loc>
-    <lastmod>2025-03-05T16:23:14+05:30</lastmod>
-  </url><url>
     <loc>/design/absinthetails/</loc>
-    <lastmod>2025-02-26T16:23:14+05:30</lastmod>
-  </url><url>
-    <loc>/games/absinthetails/</loc>
     <lastmod>2025-02-26T16:23:14+05:30</lastmod>
   </url><url>
     <loc>/design/</loc>
