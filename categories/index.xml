@@ -6,20 +6,20 @@
     <description>Recent content in Categories on Supriya Dutta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Mar 2025 15:20:40 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 16:23:14 +0530</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Game Design</title>
-      <link>/categories/game-design/</link>
-      <pubDate>Thu, 20 Mar 2025 15:20:40 +0530</pubDate>
+      <title>Level Design</title>
+      <link>/categories/level-design/</link>
+      <pubDate>Fri, 05 Sep 2025 16:23:14 +0530</pubDate>
       
-      <guid>/categories/game-design/</guid>
+      <guid>/categories/level-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
       <link>/categories/programming/</link>
-      <pubDate>Thu, 20 Mar 2025 15:20:40 +0530</pubDate>
+      <pubDate>Fri, 05 Sep 2025 16:23:14 +0530</pubDate>
       
       <guid>/categories/programming/</guid>
       <description></description>
@@ -28,9 +28,18 @@
     <item>
       <title>UX</title>
       <link>/categories/ux/</link>
-      <pubDate>Thu, 20 Mar 2025 15:20:40 +0530</pubDate>
+      <pubDate>Fri, 05 Sep 2025 16:23:14 +0530</pubDate>
       
       <guid>/categories/ux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game Design</title>
+      <link>/categories/game-design/</link>
+      <pubDate>Thu, 24 Apr 2025 15:20:40 +0530</pubDate>
+      
+      <guid>/categories/game-design/</guid>
       <description></description>
     </item>
     
@@ -58,15 +67,6 @@
       <pubDate>Mon, 05 Aug 2024 16:23:14 +0530</pubDate>
       
       <guid>/categories/tutorial-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Level Design</title>
-      <link>/categories/level-design/</link>
-      <pubDate>Wed, 05 Jun 2024 16:23:14 +0530</pubDate>
-      
-      <guid>/categories/level-design/</guid>
       <description></description>
     </item>
     
